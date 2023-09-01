@@ -11,6 +11,7 @@ Skill is something that you can master by practice.
 - [online-stopwatch](https://www.online-stopwatch.com/timer/10minutes/)
 ### regular expression
 - [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
-
+### os
+- [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
 
 
