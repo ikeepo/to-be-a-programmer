@@ -13,5 +13,7 @@ Skill is something that you can master by practice.
 - [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
 ### os
 - [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
+### ai assistant
+- [poe](https://poe.com/)
 
 
