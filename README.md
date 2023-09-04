@@ -4,6 +4,8 @@ skills that should be mastered
 Skill is something that you can master by practice.
 ### collect
 - [devdocs](https://devdocs.io/): almost everything
+### vim
+- [neuralnine: vim tutorial for beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 ### make
 - [learn makefiles with the tastiest examples](https://makefiletutorial.com/)
 - [tutorial on writing makefiles](https://www.math.colostate.edu/~yzhou/computer/writemakefile.html)
