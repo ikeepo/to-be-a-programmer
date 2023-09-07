@@ -6,6 +6,8 @@ Skill is something that you can master by practice.
 - [devdocs](https://devdocs.io/): almost everything
 ### vim
 - [neuralnine: vim tutorial for beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
+### bash
+- [LearnLinuxTv, Bash Scripting on Linux](https://www.youtube.com/watch?v=2733cRPudvI&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w)
 ### make
 - [learn makefiles with the tastiest examples](https://makefiletutorial.com/)
 - [tutorial on writing makefiles](https://www.math.colostate.edu/~yzhou/computer/writemakefile.html)
