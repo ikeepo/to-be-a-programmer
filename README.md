@@ -19,5 +19,7 @@ Skill is something that you can master by practice.
 - [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
 ### ai assistant
 - [poe](https://poe.com/)
-
+### gdb
+- [docs](https://sourceware.org/gdb/documentation/)
+- [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
 
