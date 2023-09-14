@@ -22,4 +22,5 @@ Skill is something that you can master by practice.
 ### gdb
 - [docs](https://sourceware.org/gdb/documentation/)
 - [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
-
+# 中文
+## [基础函数在ARM32中的剖析](https://mp.weixin.qq.com/s/qQdMpl6yqqVo8Mhync-ioQ)
