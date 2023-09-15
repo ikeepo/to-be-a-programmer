@@ -22,5 +22,6 @@ Skill is something that you can master by practice.
 ### gdb
 - [docs](https://sourceware.org/gdb/documentation/)
 - [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
+- [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=4&t=20s)
 # 中文
 ## [基础函数在ARM32中的剖析](https://mp.weixin.qq.com/s/qQdMpl6yqqVo8Mhync-ioQ)
