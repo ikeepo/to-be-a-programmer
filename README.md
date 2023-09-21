@@ -2,6 +2,8 @@
 skills that should be mastered
 # Skills
 Skill is something that you can master by practice.
+### pytest
+- How To Write Unit Tests For Existing Python Code, [Part 1](https://www.youtube.com/watch?v=ULxMQ57engo)   [Part 2](https://www.youtube.com/watch?v=NI5IGAim8XU)
 ### collect
 - [devdocs](https://devdocs.io/): almost everything
 ### vim
@@ -23,5 +25,6 @@ Skill is something that you can master by practice.
 - [docs](https://sourceware.org/gdb/documentation/)
 - [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
 - [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=4&t=20s)
+- [NeuralNine: Debugging C Programs with GDB](https://www.youtube.com/watch?v=ny6y0pPO--4&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=2)
 # 中文
 ## [基础函数在ARM32中的剖析](https://mp.weixin.qq.com/s/qQdMpl6yqqVo8Mhync-ioQ)
