@@ -4,6 +4,7 @@ skills that should be mastered
 Skill is something that you can master by practice.
 ### pytest
 - How To Write Unit Tests For Existing Python Code, [Part 1](https://www.youtube.com/watch?v=ULxMQ57engo)   [Part 2](https://www.youtube.com/watch?v=NI5IGAim8XU)
+- [Unit Testing in Python](https://www.youtube.com/watch?v=UL0opWf3DeM)
 ### collect
 - [devdocs](https://devdocs.io/): almost everything
 ### vim
@@ -28,3 +29,90 @@ Skill is something that you can master by practice.
 - [NeuralNine: Debugging C Programs with GDB](https://www.youtube.com/watch?v=ny6y0pPO--4&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=2)
 # 中文
 ## [基础函数在ARM32中的剖析](https://mp.weixin.qq.com/s/qQdMpl6yqqVo8Mhync-ioQ)
+# Readlist
+## Programming
+- Clean Code: By Robert C. Martin
+- The Mythical Man-month: By Frederick Brooks
+- The Pragmatic Programmer: Your Journey to Mastery
+- Code Complete (2 Edition): By Steve McConnell
+- The Art of Computer Programming
+- Programming Pearls
+- Code: Charles Petzold
+- Introduction to Algorithms
+- Refactoring: Improving the Design of Existing Code
+- Design Patterns: Elements of Reusable Object-Oriented Software
+- Coders At Work
+Inside the Machine how computers work
+CODE processors and stuff
+Concrete Mathematics: A Foundation for Computer Science
+Structure and Interpretation of Computer Programs proper introduction into programming
+How to Design Programs: An Introduction to Programming and Computing
+The Algorithm Design Manual and Introduction to Algorithms for a good understanding of algorithms
+good programmers should understand how compilers works Compilers: Principles, Techniques, and Tools
+every programmer should know C Programming Language
+Advanced Programming in the UNIX Environment
+Unix Network Programming volume 1 and 2
+Growing Object-Oriented Software, Guided by Tests
+Domain-Driven Design
+The Elements of Programming Style
+Design Patterns
+Structure and Interpretation of Computer Programs
+Fundamental Algorithms Vol.1 of The Art of Computer Programming series
+The Annotated Turing
+Refactoring
+Extreme Programming Explained
+Redshirts
+The “Bobiverse” trilogy
+On Growth and Form
+The Timeless Way of Building
+Nature’s Patterns series: Shapes, Flow, and Branches
+Code complete 2
+The Mythical Man-Month
+Don’t Make Me Think, Revisited: A Common Sense Approach to Web Usability
+Rapid Development
+Peopleware
+The Design of Everyday Things
+About Face: The Essentials of Interaction Design
+The Inmates Are Running the Asylum
+Programming Pearls
+The Pragmatic Programmer: From Journeyman to Master
+Designing Web Usability
+Regular Expressions Cookbook
+The Visual Display of Quantitative Information
+Visual Explanations: Images and Quantities, Evidence and Narrative
+Envisioning Information
+Beautiful Evidence
+Waltzing With Bears: Managing Risk on Software Projects
+Dynamics of Software Development
+Smalltalk Best Practice Patterns
+Refactoring: Improving the Design of Existing Code
+Patterns of Enterprise Application Architecture
+Domain-Driven Design: Tackling Complexity in the Heart of Software
+Are Your Lights On?: How to Figure Out What the Problem Really Is
+The Elements of Style, Fourth Edition
+On Writing Well: The Classic Guide to Writing Nonfiction
+Are Your Lights On
+The Pragmatic Programmer: From Journeyman to Master
+The pheonix project & the unicorn project
+Working effectively with legacy code
+The Software Craftsman: Professionalism, Pragmatism, Pride
+Coders at Work (P. Seibel)
+The Art of Unix Programming (E. Raymond)
+The Psychology of Computer Programming (G. Weinberg)
+So Good They Can't Ignore You (C. Newport)
+Developer Hegemony - Eric Dietrich
+The Pragmatic Programmer - David Thomas & Andrew Hunt
+Clean Code - Robert C. Martin
+Design Patterns: Elements of Reusable Object-Oriented Software - Erich Gamma
+Data Structures and Algorithms Made Easy - Narasimha Karumanchi
+Refactoring - Martin Fowler
+The Mythical Man-Month - Frederick Brooks Jr.
+Coders at Work - Peter Seibel
+Test Driven Development: By Example - Kent Beck
+Pragmatic Thinking and Learning - Andy Hunt
+Code Complete - Steve McConnell
+Cracking the Coding Interview - Gayle Laakmann McDowell
+Code - Charles Petzold
+The Art of Computer Programming - Donald Knuth
+The Effective Engineer - Edmund Lau
+
