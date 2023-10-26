@@ -2,6 +2,12 @@
 skills that should be mastered
 # Skills
 Skill is something that you can master by practice.
+### Encode
+- [Computer Logical Organization Tutorial](https://www.tutorialspoint.com/computer_logical_organization/index.htm)
+- [CSE351: The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/) [youtube](https://www.youtube.com/playlist?list=PLgN0TiMCTagbJ--s9ZmD9UwNHv8ij2Pdy)
+### doc
+- [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/#docstrings-background)
+
 ### pytest
 - How To Write Unit Tests For Existing Python Code, [Part 1](https://www.youtube.com/watch?v=ULxMQ57engo)   [Part 2](https://www.youtube.com/watch?v=NI5IGAim8XU)
 - [Unit Testing in Python](https://www.youtube.com/watch?v=UL0opWf3DeM)
@@ -18,6 +24,11 @@ Skill is something that you can master by practice.
 - [online-stopwatch](https://www.online-stopwatch.com/timer/10minutes/)
 ### regular expression
 - [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
+### Rust
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+	提纲挈领介绍一个程序员学习rust需要知道的概念，
+- [Awesome Rust Books](https://github.com/sger/RustBooks)
+
 ### os
 - [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
 ### ai assistant
