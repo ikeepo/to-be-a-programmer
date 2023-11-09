@@ -2,12 +2,23 @@
 skills that should be mastered
 # Skills
 Skill is something that you can master by practice.
+### Program Philosophy
+- [How to be a Programmer: Community](https://braydie.gitbooks.io/how-to-be-a-programmer/content/en/)
 ### Encode
 - [Computer Logical Organization Tutorial](https://www.tutorialspoint.com/computer_logical_organization/index.htm)
 - [CSE351: The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/) [youtube](https://www.youtube.com/playlist?list=PLgN0TiMCTagbJ--s9ZmD9UwNHv8ij2Pdy)
 ### doc
 - [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/#docstrings-background)
-
+- [A beginner’s guide to writing documentation](https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/)
+- [Write the docs](https://www.writethedocs.org/guide/)
+- [The Hitchhiker's Guide to Python: Documentation](https://docs.python-guide.org/writing/documentation/)
+- [reStructuredText](https://docutils.sourceforge.io/rst.html)
+### sphinx
+- [Doc: Tutorial](https://www.sphinx-doc.org/en/master/tutorial/index.html)
+- [A Simple Tutorial on How to document your Python Project using Sphinx and Rinohtype](https://medium.com/@richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b)
+- [Documenting Python code with Sphinx](https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d)
+- [Documenting with Sphinx Tutorial: Intro & Overview](https://techwritingmatters.com/documenting-with-sphinx-tutorial-intro-overview)
+- [Using Sphinx for Python Documentation](https://www.formosa1544.com/2019/09/19/use-sphinx-for-python-documentation/)
 ### pytest
 - How To Write Unit Tests For Existing Python Code, [Part 1](https://www.youtube.com/watch?v=ULxMQ57engo)   [Part 2](https://www.youtube.com/watch?v=NI5IGAim8XU)
 - [Unit Testing in Python](https://www.youtube.com/watch?v=UL0opWf3DeM)
@@ -28,7 +39,8 @@ Skill is something that you can master by practice.
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
 	提纲挈领介绍一个程序员学习rust需要知道的概念，
 - [Awesome Rust Books](https://github.com/sger/RustBooks)
-
+#### rust debug
+- CodeLLDB + VSCode
 ### os
 - [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
 ### ai assistant
