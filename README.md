@@ -2,6 +2,9 @@
 skills that should be mastered
 # Skills
 Skill is something that you can master by practice.
+### nix
+- [official site](https://nixos.org/)
+- youtube
 ### Program Philosophy
 - [How to be a Programmer: Community](https://braydie.gitbooks.io/how-to-be-a-programmer/content/en/)
 ### Encode
@@ -14,6 +17,7 @@ Skill is something that you can master by practice.
 - [The Hitchhiker's Guide to Python: Documentation](https://docs.python-guide.org/writing/documentation/)
 - [reStructuredText](https://docutils.sourceforge.io/rst.html)
 ### sphinx
+- [Documenting Python code with Sphinx](https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d)
 - [Doc: Tutorial](https://www.sphinx-doc.org/en/master/tutorial/index.html)
 - [A Simple Tutorial on How to document your Python Project using Sphinx and Rinohtype](https://medium.com/@richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b)
 - [Documenting Python code with Sphinx](https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d)
