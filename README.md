@@ -1,3 +1,7 @@
+# Course
+## https://testdriven.io/
+# Talks
+- [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
 # skillSet
 skills that should be mastered
 # Skills
