@@ -1,5 +1,6 @@
 # Interface
 - [Implementing an Interface in Python](https://realpython.com/python-interface/)
+- [Interface in Python](https://www.scaler.com/topics/interface-in-python/)
 # Course
 ## https://testdriven.io/
 # Talks
