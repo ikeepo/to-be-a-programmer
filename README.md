@@ -1,3 +1,6 @@
+# Pythonic
+- [RealPython: Write More Pythonic Code](https://realpython.com/learning-paths/writing-pythonic-code/)
+- [The Hitchhiker's Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
 # Interface
 - [Implementing an Interface in Python](https://realpython.com/python-interface/)
 - [Interface in Python](https://www.scaler.com/topics/interface-in-python/)
