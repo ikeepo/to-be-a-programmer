@@ -1,7 +1,20 @@
 # Network Programming
-- [计算机网络超详细系统学习路线（2024年最新](https://csguide.cn/roadmap/basic/how_to_learn_networking.html#%E4%B8%80%E3%80%81%E7%BB%8F%E5%85%B8%E9%9D%A2%E8%AF%95%E9%A2%98)
+- [计算机网络超详细系统学习路线（2024年最新](https://csguide.cn/roadmap/basic/how_to_learn_networking.html)
+- [How to Learn Networking Roadmap](https://www.hoppersroppers.org/roadmap/training/networking.html)
+- [Network Engineering at Scale Roadmap/Landscape](https://github.com/eovchar/neteng-roadmap)
+- [Cyber Security Education RoadMap](https://github.com/hoppersroppers/roadmap?tab=readme-ov-file)
+- [Learn networking in Python by building 4 projects](https://www.freecodecamp.org/news/python-networking-course/)
+- [roppers.org](https://www.roppers.org/collections)
+- Linux 4.4.0内核源码分析TCP实现.pdf: 知识性强, 初期看不懂
 # RoadMap
 - [roadmap](https://roadmap.sh/)
+- MyOwnRoadMapForNetworkProgramming
+时间一周
+初期了解基本概念，然后就做项目。
+1. Wireshark网络分析就这么简单
+2. https://cs144.github.io/
+3. roppers.org
+4. Learn networking in Python by building 4 projects
 # Pythonic
 - [RealPython: Write More Pythonic Code](https://realpython.com/learning-paths/writing-pythonic-code/)
 - [The Hitchhiker's Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
