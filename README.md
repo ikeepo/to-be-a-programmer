@@ -1,6 +1,21 @@
+# Write a Programming Language
+- [Writing a Simple Programming Language from Scratch](https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2)
+- [Create Your Own Programming Language](https://www.codeproject.com/Articles/50377/Create-Your-Own-Programming-Language)
+- [I wrote a programming language. Here’s how you can, too.](https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/)
+- [Let’s Build a Programming Language](https://hackernoon.com/lets-build-a-programming-language-2612349105c6)
+- [Build your own programming language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language)
+- [Build your own programming language](https://thesephist.com/posts/pl/)
+- [Building Your Own Programming Language From Scratch](https://hackernoon.com/building-your-own-programming-language-from-scratch)
+- [HOW TO WRITE A PROGRAMMING LANGUAGE: PART 1, THE LEXER](https://accu.org/journals/overload/26/145/balaam_2510/)
+# Write a OS
+- [os-tutorial](https://github.com/cfenollosa/os-tutorial?tab=readme-ov-file)
+- [how to make a computer os](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System?tab=readme-ov-file)
+- [Creating an Operating System](https://wiki.osdev.org/Creating_an_Operating_System)
+
 # Frontend
 - [aimingoo: 告前端同学书](https://github.com/aimingoo/Shu)
 # Network Programming
+- [Hands-On-Network-Programming-with-C](https://github.com/codeplea/Hands-On-Network-Programming-with-C?tab=readme-ov-file)
 - [计算机网络超详细系统学习路线（2024年最新](https://csguide.cn/roadmap/basic/how_to_learn_networking.html)
 - [How to Learn Networking Roadmap](https://www.hoppersroppers.org/roadmap/training/networking.html)
 - [Network Engineering at Scale Roadmap/Landscape](https://github.com/eovchar/neteng-roadmap)
