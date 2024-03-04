@@ -84,7 +84,12 @@ Skill is something that you can master by practice.
 ### regular expression
 - [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
 ### Rust
+- [Brainfuck JIT 虚拟机教程](https://github.com/Nugine/bfjit)
+- [用rust实现Lua解释器](https://wubingzheng.github.io/build-lua-in-rust/zh/)
+- https://huangjj27.gitlab.io/web-testing-with-rust.html
+- [awesome-rust](https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file)
 - [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+
 	提纲挈领介绍一个程序员学习rust需要知道的概念，
 - [Awesome Rust Books](https://github.com/sger/RustBooks)
 #### rust debug
