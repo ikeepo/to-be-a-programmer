@@ -1,4 +1,40 @@
+# RoadMap
+
+- [roadmap](https://roadmap.sh/)
+- [devdocs](https://devdocs.io/): almost everything
+
+# Course
+
+- https://testdriven.io/
+
+# Program Philosophy
+
+- [How to be a Programmer: Community](https://braydie.gitbooks.io/how-to-be-a-programmer/content/en/)
+
+- [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
+
 # language
+
+## regular expression
+
+- [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
+
+## gdb
+
+- [docs](https://sourceware.org/gdb/documentation/)
+- [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
+- [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=4&t=20s)
+- [NeuralNine: Debugging C Programs with GDB](https://www.youtube.com/watch?v=ny6y0pPO--4&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=2)
+
+## Interface
+
+- [Implementing an Interface in Python](https://realpython.com/python-interface/)
+- [Interface in Python](https://www.scaler.com/topics/interface-in-python/)
+
+## Encode
+
+- [Computer Logical Organization Tutorial](https://www.tutorialspoint.com/computer_logical_organization/index.htm)
+- [CSE351: The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/) [youtube](https://www.youtube.com/playlist?list=PLgN0TiMCTagbJ--s9ZmD9UwNHv8ij2Pdy)
 
 ## C
 
@@ -6,78 +42,7 @@
 - [krenx: C语言0基础](https://www.bilibili.com/video/BV1CK411o743/?vd_source=b9d717895f96b446904b871f41330bb5)
 - [runoob: 编译器解决环境配置需求](https://www.runoob.com/cprogramming/c-tutorial.html)
 
-# Write a Programming Language
-
-- [Writing a Simple Programming Language from Scratch](https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2)
-- [Create Your Own Programming Language](https://www.codeproject.com/Articles/50377/Create-Your-Own-Programming-Language)
-- [I wrote a programming language. Here’s how you can, too.](https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/)
-- [Let’s Build a Programming Language](https://hackernoon.com/lets-build-a-programming-language-2612349105c6)
-- [Build your own programming language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language)
-- [Build your own programming language](https://thesephist.com/posts/pl/)
-- [Building Your Own Programming Language From Scratch](https://hackernoon.com/building-your-own-programming-language-from-scratch)
-- [HOW TO WRITE A PROGRAMMING LANGUAGE: PART 1, THE LEXER](https://accu.org/journals/overload/26/145/balaam_2510/)
-
-# Write a OS
-
-- [os-tutorial](https://github.com/cfenollosa/os-tutorial?tab=readme-ov-file)
-- [how to make a computer os](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System?tab=readme-ov-file)
-- [Creating an Operating System](https://wiki.osdev.org/Creating_an_Operating_System)
-
-# Frontend
-
-- [aimingoo: 告前端同学书](https://github.com/aimingoo/Shu)
-
-# Network Programming
-
-- [Hands-On-Network-Programming-with-C](https://github.com/codeplea/Hands-On-Network-Programming-with-C?tab=readme-ov-file)
-- [计算机网络超详细系统学习路线（2024年最新](https://csguide.cn/roadmap/basic/how_to_learn_networking.html)
-- [How to Learn Networking Roadmap](https://www.hoppersroppers.org/roadmap/training/networking.html)
-- [Network Engineering at Scale Roadmap/Landscape](https://github.com/eovchar/neteng-roadmap)
-- [Cyber Security Education RoadMap](https://github.com/hoppersroppers/roadmap?tab=readme-ov-file)
-- [Learn networking in Python by building 4 projects](https://www.freecodecamp.org/news/python-networking-course/)
-- [roppers.org](https://www.roppers.org/collections)
-- Linux 4.4.0内核源码分析TCP实现.pdf: 知识性强, 初期看不懂
-
-# RoadMap
-
-- [roadmap](https://roadmap.sh/)
-- NetworkProgramming
-
-1. Wireshark网络分析就这么简单
-2. https://cs144.github.io/
-3. roppers.org
-4. Learn networking in Python by building 4 projects
-
-# Pythonic
-
-- [RealPython: Write More Pythonic Code](https://realpython.com/learning-paths/writing-pythonic-code/)
-- [The Hitchhiker's Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
-
-# Interface
-
-- [Implementing an Interface in Python](https://realpython.com/python-interface/)
-- [Interface in Python](https://www.scaler.com/topics/interface-in-python/)
-
-# Course
-
-## https://testdriven.io/
-
-# Talks
-
-- [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
-
-### nix
-
-- [official site](https://nixos.org/)
-
-### Program Philosophy
-
-- [How to be a Programmer: Community](https://braydie.gitbooks.io/how-to-be-a-programmer/content/en/)
-
-### Encode
-
-- [Computer Logical Organization Tutorial](https://www.tutorialspoint.com/computer_logical_organization/index.htm)
-- [CSE351: The Hardware/Software Interface](https://courses.cs.washington.edu/courses/cse351/) [youtube](https://www.youtube.com/playlist?list=PLgN0TiMCTagbJ--s9ZmD9UwNHv8ij2Pdy)
+## Python
 
 ### doc
 
@@ -101,19 +66,30 @@
 - How To Write Unit Tests For Existing Python Code, [Part 1](https://www.youtube.com/watch?v=ULxMQ57engo) [Part 2](https://www.youtube.com/watch?v=NI5IGAim8XU)
 - [Unit Testing in Python](https://www.youtube.com/watch?v=UL0opWf3DeM)
 
-### collect
+### Pythonic
 
-- [devdocs](https://devdocs.io/): almost everything
+- [RealPython: Write More Pythonic Code](https://realpython.com/learning-paths/writing-pythonic-code/)
+- [The Hitchhiker's Guide to Python: Code Style](https://docs.python-guide.org/writing/style/)
 
-### vim
+## Rust
+
+- [Brainfuck JIT 虚拟机教程](https://github.com/Nugine/bfjit)
+- [用rust实现Lua解释器](https://wubingzheng.github.io/build-lua-in-rust/zh/)
+- [web-testing-with-rust](https://huangjj27.gitlab.io/web-testing-with-rust.html)
+- [awesome-rust](https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file)
+- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
+- [Awesome Rust Books](https://github.com/sger/RustBooks)
+- CodeLLDB + VSCode
+
+## vim
 
 - [neuralnine: vim tutorial for beginners](https://www.youtube.com/watch?v=RZ4p-saaQkc)
 
-### bash
+## bash
 
 - [LearnLinuxTv, Bash Scripting on Linux](https://www.youtube.com/watch?v=2733cRPudvI&list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w)
 
-### make
+## make
 
 - [learn makefiles with the tastiest examples](https://makefiletutorial.com/)
 - [tutorial on writing makefiles](https://www.math.colostate.edu/~yzhou/computer/writemakefile.html)
@@ -123,64 +99,51 @@
 - [ChaseLambert/makefiletutorial](https://makefiletutorial.com)
 - [adelarsq](https://github.com/adelarsq/awesome-make)
 
-### timer
+# Write a Programming Language
 
-- [online-stopwatch](https://www.online-stopwatch.com/timer/10minutes/)
+- [Writing a Simple Programming Language from Scratch](https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2)
+- [Create Your Own Programming Language](https://www.codeproject.com/Articles/50377/Create-Your-Own-Programming-Language)
+- [I wrote a programming language. Here’s how you can, too.](https://www.freecodecamp.org/news/the-programming-language-pipeline-91d3f449c919/)
+- [Let’s Build a Programming Language](https://hackernoon.com/lets-build-a-programming-language-2612349105c6)
+- [Build your own programming language](https://github.com/PacktPublishing/Build-Your-Own-Programming-Language)
+- [Build your own programming language](https://thesephist.com/posts/pl/)
+- [Building Your Own Programming Language From Scratch](https://hackernoon.com/building-your-own-programming-language-from-scratch)
+- [HOW TO WRITE A PROGRAMMING LANGUAGE: PART 1, THE LEXER](https://accu.org/journals/overload/26/145/balaam_2510/)
 
-### regular expression
-
-- [learn by example in python](https://learnbyexample.github.io/py_regular_expressions/cover.html)
-
-### Rust
-
-- [Brainfuck JIT 虚拟机教程](https://github.com/Nugine/bfjit)
-- [用rust实现Lua解释器](https://wubingzheng.github.io/build-lua-in-rust/zh/)
-- https://huangjj27.gitlab.io/web-testing-with-rust.html
-- [awesome-rust](https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file)
-- [Comprehensive Rust](https://google.github.io/comprehensive-rust/)
-
-  提纲挈领介绍一个程序员学习rust需要知道的概念，
-
-- [Awesome Rust Books](https://github.com/sger/RustBooks)
-
-#### rust debug
-
-- CodeLLDB + VSCode
-
-### os
+# Write a OS
 
 - [rCore](https://rcore-os.cn/rCore-Tutorial-Book-v3/)
+- [os-tutorial](https://github.com/cfenollosa/os-tutorial?tab=readme-ov-file)
+- [how to make a computer os](https://github.com/SamyPesse/How-to-Make-a-Computer-Operating-System?tab=readme-ov-file)
+- [Creating an Operating System](https://wiki.osdev.org/Creating_an_Operating_System)
 
-### ai assistant
+# Frontend
 
-- [poe](https://poe.com/)
+- [aimingoo: 告前端同学书](https://github.com/aimingoo/Shu)
 
-### gdb
+# Network Programming
 
-- [docs](https://sourceware.org/gdb/documentation/)
-- [tutorial](https://www.youtube.com/watch?v=svG6OPyKsrw)
-- [GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands](https://www.youtube.com/watch?v=Dq8l1_-QgAc&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=4&t=20s)
-- [NeuralNine: Debugging C Programs with GDB](https://www.youtube.com/watch?v=ny6y0pPO--4&list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&index=2)
+- [Hands-On-Network-Programming-with-C](https://github.com/codeplea/Hands-On-Network-Programming-with-C?tab=readme-ov-file)
+- [计算机网络超详细系统学习路线（2024年最新](https://csguide.cn/roadmap/basic/how_to_learn_networking.html)
+- [How to Learn Networking Roadmap](https://www.hoppersroppers.org/roadmap/training/networking.html)
+- [Network Engineering at Scale Roadmap/Landscape](https://github.com/eovchar/neteng-roadmap)
+- [Cyber Security Education RoadMap](https://github.com/hoppersroppers/roadmap?tab=readme-ov-file)
+- [Learn networking in Python by building 4 projects](https://www.freecodecamp.org/news/python-networking-course/)
+- [roppers.org](https://www.roppers.org/collections)
+- Linux 4.4.0内核源码分析TCP实现.pdf: 知识性强, 初期看不懂
+- Wireshark网络分析就这么简单
+- https://cs144.github.io/
+- roppers.org
+- Learn networking in Python by building 4 projects
 
-### CodeInterview
-
-#### Books
+# CodeInterview
 
 - Cracking the Behavioral Interviews: for Software Engineers
 - De-Coding The Technical Interview Process
 - System Design Interview - An insider's guide
-
-#### Articals
-
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 
-# 中文
-
-## [基础函数在ARM32中的剖析](https://mp.weixin.qq.com/s/qQdMpl6yqqVo8Mhync-ioQ)
-
-# Readlist
-
-## Programming
+# unfold
 
 - Clean Code: By Robert C. Martin
 - The Mythical Man-month: By Frederick Brooks
@@ -266,3 +229,7 @@
 - Code - Charles Petzold
 - The Art of Computer Programming - Donald Knuth
 - The Effective Engineer - Edmund Lau
+
+# Books
+
+- [Parallel and Concurrent Programming in Haskell](./books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
