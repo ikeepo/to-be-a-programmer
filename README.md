@@ -17,6 +17,10 @@
 
 # [language](/chapters/language.md)
 
+# visiualization
+
+- [visual debuger](https://pythontutor.com/)
+
 # Write a Programming Language
 
 - [Writing a Simple Programming Language from Scratch](https://dev.to/evantypanski/writing-a-simple-programming-language-from-scratch-part-1-54a2)
