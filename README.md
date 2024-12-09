@@ -1,4 +1,12 @@
-# RoadMap
+# Introduction
+
+As a self-taught programmer. This is the knowledge I think I should know to be a programmer.
+
+# Principles
+
+- [The Twelve-Factor App](https://12factor.net/)
+
+# Roadmap
 
 - [roadmap](https://roadmap.sh/)
 - [devdocs](https://devdocs.io/): almost everything
