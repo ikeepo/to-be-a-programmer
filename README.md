@@ -7,6 +7,12 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [The Twelve-Factor App](https://12factor.net/)
 - [(Neo)Vim Made Me a Better Software Developer](https://www.youtube.com/watch?v=5u604lTkGAY&t=710s)
 
+# Questions
+
+- How to be a better JS developer?
+- What make me a better programmer?
+- What make me a better JS developer?
+
 # Roadmap
 
 - [roadmap](https://roadmap.sh/)
