@@ -60,6 +60,10 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 - [aimingoo: 告前端同学书](https://github.com/aimingoo/Shu)
 
+## React
+
+- [React Explained-OSTraining](./asset/books/ReactExplained-OSTraining.pdf)
+
 # Network Programming
 
 - [Hands-On-Network-Programming-with-C](https://github.com/codeplea/Hands-On-Network-Programming-with-C?tab=readme-ov-file)
