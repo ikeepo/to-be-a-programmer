@@ -181,9 +181,9 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 - [Parallel and Concurrent Programming in Haskell](./books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 ## Books
-- ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf
-- ReactExplained-OSTraining.pdf
-- SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf
-- BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf
-- BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf
+- [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
+- [ReactExplained-OSTraining.pdf](./asset/books/ReactExplained-OSTraining.pdf)
+- [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
+- [BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf](./asset/books/BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf)
+- [BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf](./asset/books/BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf)
 
