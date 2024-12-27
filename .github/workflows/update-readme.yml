@@ -24,7 +24,7 @@ jobs:
           # 创建新的书籍列表
           book_list="## Books\n"
           for file in $files; do
-            book_list="$book_list- $file\n"
+            book_list="$book_list- [$file](./asset/books/$file)\n"
           done
           # 将更新后的书籍列表写入 README.md
           sed -i '/## Books/,$d' README.md
