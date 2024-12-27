@@ -5,7 +5,7 @@ on:
     branches:
       - master # 或者你想要触发的其他分支
     paths:
-      - "books/**" # 仅当 books 目录中的文件发生变化时触发
+      - "asset/books/**" # 仅当 books 目录中的文件发生变化时触发
 
 jobs:
   update-readme-books:
