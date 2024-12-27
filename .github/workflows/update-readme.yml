@@ -1,0 +1,42 @@
+name: Update README with book file names
+
+on:
+  push:
+    branches:
+      - master # 或者你想要触发的其他分支
+    paths:
+      - "books/**" # 仅当 books 目录中的文件发生变化时触发
+
+jobs:
+  update-readme:
+    runs-on: ubuntu-latest
+
+    steps:
+      # Step 1: Check out the code
+      - name: Checkout code
+        uses: actions/checkout@v3
+
+      # Step 2: List files in books directory and generate the updated list for README.md
+      - name: Generate updated file list
+        run: |
+          # 获取 books 目录下的所有文件名，按行输出
+          files=$(find books -type f -name "*.pdf" -exec basename {} \;)
+          # 创建新的书籍列表
+          book_list="## Books\n"
+          for file in $files; do
+            book_list="$book_list- $file\n"
+          done
+          # 将更新后的书籍列表写入 README.md
+          sed -i "/## Books/,\$/{/## Books/!d}" README.md
+          echo -e "$book_list" >> README.md
+
+      # Step 3: Commit and push the changes back to the repository
+      - name: Commit changes
+        run: |
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          git commit -m "Update book list in README.md"
+          git push
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
