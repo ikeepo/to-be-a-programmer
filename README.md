@@ -26,7 +26,8 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 # Course
 
-- https://testdriven.io/
+- [TestDriven](https://testdriven.io/)
+- [CodeCrafters](https://codecrafters.io/)
 
 # Program Philosophy
 
