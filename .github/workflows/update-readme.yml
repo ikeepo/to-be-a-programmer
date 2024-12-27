@@ -8,7 +8,7 @@ on:
       - "books/**" # 仅当 books 目录中的文件发生变化时触发
 
 jobs:
-  update-readme:
+  update-readme-books:
     runs-on: ubuntu-latest
 
     steps:
