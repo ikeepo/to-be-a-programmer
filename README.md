@@ -15,6 +15,10 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - What make me a better programmer?
 - What make me a better JS developer?
 
+# Tools
+
+- [github-actions](/chapters/database.md)
+
 # Roadmap
 
 - [roadmap](https://roadmap.sh/)
