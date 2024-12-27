@@ -20,7 +20,7 @@ jobs:
       - name: Generate updated file list
         run: |
           # 获取 books 目录下的所有文件名，按行输出
-          files=$(find books -type f -name "*.pdf" -exec basename {} \;)
+          files=$(find asset/books -type f -name "*.pdf" -exec basename {} \;)
           # 创建新的书籍列表
           book_list="## Books\n"
           for file in $files; do
