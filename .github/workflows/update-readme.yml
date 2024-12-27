@@ -27,7 +27,7 @@ jobs:
             book_list="$book_list- $file\n"
           done
           # 将更新后的书籍列表写入 README.md
-          sed -i "/## Books/,\$/{/## Books/!d}" README.md
+          sed -i "/## Books/,$d}" README.md
           echo -e "$book_list" >> README.md
 
       # Step 3: Commit and push the changes back to the repository
