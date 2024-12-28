@@ -10,7 +10,9 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)
 
 # Spec
+
 - XDG
+
 # Questions
 
 - How to be a better JS developer?
@@ -188,10 +190,11 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - The Effective Engineer - Edmund Lau
 
 # Books
+
 - [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
 - [RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf](./asset/books/RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf)
 - [ReactExplained-OSTraining.pdf](./asset/books/ReactExplained-OSTraining.pdf)
 - [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 - [BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf](./asset/books/BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf)
 - [BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf](./asset/books/BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf)
-
+- an invitation to applied category theory
