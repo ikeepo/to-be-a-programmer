@@ -24,11 +24,17 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [roadmap](https://roadmap.sh/)
 - [devdocs](https://devdocs.io/): almost everything
 
-# Course
+# Course Platform
 
 - [TestDriven](https://testdriven.io/)
 - [CodeCrafters](https://codecrafters.io/)
 - [ExecuteProgram](https://www.executeprogram.com/)
+- [github.type-challenges](https://github.com/type-challenges/type-challenges)
+
+# Compilers
+
+- [Code Compiler](https://godbolt.org/)
+- [Crafting Interpreter](https://craftinginterpreters.com/)
 
 # Program Philosophy
 
