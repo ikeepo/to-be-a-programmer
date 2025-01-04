@@ -21,7 +21,7 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 # Tools
 
-- [github-actions](/chapters/database.md)
+- [github-actions](/topics/database.md)
 
 # Roadmap
 
@@ -46,9 +46,9 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 - [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
 
-# [database](/chapters/database.md)
+# [database](/topics/database.md)
 
-# [language](/chapters/language.md)
+# [language](/topics/language.md)
 
 # visiualization
 
@@ -190,6 +190,7 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - The Effective Engineer - Edmund Lau
 
 # Books
+
 - [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
 - [RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf](./asset/books/RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf)
 - [BrendanFong_DavidI.Spivak-AnInvitationtoAppliedCategoryTheory_SevenSketchesinCompositionality2019_CambridgeUniversityPress.pdf](./asset/books/BrendanFong_DavidI.Spivak-AnInvitationtoAppliedCategoryTheory_SevenSketchesinCompositionality2019_CambridgeUniversityPress.pdf)
@@ -197,4 +198,3 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 - [BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf](./asset/books/BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf)
 - [BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf](./asset/books/BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf)
-
