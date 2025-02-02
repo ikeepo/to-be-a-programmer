@@ -2,6 +2,10 @@
 
 As a self-taught programmer. This is the knowledge I think I should know to be a programmer.
 
+# Design Patterns
+
+- [Domain Driven Design](https://en.wikipedia.org/wiki/Domain-driven_design)
+
 # Principles
 
 - [The Twelve-Factor App](https://12factor.net/)

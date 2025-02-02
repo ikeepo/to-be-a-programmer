@@ -37,3 +37,6 @@ git commit -m "$commit_message"
 
 # 推送更改到提取的远程仓库和当前分支
 git push -u $remote_name $(git rev-parse --abbrev-ref HEAD)
+
+# 重新拉取数据，因为github workflow会更新README
+git pull
