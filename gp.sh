@@ -39,4 +39,5 @@ git commit -m "$commit_message"
 git push -u $remote_name $(git rev-parse --abbrev-ref HEAD)
 
 # 重新拉取数据，因为github workflow会更新README
+sleep 5s
 git pull
