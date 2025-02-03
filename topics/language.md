@@ -85,3 +85,5 @@
 - [adelarsq](https://github.com/adelarsq/awesome-make)
 
 ## [lean](https://lean-lang.org/about/)
+
+- [Lean 中文文档翻译](https://github.com/Lean-zh)
