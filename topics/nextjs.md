@@ -30,6 +30,11 @@ WHY?
 
 WHY?
 
+## clsx 存在的必要
+
+tailwind内置的utility可以对用户的动作&屏幕尺寸进行相应；
+clsx是对变量值进行相应；
+
 # nextjs 结构设计
 
 ## nextjs detects if your project use TS and automatically install s the necessary packages and configuration
@@ -64,11 +69,13 @@ It's required for the **route** to be accessible;
 
 # layout.tsx的好处
 
-only the page components update while the layout won't re-render which is called **partial rendering**;
-
 # [split code by route](https://nextjs.org/learn/dashboard-app/navigating-between-pages#automatic-code-splitting-and-prefetching)
 
-which means that pages become isolated.
+which means that pages become isolated. If a certain page throws an error, the rest of the applciation still work.  
+依据route划分也就是依据跳转划分，这样每次跳转只需要改变被route划分好的那部分代码；  
+And whenever <Link> components appear in the browser's viewport, Next.js automatically prefetches the code for the linked page in the background.
+
+1. Browser's Viewport 是什么
 
 # prefetching
 
@@ -139,6 +146,9 @@ you don't need to change your code to use it.
 
 routing 是个更广泛的概念，navigation是指具体的跳转动作；
 
+- [usePathname](https://nextjs.org/docs/app/api-reference/functions/use-pathname)
+  Reading the current URL from a Server Component is not supported.
+
 ## hooks只能用于client side么？
 
 不一定，也可以用于服务器端渲染（SSR）；  
@@ -179,14 +189,18 @@ Debouncing is a programming practice that limits the rate at which a function ca
     为什么叫route segment? 是指路由的一部分么？  
    Nextjs中使用文件系统路由，segment就是一个路径段；
 
-A dynamic [Route Segment](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) can be created by wrapping a folder name in square brackets. 6. 如何判定是一个Server Component还是一个Server Action？
-a. by adding the 'use server' you mark all the exported functions within the file as Server Actions.  
- b. you can also write Server Actions directly inside Server Components by addin g'use server' inside the action
-use server是用来标记函数的，不是组件；  
-server component是指在服务器端运行、渲染成HTML，然后返回给客户端；  
-前端组件一般是通过JS运行，响应客户反馈，通过use client标记；  
-use client针对组件，use server针对函数；  
-分为前后端组件，主要是为了打包时候区分；
+A dynamic [Route Segment](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) can be created by wrapping a folder name in square brackets.
+
+6. 如何判定是一个Server Component还是一个Server Action？
+   a. by adding the 'use server' you mark all the exported functions within the file as Server Actions.  
+    b. you can also write Server Actions directly inside Server Components by addin g'use server' inside the action
+   use server是用来标记函数的，不是组件；  
+   server component是指在服务器端运行、渲染成HTML，然后返回给客户端；  
+   前端组件一般是通过JS运行，响应客户反馈，通过use client标记；  
+   use client针对组件，use server针对函数；  
+   分为前后端组件，主要是为了打包时候区分；
+
+7. Pages are [Sever Components](https://nextjs.org/docs/app/api-reference/file-conventions/page) by default;
 
 ## [Server Functions](https://react.dev/reference/rsc/use-server)
 
@@ -245,10 +259,20 @@ Open Graph是什么？是一个协议么？
 
 - Open Graph Metadata
 
-````html
+```html
 <meta property="og:title" content="Title Here" />
 <meta property="og:description" content="Description Here" />
 <meta property="og:image" content="image_url_here" />
+```
 
-- Favicon and Open Graph Image ```html
-````
+- Favicon and Open Graph Image
+
+```html
+<meta test />
+```
+
+# import { CheckIcon, ClockIcon } from '@heroicons/react/24/outline';
+
+# nextjs是层级嵌套覆盖的结构
+
+layout可以 被下层route继承，直到覆盖修改；

@@ -83,3 +83,5 @@
 - [isaacs/makefile basics](https://gist.github.com/isaacs/62a2d1825d04437c6f08)
 - [ChaseLambert/makefiletutorial](https://makefiletutorial.com)
 - [adelarsq](https://github.com/adelarsq/awesome-make)
+
+## [lean](https://lean-lang.org/about/)
