@@ -13,6 +13,17 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
 - [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)
 
+# Practice Tricks
+
+- best error catch
+
+```python
+try:
+    code
+except Exception as e:
+    location.href = `https://stackoverflow.com/search?q=${e}`
+```
+
 # Spec
 
 - XDG
