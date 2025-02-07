@@ -8,18 +8,18 @@ remote_url=$(git remote get-url $remote_name)
 
 # 获取本机电脑型号（适用于 Windows 和 Linux）
 if [[ "$OSTYPE" == "linux-gnu"* ]]; then
-  # Linux 系统
-  computer_model=$(hostnamectl | grep "Model" | awk -F: '{print $2}' | xargs | cut -c 1-10)
-  if [ -z "$computer_model" ]; then
-    # 如果hostnamectl命令不可用，可以尝试使用 lscpu 命令
-    computer_model=$(lscpu | grep "Model name" | awk -F: '{print $2}' | xargs | cut -c 1-10)
-  fi
+    # Linux 系统
+    computer_model=$(hostnamectl | grep "Model" | awk -F: '{print $2}' | xargs | cut -c 1-10)
+    if [ -z "$computer_model" ]; then
+        # 如果hostnamectl命令不可用，可以尝试使用 lscpu 命令
+        computer_model=$(lscpu | grep "Model name" | awk -F: '{print $2}' | xargs | cut -c 1-10)
+    fi
 elif [[ "$OSTYPE" == "darwin"* ]]; then
-  # macOS 系统
-  computer_model=$(system_profiler SPHardwareDataType | grep "Model Name" | awk -F: '{print $2}' | xargs)
+    # macOS 系统
+    computer_model=$(system_profiler SPHardwareDataType | grep "Model Name" | awk -F: '{print $2}' | xargs)
 else
-  # Windows 系统
-  computer_model=$(wmic computersystem get model | sed -n '2p' | cut -c 1-10)
+    # Windows 系统
+    computer_model=$(wmic computersystem get model | sed -n '2p' | cut -c 1-10)
 fi
 
 # 弹出输入框让用户手动输入提交消息
@@ -39,5 +39,5 @@ git commit -m "$commit_message"
 git push -u $remote_name $(git rev-parse --abbrev-ref HEAD)
 
 # 重新拉取数据，因为github workflow会更新README
-sleep 5s
+sleep 30s
 git pull
