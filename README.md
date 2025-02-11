@@ -13,6 +13,10 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
 - [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)
 
+# Environment
+
+- [How to Migrate a Project to Poetry](./topics/poetry.md)
+
 # Practice Tricks
 
 - best error catch
@@ -205,6 +209,7 @@ except Exception as e:
 - The Effective Engineer - Edmund Lau
 
 # Books
+
 - [ReactExplained-OSTraining.pdf](./asset/books/ReactExplained-OSTraining.pdf)
 - [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 - [HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf](./asset/books/HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf)
@@ -214,4 +219,3 @@ except Exception as e:
 - [EricEvans-Domain-DrivenDesign-TacklingComplexityintheHeartofSoftware2003_AddisonWesley.pdf](./asset/books/EricEvans-Domain-DrivenDesign-TacklingComplexityintheHeartofSoftware2003_AddisonWesley.pdf)
 - [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
 - [RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf](./asset/books/RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf)
-
