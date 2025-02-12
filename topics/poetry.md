@@ -1,1 +1,43 @@
 # How to Migrate from venv to poetry
+
+### pipx
+
+推荐使用pipx安装poetry，但是pipx必须绑定某个python使用，因此绑定全局的python，同时将poetry通过全局的python下的
+全局pipx安装，也就是得到全局的poetry。
+
+### 修改源
+
+##### 全局
+
+```shell
+poetry config repositories.pypi https://pypi.tuna.tsinghua.edu.cn/simple
+poetry config --list
+poetry config unset repositories.pypi # 恢复
+```
+
+##### 仅修改当前项目
+
+```toml
+[[tool.poetry.source]]
+name = "tsinghua"
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+priority = "default"
+
+[[tool.poetry.source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+priority = "supplemental"
+```
+
+##### 从requirements.txt安装
+
+poetry 本身不支持，只能逐个安装;
+
+```shell
+cat requirements.txt | xargs poetry add
+```
+
+# Refs
+
+1. [Migrating a Project to Poetry](https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/)
+2. [the pyproject.tomal file](https://python-poetry.org/docs/pyproject/)
