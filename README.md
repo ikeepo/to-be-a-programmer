@@ -41,6 +41,7 @@ except Exception as e:
 # Tools
 
 - [github-actions](/topics/database.md)
+- [how to debug in nvim](./topics/nvim.md)
 
 # Roadmap
 
