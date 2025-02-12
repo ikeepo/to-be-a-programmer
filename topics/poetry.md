@@ -41,3 +41,4 @@ cat requirements.txt | xargs poetry add
 
 1. [Migrating a Project to Poetry](https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/)
 2. [the pyproject.tomal file](https://python-poetry.org/docs/pyproject/)
+3. [how to import an existing requirements.txt into a Poetry project](https://stackoverflow.com/questions/62764148/how-to-import-an-existing-requirements-txt-into-a-poetry-project)
