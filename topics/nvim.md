@@ -1,12 +1,14 @@
 # Debug
 
+通过continue启动debug，默认为运行脚本所在路径为cdw，
+
 ### Refs
 
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
 2. [DevOps Toolbox](https://www.youtube.com/watch?v=RziPWdTzSV8)
 3. [TJ DeVries](https://www.youtube.com/watch?v=lyNfnI-B640)
 4. [nvim-dap](https://github.com/mfussenegger/nvim-dap)
-   5 [流程](https://www.youtube.com/watch?v=lEMZnrC-ST4)
+5. [流程](https://www.youtube.com/watch?v=lEMZnrC-ST4)
 
 # Poetry
 

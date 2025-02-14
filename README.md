@@ -12,6 +12,7 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 - [(Neo)Vim Made Me a Better Software Developer](https://www.youtube.com/watch?v=5u604lTkGAY&t=710s)
 - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
 - [How to Report Bugs Effectively](https://www.chiark.greenend.org.uk/~sgtatham/bugs.html)
+- [Liskov Substitution Principle, LSP](./topics/lsp.md)
 
 # Environment
 
