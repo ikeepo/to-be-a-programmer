@@ -8,6 +8,7 @@ As a self-taught programmer. This is the knowledge I think I should know to be a
 
 # Principles
 
+- [professional programming](./topics/professional-programming.md)
 - [The Twelve-Factor App](https://12factor.net/)
 - [(Neo)Vim Made Me a Better Software Developer](https://www.youtube.com/watch?v=5u604lTkGAY&t=710s)
 - [How To Ask Questions The Smart Way](http://www.catb.org/~esr/faqs/smart-questions.html)
