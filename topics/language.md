@@ -86,4 +86,10 @@
 
 ## [lean](https://lean-lang.org/about/)
 
-- [Lean 中文文档翻译](https://github.com/Lean-zh)
+- [docs](https://lean-lang.org/documentation/)
+- [Lean 中文文档翻译](https://github.com/Lehttps://lean-lang.org/documentation/an-zh)
+
+## [OCaml](https://github.com/ocaml/ocaml?tab=readme-ov-file)
+
+- [First Step](https://ocaml.org/docs/installing-ocaml)
+- [OCaml manual](https://ocaml.org/manual/5.3/index.html)

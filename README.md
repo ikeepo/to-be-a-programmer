@@ -74,6 +74,9 @@ except Exception as e:
 
 # [language](/topics/language.md)
 
+- [lean](./topics/language.md#lean)
+- [OCaml](./topics/language.md#OCaml)
+
 # visiualization
 
 - [visual debuger](https://pythontutor.com/)
@@ -212,6 +215,7 @@ except Exception as e:
 - Code - Charles Petzold
 - The Art of Computer Programming - Donald Knuth
 - The Effective Engineer - Edmund Lau
+- Type Theory Hacker
 
 # Books
 
