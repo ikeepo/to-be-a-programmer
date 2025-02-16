@@ -29,12 +29,21 @@ url = "https://pypi.org/simple"
 priority = "supplemental"
 ```
 
-##### 从requirements.txt安装
+# 从requirements.txt安装
 
 poetry 本身不支持，只能逐个安装;
 
 ```shell
 cat requirements.txt | xargs poetry add
+```
+
+# 如何在新的路径下使用旧的环境
+
+```shell
+poetry init # 创建新环境
+poetry config virtualenvs.path # 找到并进入环境所在路径
+# delete 新环境
+# rename 旧环境 为新环境名称
 ```
 
 # Refs
