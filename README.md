@@ -42,7 +42,7 @@ except Exception as e:
 
 # Tools
 
-- [github-actions](/topics/database.md)
+- [github-actions](/topics/github-action.md)
 - [how to debug in nvim](./topics/nvim.md)
 
 # Roadmap
@@ -69,6 +69,8 @@ except Exception as e:
 - [Teach Yourself Programming in Ten Years](https://www.norvig.com/21-days.html)
 
 # [database](/topics/database.md)
+
+## [database migrate](./topics/database.md#alembic)
 
 # [language](/topics/language.md)
 
