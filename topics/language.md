@@ -93,3 +93,4 @@
 
 - [First Step](https://ocaml.org/docs/installing-ocaml)
 - [OCaml manual](https://ocaml.org/manual/5.3/index.html)
+- [Learn Programming with OCaml](https://usr.lmf.cnrs.fr/lpo/)
