@@ -39,6 +39,8 @@ cat requirements.txt | xargs poetry add
 
 # 如何在新的路径下使用旧的环境
 
+> [docs-managing environments](https://python-poetry.org/docs/managing-environments/#fish)
+
 ```shell
 poetry init # 创建新环境
 poetry config virtualenvs.path # 找到并进入环境所在路径
