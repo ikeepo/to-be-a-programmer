@@ -27,7 +27,7 @@ echo "请输入提交消息："
 read message
 
 # 将电脑型号添加到提交消息中
-commit_message="$message - $computer_model"
+commit_message="$message"
 
 # 添加所有更改
 git add .
