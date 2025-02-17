@@ -58,6 +58,7 @@
 
 ## Rust
 
+- [Rust10x](https://github.com/rust10x)
 - [Brainfuck JIT 虚拟机教程](https://github.com/Nugine/bfjit)
 - [用rust实现Lua解释器](https://wubingzheng.github.io/build-lua-in-rust/zh/)
 - [web-testing-with-rust](https://huangjj27.gitlab.io/web-testing-with-rust.html)
