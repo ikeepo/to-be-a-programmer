@@ -2,6 +2,8 @@
 
 通过continue启动debug，默认为运行脚本所在路径为cdw，
 
+# 不显示中文
+
 ### Refs
 
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
