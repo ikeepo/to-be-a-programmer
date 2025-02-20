@@ -2,6 +2,8 @@
 
 As a self-taught programmer. This is the knowledge I think I should know to be a programmer.
 
+# RULE ONE: Define a good question, and ask AI
+
 # Design Patterns
 
 - [DDD(Domain Driven Design)](https://en.wikipedia.org/wiki/Domain-driven_design), [topic](./topics/domain-driven-design.md)
