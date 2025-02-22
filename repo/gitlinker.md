@@ -33,3 +33,12 @@ github for view MD files in their raw.
 ## wslview
 
 wsl utilities 的一部分。（竟然有这么好的工具，孤陋寡闻）
+
+## By default GitLink will use the current buffer's name.
+
+这是nvim的语境，nvim中`buffer` means 一个被加载到内存中的文件，每个打开的文件都占用一个`buffer`。  
+这句话是指，当处理相关命令要用到buffer name的时候，会使用当前所在的这个buffer。
+
+## GitLink rev=00b3f9a1
+
+指定commit id，rev指的是`revision`（修订），指一个具体的提交。
