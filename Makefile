@@ -1,0 +1,2 @@
+g:
+	bash gp.sh
