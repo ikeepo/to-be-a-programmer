@@ -1,3 +1,8 @@
+# Add from wle need to relative or absolute path 
+```shell
+portry add file.whl  # wrong  
+poetry add ./file.whl # right
+```
 # How to Migrate from venv to poetry
 
 ### pipx

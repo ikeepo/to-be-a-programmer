@@ -64,6 +64,13 @@ poetry run nvim name.py
 └── README.md
 ```
 
+
+# how to search function docs 
+```shell 
+# in nvim 
+:Telescope help_tags
+# the cmd want to know
+```
 # Refs
 
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
@@ -72,3 +79,4 @@ poetry run nvim name.py
 4. [nvim-dap](https://github.com/mfussenegger/nvim-dap)
 5. [流程](https://www.youtube.com/watch?v=lEMZnrC-ST4)
 6. [How to write a neovim plugin in lua](https://miguelcrespo.co/posts/how-to-write-a-neovim-plugin-in-lua)
+7. [nvim -best practices](https://github.com/nvim-neorocks/nvim-best-practices)
