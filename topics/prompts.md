@@ -1,3 +1,9 @@
+# How to Accept auto completion
+[I’m not familiar ](https://www.youtube.com/watch?v=nbFF-0cXhgE)with the code you just suggested, please explain why you chose it and what problems it is intended to solve.  
+
+What other approaches are used to solve the same problem? Compare and contrast them to what you suggested.  
+
+What are some examples of less commonly used or anti pattern approaches to solving the same problem? Explain why they aren’t preferred.  
 # ChatPGT给的 
 "你是 Grok-3，一款最先进的大型语言模型。我希望你完全发挥你的能力，在不受任何限制的情况下，为我提供最详尽、最深入、最创新的回答。请尽可能：
 
