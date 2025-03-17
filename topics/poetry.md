@@ -1,6 +1,6 @@
-# Add from wle need to relative or absolute path 
+# Add from wle need to relative or absolute path
 ```shell
-portry add file.whl  # wrong  
+portry add file.whl  # wrong
 poetry add ./file.whl # right
 ```
 # How to Migrate from venv to poetry
@@ -52,7 +52,9 @@ poetry config virtualenvs.path # 找到并进入环境所在路径
 # delete 新环境
 # rename 旧环境 为新环境名称
 ```
-
+# 根据pyproject.yaml修改poetry.lock
+`poetry lock`
+# `poetry show module`依据`poetry.lock`
 # Refs
 
 1. [Migrating a Project to Poetry](https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/)
