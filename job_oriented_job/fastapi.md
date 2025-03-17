@@ -92,7 +92,11 @@ In FastAPI, background tasks allow you to run time-consuming operations after se
 It's great for tasks like sending emails, logging trades, or processing data that shouldn't delay the client's response.
 It's used for handling unnecessary logic Asynchronously;
 
-
+# [threading.local()  ](https://docs.python.org/3.12/library/threading.html#thread-local-data)
+It's data whose values are thread specific.
+# Thread Optimization
+1. Leverage Thread Pools with  `ThreadPoolExecutor`
 
 # Refs
 1. [What is FastAPI | FastAPI Mock Interview | Interview Questions for Senior FastAPI Developers](https://www.youtube.com/watch?v=qLdqNEjYQtI)
+2. [FastAPI, Flask or Django - Which Should You Use?](https://www.youtube.com/watch?v=cNlJCQHSmbE)
