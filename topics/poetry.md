@@ -55,6 +55,9 @@ poetry config virtualenvs.path # 找到并进入环境所在路径
 # 根据pyproject.yaml修改poetry.lock
 `poetry lock`
 # `poetry show module`依据`poetry.lock`
+
+# `$VIRTUAL_ENV`环境变量可能影响使用的环境
+`unset VIRTUAL_ENV`清除，这个貌似是每个poetry项目单独的
 # Refs
 
 1. [Migrating a Project to Poetry](https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/)
