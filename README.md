@@ -220,13 +220,14 @@ except Exception as e:
 - Type Theory Hacker
 
 # Books
-
 - [ReactExplained-OSTraining.pdf](./asset/books/ReactExplained-OSTraining.pdf)
-- [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
-- [HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf](./asset/books/HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf)
 - [BrendanFong_DavidI.Spivak-AnInvitationtoAppliedCategoryTheory_SevenSketchesinCompositionality2019_CambridgeUniversityPress.pdf](./asset/books/BrendanFong_DavidI.Spivak-AnInvitationtoAppliedCategoryTheory_SevenSketchesinCompositionality2019_CambridgeUniversityPress.pdf)
+- [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 - [BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf](./asset/books/BenjaminC.Pierce-TypesandProgrammingLanguages2002_MIT.pdf)
 - [BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf](./asset/books/BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf)
 - [EricEvans-Domain-DrivenDesign-TacklingComplexityintheHeartofSoftware2003_AddisonWesley.pdf](./asset/books/EricEvans-Domain-DrivenDesign-TacklingComplexityintheHeartofSoftware2003_AddisonWesley.pdf)
-- [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
 - [RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf](./asset/books/RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf)
+- [ArashGharehbaghi-DeepLearninginTimeSeriesAnalysis2023_CRCPress_SciencePublishers.pdf](./asset/books/ArashGharehbaghi-DeepLearninginTimeSeriesAnalysis2023_CRCPress_SciencePublishers.pdf)
+- [ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf](./asset/books/ThinkingForth_Brodie_Leo-ALanguageandPhilosophyforSolvingProblems.pdf)
+- [HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf](./asset/books/HowardKarloff-MathematicalThinking_WhyEveryoneShouldStudyMathCompactTextbooksinMathematics2023_Birkh辰user.pdf)
+
