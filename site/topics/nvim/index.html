@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../img/favicon.ico" />
+    <title>nvim 是一个事件驱动框架 - To Be a Programmer</title>
+    <link rel="stylesheet" href="../../css/theme.css" />
+    <link rel="stylesheet" href="../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+
+      <script>
+        // Current page data
+        var mkdocs_page_name = "nvim \u662f\u4e00\u4e2a\u4e8b\u4ef6\u9a71\u52a8\u6846\u67b6";
+        var mkdocs_page_input_path = "topics/nvim.md";
+        var mkdocs_page_url = null;
+      </script>
+
+    <!--[if lt IE 9]>
+      <script src="../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../.." class="icon icon-home"> To Be a Programmer
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../..">Introduction</a>
+                </li>
+              </ul>
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../about/">The Practical Knowledge for A Programmer to Be Better</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Job oriented job</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../job_oriented_job/fastapi/">How FastAPI is different from Flask and Django</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../job_oriented_job/readme/">Readme</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../job_oriented_job/remote_work_sites/">Remote Work Sites</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Topics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" href="../ai-concepts/">AI concepts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../auto-action/">pre-commit执行工作流</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../database/">postgres</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../domain-driven-design/">Intro</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../fish/">pydantic在fish中会自动从fish shell中提取变量，而不是指定的.env</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../format/">flake8</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../github-action/">Error</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../how_to_define_a_question/">The most important ability in AI age</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../java/">Java的设计哲学是显式声明</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../language/">language</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../lsp/">LSP</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../make/">使用make的理由</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../network/">Error</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../nextjs/">tailwind</a>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" href="#">nvim 是一个事件驱动框架</a>
+    <ul class="current">
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pipenv/">Pipenv</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../plot/">Legend</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../poetry/">Add from wle need to relative or absolute path</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../pre-commit/">pre-commit</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../principles/">If you don't know how to format and classify it ,just leave it there until you know how</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../professional-programming/">专业的程序员用结构化数据传参</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../prompts/">How to Accept auto completion</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../protocol/">why we need understand Concepts</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../python/">pyenv</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >How to learn</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../how_to_learn/define/">Give a Definition</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Language</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../language/c/">Why Learn C</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../language/compiler/">How do computers read code</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../language/lua/">Lua</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Machine learning</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/deep_learning/">Axon</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/general/">Intro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/random_forest/">feature importance</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/seaborn/">heatmap</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/sklearn/">GaussianMixture</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/statistics/">Comcepts</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/statsmodels/">seasonal_decompose</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../machine_learning/tersorflow/">Sequential</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Models</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../machine_learning/models/GMM/">GMM(Gaussian Mixture Model)</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../..">To Be a Programmer</a>
+
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Topics</li>
+      <li class="breadcrumb-item active">nvim 是一个事件驱动框架</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+
+                <h1 id="nvim">nvim 是一个事件驱动框架</h1>
+<p>许多功能是监听事件，然后调用回调函数。</p>
+<h1 id="setup"><code>setup</code>是关键字么？</h1>
+<p><code>setup</code>并不是一个关键字，只是惯例函数名，</p>
+<ol>
+<li>不是lua的关键字，你可以随便定义setup函数在lua中</li>
+<li>不是nvim的关键字，nvim的核心api，<code>vim.api</code>中并未定义setup
+   nvim社区约定用setup作为插件的初始化函数，负责配置插件的行为。</li>
+<li>lazy.nvim可以在opts或者config字段中使用setup()，当配置opts时候，lazy.nvim会自动调用<code>require('module_name').setup({...})</code>.</li>
+</ol>
+<h1 id="lazyvim-vs-lazynvim">LazyVim vs lazy.nvim</h1>
+<p>lazy.nvim是一个插件管理器，LazyVim是一个基于lazy.nvim框架做好的使用demo，官方出品，预配置基本插件，以及如何规范使用lazy.nvim，有点类似更多人分享的自己的dotfiles. 不过是lazy.nvim作者发布的。
+lazy.nvim ==&gt; LazyVim ==&gt; dotfiles on github</p>
+<h1 id="nvim_create_buflisted-scratch-nvim_create_buf"><code>nvim_create_buf({listed}, {scratch})                       *nvim_create_buf()*</code></h1>
+<p><code>{listed}</code> 中<code>{}</code>并不表示表格，这个语境是文档，文档中用<code>{}</code>区分签名中是参数名还是普通文本。
+<code>{}</code>包裹参数名表示这些是named arguments（伪，lua本身不支持named arguments,lua是纯位置参数语言）.
+named arguments又称为关键字参数，同生态的除了位置参数，还有table of options, lua经常使用单个table传参数，用table的键值对模拟命名效果。
+listed 在这里只是文档中的惯例，用于表示是一个bool，改成什么对代码本身没有影响，只是在文档层面的命名。
+nvim的底层是C，会检查类型，lua不会，lua没有强制类型要求，只负责传递。</p>
+<h1 id="vimapi"><code>vim.api</code></h1>
+<p>这是nvim内置的用<a href="https://github.com/neovim/neovim/tree/master/src/nvim/api">C实现的API</a>，暴露给Lua使用。让Lua能够操作Nvim的内部功能。
+nvim启动时候，vim.api被注入到Lua的全局明明空加你<code>vim</code>。所以在<code>.lua</code>代码中可以直接调用。</p>
+<h1 id="nvimlua51linux-apt-install-lua51">嵌入nvim的lua5.1跟linux <code>apt install lua5.1</code>有什么区别</h1>
+<p>nvim内嵌的是5.1，而不是最新版本，为了能够配合使用luajt，lua5.3跟5.1改动很大，这是nvim文档中介绍的。
+内嵌的lua5.1有标准库，但不是全部功能，限制了io和os，放置脚本直接访问文件系统。具体使用的是LuaJIT比普通lua多了bit模块和JIT优化。nvim装的是LuaJIT2.1,只是兼容Lua5.1，并非标准Lua5.1.
+所以，常谈到的nvim插件，其实是lua包，类似python通过pip安装包一样，nvim嵌入的是lua，通过lazy.nvim安装扩展plugins.</p>
+<h1 id="debug">Debug</h1>
+<p>通过continue启动debug，默认为运行脚本所在路径为cdw，</p>
+<h1 id="_1">不显示中文</h1>
+<p>OS level question, rather nvim.</p>
+<h1 id="poetry">Poetry</h1>
+<h3 id="how-to-activate-the-poetry-virtual-enviriment-in-nvim">How to activate the poetry virtual enviriment in nvim</h3>
+<pre><code class="language-shell">poetry run nvim name.py
+</code></pre>
+<h1 id="plugin">Plugin</h1>
+<h2 id="plugin-creation-dir-layout">plugin creation dir layout</h2>
+<pre><code class="language-shell">├── LICENSE
+├── plugin  # get executed as soon as nvim starts, like keymaps or autocmds
+│  └── plugin-file.lua
+├── lua # major of the functionality, work until user explicitly `require('name')`
+│  └── main-file.lua
+└── README.md
+</code></pre>
+<h1 id="how-to-search-function-docs">how to search function docs</h1>
+<pre><code class="language-shell"># in nvim
+:Telescope help_tags
+# the cmd want to know
+</code></pre>
+<h1 id="lsp-vs-pyright">LSP vs Pyright</h1>
+<p>LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright之间的通信规则，如果输入gx命令，编辑器将向pyright发送一个通讯请求，pyright分析后返回变量定义位置，编辑器便会跳转到对应位置。</p>
+<h3 id="nvim-lspconfig">nvim-lspconfig</h3>
+<p>封装了lsp配置复杂度，实现简单配置开箱即用；</p>
+<h1 id="refs">Refs</h1>
+<ol>
+<li><a href="https://www.youtube.com/watch?v=tfC1i32eW3A">NeuralNine</a></li>
+<li><a href="https://www.youtube.com/watch?v=RziPWdTzSV8">DevOps Toolbox</a></li>
+<li><a href="https://www.youtube.com/watch?v=lyNfnI-B640">TJ DeVries</a></li>
+<li><a href="https://github.com/mfussenegger/nvim-dap">nvim-dap</a></li>
+<li><a href="https://www.youtube.com/watch?v=lEMZnrC-ST4">流程</a></li>
+<li><a href="https://miguelcrespo.co/posts/how-to-write-a-neovim-plugin-in-lua">How to write a neovim plugin in lua</a></li>
+<li><a href="https://github.com/nvim-neorocks/nvim-best-practices">nvim -best practices</a></li>
+</ol>
+
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../nextjs/" class="btn btn-neutral float-left" title="tailwind"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../pipenv/" class="btn btn-neutral float-right" title="Pipenv">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+
+
+      <span><a href="../nextjs/" style="color: #fcfcfc">&laquo; Previous</a></span>
+
+
+      <span><a href="../pipenv/" style="color: #fcfcfc">Next &raquo;</a></span>
+
+  </span>
+</div>
+    <script src="../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../..";</script>
+    <script src="../../js/theme_extra.js"></script>
+    <script src="../../js/theme.js"></script>
+      <script src="../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
