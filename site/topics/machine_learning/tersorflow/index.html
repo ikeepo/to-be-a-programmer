@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <link rel="shortcut icon" href="../../../img/favicon.ico" />
-    <title>Sequential - To Be a Programmer</title>
+    <title>TensorFlow - To Be a Programmer</title>
     <link rel="stylesheet" href="../../../css/theme.css" />
     <link rel="stylesheet" href="../../../css/theme_extra.css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
 
       <script>
         // Current page data
-        var mkdocs_page_name = "Sequential";
+        var mkdocs_page_name = "TensorFlow";
         var mkdocs_page_input_path = "topics/machine_learning/tersorflow.md";
         var mkdocs_page_url = null;
       </script>
@@ -102,13 +102,27 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../statsmodels/">seasonal_decompose</a>
                 </li>
-                <li class="toctree-l2 current"><a class="reference internal current" href="#">Sequential</a>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">TensorFlow</a>
     <ul class="current">
     </ul>
                 </li>
                 <li class="toctree-l2"><a class="reference internal" >Models</a>
     <ul>
                 <li class="toctree-l3"><a class="reference internal" href="../models/GMM/">GMM(Gaussian Mixture Model)</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" >Loss function</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../models/loss_function/MSE/">MSE(Mean Square Error)</a>
+                </li>
+    </ul>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" >Optimizer</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/Adam/">Adam(Adaptive Moment Estimation)</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/RMSProp/">RMSProp(Root Mean Square Propagation)</a>
+                </li>
+    </ul>
                 </li>
     </ul>
                 </li>
@@ -183,7 +197,7 @@
     <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
           <li class="breadcrumb-item">Topics</li>
           <li class="breadcrumb-item">Machine learning</li>
-      <li class="breadcrumb-item active">Sequential</li>
+      <li class="breadcrumb-item active">TensorFlow</li>
     <li class="wy-breadcrumbs-aside">
     </li>
   </ul>
@@ -192,7 +206,8 @@
           <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
             <div class="section" itemprop="articleBody">
 
-                <h1 id="sequential">Sequential</h1>
+                <h1 id="tensorflow">TensorFlow</h1>
+<h1 id="sequential">Sequential</h1>
 <p>Sequential is a keras class for creating a linear stack of layers.
 The stack here reflects both the conceptual and technical design of how this Keras class works.
 1. Linear, Ordered Structure
