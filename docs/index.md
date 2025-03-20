@@ -1,8 +1,10 @@
 # Introduction
-
 As a self-taught programmer. This is the knowledge I think I should know to be a programmer.
 
-# RULE ONE: Define a good question, and ask AI
+# RULES
+1. Fuck Away Learning, Let's Training
+2. Define a good question, then discussing with AI
+
 
 # Design Patterns
 
