@@ -1,0 +1,372 @@
+<!DOCTYPE html>
+<html class="writer-html5" lang="en" >
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <link rel="shortcut icon" href="../../../img/favicon.ico" />
+    <title>language - To Be a Programmer</title>
+    <link rel="stylesheet" href="../../../css/theme.css" />
+    <link rel="stylesheet" href="../../../css/theme_extra.css" />
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/styles/github.min.css" />
+
+      <script>
+        // Current page data
+        var mkdocs_page_name = "language";
+        var mkdocs_page_input_path = "topics/language/language.md";
+        var mkdocs_page_url = null;
+      </script>
+
+    <!--[if lt IE 9]>
+      <script src="../../../js/html5shiv.min.js"></script>
+    <![endif]-->
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/11.8.0/highlight.min.js"></script>
+      <script>hljs.highlightAll();</script>
+</head>
+
+<body class="wy-body-for-nav" role="document">
+
+  <div class="wy-grid-for-nav">
+    <nav data-toggle="wy-nav-shift" class="wy-nav-side stickynav">
+    <div class="wy-side-scroll">
+      <div class="wy-side-nav-search">
+          <a href="../../.." class="icon icon-home"> To Be a Programmer
+        </a><div role="search">
+  <form id ="rtd-search-form" class="wy-form" action="../../../search.html" method="get">
+      <input type="text" name="q" placeholder="Search docs" aria-label="Search docs" title="Type search term here" />
+  </form>
+</div>
+      </div>
+
+      <div class="wy-menu wy-menu-vertical" data-spy="affix" role="navigation" aria-label="Navigation menu">
+              <ul>
+                <li class="toctree-l1"><a class="reference internal" href="../../..">Introduction</a>
+                </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Job oriented job</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../job_oriented_job/fastapi/">How FastAPI is different from Flask and Django</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../job_oriented_job/readme/">Readme</a>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" href="../../../job_oriented_job/remote_work_sites/">Remote Work Sites</a>
+                  </li>
+              </ul>
+              <p class="caption"><span class="caption-text">Topics</span></p>
+              <ul class="current">
+                  <li class="toctree-l1"><a class="reference internal" >Database</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../database/database/">postgres</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >How to learn</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/define/">Give a Definition</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/how_to_define_a_question/">The most important ability in AI age</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/prompts/">How to Accept auto completion</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1 current"><a class="reference internal current" >Language</a>
+    <ul class="current">
+                <li class="toctree-l2"><a class="reference internal" href="../c/">Why Learn C</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../compiler/">How do computers read code</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../java/">Java的设计哲学是显式声明</a>
+                </li>
+                <li class="toctree-l2 current"><a class="reference internal current" href="#">language</a>
+    <ul class="current">
+    <li class="toctree-l3"><a class="reference internal" href="#regular-expression">regular expression</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#gdb">gdb</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#interface">Interface</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#encode">Encode</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#c">C</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#python">Python</a>
+        <ul>
+    <li class="toctree-l4"><a class="reference internal" href="#doc">doc</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#sphinx">sphinx</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#pytest">pytest</a>
+    </li>
+    <li class="toctree-l4"><a class="reference internal" href="#pythonic">Pythonic</a>
+    </li>
+        </ul>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#rust">Rust</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#vim">vim</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#bash">bash</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#make">make</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#lean">lean</a>
+    </li>
+    <li class="toctree-l3"><a class="reference internal" href="#ocaml">OCaml</a>
+    </li>
+    </ul>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../lua/">Lua</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../python/">pyenv</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Machine learning</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/deep_learning/">Axon</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/general/">Intro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/random_forest/">feature importance</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/seaborn/">heatmap</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/sklearn/">GaussianMixture</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/statistics/">Comcepts</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/statsmodels/">seasonal_decompose</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../machine_learning/tersorflow/">Sequential</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" >Models</a>
+    <ul>
+                <li class="toctree-l3"><a class="reference internal" href="../../machine_learning/models/GMM/">GMM(Gaussian Mixture Model)</a>
+                </li>
+    </ul>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Methodology</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../methodology/ai-concepts/">AI concepts</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../methodology/domain-driven-design/">Intro</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../methodology/principles/">If you don't know how to format and classify it ,just leave it there until you know how</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../methodology/professional-programming/">专业的程序员用结构化数据传参</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Network</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../network/network/">Error</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >System</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../system/lsp/">LSP</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../system/protocol/">why we need understand Concepts</a>
+                </li>
+    </ul>
+                  </li>
+                  <li class="toctree-l1"><a class="reference internal" >Tools</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/auto-action/">pre-commit执行工作流</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/fish/">pydantic在fish中会自动从fish shell中提取变量，而不是指定的.env</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/format/">flake8</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/github-action/">Error</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/make/">使用make的理由</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/nextjs/">tailwind</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/nvim/">nvim 是一个事件驱动框架</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/pipenv/">Pipenv</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/plot/">Legend</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/poetry/">Add from wle need to relative or absolute path</a>
+                </li>
+                <li class="toctree-l2"><a class="reference internal" href="../../tools/pre-commit/">pre-commit</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
+      </div>
+    </div>
+    </nav>
+
+    <section data-toggle="wy-nav-shift" class="wy-nav-content-wrap">
+      <nav class="wy-nav-top" role="navigation" aria-label="Mobile navigation menu">
+          <i data-toggle="wy-nav-top" class="fa fa-bars"></i>
+          <a href="../../..">To Be a Programmer</a>
+
+      </nav>
+      <div class="wy-nav-content">
+        <div class="rst-content"><div role="navigation" aria-label="breadcrumbs navigation">
+  <ul class="wy-breadcrumbs">
+    <li><a href="../../.." class="icon icon-home" aria-label="Docs"></a></li>
+          <li class="breadcrumb-item">Topics</li>
+          <li class="breadcrumb-item">Language</li>
+      <li class="breadcrumb-item active">language</li>
+    <li class="wy-breadcrumbs-aside">
+    </li>
+  </ul>
+  <hr/>
+</div>
+          <div role="main" class="document" itemscope="itemscope" itemtype="http://schema.org/Article">
+            <div class="section" itemprop="articleBody">
+
+                <h1 id="language">language</h1>
+<h2 id="regular-expression">regular expression</h2>
+<ul>
+<li><a href="https://learnbyexample.github.io/py_regular_expressions/cover.html">learn by example in python</a></li>
+</ul>
+<h2 id="gdb">gdb</h2>
+<ul>
+<li><a href="https://sourceware.org/gdb/documentation/">docs</a></li>
+<li><a href="https://www.youtube.com/watch?v=svG6OPyKsrw">tutorial</a></li>
+<li><a href="https://www.youtube.com/watch?v=Dq8l1_-QgAc&amp;list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&amp;index=4&amp;t=20s">GDB is REALLY easy! Find Bugs in Your Code with Only A Few Commands</a></li>
+<li><a href="https://www.youtube.com/watch?v=ny6y0pPO--4&amp;list=PLdxjLB_HLwEGrql_rhBdSuM7w0j91P8UZ&amp;index=2">NeuralNine: Debugging C Programs with GDB</a></li>
+</ul>
+<h2 id="interface">Interface</h2>
+<ul>
+<li><a href="https://realpython.com/python-interface/">Implementing an Interface in Python</a></li>
+<li><a href="https://www.scaler.com/topics/interface-in-python/">Interface in Python</a></li>
+</ul>
+<h2 id="encode">Encode</h2>
+<ul>
+<li><a href="https://www.tutorialspoint.com/computer_logical_organization/index.htm">Computer Logical Organization Tutorial</a></li>
+<li><a href="https://courses.cs.washington.edu/courses/cse351/">CSE351: The Hardware/Software Interface</a> <a href="https://www.youtube.com/playlist?list=PLgN0TiMCTagbJ--s9ZmD9UwNHv8ij2Pdy">youtube</a></li>
+</ul>
+<h2 id="c">C</h2>
+<ul>
+<li><a href="https://www.bilibili.com/video/BV1Jw411E7sF/?spm_id_from=333.999.0.0&amp;vd_source=b9d717895f96b446904b871f41330bb5">krenx: Linux环境编程</a></li>
+<li><a href="https://www.bilibili.com/video/BV1CK411o743/?vd_source=b9d717895f96b446904b871f41330bb5">krenx: C语言0基础</a></li>
+<li><a href="https://www.runoob.com/cprogramming/c-tutorial.html">runoob: 编译器解决环境配置需求</a></li>
+</ul>
+<h2 id="python">Python</h2>
+<h3 id="doc">doc</h3>
+<ul>
+<li><a href="https://realpython.com/documenting-python-code/#docstrings-background">Documenting Python Code: A Complete Guide</a></li>
+<li><a href="https://www.writethedocs.org/guide/writing/beginners-guide-to-docs/">A beginner’s guide to writing documentation</a></li>
+<li><a href="https://www.writethedocs.org/guide/">Write the docs</a></li>
+<li><a href="https://docs.python-guide.org/writing/documentation/">The Hitchhiker's Guide to Python: Documentation</a></li>
+<li><a href="https://docutils.sourceforge.io/rst.html">reStructuredText</a></li>
+</ul>
+<h3 id="sphinx">sphinx</h3>
+<ul>
+<li><a href="https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d">Documenting Python code with Sphinx</a></li>
+<li><a href="https://www.sphinx-doc.org/en/master/tutorial/index.html">Doc: Tutorial</a></li>
+<li><a href="https://medium.com/@richdayandnight/a-simple-tutorial-on-how-to-document-your-python-project-using-sphinx-and-rinohtype-177c22a15b5b">A Simple Tutorial on How to document your Python Project using Sphinx and Rinohtype</a></li>
+<li><a href="https://towardsdatascience.com/documenting-python-code-with-sphinx-554e1d6c4f6d">Documenting Python code with Sphinx</a></li>
+<li><a href="https://techwritingmatters.com/documenting-with-sphinx-tutorial-intro-overview">Documenting with Sphinx Tutorial: Intro &amp; Overview</a></li>
+<li><a href="https://www.formosa1544.com/2019/09/19/use-sphinx-for-python-documentation/">Using Sphinx for Python Documentation</a></li>
+</ul>
+<h3 id="pytest">pytest</h3>
+<ul>
+<li>How To Write Unit Tests For Existing Python Code, <a href="https://www.youtube.com/watch?v=ULxMQ57engo">Part 1</a> <a href="https://www.youtube.com/watch?v=NI5IGAim8XU">Part 2</a></li>
+<li><a href="https://www.youtube.com/watch?v=UL0opWf3DeM">Unit Testing in Python</a></li>
+</ul>
+<h3 id="pythonic">Pythonic</h3>
+<ul>
+<li><a href="https://realpython.com/learning-paths/writing-pythonic-code/">RealPython: Write More Pythonic Code</a></li>
+<li><a href="https://docs.python-guide.org/writing/style/">The Hitchhiker's Guide to Python: Code Style</a></li>
+</ul>
+<h2 id="rust">Rust</h2>
+<ul>
+<li><a href="https://github.com/rust10x">Rust10x</a></li>
+<li><a href="https://github.com/Nugine/bfjit">Brainfuck JIT 虚拟机教程</a></li>
+<li><a href="https://wubingzheng.github.io/build-lua-in-rust/zh/">用rust实现Lua解释器</a></li>
+<li><a href="https://huangjj27.gitlab.io/web-testing-with-rust.html">web-testing-with-rust</a></li>
+<li><a href="https://github.com/rust-unofficial/awesome-rust?tab=readme-ov-file">awesome-rust</a></li>
+<li><a href="https://google.github.io/comprehensive-rust/">Comprehensive Rust</a></li>
+<li><a href="https://github.com/sger/RustBooks">Awesome Rust Books</a></li>
+<li>CodeLLDB + VSCode</li>
+</ul>
+<h2 id="vim">vim</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=RZ4p-saaQkc">neuralnine: vim tutorial for beginners</a></li>
+</ul>
+<h2 id="bash">bash</h2>
+<ul>
+<li><a href="https://www.youtube.com/watch?v=2733cRPudvI&amp;list=PLT98CRl2KxKGj-VKtApD8-zCqSaN2mD4w">LearnLinuxTv, Bash Scripting on Linux</a></li>
+</ul>
+<h2 id="make">make</h2>
+<ul>
+<li><a href="https://makefiletutorial.com/">learn makefiles with the tastiest examples</a></li>
+<li><a href="https://www.math.colostate.edu/~yzhou/computer/writemakefile.html">tutorial on writing makefiles</a></li>
+<li><a href="https://www.gnu.org/software/make/manual/make.html">make manual</a></li>
+<li><a href="https://www.ruanyifeng.com/blog/2015/02/make.html">Make命令教程</a></li>
+<li><a href="https://gist.github.com/isaacs/62a2d1825d04437c6f08">isaacs/makefile basics</a></li>
+<li><a href="https://makefiletutorial.com">ChaseLambert/makefiletutorial</a></li>
+<li><a href="https://github.com/adelarsq/awesome-make">adelarsq</a></li>
+</ul>
+<h2 id="lean"><a href="https://lean-lang.org/about/">lean</a></h2>
+<ul>
+<li><a href="https://lean-lang.org/documentation/">docs</a></li>
+<li><a href="https://github.com/Lehttps://lean-lang.org/documentation/an-zh">Lean 中文文档翻译</a></li>
+</ul>
+<h2 id="ocaml"><a href="https://github.com/ocaml/ocaml?tab=readme-ov-file">OCaml</a></h2>
+<ul>
+<li><a href="https://ocaml.org/docs/installing-ocaml">First Step</a></li>
+<li><a href="https://ocaml.org/manual/5.3/index.html">OCaml manual</a></li>
+<li><a href="https://usr.lmf.cnrs.fr/lpo/">Learn Programming with OCaml</a></li>
+</ul>
+
+            </div>
+          </div><footer>
+    <div class="rst-footer-buttons" role="navigation" aria-label="Footer Navigation">
+        <a href="../java/" class="btn btn-neutral float-left" title="Java的设计哲学是显式声明"><span class="icon icon-circle-arrow-left"></span> Previous</a>
+        <a href="../lua/" class="btn btn-neutral float-right" title="Lua">Next <span class="icon icon-circle-arrow-right"></span></a>
+    </div>
+
+  <hr/>
+
+  <div role="contentinfo">
+    <!-- Copyright etc -->
+  </div>
+
+  Built with <a href="https://www.mkdocs.org/">MkDocs</a> using a <a href="https://github.com/readthedocs/sphinx_rtd_theme">theme</a> provided by <a href="https://readthedocs.org">Read the Docs</a>.
+</footer>
+
+        </div>
+      </div>
+
+    </section>
+
+  </div>
+
+  <div class="rst-versions" role="note" aria-label="Versions">
+  <span class="rst-current-version" data-toggle="rst-current-version">
+
+
+      <span><a href="../java/" style="color: #fcfcfc">&laquo; Previous</a></span>
+
+
+      <span><a href="../lua/" style="color: #fcfcfc">Next &raquo;</a></span>
+
+  </span>
+</div>
+    <script src="../../../js/jquery-3.6.0.min.js"></script>
+    <script>var base_url = "../../..";</script>
+    <script src="../../../js/theme_extra.js"></script>
+    <script src="../../../js/theme.js"></script>
+      <script src="../../../search/main.js"></script>
+    <script>
+        jQuery(function () {
+            SphinxRtdTheme.Navigation.enable(true);
+        });
+    </script>
+
+</body>
+</html>
