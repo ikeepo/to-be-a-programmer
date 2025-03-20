@@ -1,3 +1,6 @@
+# Comcepts
+##### shuffle
+Weather the data is randomly shuffled before being split into training and test sets.
 # [Skewness and Kurtosis](https://www.simplilearn.com/tutorials/statistics-tutorial/skewness-and-kurtosis)
 Under the influence of significant causes, the normal distribution can get distorted.
 The distortion can be calculated using skewness and kurtosis.
@@ -58,3 +61,4 @@ So, Receiver Operating Characteristic literally means the characteristic perform
 ROC Curve is a plot of TPR vs FPR as you adjust the decision threshold.
 Threshold means predict 1 only if prob > threshold;
 It's like a tuning knob for model;
+# Seasonal Decompose

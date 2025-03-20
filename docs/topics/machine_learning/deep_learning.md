@@ -36,6 +36,36 @@ Convolutional neural network;
 Comes from the mathematical operation called convolution.
 Convolution is a way to "slide" a small window (called a FILTER or KERNEL) over a larger input (like an image) to detect patterns, blending the filter's values with the input's values at each step.
 In mathematics and signal processing (19th century), where convolution combines two functions to show how one modifies the other.
+## CNN Concepts
+- filters or kernels
+each filter learns a different feature from the input.
+Filters(sometimes called kernels) are small windows or templates that slide over the input data to detect specific patterns or features.
+The are the core mechanism that makes CNNs powerful for anything with spatial/temporal structure.
+1. spartial
+Refers to anything related to space - position, arrangement, or relationships in a 2D or 3D physical layout.  Where proximity matters.
+2. temporal
+Refers to anything related to time - sequence, order, or progression over a timeline.    Where the order of events carries information.
+Other data types: tabular, random, categorical;
+Kernel is the small matrix of weights that gets applied to a patch of the input data via a mathematical operation called convolution.
+In practice, people say filter to mean the kernel plus its role in the layer.
+Each filter learns a different feature from the data.
+
+- kernel size(window length)
+The filter slides over 3 time steps at a time to detect local patterns
+In 1D, the kernel size is a number, like 2 means the length of the window along the sequence.
+In 2D, it's a pair like (3,3), for height and width of the window.
+
+The kernel size defines the structure of the filter, while the kernel weights define the content - what the filter is looking for: Size determines number of weights.
+- activation
+- ReLU Rectified Linear Unit
+A nonlinear activation function defined as `f(x) = max(0,x)`
+If input > 0 , output the input unchanged, if the input < 0, outputs 0;
+1. add nonlinearity: convolution and dense layers are linear,
+2. sparsity, turn negative inputs into 0, reduces computation and helps prevent overfitting by making the network focus on strong signals.
+3. Efficiency, avoid vanishing gradients (unlike sigmoid/tanh)
+ReLU is not arbitrary, it's chosen for practical, mathematical reason and bettle-tested.
+It's worked from the practice.
+
 # RNN Recurrent neural networks
 Output of one step is fed back as input to the next step, allowing it to maintain a "memory" of previous inputs.
 Recurrent means "to run back" or "to return";
@@ -43,3 +73,10 @@ Recurrent means "to run back" or "to return";
 Gradient vanishing happens when the gradients become extremely small as they propagate backward through layers or time steps.
 # Gradient exploding
 Gradients become extremely large.
+# Fully Connected Layer
+A layer where every input neuron is connected to every output neuron via a unique weight.
+The unique weight is not the same weight.
+# Dropout
+Dropout is a regularization technique to prevent overfitting.
+# Optimize
+## Adam optimization algorithm

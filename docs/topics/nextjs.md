@@ -41,14 +41,14 @@ clsx是对变量值进行相应；
 
 # pnpm vs npm
 
-npm保存副本，而pnpm在全局维护一份代码，各个项目上使用硬链接或符号链接；  
-符号链接就是软连接；  
-直接的依赖关系使用硬链接，node_modules里依赖关系使用软连接；  
+npm保存副本，而pnpm在全局维护一份代码，各个项目上使用硬链接或符号链接；
+符号链接就是软连接；
+直接的依赖关系使用硬链接，node_modules里依赖关系使用软连接；
 npm 是下载完整的依赖关系在每个独立的项目中；
 
 ## pnpm run dev VS. pnpm dev
 
-pnpm run 会在package.json中查找scripts字段下的脚本命令；  
+pnpm run 会在package.json中查找scripts字段下的脚本命令；
 pnpm dev是一种更简介的操作方式，我猜想跟那个日本程序员的习惯类似；
 
 # ``<body className={`${inter.className} antialiased`}>{children}</body> 详解语法``
@@ -59,20 +59,20 @@ pnpm dev是一种更简介的操作方式，我猜想跟那个日本程序员的
 
 # md:block
 
-utility class, block用于将元素的display设置为block，独占一行；  
+utility class, block用于将元素的display设置为block，独占一行；
 md: 是一个响应式前缀，表示在中等屏幕尺寸768px以上是应用相应的样式；
 
 # page.tsx is a special Next.js file that exports a React component.
 
-It's required for the **route** to be accessible;  
+It's required for the **route** to be accessible;
 创建一个page就可以理解为创建一个路由；
 
 # layout.tsx的好处
 
 # [split code by route](https://nextjs.org/learn/dashboard-app/navigating-between-pages#automatic-code-splitting-and-prefetching)
 
-which means that pages become isolated. If a certain page throws an error, the rest of the applciation still work.  
-依据route划分也就是依据跳转划分，这样每次跳转只需要改变被route划分好的那部分代码；  
+which means that pages become isolated. If a certain page throws an error, the rest of the applciation still work.
+依据route划分也就是依据跳转划分，这样每次跳转只需要改变被route划分好的那部分代码；
 And whenever <Link> components appear in the browser's viewport, Next.js automatically prefetches the code for the linked page in the background.
 
 1. Browser's Viewport 是什么
@@ -97,7 +97,7 @@ JS的语法；
 
 # Faster Websites - Prerendered content can be cached and globally distributed. This ensures that users around the world can access your website's content more quickly and reliably.
 
-这个cached指的是缓存在哪里？  
+这个cached指的是缓存在哪里？
 内容分发网络（CDN）的缓存节点上，网站拥有者为这些CDN付费，首次缓存可以是网站拥有者配置的主动缓存，也可以是用户使用后的被动缓存；缓存的核心是将一些静态资源提前放置在离用户较近的服务器上；
 
 # static rendering vs dynamic rendering
@@ -108,7 +108,7 @@ break down a route into smaller "chunks" and progressively stream them from serv
 each component can be considered as a chunk;
 
 > 每个组件都可以被认为是一个chunk；？反过来一样？
-> 是的，每个租金啊斗殴可以被认为是一个chunk；每个chunk也可以被认为是一个组件；  
+> 是的，每个租金啊斗殴可以被认为是一个chunk；每个chunk也可以被认为是一个组件；
 > chunk的划分一般是按照逻辑，而非容量；
 
 | page level  | component  |
@@ -125,12 +125,12 @@ each component can be considered as a chunk;
 
 # [Route Handlers](https://nextjs.org/docs/app/building-your-application/routing/route-handlers#dynamic-functions)
 
-app内使用，可以嵌套文件夹使用；  
+app内使用，可以嵌套文件夹使用；
 但是route.js文件不可以跟page.js文件混用；
 
 ## dynamic function
 
-if you call a dynamic function in a route , the entire route becomes dynamic;  
+if you call a dynamic function in a route , the entire route becomes dynamic;
 运行时获取数据或引入动态行为的函数；
 
 # PPR- Partial Prerendering
@@ -139,7 +139,7 @@ you don't need to change your code to use it.
 
 # 路由是client side or server side?
 
-两者皆可，客服端路由通过js实现，无需全部重载整个页面的HTML，只是部分位置渲染；  
+两者皆可，客服端路由通过js实现，无需全部重载整个页面的HTML，只是部分位置渲染；
 服务端路由通过后端实现，页面内容全部重构；
 
 ## client-side navigation
@@ -151,7 +151,7 @@ routing 是个更广泛的概念，navigation是指具体的跳转动作；
 
 ## hooks只能用于client side么？
 
-不一定，也可以用于服务器端渲染（SSR）；  
+不一定，也可以用于服务器端渲染（SSR）；
 Hooks是在组件渲染时运行，useEffect只能用于client side；
 
 ## [debouncing](https://nextjs.org/learn/dashboard-app/adding-search-and-pagination#best-practice-debouncing)
@@ -165,39 +165,39 @@ Debouncing is a programming practice that limits the rate at which a function ca
 # Server Actions
 
 > 就是get请求后面那个函数么？--不是
-> Server Actions 是指在Server Components中运行的函数，在服务器端运行，但是可以在客户端调用；  
-> 这里的要点是指在客服端调用，但是并不重新加载页面；  
-> get那个叫传统的HTTP请求；  
+> Server Actions 是指在Server Components中运行的函数，在服务器端运行，但是可以在客户端调用；
+> 这里的要点是指在客服端调用，但是并不重新加载页面；
+> get那个叫传统的HTTP请求；
 > Server Action无需服务端返回响应；
 
 ## Server COmpoents指的是什么？
 
 1. async function create() {'use server'} 这算什么？是个函数不是组件？
-   这是一个Server Actions；  
+   这是一个Server Actions；
    并不强制是异步的，单一般是异步的；
 2. An advantage of invoking a Server Action within a Server Component is progressive enhancement - forms work even if JavaScript is disabled on the client.
-   JS disabled是什么意思？ 浏览器的JS被禁用，一些用户操作无法执行；  
+   JS disabled是什么意思？ 浏览器的JS被禁用，一些用户操作无法执行；
    但是Server Action是在服务器端执行的，所以不受JS影响；
 
 3. Nextjs的教程本质是介绍Nextjs内置的组件？以及为什么设置这些组件的逻辑？
 
-4. Server Actions are also deeply integrated with Next.js caching. When a form is submitted through a Server Action, not only can you use the action to mutate data, but you can also revalidate the associated cache using APIs like revalidatePath and revalidateTag.  
+4. Server Actions are also deeply integrated with Next.js caching. When a form is submitted through a Server Action, not only can you use the action to mutate data, but you can also revalidate the associated cache using APIs like revalidatePath and revalidateTag.
     Server Action是发生在Server, 而Cache是缓存在client 本地，那怎么校验缓存？需要经过几次前后端的通信？是通过虚拟树来对比还是什么其他的方式？
-   这里的缓存一般是指服务器端的缓存，不是客户端的缓存；  
+   这里的缓存一般是指服务器端的缓存，不是客户端的缓存；
    revalidatePath一般是指确保缓存数据更新，而不是比较；
-5. To start, inside the /invoices folder, add a new route segment called /create with a page.tsx file:  
-    为什么叫route segment? 是指路由的一部分么？  
+5. To start, inside the /invoices folder, add a new route segment called /create with a page.tsx file:
+    为什么叫route segment? 是指路由的一部分么？
    Nextjs中使用文件系统路由，segment就是一个路径段；
 
 A dynamic [Route Segment](https://nextjs.org/docs/app/building-your-application/routing/dynamic-routes) can be created by wrapping a folder name in square brackets.
 
 6. 如何判定是一个Server Component还是一个Server Action？
-   a. by adding the 'use server' you mark all the exported functions within the file as Server Actions.  
+   a. by adding the 'use server' you mark all the exported functions within the file as Server Actions.
     b. you can also write Server Actions directly inside Server Components by addin g'use server' inside the action
-   use server是用来标记函数的，不是组件；  
-   server component是指在服务器端运行、渲染成HTML，然后返回给客户端；  
-   前端组件一般是通过JS运行，响应客户反馈，通过use client标记；  
-   use client针对组件，use server针对函数；  
+   use server是用来标记函数的，不是组件；
+   server component是指在服务器端运行、渲染成HTML，然后返回给客户端；
+   前端组件一般是通过JS运行，响应客户反馈，通过use client标记；
+   use client针对组件，use server针对函数；
    分为前后端组件，主要是为了打包时候区分；
 
 7. Pages are [Sever Components](https://nextjs.org/docs/app/api-reference/file-conventions/page) by default;

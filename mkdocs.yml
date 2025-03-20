@@ -2,3 +2,9 @@ site_name: To Be a Programmer
 nav:
   - Home: index.md
   - About: about.md
+  - Topics: topics/
+  - JobOrientedJob: job_oriented_job/
+theme: readthedocs
+plugins:
+  - search
+  - awesome-nav
