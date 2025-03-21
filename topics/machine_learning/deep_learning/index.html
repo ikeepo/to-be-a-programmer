@@ -110,17 +110,41 @@
     <ul>
                 <li class="toctree-l3"><a class="reference internal" href="../models/GMM/">GMM(Gaussian Mixture Model)</a>
                 </li>
+                <li class="toctree-l3"><a class="reference internal" href="../models/LSTM/">LSTM</a>
+                </li>
+                <li class="toctree-l3"><a class="reference internal" >Activation function</a>
+    <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../models/activation_function/ReLU/">ReLU(Rectified Linear Unit)</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/activation_function/Tanh/">Tanh(Hyperbolic Tangent)</a>
+                </li>
+    </ul>
+                </li>
                 <li class="toctree-l3"><a class="reference internal" >Loss function</a>
     <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../models/loss_function/general/">Loss Function()</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/loss_function/MAE/">MAE</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/loss_function/MAPE/">MAPE</a>
+                </li>
                 <li class="toctree-l4"><a class="reference internal" href="../models/loss_function/MSE/">MSE(Mean Square Error)</a>
                 </li>
     </ul>
                 </li>
                 <li class="toctree-l3"><a class="reference internal" >Optimizer</a>
     <ul>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/AdaGrad/">AdaGrad</a>
+                </li>
                 <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/Adam/">Adam(Adaptive Moment Estimation)</a>
                 </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/general/">Optimizer</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/Momentum/">Momentum</a>
+                </li>
                 <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/RMSProp/">RMSProp(Root Mean Square Propagation)</a>
+                </li>
+                <li class="toctree-l4"><a class="reference internal" href="../models/optimizer/SGD/">SGD(Stochastic Gradient Descent)</a>
                 </li>
     </ul>
                 </li>
@@ -267,15 +291,7 @@ In 2D, it's a pair like (3,3), for height and width of the window.</p>
 </li>
 </ul>
 <p>The kernel size defines the structure of the filter, while the kernel weights define the content - what the filter is looking for: Size determines number of weights.
-- activation
-- ReLU Rectified Linear Unit
-A nonlinear activation function defined as <code>f(x) = max(0,x)</code>
-If input &gt; 0 , output the input unchanged, if the input &lt; 0, outputs 0;
-1. add nonlinearity: convolution and dense layers are linear,
-2. sparsity, turn negative inputs into 0, reduces computation and helps prevent overfitting by making the network focus on strong signals.
-3. Efficiency, avoid vanishing gradients (unlike sigmoid/tanh)
-ReLU is not arbitrary, it's chosen for practical, mathematical reason and bettle-tested.
-It's worked from the practice.</p>
+- activation</p>
 <h1 id="rnn-recurrent-neural-networks">RNN Recurrent neural networks</h1>
 <p>Output of one step is fed back as input to the next step, allowing it to maintain a "memory" of previous inputs.
 Recurrent means "to run back" or "to return";</p>
@@ -285,7 +301,8 @@ Recurrent means "to run back" or "to return";</p>
 <p>Gradients become extremely large.</p>
 <h1 id="fully-connected-layer">Fully Connected Layer</h1>
 <p>A layer where every input neuron is connected to every output neuron via a unique weight.
-The unique weight is not the same weight.</p>
+The unique weight is not the same weight.
+The definition of a fully connected layer is indeed that "all inout data - regardless of its source or structure - is simultaneously connected to every neuron in that layer"</p>
 <h1 id="dropout">Dropout</h1>
 <p>Dropout is a regularization technique to prevent overfitting.</p>
 <h1 id="optimize">Optimize</h1>
