@@ -57,14 +57,6 @@ In 2D, it's a pair like (3,3), for height and width of the window.
 
 The kernel size defines the structure of the filter, while the kernel weights define the content - what the filter is looking for: Size determines number of weights.
 - activation
-- ReLU Rectified Linear Unit
-A nonlinear activation function defined as `f(x) = max(0,x)`
-If input > 0 , output the input unchanged, if the input < 0, outputs 0;
-1. add nonlinearity: convolution and dense layers are linear,
-2. sparsity, turn negative inputs into 0, reduces computation and helps prevent overfitting by making the network focus on strong signals.
-3. Efficiency, avoid vanishing gradients (unlike sigmoid/tanh)
-ReLU is not arbitrary, it's chosen for practical, mathematical reason and bettle-tested.
-It's worked from the practice.
 
 # RNN Recurrent neural networks
 Output of one step is fed back as input to the next step, allowing it to maintain a "memory" of previous inputs.
@@ -76,6 +68,7 @@ Gradients become extremely large.
 # Fully Connected Layer
 A layer where every input neuron is connected to every output neuron via a unique weight.
 The unique weight is not the same weight.
+The definition of a fully connected layer is indeed that "all inout data - regardless of its source or structure - is simultaneously connected to every neuron in that layer"
 # Dropout
 Dropout is a regularization technique to prevent overfitting.
 # Optimize

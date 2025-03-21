@@ -69,3 +69,5 @@ Bias is the error due to overly simple assumptions in the model.
 It is the error due to sensitivity to small changes in the training data.
 Variance means how much sth changes or varies.
 In ML, it's about how much a model's predictions wiggle when you give it slightly different training data.
+### Propagation
+Propagation in neural networks often refers to how information (inputs, gradients) moves through the network - forward propagation (predictions) or backward propagation (gradients for learning).
