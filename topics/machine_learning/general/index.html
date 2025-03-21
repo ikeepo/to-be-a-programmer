@@ -66,7 +66,7 @@
                 </li>
                 <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/how_to_define_a_question/">The most important ability in AI age</a>
                 </li>
-                <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/prompts/">How to Accept auto completion</a>
+                <li class="toctree-l2"><a class="reference internal" href="../../how_to_learn/prompts/">AI Prompts</a>
                 </li>
     </ul>
                   </li>
@@ -301,7 +301,15 @@ It's term mathematicians have long used for numbers that describe a specific per
 Variance means how much sth changes or varies.
 In ML, it's about how much a model's predictions wiggle when you give it slightly different training data.</p>
 <h3 id="propagation">Propagation</h3>
-<p>Propagation in neural networks often refers to how information (inputs, gradients) moves through the network - forward propagation (predictions) or backward propagation (gradients for learning).   </p>
+<p>Propagation in neural networks often refers to how information (inputs, gradients) moves through the network - forward propagation (predictions) or backward propagation (gradients for learning).</p>
+<h3 id="epoch">Epoch</h3>
+<p>An epoch refers to one complete pass through the entire training dataset during the training of your neural network. <br />
+- why? <br />
+The model sees the data once, which is usually not enough to learn intricate patterns. <br />
+The loss might still be high, and predictions poor. <br />
+- does it extract different information each epoch <br />
+Model don't have this kind of perspective, it processes the same data by different weights. <br />
+And the activation function use non-linear version, it can activate different neuron or patterns, revealing new relationships over time.   </p>
               
             </div>
           </div><footer>
