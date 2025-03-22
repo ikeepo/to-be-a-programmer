@@ -43,6 +43,15 @@
                 <li class="toctree-l1"><a class="reference internal" href="../../../../..">Introduction</a>
                 </li>
               </ul>
+              <p class="caption"><span class="caption-text">FFBMS</span></p>
+              <ul>
+                  <li class="toctree-l1"><a class="reference internal" >Fitness for body</a>
+    <ul>
+                <li class="toctree-l2"><a class="reference internal" href="../../../../../FFBMS/fitness_for_body/burpee/">Burpee</a>
+                </li>
+    </ul>
+                  </li>
+              </ul>
               <p class="caption"><span class="caption-text">Job oriented job</span></p>
               <ul>
                   <li class="toctree-l1"><a class="reference internal" href="../../../../../job_oriented_job/fastapi/">How FastAPI is different from Flask and Django</a>
@@ -246,6 +255,8 @@ Momentum means the gradient average.
 <code>β1 = 0.9</code> <code>β1</code> is the <strong>decay rate</strong>(smoothing factor) in the EMA . default empirical value.
 EMA weights all past steps, decaying exponentially <code>0.1 * (g_t + 0.9*g_{t-1} + 0.81*g_{t-2} + ...</code></li>
 </ul>
+<h2 id="_1">为什么要指定学习率</h2>
+<p>既然是自适应，因为自适应调整的是相对步长，但是绝对步长仍由learning rate决定；</p>
               
             </div>
           </div><footer>
