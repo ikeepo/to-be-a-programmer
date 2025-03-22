@@ -9,3 +9,7 @@ It drives the learning process, bridging the gap between the loss function and t
 1. Compute Gradients
 2. Apply Update Rule
 3. Iterate
+### Optimizer's impact on Prediction Ability
+1. Learning Quality
+2. Generalization
+3. Speed vs Accuracy Trade-Off

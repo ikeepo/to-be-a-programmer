@@ -12,3 +12,5 @@ Momentum boost in Adam refers to Adam's use of a moving average of gradients (ca
 Momentum means the gradient average.
 `β1 = 0.9` `β1` is the **decay rate**(smoothing factor) in the EMA . default empirical value.
 EMA weights all past steps, decaying exponentially `0.1 * (g_t + 0.9*g_{t-1} + 0.81*g_{t-2} + ...`
+## 为什么要指定学习率
+既然是自适应，因为自适应调整的是相对步长，但是绝对步长仍由learning rate决定；

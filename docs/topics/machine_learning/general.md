@@ -71,3 +71,11 @@ Variance means how much sth changes or varies.
 In ML, it's about how much a model's predictions wiggle when you give it slightly different training data.
 ### Propagation
 Propagation in neural networks often refers to how information (inputs, gradients) moves through the network - forward propagation (predictions) or backward propagation (gradients for learning).
+### Epoch
+An epoch refers to one complete pass through the entire training dataset during the training of your neural network.
+- why?
+The model sees the data once, which is usually not enough to learn intricate patterns.
+The loss might still be high, and predictions poor.
+- does it extract different information each epoch
+Model don't have this kind of perspective, it processes the same data by different weights.
+And the activation function use non-linear version, it can activate different neuron or patterns, revealing new relationships over time.
