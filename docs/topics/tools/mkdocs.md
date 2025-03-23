@@ -6,7 +6,7 @@ How to use [Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference
 # Errors
 1. `could not determine a constructor for the tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'
   in "mkdocs.yml", line 14, column 20` happened in pre-commit
-The `!!python/name:` tags are Python=specific and require the `pymdown-extensions`;
+Same problem can be found in pre-commit issues [552](https://github.com/pre-commit/pre-commit-hooks/issues/552)
 ```
-pip install pymdown-extensions
+
 ```
