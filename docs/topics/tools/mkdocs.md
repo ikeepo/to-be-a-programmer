@@ -8,5 +8,6 @@ How to use [Icons, Emojis](https://squidfunk.github.io/mkdocs-material/reference
   in "mkdocs.yml", line 14, column 20` happened in pre-commit
 Same problem can be found in pre-commit issues [552](https://github.com/pre-commit/pre-commit-hooks/issues/552)
 ```
-
+# in the .pre-commit-config.yaml
+args: [--unsafe]
 ```
