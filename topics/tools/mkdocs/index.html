@@ -2267,8 +2267,17 @@
 
 <h1 id="mkdocs"><a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a></h1>
 <h2 id="icons-in-mkdocs">icons in mkdocs</h2>
-<p>This is the domain of <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">material for mkdocs</a>.  <br />
+<p>This is the domain of <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">material for mkdocs</a>.
 How to use <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss">Icons, Emojis</a> can be found here. On the head of the page, there is a <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search"><code>Search</code></a> input which is used to find the exact code for icons/emojis you need like <code>:smile:</code></p>
+<h1 id="errors">Errors</h1>
+<ol>
+<li><code>could not determine a constructor for the tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'
+  in "mkdocs.yml", line 14, column 20</code> happened in pre-commit
+Same problem can be found in pre-commit issues <a href="https://github.com/pre-commit/pre-commit-hooks/issues/552">552</a></li>
+</ol>
+<pre><code># in the .pre-commit-config.yaml
+args: [--unsafe]
+</code></pre>
 
 
 
