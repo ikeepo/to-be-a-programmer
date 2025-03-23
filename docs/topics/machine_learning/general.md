@@ -1,4 +1,4 @@
-# Intro
+# ML for Quant
 Things need to be done not because it's absolutely right or good, just because it have relative value for users.
 And this is enough for sell product to the user.
 
