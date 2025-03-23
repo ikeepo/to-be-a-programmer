@@ -28,3 +28,5 @@ exec "/home/zoe/.pyenv/libexec/pyenv" exec "$program" "$@"
 动态转发不会生成新的文件，而软连接会增加新文件的出现。
 这个不经意间涉及到了Linux跟Windows的差异，Windows是静态管理，会生成很多残留文件，导致久用臃肿。
 这可能是其中一个差异点。
+# 如何使用local repo rather installed site-package version
+关键点在于，python是从包的父目录查找包的存在，也就是说，要通过`sys.path.insert(0, dp_module's_parent_path`
