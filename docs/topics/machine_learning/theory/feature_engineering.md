@@ -16,3 +16,4 @@ For example the dimensionality reduction.
 
 # Refs
 1. [The Best Feature Engineering Tools](https://neptune.ai/blog/feature-engineering-tools)
+2. [Featuretools|Machine Learning & Data Science Open-source Spotlight](https://www.youtube.com/watch?v=Q5U9rEKHIsk)
