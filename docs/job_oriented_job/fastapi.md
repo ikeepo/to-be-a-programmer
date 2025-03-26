@@ -5,6 +5,9 @@ Flask is synchronos by default. Django is more monolithic and traditionally sync
 3. type-hinting and dependency injection system make it more developer-friendly and less error-prone.
 data validation reduce boilerplate code. Flask leaves this to the developer, and Django provides a full ORM and a batteries-included approach, hich ia great for large-scale apps but can feel heavy for API-only projects.
 Flask is simple, and Django is comprehensive but heavier framework.
+# OpenAPI vs FastAPI
+OpenAPI is a specification that defines a standard, language-agnostic way to describe HTTP APIs.
+
 # Difference between WSGI and ASGI
 They are both server-gateway interface in Python, but they serve different purposes.
 WSGI Web Server Gateway Interface, is a synchronous standard for Python web app, introduced in PEP 3333. it's designed to connect frameworks like Flask and Django;
@@ -14,7 +17,7 @@ ASGI Asynchronous Server Gateway Interface, is the successor to WSGI, designed f
 gateway is like a gate between the web server and the application, controlling how requests flow in and out.
 # server vs framework
 A server is the software that listens for incoming requests - like HTTTP requests from traders - and sends back responses. Gunicorn, Uvicorn, Nginx.  When you run a server, it's the thing that stays active, waiting for clients to connect.
-A framework, is a set of tools and libraries that helps you write the appication logic - what happens when a request arrives. It's not a server itself, it's the code that defines routes, processes data, and generates responses.
+A framework, is a set of tools and libraries that helps you write the application logic - what happens when a request arrives. It's not a server itself, it's the code that defines routes, processes data, and generates responses.
 # Uvicorn  vs Nginx
 Uvicorn is a ASGI server, Nginx is a web server;
 An ASGI server is a specialized server designed to run Asynchronous Python app that follow the ASGI specification.
@@ -39,8 +42,10 @@ FastAPI provides a built-in test client through the TestClient class from the st
 It allows you to simulate HTTP requests - like GET or POST - to your FastAPI app in memory, making it fast and convenient for unit or integration tests.
 It's synchronous by default, but it works seamlessly with FastAPI's async endpoints.
 # FastAPI doesn't support Python 2
+# Starlette vs FastAPI
+Starlette is a lightweight ASGI framework designed for building asynchronos web app.
 # middleware
-In FastAPI, it's a layer of code that sits between the incoming request and the application's reoute handlers, allowing you to process requests or responses globally.
+In FastAPI, it's a layer of code that sits between the incoming request and the application's route handlers, allowing you to process requests or responses globally.
 It's built on Starlette's middleware system and can be used for tasks like logging, authentication, or modifying headers.
 It's a flexible mechanism where you define your own logic to process requests and responses globally.
 ###  CORSMiddleware
@@ -60,7 +65,7 @@ It's built into the framework's dependency injection system, where you define a 
 
 dependency injection system is the underlying mechanism FastAPI provides to manage and execute dependencies which are specific functions or logic.
 ### dependency  vs  middleware
-They seem similar because they both handle pre-processing logic, but they seve different purposes and operate at different levels.
+They seem similar because they both handle pre-processing logic, but they server different purposes and operate at different levels.
 dependency are scoped to specific routes or globally via app.dependency().
 middleware default globally,
 I use dependency for precision, middleware for broad tasks.
