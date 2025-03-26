@@ -10,7 +10,14 @@ go version
 Acquire skills from the [example](https://gobyexample.com/);
 
 ## Why `for` has multiple implemented method
-
+Business logic
+## `func (self *Trader) name(){}`
+This is receiver clause, making this a method attached to the Trader type.
+`self` is just a convention which can be changed to anyword used to represents the instance of Trader.
+`*Trader` a pointer to a Trade struct or type.
+### why use pointer here?
+Pointer Receiver,
+### Receiver
 
 # Error
 - `@Win:~$ /usr/local/go/bin/go
