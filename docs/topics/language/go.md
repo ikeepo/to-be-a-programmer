@@ -9,6 +9,9 @@ go version
 ```
 Acquire skills from the [example](https://gobyexample.com/);
 
+## Why `for` has multiple implemented method
+
+
 # Error
 - `@Win:~$ /usr/local/go/bin/go
 -bash: /usr/local/go/bin/go: cannot execute binary file: Exec format error`
