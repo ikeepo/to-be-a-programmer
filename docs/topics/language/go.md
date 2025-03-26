@@ -16,3 +16,4 @@ Acquire skills from the [example](https://gobyexample.com/);
 - `@Win:~$ /usr/local/go/bin/go
 -bash: /usr/local/go/bin/go: cannot execute binary file: Exec format error`
 Wrong Architecture;
+# goex
