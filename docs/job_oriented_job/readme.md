@@ -1,3 +1,5 @@
 > Knowledge will eat us, only skill can save us
-# Job Oriented Job
-If something is called a job, it's not a carrer or interest, then it should be worked for the next good job. Otherwise call its right name.
+# Job Oriented Job: Know the World
+## Why we need a Job: REALITY
+Job is the window for us to know the world, the reality of the world.
+## Methods to Know the World

@@ -1,5 +1,5 @@
 # Introduction
-As a self-taught programmer. This is the knowledge I think I should know to be a programmer.
+Knowledge that I think I should know to be a better programmer.
 
 # RULES
 1. Fuck Away Learning, Let's Training
