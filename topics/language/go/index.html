@@ -401,6 +401,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../job_oriented_job/how_to_use_ai_know_reality/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    How to Use AI to help us Know Reality
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../job_oriented_job/readme/" class="md-nav__link">
         
   
@@ -757,6 +779,18 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Go
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         
   
@@ -767,6 +801,85 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-for-has-multiple-implemented-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why for has multiple implemented method
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#func-self-trader-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      func (self *Trader) name(){}
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="func (self *Trader) name(){}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-use-pointer-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      why use pointer here?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#receiver" class="md-nav__link">
+    <span class="md-ellipsis">
+      Receiver
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflected" class="md-nav__link">
+    <span class="md-ellipsis">
+      reflected
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-vs-pointer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference vs Pointer
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -2502,6 +2615,74 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#why-for-has-multiple-implemented-method" class="md-nav__link">
+    <span class="md-ellipsis">
+      Why for has multiple implemented method
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#func-self-trader-name" class="md-nav__link">
+    <span class="md-ellipsis">
+      func (self *Trader) name(){}
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="func (self *Trader) name(){}">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#why-use-pointer-here" class="md-nav__link">
+    <span class="md-ellipsis">
+      why use pointer here?
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#receiver" class="md-nav__link">
+    <span class="md-ellipsis">
+      Receiver
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reflected" class="md-nav__link">
+    <span class="md-ellipsis">
+      reflected
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#reference-vs-pointer" class="md-nav__link">
+    <span class="md-ellipsis">
+      Reference vs Pointer
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -2525,12 +2706,76 @@ source .profile
 go version
 </code></pre>
 <p>Acquire skills from the <a href="https://gobyexample.com/">example</a>;</p>
+<h2 id="why-for-has-multiple-implemented-method">Why <code>for</code> has multiple implemented method</h2>
+<p>Business logic</p>
+<h2 id="func-self-trader-name"><code>func (self *Trader) name(){}</code></h2>
+<p>This is receiver clause, making this a method attached to the Trader type.
+<code>self</code> is just a convention which can be changed to anyword used to represents the instance of Trader.
+<code>*Trader</code> a pointer to a Trade struct or type.</p>
+<h3 id="why-use-pointer-here">why use pointer here?</h3>
+<p>Pointer Receiver,</p>
+<h3 id="receiver">Receiver</h3>
+<p>In go, a receiver is a special parameter in a method declaration that ties the method to a a specific type.
+It's what makes a function a "method" rather than a standalone function.</p>
+<ul>
+<li>
+<p>Pointer Receiver
+the caller's Trader isn't copied, only a pointer is passed.
+Modifications are reflected in the caller’s Trader.</p>
+</li>
+<li>
+<p>Value Receiver
+The method works with a duplicate of the originial Trader, so modifications to self inside the method don't affect the caller's instance.</p>
+</li>
+</ul>
+<h2 id="reflected">reflected</h2>
+<p>In programming, when we say modifications are "reflected" in the caller's object, it means that any changes made to the object inside a function or method persist ouside that function.
+The caller sees those changes.
+This happens because the method is working directly with the originial object via a reference or pointer rather than a copy.</p>
+<h2 id="reference-vs-pointer">Reference vs Pointer</h2>
+<p>A pointer is an explicit variable that holds the memory address of another variable. It's a low-level concept borrewed from language like C.
+A reference is a higher-level abstraction in many language. It's an alias or handle to an existing variable, often managed by the language to hide raw memory addresses from the programmer.
+Go doesn't have "reference" as a distinct language feature.</p>
+<h1 id="build-in">Build In</h1>
+<h2 id="make-vs-new">make vs new</h2>
+<p>make is specifically designed to create and initialize certain built-in types that can't be fully set up with just a literal or declaration.
+<code>new</code> creates a zeroed instance of a type and gives you a pointer to it.
+<code>make</code> creates a fully initialzed, usable instance of slices, maps or channels - types that need more than just zeroing.
+<code>make</code> returns the instance which require initialization beyond zeroing.
+<code>new</code> returns a pointer leaving initialization to you.</p>
+<h5 id="zeroes-the-memory-vs-initialize">zeroes the memory vs initialize</h5>
+<p>Zeroes the Memory sets all the bytes of a memory block to zero, it's a basic, minimal setup - nothing more than clearing the slate.
+Initialize prepares a data structure for use by setting it up with specific values or internal state beyond just zeroing.
+Some types(slices, maps, channels) are unusable as just zero values - they need structure to function.</p>
+<h2 id="chan">chan</h2>
+<p>chan is a keyword in Go that defines a channel type.
+Channels are a core feature of Go's concurrency model, used for communication and synchronization between goroutines.</p>
+<h2 id="goroutine">goroutine</h2>
+<p><code>go func()</code></p>
+<h5 id="goroutine-vs-coroutine-in-python">goroutine vs coroutine in Python</h5>
+<p>goroutine is lightweight threads managed by the Go runtime, not the OS. It's fully concurrent - gotoutines run independently and can execute in parallel on multiple CPU cores.
+goroutines are typically communicate with each other by cahnnels, enabling safe data exchange without locks.
+Coroutines are single-threaded and cooperative - coroutines run in one thread and yield control explicitly at <code>await</code>. No true parallelism unless combined with threads or processes.</p>
+<h2 id="channels">channels</h2>
+<p>Its purpose is enabling goroutines to share data safely without locks, embodying Go's "don't communicate by shareing memory; share memory by communicating" philosophy.
+channel as a Mediator:
+- Above Memeory: channels sit "above" raw memory, instead of goroutines accessing a shared variable directly, they interact via the channel. The channel manages the meory and ensures safe access.
+- Data Flow: send and receive.  What's more important is that the channel powers the layer concept, pass the data one layer to another.</p>
+<h5 id="multichanel">multichanel</h5>
+<p><code>single channel = list + lock + cond_var</code>
+<code>multiple channels</code> follow some business logic to make data flow.
+对于数据处理场景，当数据需要在多个业务逻辑链条内进行逐层使用时候，因为通过函数调用方式一次只能走一条逻辑链，这就导致逻辑链条的复杂、混乱而难以管理。用channel管理逻辑链条更加清晰明确，特别是多条、多层次的业务逻辑。
+换个角度说，业务逻辑（层级+传导）的构建通过channel的逐层传递实现，不应该通过函数返回值的调用、传参实现。
+通过channel，数据的传递（业务逻辑的展开）是隐性的，不需要函数有返回值，函数只实现具体的业务逻辑。
+函数对数据的需求通过channel获取，也不需要显式传入。
+channel类似深埋地底的电缆，传递各种数据，表面干净整齐，只需要有几个地表监视节点；传参类似地面的电线，杂乱。</p>
 <h1 id="error">Error</h1>
 <ul>
 <li><code>@Win:~$ /usr/local/go/bin/go
 -bash: /usr/local/go/bin/go: cannot execute binary file: Exec format error</code>
 Wrong Architecture;</li>
 </ul>
+<h1 id="_1"></h1>
 
 
 
