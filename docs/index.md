@@ -1,5 +1,5 @@
 # Introduction
-Knowledge that I think I should know to be a better programmer.
+Knowledge that I think I should know to be a better programmer named [ikeepo](https://ikeepo.github.io/).
 
 # RULES
 1. Fuck Away Learning, Let's Training
