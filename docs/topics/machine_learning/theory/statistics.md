@@ -62,3 +62,22 @@ ROC Curve is a plot of TPR vs FPR as you adjust the decision threshold.
 Threshold means predict 1 only if prob > threshold;
 It's like a tuning knob for model;
 # Seasonal Decompose
+
+# [Dickey-Fuller test](https://en.wikipedia.org/wiki/Dickey%E2%80%93Fuller_test)
+Developed in 1979.
+DF test tests the nul hypothesis that a unit root is present in an autogregressive (AR) time series model.
+## [null hypothesis ](https://en.wikipedia.org/wiki/Null_hypothesis)
+Ho, is the claim in scientific research that the effect being studied doesn not exist.
+The H0 can also be described as the hypothesis in which no relationship exists between two sets of data or variables being analyzed.
+The null hypothesis and alternative hypothesis are types of conjectures used in statistical tests to make statistical inferences, whcih are formal methods of reaching conclusions and separating scientific claims from statistical noise.
+## [alternative hypothesis](https://en.wikipedia.org/wiki/Alternative_hypothesis)
+There is sufficient evidence supporting the credibility of alternative hypothesis.
+## [Conjecture](https://en.wikipedia.org/wiki/Conjecture)
+A conjecture is a conclusion or a proposition that is proffered on a tentative basis without proof.
+
+# ADF(Augmented Dickey Fuller)
+ADF is a statistical test used to determine whether a time series is stationary or has a unit root.
+Stationary is a key assumption in many time series models, meaning that the statistical peoperties of the series (like mean and variacnce) do not change over time.
+THe presence of a unit root suggests that the series is non-stationary, often indicating a trend or random walk behavior.
+
+A unit root refers to a characteristic of a time series where its statistical properties, like mean and variance, are not constant over time, making it non-stationary.
