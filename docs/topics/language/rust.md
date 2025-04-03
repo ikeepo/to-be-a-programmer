@@ -35,3 +35,11 @@ r = &mut r.as_mut()?.next;
 ```
 r is a mutable reference, not assigning the `&mut list1` to r, it's mutably bind r to the reference of list1, then not assigning again, but bind r to the &mut value which is `r.as_mut()?.next` where `r.as_mut()` work because r is &mut which is required by `.as_mut(&mut self)`, then get the `Box` which is a smart pointer by `?`, then you can access the `next` variable.
 The reference or pointer is a moving point, rather a location waiting assigned which is the mechanism of data assignment in common programming.
+### `T` is not a keyword, just a convention
+A placeholder name used to represent a generic type.
+It's part of Rust's generics system.
+```
+fn print_type<T>(value: T) {
+    println!("Type of value: {}", type_name::<T>());
+}
+```
