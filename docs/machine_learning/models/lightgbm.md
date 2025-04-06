@@ -26,3 +26,4 @@ LightGBM is fundamentally based on one algorithm: GBDT. It's the engine under th
 # Practice
 ## [Install](https://lightgbm.readthedocs.io/en/stable/Installation-Guide.html#linux)
 ## [Python Quick Start](https://lightgbm.readthedocs.io/en/stable/Python-Intro.html)
+## [kaggle LightGBM Tutorial](https://www.kaggle.com/code/pumalin/lightgbm-tutorial)
