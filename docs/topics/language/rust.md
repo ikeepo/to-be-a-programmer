@@ -3,6 +3,20 @@
 ## Principles
 1. There's no concept of uninitialized or null values for fiels unless explicitly wrapped in an Option.
 ## Concepts
+### data type
+##### `usize vs i32`
+usize mean unsigned (>=0), it's pointer sized.
+- pointer-sized
+`usize` and `isize` are called pointer-sized integers because their size matches the CPU's native pointer size.
+**pointer-size** means architecture-dependent.
+A pointer(memory address) must be able to reference any location inmemory.
+Vec, arrays and slices use `usize` for indexing because memory addresses are pointer-sized, and indexing is essentially pointer arithmetic.
+If you're serializing data to disk or sending it over a network, avoid `usize` because its size varies across platform.
+When it refers the memory location, you should use `usize`;
+##### Vec indexing
+direct indexing (`v[index]`) returns the value, explicit reference `&v[index]` returns a borrow.
+`v[index]` computes the memory offset as $let offset = index * std::mem::size_if::<T>();$, this is why `usize` is used for indexing.
+
 ##### linked list
 
 ##### Box<T> is a smart pointer that owns a value of type T on the heap

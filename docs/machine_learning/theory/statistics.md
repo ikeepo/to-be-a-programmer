@@ -1,4 +1,11 @@
-# Comcepts
+# Statistical Measures
+## T-Statistic
+The t-statistic measures how far your sample result (like sharpe ratio or excess return) is from the null hypothesis in terms of standard error.
+
+## P-Value
+The p-value represents the probability of observing a result at least as extreme as the one you got if the null hypothesis were true.
+
+# Concepts
 ##### shuffle
 Weather the data is randomly shuffled before being split into training and test sets.
 # [Skewness and Kurtosis](https://www.simplilearn.com/tutorials/statistics-tutorial/skewness-and-kurtosis)
