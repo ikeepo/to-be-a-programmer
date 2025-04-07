@@ -134,17 +134,19 @@ except Exception as e:
 - [Preparing for the Systems Design and Coding Interview](https://blog.pragmaticengineer.com/preparing-for-the-systems-design-and-coding-interviews/)
 
 # unfold
-
-- Clean Code: By Robert C. Martin
+- [ ] Introduction to Algorithms
+- [ ] "Algorithms" by Robert Sedgewick and Kevin Wayne
+- [ ] "The Art of Computer Programming" by Donald Knuth
+- [ ] "Structure and Interpretation of Computer Programs" (SICP) by Abelson and Sussman
+- [x] Clean Code: A Handbook of Agile Software Craftsmanship: By Robert C. Martin
 - The Mythical Man-month: By Frederick Brooks
-- The Pragmatic Programmer: Your Journey to Mastery
+- [x] The Pragmatic Programmer: Your Journey to Mastery
 - Code Complete (2 Edition): By Steve McConnell
 - The Art of Computer Programming
 - Programming Pearls
 - Code: Charles Petzold
-- Introduction to Algorithms
-- Refactoring: Improving the Design of Existing Code
-- Design Patterns: Elements of Reusable Object-Oriented Software
+- [x] Refactoring: Improving the Design of Existing Code
+- [x] Design Patterns: Elements of Reusable Object-Oriented Software
 - Coders At Work
 - Inside the Machine how computers work
 - CODE processors and stuff
