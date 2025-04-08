@@ -16,3 +16,4 @@ The inverse relationship between bond prices and interest rates is a fundamental
 Bonds pay fixed coupons, if new bonds are issued at lower rates, older bonds with higher coupons become more valuable.
 Investores bid up the price of the older bond until its yield matches the new market rate.
 Bond price will rise until its return lowered to later low rate.
+# [China responds by selling another $50BN in TSY (treasuries)](https://x.com/zerohedge/status/1909267885999923314)

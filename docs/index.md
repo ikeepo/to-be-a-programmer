@@ -5,11 +5,12 @@ Knowledge that I think I should know to be a better programmer named [ikeepo](ht
 1. Fuck Away Learning, Let's Training
 2. Define a good question, then discussing with AI
 
-
+# Awesome Tools
+- [Compiler Explorer](https://rust.godbolt.org/)
 # Design Patterns
 
 - [DDD(Domain Driven Design)](https://en.wikipedia.org/wiki/Domain-driven_design), [topic](./topics/domain-driven-design.md)
-
+# [idol](./idols.md)
 # Principles
 
 - [professional programming](./topics/professional-programming.md)
