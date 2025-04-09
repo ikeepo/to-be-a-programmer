@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../../general/">
+        <link rel="prev" href="../option/">
       
       
         <link rel="next" href="../../../../mathmatics/e/">
@@ -2630,6 +2630,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../../declaration_binding/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Declaration and Binding
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../general/" class="md-nav__link">
         
   
@@ -2661,10 +2683,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5_8_3" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5_8_4" checked>
         
           
-          <label class="md-nav__link" for="__nav_8_5_8_3" id="__nav_8_5_8_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_5_8_4" id="__nav_8_5_8_4_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2676,12 +2698,78 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_5_8_3_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_8_5_8_3">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_8_5_8_4_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_5_8_4">
             <span class="md-nav__icon md-icon"></span>
             Std
           </label>
           <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../borrow/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::borrow
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../cell/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    RefCell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../option/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::option
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
             
               
                 
@@ -2760,6 +2848,15 @@
   <a href="#reference-counted-pointer" class="md-nav__link">
     <span class="md-ellipsis">
       Reference Counted Pointer
+    </span>
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#what-is-associated-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is associated functions
     </span>
   </a>
   
@@ -3722,6 +3819,15 @@
   
 </li>
         
+          <li class="md-nav__item">
+  <a href="#what-is-associated-functions" class="md-nav__link">
+    <span class="md-ellipsis">
+      What is associated functions
+    </span>
+  </a>
+  
+</li>
+        
       </ul>
     </nav>
   
@@ -3752,6 +3858,35 @@ The inherent methods of <code>Rc</code> are all associated functions, which mean
 <p>It means the Rc pointer is intended for use in an environment where only one thread accesses and manipulates it at a time.
 For multi-threaded is <code>Arc</code> which stands for "Atomically Reference Counted";</p>
 <h5 id="reference-counted-pointer">Reference Counted Pointer</h5>
+<h5 id="what-is-associated-functions">What is associated functions</h5>
+<p>Functions that are tied to a type rather than to an instance of that type.
+They are defined in an <code>impl</code> block for the type and don't take <code>self</code> as a parameter (unlike method);</p>
+<h1 id="code-explain">Code Explain</h1>
+<h2 id="get_mut"><code>get_mut</code></h2>
+<pre><code class="language-rust">use std::rc::Rc;
+fn main() {
+  let mut x = Rc::new(3);
+  *Rc::get_mut(&amp;mut x) = 5;
+  assert_eq!(x, Rc::new(5));
+}
+</code></pre>
+<h2 id="how-to-use">How to use</h2>
+<pre><code class="language-rust">use std::rc::Rc;
+fn main() {
+    let mut x = Rc::new(3);
+    assert_eq!(x, Rc::new(3));
+    let y = &amp;mut x;
+    *y = Rc::new(5);
+    assert_eq!(*x, 5);
+}
+
+</code></pre>
+<h1 id="why-need-rc-rather-direct">Why need Rc rather direct &amp;</h1>
+<p><code>&amp;</code> only has one owner, and <code>Rc</code> can create multi owners.
+Reference is tied to the lifetime of the original vairbale, if the owner goes out of scope, the reference is invalid.  <code>Rc</code> the data lives as long as any <code>Rc</code> reference exists, decoupling it from the original scope.</p>
+<h1 id="the-data-rc-managed-is-always-allocated-on-the-heap">The data <code>Rc</code> managed is always allocated on the heap</h1>
+<h1 id="weakt-weak-reference"><code>Weak&lt;T&gt;</code> Weak reference</h1>
+<p>A weak reference in Rust is a non-owning reference to data managed by an Rc</p>
 
 
 
