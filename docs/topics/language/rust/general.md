@@ -2,10 +2,15 @@
 
 ## Principles
 1. There's no concept of uninitialized or null values for fiels unless explicitly wrapped in an Option.
+2. A variable can only directly call methods that are defined for its type.
+
 ## Concepts
 ### data type
 ##### `usize vs i32`
 usize mean unsigned (>=0), it's pointer sized.
+### [generic parameters](https://doc.rust-lang.org/reference/items/generics.html)
+`<U,F>` types involved in the method. not all types rather only the additional types introduced by the method that need to be determined by the caller or inferred by the compiler.
+The order doesn't inherently matter.
 - pointer-sized
 `usize` and `isize` are called pointer-sized integers because their size matches the CPU's native pointer size.
 **pointer-size** means architecture-dependent.
