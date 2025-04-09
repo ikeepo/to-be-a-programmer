@@ -12,7 +12,7 @@
         <link rel="prev" href="../declaration_binding/">
       
       
-        <link rel="next" href="../std/borrow/">
+        <link rel="next" href="../std/alloc/">
       
       
       <link rel="icon" href="../../../../assets/images/favicon.png">
@@ -2759,6 +2759,21 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generic-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      generic parameters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="generic parameters">
+      <ul class="md-nav__list">
+        
           <li class="md-nav__item">
   <a href="#vec-indexing" class="md-nav__link">
     <span class="md-ellipsis">
@@ -2893,6 +2908,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../std/alloc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::alloc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../std/borrow/" class="md-nav__link">
         
   
@@ -2915,11 +2952,55 @@
   
   
     <li class="md-nav__item">
+      <a href="../std/boxed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::boxed
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../std/cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     RefCell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../std/maker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::marker
     
   </span>
   
@@ -3927,6 +4008,21 @@
   
 </li>
         
+      </ul>
+    </nav>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#generic-parameters" class="md-nav__link">
+    <span class="md-ellipsis">
+      generic parameters
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="generic parameters">
+      <ul class="md-nav__list">
+        
           <li class="md-nav__item">
   <a href="#vec-indexing" class="md-nav__link">
     <span class="md-ellipsis">
@@ -4029,11 +4125,15 @@
 <h2 id="principles">Principles</h2>
 <ol>
 <li>There's no concept of uninitialized or null values for fiels unless explicitly wrapped in an Option.</li>
+<li>A variable can only directly call methods that are defined for its type.    </li>
 </ol>
 <h2 id="concepts">Concepts</h2>
 <h3 id="data-type">data type</h3>
 <h5 id="usize-vs-i32"><code>usize vs i32</code></h5>
-<p>usize mean unsigned (&gt;=0), it's pointer sized.
+<p>usize mean unsigned (&gt;=0), it's pointer sized.</p>
+<h3 id="generic-parameters"><a href="https://doc.rust-lang.org/reference/items/generics.html">generic parameters</a></h3>
+<p><code>&lt;U,F&gt;</code> types involved in the method. not all types rather only the additional types introduced by the method that need to be determined by the caller or inferred by the compiler. <br />
+The order doesn't inherently matter. <br />
 - pointer-sized
 <code>usize</code> and <code>isize</code> are called pointer-sized integers because their size matches the CPU's native pointer size.
 <strong>pointer-size</strong> means architecture-dependent.

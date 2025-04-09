@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../cell/">
+        <link rel="prev" href="../maker/">
       
       
         <link rel="next" href="../rc/">
@@ -2734,6 +2734,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../alloc/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::alloc
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../borrow/" class="md-nav__link">
         
   
@@ -2756,11 +2778,55 @@
   
   
     <li class="md-nav__item">
+      <a href="../boxed/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::boxed
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../cell/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
     RefCell
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../maker/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::marker
     
   </span>
   
@@ -3750,6 +3816,11 @@
 
 <h1 id="stdoption"><a href="https://doc.rust-lang.org/std/option/enum.Option.html"><code>std::option</code></a></h1>
 <h1 id="enum-option"><code>Enum Option</code></h1>
+<h2 id="map"><a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.map">map</a></h2>
+<pre><code class="language-rust">pub fn map&lt;U, F&gt;(self, f: F) -&gt; Option&lt;U&gt;
+where
+  F: FnOnce(T) -&gt; U,
+</code></pre>
 
 
 
