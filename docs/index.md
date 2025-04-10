@@ -10,7 +10,8 @@ Knowledge that I think I should know to be a better programmer named [ikeepo](ht
 # Design Patterns
 
 - [DDD(Domain Driven Design)](https://en.wikipedia.org/wiki/Domain-driven_design), [topic](./topics/domain-driven-design.md)
-# [idol](./idols.md)
+# idol
+- [Brendan Gregg](https://www.brendangregg.com/index.html)
 # Principles
 
 - [professional programming](./topics/professional-programming.md)

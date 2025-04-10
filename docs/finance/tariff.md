@@ -1,5 +1,8 @@
 # Tariff
 How to understand Tariff.
+# Info Source
+- [Truth-Donald J. Trump](https://truthsocial.com/@realDonaldTrump)
+- [CBS News](https://www.cbsnews.com/)
 ## What is Tariff
 Tariffs are taxes imposed by goverments on imported goods.
 In the US, American companies pay these taxes when bringing foreign products into the country, often passing some or all of the cost onto consumers through higher prices.
