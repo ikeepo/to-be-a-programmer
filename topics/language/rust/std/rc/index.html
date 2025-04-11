@@ -12,7 +12,7 @@
         <link rel="prev" href="../option/">
       
       
-        <link rel="next" href="../../../../mathmatics/e/">
+        <link rel="next" href="../vec/">
       
       
       <link rel="icon" href="../../../../../assets/images/favicon.png">
@@ -2566,6 +2566,28 @@
   
   
     <li class="md-nav__item">
+      <a href="../../compare_pairs/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Compare Pairs
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../declaration_binding/" class="md-nav__link">
         
   
@@ -2619,10 +2641,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5_8_4" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_5_8_5" checked>
         
           
-          <label class="md-nav__link" for="__nav_6_5_8_4" id="__nav_6_5_8_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_5_8_5" id="__nav_6_5_8_5_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -2634,8 +2656,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_6_5_8_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_6_5_8_4">
+        <nav class="md-nav" data-md-level="4" aria-labelledby="__nav_6_5_8_5_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_6_5_8_5">
             <span class="md-nav__icon md-icon"></span>
             Std
           </label>
@@ -2741,6 +2763,28 @@
   
   <span class="md-ellipsis">
     std::marker
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../mem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::mem
     
   </span>
   
@@ -2895,6 +2939,28 @@
   
 </nav>
       
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../vec/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    std::vec
+    
+  </span>
+  
+
+      </a>
     </li>
   
 
@@ -3903,14 +3969,28 @@ fn main() {
     *y = Rc::new(5);
     assert_eq!(*x, 5);
 }
-
 </code></pre>
+<ul>
+<li><code>Rc &amp; Refcell</code> why the <code>borrow_mut</code> method belones to RefCell rather Rc?    </li>
+</ul>
+<pre><code class="language-rust">pub fn invert_tree(root: Option&lt;Rc&lt;RefCell&lt;TreeNode&gt;&gt;&gt;) -&gt; Option {
+  root.map(|node| {
+    node.borrwo_mut().swap_all();
+    node 
+  })
+}
+</code></pre>
+<p>Here is the concept <a href="/docs/topics/language/rust/general.md#here-is-the-concept-automatic-dereferencinghttpsdocrust-langorgreferenceexpressionsfield-exprhtmlhighlightautomatic20dereferencedr-exprfieldautoref-deref"><code>automatic dereferencing</code></a>;  <br />
+The <code>node</code> is "Container Operand". The container is because it encapsulates or pointers to the actual data of interest, often requiring dereferencing to reach that data. <br />
+<code>borrow_mut</code> is th <code>field</code>. <br />
+Autoderef is Rust's process of automatically dereferencing a container operand (by <code>Deref</code> or <code>DerefMut</code>) as many times as needed to make a filed access or method call valid.  </p>
 <h1 id="why-need-rc-rather-direct">Why need Rc rather direct &amp;</h1>
-<p><code>&amp;</code> only has one owner, and <code>Rc</code> can create multi owners.
+<p><code>&amp;</code> only has one oewner, and <code>Rc</code> can create multi owners.
 Reference is tied to the lifetime of the original vairbale, if the owner goes out of scope, the reference is invalid.  <code>Rc</code> the data lives as long as any <code>Rc</code> reference exists, decoupling it from the original scope.</p>
 <h1 id="the-data-rc-managed-is-always-allocated-on-the-heap">The data <code>Rc</code> managed is always allocated on the heap</h1>
 <h1 id="weakt-weak-reference"><code>Weak&lt;T&gt;</code> Weak reference</h1>
 <p>A weak reference in Rust is a non-owning reference to data managed by an Rc</p>
+<h1 id="memory-layout">Memory Layout</h1>
 
 
 
