@@ -2,6 +2,9 @@
 
 
 
+# Rust Job
+- [RustJobs](https://rustjobs.dev/)
+- [Web3 Jobs](https://web3.career/)
 
 
 
