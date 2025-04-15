@@ -1,5 +1,13 @@
 # Run
 ## Run Efficiently
+### Biomechanics
+> [1](https://www.scienceofrunning.com/2010/08/how-to-run-running-with-proper.html?v=47e5dceea252) [2](https://www.youtube.com/watch?v=zSIDRHUWlVo)
+### Hydration
+> [1](https://www.asics.com/gb/en-gb/asics-advice/5-top-hydration-tips-for-long-distance-runs/) [2](https://www.tailwindnutrition.co.uk/blogs/tailwind-in-practice/pre-race-hydration-guide-before-running) [3](https://www.runnersworld.com/uk/nutrition/a761780/rws-complete-guide-to-hydration/) [4](https://www.nike.com/gb/a/how-much-water-runners-really-need)
+The average value is 1200ml per hour.
+500ml of water about two hours before a run is a good starting point.
+200ml 15m before the run.
+
 ### Pre-Run Stretch
 > [1](https://www.youtube.com/watch?v=u-e0ZO5L0s0) [2](https://www.wikihow.com/Stretch-Before-and-After-Running)
 原则是各个关节的各个角度的预热；
