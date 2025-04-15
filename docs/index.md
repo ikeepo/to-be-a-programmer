@@ -14,6 +14,7 @@ The body is constrained by the physical world, while the mind, unattached, easil
 - [DDD(Domain Driven Design)](https://en.wikipedia.org/wiki/Domain-driven_design), [topic](./topics/domain-driven-design.md)
 # idol
 - [Brendan Gregg](https://www.brendangregg.com/index.html)
+- [Stephen Diehl](https://www.stephendiehl.com/)
 # Principles
 
 - [professional programming](./topics/professional-programming.md)
