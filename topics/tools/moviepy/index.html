@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../grafana/">
+        <link rel="prev" href="../mkdocs/">
       
       
-        <link rel="next" href="../markdown/">
+        <link rel="next" href="../nextjs/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>使用make的理由 - To Be a Programmer</title>
+        <title>moviepy - To Be a Programmer</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#make" class="md-skip">
+        <a href="#moviepy" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              使用make的理由
+              moviepy
             
           </span>
         </div>
@@ -3975,19 +3975,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../make/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3997,7 +3988,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -4051,10 +4041,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../moviepy/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    moviepy
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -4064,6 +4075,50 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Error
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modulenotfounderror-no-module-named-moviepyeditor-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      ModuleNotFoundError: No module named 'moviepy.editor' in Python
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4368,6 +4423,38 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#error" class="md-nav__link">
+    <span class="md-ellipsis">
+      Error
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="Error">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#modulenotfounderror-no-module-named-moviepyeditor-in-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      ModuleNotFoundError: No module named 'moviepy.editor' in Python
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4382,11 +4469,14 @@
 
 
 
-<h1 id="make">使用make的理由</h1>
-<ol>
-<li>封装
-   封装运行入口，具体的运行文件可以隐藏在巨量的同生态位文件中。类似工厂模式。</li>
-</ol>
+<h1 id="moviepy">moviepy</h1>
+<h2 id="error">Error</h2>
+<h5 id="modulenotfounderror-no-module-named-moviepyeditor-in-python"><code>ModuleNotFoundError: No module named 'moviepy.editor' in Python</code></h5>
+<blockquote>
+<p><a href="https://dev.to/dm8ry/fixing-modulenotfounderror-no-module-named-moviepyeditor-in-python-1353">1</a>  </p>
+</blockquote>
+<pre><code class="language-shell">install moviepy==1.0.3
+</code></pre>
 
 
 

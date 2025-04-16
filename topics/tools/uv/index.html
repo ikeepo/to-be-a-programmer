@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../grafana/">
+        <link rel="prev" href="../ta-lib/">
       
       
-        <link rel="next" href="../markdown/">
+        <link rel="next" href="../windows/">
       
       
       <link rel="icon" href="../../../assets/images/favicon.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>使用make的理由 - To Be a Programmer</title>
+        <title>uv - To Be a Programmer</title>
       
     
     
@@ -62,7 +62,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#make" class="md-skip">
+        <a href="#uv" class="md-skip">
           Skip to content
         </a>
       
@@ -98,7 +98,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              使用make的理由
+              uv
             
           </span>
         </div>
@@ -3975,19 +3975,10 @@
                 
   
   
-    
   
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../make/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -3997,7 +3988,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -4293,10 +4283,31 @@
                 
   
   
+    
   
   
-    <li class="md-nav__item">
-      <a href="../uv/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    uv
+    
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -4306,6 +4317,44 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uv-add-vs-uv-pip-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv add vs uv pip install
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uv-run-scriptpy-vs-uv-run-python-scriptpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv run script.py vs uv run python script.py
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -4368,6 +4417,32 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#uv-add-vs-uv-pip-install" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv add vs uv pip install
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#uv-run-scriptpy-vs-uv-run-python-scriptpy" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv run script.py vs uv run python script.py
+    </span>
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -4382,11 +4457,11 @@
 
 
 
-<h1 id="make">使用make的理由</h1>
-<ol>
-<li>封装
-   封装运行入口，具体的运行文件可以隐藏在巨量的同生态位文件中。类似工厂模式。</li>
-</ol>
+<h1 id="uv">uv</h1>
+<h2 id="uv-add-vs-uv-pip-install">uv add vs uv pip install</h2>
+<h2 id="uv-run-scriptpy-vs-uv-run-python-scriptpy">uv run script.py vs uv run python script.py</h2>
+<p><code>uv run</code> exectutes the script in the context of the project's virtual environment (--active) <br />
+<code>uv run python script.py</code> explicitly, and former would automatically detects the Python interpreter from <code>pyproject.toml</code> or <code>.python-version</code>.   </p>
 
 
 
