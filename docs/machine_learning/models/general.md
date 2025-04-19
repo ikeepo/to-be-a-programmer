@@ -5,3 +5,13 @@ Any algorithm is nothing more than [a combination of arithmetic computations and
 ## What Problem it deal with
 ## What Condition it use?
 ## What Property it has?
+# How to describe an Algorithm
+> Your primary job as an algoritm designer is teaching other people how and why your algoritms work.
+- What: a precise specification of the problem that the algorithm solves
+- How: A precise description of the algorithm itself
+- Why: A proof that the algorithm solves the problem it is supposed to solve
+- How fast: An analysis of the running time of the algorithm
+
+# Reduction is the single most common technique used in designing algorithm.
+Even when you do know precisely how your algorithm part work (lower or higher) , it is often extremely helpful to pretend that you don't .
+#

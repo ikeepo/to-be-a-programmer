@@ -1,7 +1,12 @@
 # LeedCode Thought
 Word in this chapter has much more chance to be wrong.
 They are not check by the tool, just my intuitive english expression.
-
+# Why LeedCode
+Only body is yours, the knowledge belong the practicer who write them.
+Which mean you should code first, then to read other people's thought, it's a kind of discussion.
+If you want to read book before code(practice to the body), you can only need to read the headers and first and last sentence, to know the basic concepts in that domain.
+This is really the important point to be efficient and right, if there is right or wrong.
+思想并不能用于指导行为，除非它是基于自身行为进行分析总结之后的抽象，也就是说，思想主要起作用于对现实行为的分析、解释，继而或许有能提供指导的作用，但切不可颠倒顺序，那种场景叫做：内耗。
 # Mathmatical Mindset Helpful to Programming
 ## Sort
 Sort带来信息；
@@ -23,6 +28,9 @@ $mid = low + (high - low) / 2$ rather $high / 2$
 ## cycle
 - modulo
 cycle give context to the cycle.
+## Memoization
+Used for optimization;
+Comes from some subproblem is calculated multitimes.
 
 # Abstract Method(DDD)
 ### Element
