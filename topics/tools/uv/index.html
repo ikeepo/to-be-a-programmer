@@ -195,7 +195,7 @@
         
   
   <span class="md-ellipsis">
-    Introduction
+    To be a Programmer(Craftsman)
     
   </span>
   
@@ -1160,7 +1160,7 @@
             
   
   <span class="md-ellipsis">
-    Rust
+    Ruby
     
   </span>
   
@@ -1170,6 +1170,94 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_9_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_6_9">
+            <span class="md-nav__icon md-icon"></span>
+            Ruby
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/ruby/gem/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Gem
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/ruby/general/" class="md-nav__link">
+        
+  
+  <span class="md-ellipsis">
+    Ruby
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_10" id="__nav_6_10_label" tabindex="0">
+            
+  
+  <span class="md-ellipsis">
+    Rust
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10">
             <span class="md-nav__icon md-icon"></span>
             Rust
           </label>
@@ -1321,10 +1409,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_9_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_10_7" >
         
           
-          <label class="md-nav__link" for="__nav_6_9_7" id="__nav_6_9_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_10_7" id="__nav_6_10_7_label" tabindex="0">
             
   
   <span class="md-ellipsis">
@@ -1336,8 +1424,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_9_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_9_7">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_10_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_10_7">
             <span class="md-nav__icon md-icon"></span>
             Std
           </label>
@@ -4680,6 +4768,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#uv-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv run
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      system python
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-dependecy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install Dependecy
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4770,6 +4885,33 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#uv-run" class="md-nav__link">
+    <span class="md-ellipsis">
+      uv run
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#system-python" class="md-nav__link">
+    <span class="md-ellipsis">
+      system python
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-dependecy" class="md-nav__link">
+    <span class="md-ellipsis">
+      Install Dependecy
+    </span>
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -4791,6 +4933,24 @@
 <h2 id="uv-run-scriptpy-vs-uv-run-python-scriptpy">uv run script.py vs uv run python script.py</h2>
 <p><code>uv run</code> exectutes the script in the context of the project's virtual environment (--active)
 <code>uv run python script.py</code> explicitly, and former would automatically detects the Python interpreter from <code>pyproject.toml</code> or <code>.python-version</code>.</p>
+<h2 id="uv-run"><code>uv run</code></h2>
+<p>It selects a Python version based on :
+- the  <code>requires-python</code> constraint in <code>pyproject.yaml</code>
+- The avaiable Python versions managed by <code>uv</code></p>
+<pre><code>uv python list
+</code></pre>
+<ul>
+<li>The <em>highest</em> compatible version unless explicitly pinned or specified</li>
+</ul>
+<pre><code>uv venv --python 3.11 # specified
+uv python pin 3.11 # pin version by create .python-version file
+</code></pre>
+<h2 id="system-python">system python</h2>
+<p><code>uv</code> managed python versions are not automatically added to your system's PATH so you can't find it by <code>which python</code>;</p>
+<h2 id="install-dependecy">Install Dependecy</h2>
+<pre><code>uv pip install . # from pyproject.yaml [dependencies]
+uv pip list
+</code></pre>
 
 
 
