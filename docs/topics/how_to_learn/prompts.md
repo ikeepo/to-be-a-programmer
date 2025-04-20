@@ -1,4 +1,6 @@
 # AI Prompts
+
+
 # How to Accept auto completion
 [I’m not familiar ](https://www.youtube.com/watch?v=nbFF-0cXhgE)with the code you just suggested, please explain why you chose it and what problems it is intended to solve.
 

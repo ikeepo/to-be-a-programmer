@@ -1,5 +1,6 @@
-# Introduction
+# To be a Programmer(Craftsman)
 > What Did You Practice for Your Body Today?
+
 Knowledge that I think I should know to be a better programmer named [ikeepo](https://ikeepo.github.io/).
 Knowledge should be learned by building something, all the input should be attached on a certain output, even just simple code. This mind comes from harmony of body and mind.
 The body is constrained by the physical world, while the mind, unattached, easily slips into a simulated world. The logic in the simulated world aligns with that of the real world, so staying confined to the mind doesn't feel strange. However, the physical world's restrictions and constraints on the body are simple, direct, and effective. This necessitates the coordination and unity of the two. Consciousness and logic have a serious flaw: they can only reason based on superficial cognition. Deeper understanding requires the body to engage fully to access more information. This is why unity is essential.

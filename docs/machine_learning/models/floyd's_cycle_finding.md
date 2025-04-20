@@ -21,3 +21,6 @@ Two points:
 so, it must can gain a C multiple after some round.
 
 Another key point is modulo.
+
+## Can be used for search middle value
+不闭环，fast到none就停止，slow得到的就是 middle；

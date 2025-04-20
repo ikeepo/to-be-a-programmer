@@ -32,12 +32,17 @@ cycle give context to the cycle.
 Used for optimization;
 Comes from some subproblem is calculated multitimes.
 
-# Abstract Method(DDD)
-### Definition
+# Procedure (DDD)
+### Concept Definition
 Make clear about every concept's defination, clear means you can tell that to other people, make them understand rather you.
-
 ### Element
 - variable
+包括初始、最终输出结果
 - constraint
+业务场景限制；
 ### 业务逻辑
 Element之间的关联关系
+### Domain
+Element and relationship would define a domain.
+### 从结果向前推
+确定结果出现在哪几种场景，对场景进行完备性构建，也就是if else里面的完备性；

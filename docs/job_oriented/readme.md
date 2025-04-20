@@ -3,3 +3,5 @@
 ## Why we need a Job: REALITY
 Job is the window for us to know the world, the reality of the world.
 ## Methods to Know the World
+# How to Apply for Jobs
+- [Daniele Procida](https://vurt.eu/articles/)
