@@ -3,6 +3,17 @@
 Knowledge that I think I should know to be a better programmer named [ikeepo](https://ikeepo.github.io/).
 Knowledge should be learned by building something, all the input should be attached on a certain output, even just simple code. This mind comes from harmony of body and mind.
 The body is constrained by the physical world, while the mind, unattached, easily slips into a simulated world. The logic in the simulated world aligns with that of the real world, so staying confined to the mind doesn't feel strange. However, the physical world's restrictions and constraints on the body are simple, direct, and effective. This necessitates the coordination and unity of the two. Consciousness and logic have a serious flaw: they can only reason based on superficial cognition. Deeper understanding requires the body to engage fully to access more information. This is why unity is essential.
+# Programming is some kind of craft rather research
+Keep away from too much news, which 99.99% of them are ads already, even not news.
+
+# Knowledge is not used to guide your life
+Thought only be meaningful when reflecting your own experience, but if you want to learn Knowledge or even by thinking to guide your life, you would be kidnaped by the opinion outputer who even don't know what he recognized, just another node about the information propagation chain whose final initial point is a commercial need by someone.
+
+<details>
+  <summary>Refs</summary>
+  - [Think Like a Craftsman and Master a Skillset; it Will Give You Meaning and Transform Your Career](https://www.omaritani.com/blog/craftsman-skill-mastery)
+  - [Unlocking Craftsmanship: 10 Essential Traits That Define a Great Craftsman](https://cleanwhale.de/en/blog/unlocking-craftsmanship-10-essential-traits-that-define-a-great-craftsman)
+</details>
 
 # RULES
 1. Fuck Away Learning, Let's Training
@@ -16,6 +27,7 @@ The body is constrained by the physical world, while the mind, unattached, easil
 # idol
 - [Brendan Gregg](https://www.brendangregg.com/index.html)
 - [Stephen Diehl](https://www.stephendiehl.com/)
+- [Serhii Potapov](https://www.screamingvalue.com/about/)
 # Principles
 
 - [professional programming](./topics/professional-programming.md)

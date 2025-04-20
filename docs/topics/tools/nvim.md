@@ -1,7 +1,10 @@
 # nvim 是一个事件驱动框架
 
 许多功能是监听事件，然后调用回调函数。
-
+# How to recover from a `u`
+```shell
+Ctrl + r
+```
 # `setup`是关键字么？
 
 `setup`并不是一个关键字，只是惯例函数名，

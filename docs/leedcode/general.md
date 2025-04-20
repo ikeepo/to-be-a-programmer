@@ -33,6 +33,9 @@ Used for optimization;
 Comes from some subproblem is calculated multitimes.
 
 # Abstract Method(DDD)
+### Definition
+Make clear about every concept's defination, clear means you can tell that to other people, make them understand rather you.
+
 ### Element
 - variable
 - constraint

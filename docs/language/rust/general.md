@@ -7,6 +7,11 @@
 2. A variable can only directly call methods that are defined for its type.
 
 ## Concepts
+### Documentation comments`//!`
+The comments are processed by `rustdoc` to generate API documentation.
+Document the containing item, like a module, crate or file.
+### Inner documentation comments `///`
+Document the next item
 ### `O(log n)`
 Certain divide-and-conquer algorithms, such as binary search;
 
