@@ -9,3 +9,5 @@ direct indexing (`v[index]`) returns the value, explicit reference `&v[index]` r
 `v[index]` computes the memory offset as $let offset = index * std::mem::size_if::<T>();$, this is why `usize` is used for indexing.
 ##### the end of the `Vec` acts as the top (right)
 So when say a stack bottom to up, it means left to right.
+
+##### `vec.len() -> usize`
