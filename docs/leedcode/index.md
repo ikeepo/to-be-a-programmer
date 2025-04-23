@@ -1,6 +1,12 @@
 # LeedCode Thought
 Word in this chapter has much more chance to be wrong.
 They are not check by the tool, just my intuitive english expression.
+
+# Rules
+## R1: Five Practice One Knowledge Search
+## R2: Five Knowledge Search One Think
+## R3: When you see Data Structure, you see memory
+Which means data structure carries informations.
 # Why LeedCode
 Only body is yours, the knowledge belong the practicer who write them.
 Which mean you should code first, then to read other people's thought, it's a kind of discussion.
@@ -33,6 +39,12 @@ Used for optimization;
 Comes from some subproblem is calculated multitimes.
 
 # Procedure (DDD)
+### Extract Information
+- Literal
+- DataStructure
+### Classification
+### Algorithm
+
 ### Concept Definition
 Make clear about every concept's defination, clear means you can tell that to other people, make them understand rather you.
 ### Element

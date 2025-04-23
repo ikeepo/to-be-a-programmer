@@ -26,7 +26,7 @@ poetry config unset repositories.pypi # 恢复
 [[tool.poetry.source]]
 name = "tsinghua"
 url = "https://pypi.tuna.tsinghua.edu.cn/simple"
-priority = "default"
+priority = "primary"
 
 [[tool.poetry.source]]
 name = "pypi"

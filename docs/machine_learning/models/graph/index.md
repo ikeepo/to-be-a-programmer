@@ -1,4 +1,4 @@
-# Concept
+# Graph Concept
 A graph is a data structure that represents a set of objects (node or vertex) connected by relationships (edges).
 ### Edges
 - Directed
