@@ -6,6 +6,8 @@ They are not check by the tool, just my intuitive english expression.
 ## R1: Five Practice One Knowledge Search
 ## R2: Five Knowledge Search One Think
 ## R3: When you see Data Structure, you see memory
+## R4: Visualize Early
+
 Which means data structure carries informations.
 # Why LeedCode
 Only body is yours, the knowledge belong the practicer who write them.
@@ -13,6 +15,12 @@ Which mean you should code first, then to read other people's thought, it's a ki
 If you want to read book before code(practice to the body), you can only need to read the headers and first and last sentence, to know the basic concepts in that domain.
 This is really the important point to be efficient and right, if there is right or wrong.
 思想并不能用于指导行为，除非它是基于自身行为进行分析总结之后的抽象，也就是说，思想主要起作用于对现实行为的分析、解释，继而或许有能提供指导的作用，但切不可颠倒顺序，那种场景叫做：内耗。
+# Confusion Source
+- Intuitive Sense
+如果读起来困惑，这是因为有知识不了解，而知识的组织形式不是intuitive的；
+认知会用intuitive sense去判断，所以出现困惑。
+意思是说，如果感到困惑，那是因为有些知识需要去学习掌握；
+
 # Mathmatical Mindset Helpful to Programming
 ## Sort
 Sort带来信息；
@@ -47,14 +55,21 @@ Comes from some subproblem is calculated multitimes.
 
 ### Concept Definition
 Make clear about every concept's defination, clear means you can tell that to other people, make them understand rather you.
-### Element
-- variable
-包括初始、最终输出结果
+### Role
+- element
+包括初始、最终输出结果;
+give value a meaning, give meaning a variable, two side thought.
 - constraint
 业务场景限制；
-### 业务逻辑
-Element之间的关联关系
+
+#### How to detail them
+- instance
+- reverse
+- up bigger
+- limit smaller
+
 ### Domain
 Element and relationship would define a domain.
 ### 从结果向前推
 确定结果出现在哪几种场景，对场景进行完备性构建，也就是if else里面的完备性；
+#

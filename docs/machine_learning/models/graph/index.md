@@ -1,9 +1,17 @@
 # Graph Concept
 A graph is a data structure that represents a set of objects (node or vertex) connected by relationships (edges).
+# Concptes
+## In Degree
+The in degree on a vertex is the number of incoming edges to the vertex.
+It counts how many edges point to the vertex from other vertices.
+## Out Degree
+Number of outgoing edges from that vertex.
 ### Edges
-- Directed
+- Directed()
   - Cyclic
-  - Acyclic
+  - Acyclic(DAG, Dependency Graph)
+  relationship ,
+  CICD, Make,
 - Undirected
 - Weighted
 - Unweighted
