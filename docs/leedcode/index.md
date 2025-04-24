@@ -20,6 +20,8 @@ This is really the important point to be efficient and right, if there is right 
 如果读起来困惑，这是因为有知识不了解，而知识的组织形式不是intuitive的；
 认知会用intuitive sense去判断，所以出现困惑。
 意思是说，如果感到困惑，那是因为有些知识需要去学习掌握；
+- Unclear Classification Layers
+分类的困惑容易发现，分层的困惑不容易发现；
 
 # Mathmatical Mindset Helpful to Programming
 ## Sort
@@ -50,9 +52,13 @@ Comes from some subproblem is calculated multitimes.
 ### Extract Information
 - Literal
 - DataStructure
+- [Instance them ](./index.md#how-to-detail-them)
+This is called `for example` in english writing.
+
 ### Classification
 ### Algorithm
-
+Think in algorithm, rather human intuitive.
+Algorithm use math thinking.
 ### Concept Definition
 Make clear about every concept's defination, clear means you can tell that to other people, make them understand rather you.
 ### Role
@@ -61,13 +67,18 @@ Make clear about every concept's defination, clear means you can tell that to ot
 give value a meaning, give meaning a variable, two side thought.
 - constraint
 业务场景限制；
-
+Constraint maybe a variable, not have to statement.
 #### How to detail them
 - instance
 - reverse
 - up bigger
 - limit smaller
-
+#### Focus on Information rather variable regrading flow
+variables are just tools.
+#### Values has three properties
+- Sort
+- Compare
+- Calculate
 ### Domain
 Element and relationship would define a domain.
 ### 从结果向前推

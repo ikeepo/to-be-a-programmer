@@ -11,6 +11,10 @@ Keep away from too much news, which 99.99% of them are ads already, even not new
 
 # Knowledge is not used to guide your life
 Thought only be meaningful when reflecting your own experience, but if you want to learn Knowledge or even by thinking to guide your life, you would be kidnaped by the opinion outputer who even don't know what he recognized, just another node about the information propagation chain whose final initial point is a commercial need by someone.
+# Knowledge is only live on some host
+If you are not the host of some knowledge, it wouldn't live on your world, just some others advertisement, even the knowledge from school.
+So, the book knowledge can only used to verification, rather learning.
+Focus on your product, abstract into knowledge, then compare with other people's knowledge recored on book, verifying your own, this process can be defined as "LEARNING".
 
 <details>
   <summary>Refs</summary>
