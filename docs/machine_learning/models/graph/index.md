@@ -29,6 +29,9 @@ Knowledge graphs.
 ## Adjacency List
 A collection of unordered lists used to represent a finite graph.
 Each list describes the set of neighbours of a node in the graph.
+It has direction, each node maps to a list of nodes it points to (outgoing edges).
+N nodes have N lists in the list.
+
 ## Adjacency Matrix
 ##
 
