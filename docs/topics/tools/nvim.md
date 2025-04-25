@@ -80,6 +80,8 @@ poetry run nvim name.py
 LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright之间的通信规则，如果输入gx命令，编辑器将向pyright发送一个通讯请求，pyright分析后返回变量定义位置，编辑器便会跳转到对应位置。
 ### nvim-lspconfig
 封装了lsp配置复杂度，实现简单配置开箱即用；
+
+# [nvim-surround]()
 # Refs
 
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
