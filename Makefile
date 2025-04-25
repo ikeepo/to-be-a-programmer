@@ -5,4 +5,5 @@ deploy:
 serve:
 	mkdocs serve
 prec:
+	git add . -A
 	pre-commit run

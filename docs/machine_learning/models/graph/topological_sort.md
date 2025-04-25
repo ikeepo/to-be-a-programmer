@@ -28,4 +28,8 @@ the in-degrees of its neighbors are decreased, simulating the removal of its dep
 queue only process in-degree 0 makes sure every node can only be processed once.
 In-degree 0 means on dependency.
 
+There are two parts:
+- Current Node
+- Neighbors
+某种变换，变换后可以成为CurrenNode状态以push到queue中；
 ## DFS

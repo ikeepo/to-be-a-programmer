@@ -13,3 +13,5 @@ pre-commit会默认从运行命令的当前文件夹里寻找.flake8文件；
 # 配合ruff
 pre-commit-config中的args定义是传递给pre-commit使用，是pre-commit的工作流程，不是ruff的配置；
 而pyproject.toml中ruff的配置，是配置ruff的运行规则；
+# Error
+## `[WARNING] Unstaged files detected.`
