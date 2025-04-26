@@ -11,3 +11,5 @@ Same problem can be found in pre-commit issues [552](https://github.com/pre-comm
 # in the .pre-commit-config.yaml
 args: [--unsafe]
 ```
+# Authntication
+> [Access private MkDocs after logging in #5875](https://github.com/squidfunk/mkdocs-material/discussions/5875)  [OAuth2 Proxy](https://github.com/meadapt/login-static-site)(Active)

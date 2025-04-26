@@ -36,7 +36,7 @@ Focus From the Bottom Up.
 
 ## Why Feet Hurt
 > [1](https://marathonhandbook.com/foot-pain-from-running/) [2](https://runtothefinish.com/foot-pain-when-running/) [3](https://marathonhandbook.com/foot-pain-after-running/) [4](https://www.runnersgoal.com/why-do-my-feet-hurt-when-i-run/) [5](https://www.runnersgoal.com/why-do-my-feet-hurt-when-i-run/) [6](https://www.runnersblueprint.com/top-of-foot-pain-when-running/)
-
+去除其他客观因素，还有一个可能的原因是脚未放松，某个部分在紧张状态。
 
 # Ref
 - [Kinetic Revolution, Proper running technique](https://www.kinetic-revolution.com/running-technique-6-ways-to-improve-efficiency/)

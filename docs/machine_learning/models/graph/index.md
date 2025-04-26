@@ -38,5 +38,3 @@ N nodes have N lists in the list.
 # Use Case
 - Asset Correlation
 - Programming
-# Ref
-- [Introduction to Graph Theory](../../../asset/books/graph/IntroductiontoGraphTheory--RichardJ_Trudeau&chenjin5_com--2021--cj5--a817d8e677369f18bcf58b161e46fde4--Anna'sArchive.mobi)
