@@ -11,8 +11,10 @@ Any algorithm is nothing more than [a combination of arithmetic computations and
 - What: A precise specification of the problem that the algorithm solves.
 - How: A precise description of the algorithm itself.
 - Why: A proof that the algorithm solves the problem it is supposed to solve.
+- History: when it is proposed, how it envolved.
 - How fast: An analysis of the running time of the algorithm.
-- Procedure to implement this algorithm
+- Procedure to implement this algorithm, and in the procedure, make an explain through comment about how
+- Give Exact number examples for the procedure
 - Give Three best books that introduce this algorithm.
 # How to describe an Algorithm [0.5](https://jeffe.cs.illinois.edu/teaching/algorithms/book/00-intro.pdf)
 > Your primary job as an algoritm designer is teaching other people how and why your algoritms work.

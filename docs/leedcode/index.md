@@ -47,13 +47,19 @@ cycle give context to the cycle.
 ## Memoization
 Used for optimization;
 Comes from some subproblem is calculated multitimes.
+## Rank
+Used to optimization.
+
 
 # Procedure (DDD)
 ### Extract Information
-- Literal
-- DataStructure
-- [Instance them ](./index.md#how-to-detail-them)
+[Instance them ](./index.md#how-to-detail-them)
 This is called `for example` in english writing.
+- Literal
+
+- DataStructure
+
+- Constraint
 
 ### Classification
 ### Algorithm
@@ -83,4 +89,6 @@ variables are just tools.
 Element and relationship would define a domain.
 ### 从结果向前推
 确定结果出现在哪几种场景，对场景进行完备性构建，也就是if else里面的完备性；
-#
+
+# 事情简化原则
+很多题目要比想象的简单，直观，每一步不复杂，但是有算法。
