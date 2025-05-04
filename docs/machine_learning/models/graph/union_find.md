@@ -12,15 +12,13 @@ A data structure used to manage a collection of non-overlapping sets.
 
 Typically implemented using a forest of tree, where each tree represents a set, and the root of the tree is the representative ( or 'parent') of the set.
 
-
-
-# Union
+### Union
 It merges two sets (groups of elements) that contain the given elements, regard of there values or types.
 
 Not about identical, could be different, Union simply groups their sets together.
 
 
-# Find
+### Find
 It identifies the representative(or root) of the set that an element belongs to.
 
 If two elements have the same root, Find returns the same value for both.
@@ -29,6 +27,11 @@ Not about identical too. Just find element's root.
 ### Path Compression
 Optimization for Find, flatten tree structure of a set duing a Find operation.
 
+### Root
+the parent of a node is itself, then it is a root;
+
+### Parent Pointers
+value in parent array, it means point to that node as its parent.
 
 # Procedure
 - MakeSet(x): x as its own set root and rank 0

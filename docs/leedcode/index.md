@@ -20,8 +20,11 @@ This is really the important point to be efficient and right, if there is right 
 如果读起来困惑，这是因为有知识不了解，而知识的组织形式不是intuitive的；
 认知会用intuitive sense去判断，所以出现困惑。
 意思是说，如果感到困惑，那是因为有些知识需要去学习掌握；
+
 - Unclear Classification Layers
 分类的困惑容易发现，分层的困惑不容易发现；
+
+- unclear defination of concept
 
 # Mathmatical Mindset Helpful to Programming
 ## Sort

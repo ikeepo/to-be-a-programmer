@@ -1,4 +1,10 @@
 # References
+# Source
+- [Google Schoolar](https://scholar.google.com.au/)
+
+- [sci-hub](https://www.sci-hub.se/)
+
+
 # Programming
 ### [Graphics Programming Black Book, by Michael Abrash](https://www.drdobbs.com/parallel/graphics-programming-black-book/184404919)
 How to write high performance software,

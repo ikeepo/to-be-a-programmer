@@ -7,11 +7,14 @@ Dynamic programming is recursion without repetition.
 The proper recursion is much important than memoization.
 
 > Whenever you write - or even think - the word "gree**DY**",   your subconscious is telling you to use **DY**namic programming.
+
 # How to Develop a DP algorithm
 1. Formulate the problem recursively
 - Specification: Describe the problem rather how to solve, but what the problem
+
 - Solution, give a formula for the problem in terms of the answers to smaller instances of exactly the same problem
 2. Build solutions to your recurrence from the bottom up
+
 - identify the subproblems
 - choose a memoization data structure
 - identify dependency
@@ -26,3 +29,13 @@ The proper recursion is much important than memoization.
 - Space and time
 # What DP mean
 The programming is not code, but rather the older sense of planning or schedualing, typically by filling in a table.
+# 动态规划步骤
+1. Define the DP state
+
+2. Formulate the recurrence relation
+
+3. Iterate the DP values
+
+4. Handle Edge Cases
+
+5. Return
