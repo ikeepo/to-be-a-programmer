@@ -18,3 +18,5 @@ Expose the port to other services within the Docker network without publishing t
 - `--build`
 
 Force build(rebuild)
+# Error
+###
