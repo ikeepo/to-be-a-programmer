@@ -14,3 +14,8 @@ used by tortoise init(register `aerich` a table managed by ORM) aerich init(tell
 so `aerich.models` should be in the configuration to create at init.
 ## what `aerich.models` is?
 `from aerich import models` it's module defined by `aerich`
+
+## `aerich` recover all the migration history
+The `migration` files in aerich context record the changes rather the current state, so the migration systems working incremental, controlled, and reversible updates the database.
+
+So the migration process maybe slow. Just apply the current schema from model maybe the faster choice.
