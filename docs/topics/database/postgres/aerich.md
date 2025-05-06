@@ -19,3 +19,6 @@ so `aerich.models` should be in the configuration to create at init.
 The `migration` files in aerich context record the changes rather the current state, so the migration systems working incremental, controlled, and reversible updates the database.
 
 So the migration process maybe slow. Just apply the current schema from model maybe the faster choice.
+## `aerich upgrade`
+$$aerich upgrade --version 0003$$
+## `aerich history`
