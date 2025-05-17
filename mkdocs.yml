@@ -2,3 +2,14 @@ site_name: To Be a Programmer
 nav:
   - Home: index.md
   - About: about.md
+  - Topics: topics/
+  - JobOrientedJob: job_oriented_job/
+theme:
+  name: material
+plugins:
+  - search
+  - awesome-nav
+markdown_extensions:
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg

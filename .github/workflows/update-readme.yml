@@ -27,16 +27,16 @@ jobs:
             book_list="$book_list- [$file](./asset/books/$file)\n"
           done
           # 将更新后的书籍列表写入 README.md
-          sed -i '/# Books/,$d' README.md
-          echo -e "$book_list" >> README.md
+          sed -i '/# Books/,$d' docs/index.md
+          echo -e "$book_list" >> docs/index.md
 
       # Step 3: Commit and push the changes back to the repository
       - name: Commit changes
         run: |
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
-          git add README.md
-          git commit -m "Update book list in README.md"
+          git add docs/index.md
+          git commit -m "Update book list in docs/index.md"
           git push
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
