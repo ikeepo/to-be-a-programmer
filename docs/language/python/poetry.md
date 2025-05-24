@@ -1,14 +1,25 @@
 # Poetry
+
+## `tool.poetry vs project`
+
+`project` defined by `[PEP621](https://peps.python.org/pep-0621/)`, tool.<tool_name> defined by [PEP518](https://peps.python.org/pep-0518/), exact detail is defined by tool itself.
+
 # Add from wle need to relative or absolute path
+
 ```shell
 portry add file.whl  # wrong
 poetry add ./file.whl # right
 ```
+
 # How to Migrate from venv to poetry
+
 ### pipx
+
 推荐使用pipx安装poetry，但是pipx必须绑定某个python使用，因此绑定全局的python，同时将poetry通过全局的python下的
 全局pipx安装，也就是得到全局的poetry。
+
 ### 修改源
+
 ##### 全局
 
 ```shell
@@ -30,7 +41,9 @@ name = "pypi"
 url = "https://pypi.org/simple"
 priority = "supplemental"
 ```
+
 # How
+
 ### 从requirements.txt安装
 
 poetry 本身不支持，只能逐个安装;
@@ -49,12 +62,17 @@ poetry config virtualenvs.path # 找到并进入环境所在路径
 # delete 新环境
 # rename 旧环境 为新环境名称
 ```
+
 # 根据pyproject.yaml修改poetry.lock
+
 `poetry lock`
+
 # `poetry show module`依据`poetry.lock`
 
 # `$VIRTUAL_ENV`环境变量可能影响使用的环境
+
 `unset VIRTUAL_ENV`清除，这个貌似是每个poetry项目单独的
+
 # Refs
 
 1. [Migrating a Project to Poetry](https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/)
