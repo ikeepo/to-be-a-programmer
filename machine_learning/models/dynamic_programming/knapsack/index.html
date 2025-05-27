@@ -9,22 +9,22 @@
       
       
       
-        <link rel="prev" href="../../optimization/general/">
+        <link rel="prev" href="../kadane_algorithm/">
       
       
-        <link rel="next" href="../correcting_the_factor_mirage_a_research_protocol_for_causal_factor_investing/">
+        <link rel="next" href="../../graph/">
       
       
-      <link rel="icon" href="../../../assets/images/favicon.png">
-      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.9">
+      <link rel="icon" href="../../../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.6.1, mkdocs-material-9.6.14">
     
     
       
-        <title>Books - To Be a Programmer</title>
+        <title>Knapsack - To Be a Programmer</title>
       
     
     
-      <link rel="stylesheet" href="../../../assets/stylesheets/main.4af4bdda.min.css">
+      <link rel="stylesheet" href="../../../../assets/stylesheets/main.342714a4.min.css">
       
       
 
@@ -43,7 +43,7 @@
       
     
     
-    <script>__md_scope=new URL("../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
+    <script>__md_scope=new URL("../../../..",location),__md_hash=e=>[...e].reduce(((e,_)=>(e<<5)-e+_.charCodeAt(0)),0),__md_get=(e,_=localStorage,t=__md_scope)=>JSON.parse(_.getItem(t.pathname+"."+e)),__md_set=(e,_,t=localStorage,a=__md_scope)=>{try{t.setItem(a.pathname+"."+e,JSON.stringify(_))}catch(e){}}</script>
     
       
 
@@ -61,11 +61,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#books" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -78,7 +73,7 @@
 
 <header class="md-header md-header--shadow" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="../../.." title="To Be a Programmer" class="md-header__button md-logo" aria-label="To Be a Programmer" data-md-component="logo">
+    <a href="../../../.." title="To Be a Programmer" class="md-header__button md-logo" aria-label="To Be a Programmer" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -98,7 +93,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Books
+              Knapsack
             
           </span>
         </div>
@@ -110,11 +105,13 @@
     
     
     
-      <label class="md-header__button md-icon" for="__search">
-        
-        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
-      </label>
-      <div class="md-search" data-md-component="search" role="dialog">
+      
+      
+        <label class="md-header__button md-icon" for="__search">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.52 6.52 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5"/></svg>
+        </label>
+        <div class="md-search" data-md-component="search" role="dialog">
   <label class="md-search__overlay" for="__search"></label>
   <div class="md-search__inner" role="search">
     <form class="md-search__form" name="search">
@@ -146,6 +143,7 @@
     </div>
   </div>
 </div>
+      
     
     
   </nav>
@@ -173,7 +171,7 @@
 
 <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="../../.." title="To Be a Programmer" class="md-nav__button md-logo" aria-label="To Be a Programmer" data-md-component="logo">
+    <a href="../../../.." title="To Be a Programmer" class="md-nav__button md-logo" aria-label="To Be a Programmer" data-md-component="logo">
       
   
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 0 0 3-3 3 3 0 0 0-3-3 3 3 0 0 0-3 3 3 3 0 0 0 3 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54"/></svg>
@@ -191,8 +189,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../.." class="md-nav__link">
+      <a href="../../../.." class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     To be a Programmer(Craftsman)
@@ -212,8 +211,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../refs/" class="md-nav__link">
+      <a href="../../../../refs/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     References
@@ -236,6 +236,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -245,6 +246,7 @@
           
           <label class="md-nav__link" for="__nav_3" id="__nav_3_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Finance
@@ -269,8 +271,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/" class="md-nav__link">
+      <a href="../../../../finance/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Index
@@ -291,8 +294,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/aluminum/" class="md-nav__link">
+      <a href="../../../../finance/aluminum/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Aluminum
@@ -313,8 +317,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/bond/" class="md-nav__link">
+      <a href="../../../../finance/bond/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Bond
@@ -335,8 +340,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/cds/" class="md-nav__link">
+      <a href="../../../../finance/cds/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     CDS(Credit Default Swap)
@@ -357,8 +363,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/copper/" class="md-nav__link">
+      <a href="../../../../finance/copper/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Copper
@@ -379,8 +386,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/crisis/" class="md-nav__link">
+      <a href="../../../../finance/crisis/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Crisis
@@ -401,8 +409,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/general/" class="md-nav__link">
+      <a href="../../../../finance/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Why
@@ -423,8 +432,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/gold/" class="md-nav__link">
+      <a href="../../../../finance/gold/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Gold
@@ -445,8 +455,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/information_source/" class="md-nav__link">
+      <a href="../../../../finance/information_source/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Information Source
@@ -467,8 +478,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/interest/" class="md-nav__link">
+      <a href="../../../../finance/interest/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Interest
@@ -489,8 +501,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/masters/" class="md-nav__link">
+      <a href="../../../../finance/masters/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Masters
@@ -511,8 +524,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/organization/" class="md-nav__link">
+      <a href="../../../../finance/organization/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Organizations
@@ -533,8 +547,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/rubber/" class="md-nav__link">
+      <a href="../../../../finance/rubber/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Rubber
@@ -555,8 +570,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/soybeans/" class="md-nav__link">
+      <a href="../../../../finance/soybeans/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     How Soybeans Work in Future and Option
@@ -577,8 +593,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../finance/tariff/" class="md-nav__link">
+      <a href="../../../../finance/tariff/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Tariff
@@ -609,6 +626,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -618,6 +636,7 @@
           
           <label class="md-nav__link" for="__nav_4" id="__nav_4_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Holistic fitness
@@ -642,8 +661,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Holistic Fitness
@@ -664,8 +684,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/buddhsim/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/buddhsim/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Buddhism
@@ -686,8 +707,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/burpee/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/burpee/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Burpee
@@ -708,8 +730,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/chinese_medicine/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/chinese_medicine/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Chinese Medicine
@@ -730,8 +753,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/fitness/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/fitness/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Why Fitness is Meaningful to A Programmer
@@ -752,8 +776,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/reality/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/reality/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Reality is Limitation and Reality is Powerfull
@@ -774,8 +799,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/run/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/run/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Run
@@ -796,8 +822,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/time_management/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/time_management/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Time Management
@@ -818,8 +845,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../holistic_fitness/work_on_body/" class="md-nav__link">
+      <a href="../../../../holistic_fitness/work_on_body/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     公园中风雨无阻的是谁？
@@ -850,6 +878,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -859,6 +888,7 @@
           
           <label class="md-nav__link" for="__nav_5" id="__nav_5_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Job oriented
@@ -883,8 +913,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/fastapi/" class="md-nav__link">
+      <a href="../../../../job_oriented/fastapi/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     How FastAPI is different from Flask and Django
@@ -905,8 +936,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/how_to_use_ai_know_reality/" class="md-nav__link">
+      <a href="../../../../job_oriented/how_to_use_ai_know_reality/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     How to Use AI to help us Know Reality
@@ -927,8 +959,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/news/" class="md-nav__link">
+      <a href="../../../../job_oriented/news/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Tech News
@@ -949,8 +982,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/readme/" class="md-nav__link">
+      <a href="../../../../job_oriented/readme/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Readme
@@ -971,8 +1005,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/remote_work_sites/" class="md-nav__link">
+      <a href="../../../../job_oriented/remote_work_sites/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Remote Work Sites
@@ -993,8 +1028,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../job_oriented/rust/" class="md-nav__link">
+      <a href="../../../../job_oriented/rust/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Rust Interview
@@ -1025,6 +1061,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -1034,6 +1071,7 @@
           
           <label class="md-nav__link" for="__nav_6" id="__nav_6_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Language
@@ -1058,8 +1096,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/c/" class="md-nav__link">
+      <a href="../../../../language/c/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Why Learn C
@@ -1080,8 +1119,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/compiler/" class="md-nav__link">
+      <a href="../../../../language/compiler/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     How do computers read code
@@ -1102,8 +1142,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/documentation/" class="md-nav__link">
+      <a href="../../../../language/documentation/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Documentation
@@ -1124,8 +1165,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/general/" class="md-nav__link">
+      <a href="../../../../language/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Language
@@ -1146,8 +1188,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/go/" class="md-nav__link">
+      <a href="../../../../language/go/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Go
@@ -1168,8 +1211,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/java/" class="md-nav__link">
+      <a href="../../../../language/java/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Java的设计哲学是显式声明
@@ -1190,8 +1234,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/language/" class="md-nav__link">
+      <a href="../../../../language/language/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     language
@@ -1212,8 +1257,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/lua/" class="md-nav__link">
+      <a href="../../../../language/lua/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Lua
@@ -1234,8 +1280,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/poc/" class="md-nav__link">
+      <a href="../../../../language/npm/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    npm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/poc/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     Proof Of Concept
@@ -1256,8 +1326,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/tdd/" class="md-nav__link">
+      <a href="../../../../language/tdd/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     TDD
@@ -1278,8 +1349,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/vector/" class="md-nav__link">
+      <a href="../../../../language/vector/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Vector
@@ -1303,15 +1375,86 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_12" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_13" >
         
           
-          <label class="md-nav__link" for="__nav_6_12" id="__nav_6_12_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_13" id="__nav_6_13_label" tabindex="0">
             
+  
+  
+  <span class="md-ellipsis">
+    Expo
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_13_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_13">
+            <span class="md-nav__icon md-icon"></span>
+            Expo
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/expo/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Expo
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_14" >
+        
+          
+          <label class="md-nav__link" for="__nav_6_14" id="__nav_6_14_label" tabindex="0">
+            
+  
   
   <span class="md-ellipsis">
     Nextjs
@@ -1322,8 +1465,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_12_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_12">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_14_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_14">
             <span class="md-nav__icon md-icon"></span>
             Nextjs
           </label>
@@ -1336,8 +1479,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/nextjs/" class="md-nav__link">
+      <a href="../../../../language/nextjs/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     tailwind
@@ -1358,8 +1502,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/nextjs/wisp/" class="md-nav__link">
+      <a href="../../../../language/nextjs/wisp/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Wisp
@@ -1391,15 +1536,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_13" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_15" >
         
           
-          <label class="md-nav__link" for="__nav_6_13" id="__nav_6_13_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_15" id="__nav_6_15_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Python
@@ -1410,8 +1557,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_13_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_13">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_15">
             <span class="md-nav__icon md-icon"></span>
             Python
           </label>
@@ -1424,8 +1571,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/cython/" class="md-nav__link">
+      <a href="../../../../language/python/cython/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Cython
@@ -1446,8 +1594,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/documentation/" class="md-nav__link">
+      <a href="../../../../language/python/documentation/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Documentation
@@ -1468,8 +1617,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/fastapi/" class="md-nav__link">
+      <a href="../../../../language/python/fastapi/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     FastAPI
@@ -1490,8 +1640,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/general/" class="md-nav__link">
+      <a href="../../../../language/python/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     pyenv
@@ -1512,8 +1663,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/mind/" class="md-nav__link">
+      <a href="../../../../language/python/mind/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Python Mind
@@ -1534,8 +1686,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/numpy/" class="md-nav__link">
+      <a href="../../../../language/python/numpy/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Numpy
@@ -1556,8 +1709,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/pipenv/" class="md-nav__link">
+      <a href="../../../../language/python/pipenv/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Pipenv
@@ -1578,8 +1732,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/plot/" class="md-nav__link">
+      <a href="../../../../language/python/plot/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Legend
@@ -1600,8 +1755,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/poetry/" class="md-nav__link">
+      <a href="../../../../language/python/poetry/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Poetry
@@ -1622,8 +1778,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/pytest/" class="md-nav__link">
+      <a href="../../../../language/python/pytest/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Pytest
@@ -1644,8 +1801,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/scipy/" class="md-nav__link">
+      <a href="../../../../language/python/scipy/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     scipy
@@ -1666,8 +1824,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/search_path/" class="md-nav__link">
+      <a href="../../../../language/python/search_path/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Search Path
@@ -1688,8 +1847,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/typing/" class="md-nav__link">
+      <a href="../../../../language/python/typing/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Typing
@@ -1710,8 +1870,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/python/uv/" class="md-nav__link">
+      <a href="../../../../language/python/uv/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     uv
@@ -1743,15 +1904,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_14" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_16" >
         
           
-          <label class="md-nav__link" for="__nav_6_14" id="__nav_6_14_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_16" id="__nav_6_16_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Ruby
@@ -1762,8 +1925,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_14_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_14">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_16_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_16">
             <span class="md-nav__icon md-icon"></span>
             Ruby
           </label>
@@ -1776,8 +1939,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/ruby/gem/" class="md-nav__link">
+      <a href="../../../../language/ruby/gem/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Gem
@@ -1798,8 +1962,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/ruby/general/" class="md-nav__link">
+      <a href="../../../../language/ruby/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Ruby
@@ -1831,15 +1996,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_15" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_17" >
         
           
-          <label class="md-nav__link" for="__nav_6_15" id="__nav_6_15_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_17" id="__nav_6_17_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Rust
@@ -1850,8 +2017,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_15_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_15">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_6_17_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_17">
             <span class="md-nav__icon md-icon"></span>
             Rust
           </label>
@@ -1864,8 +2031,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/attribute/" class="md-nav__link">
+      <a href="../../../../language/rust/attribute/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Attribute
@@ -1886,8 +2054,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/bit_operation/" class="md-nav__link">
+      <a href="../../../../language/rust/bit_operation/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Bit In Rust
@@ -1908,8 +2077,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/compare_pairs/" class="md-nav__link">
+      <a href="../../../../language/rust/compare_pairs/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Compare Pairs
@@ -1930,8 +2100,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/encode/" class="md-nav__link">
+      <a href="../../../../language/rust/encode/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     ASCII bytes
@@ -1952,8 +2123,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/general/" class="md-nav__link">
+      <a href="../../../../language/rust/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Rust
@@ -1974,8 +2146,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/mind/" class="md-nav__link">
+      <a href="../../../../language/rust/mind/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Declaration and Binding
@@ -1996,8 +2169,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/tdd/" class="md-nav__link">
+      <a href="../../../../language/rust/tdd/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     TDD
@@ -2018,8 +2192,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/type/" class="md-nav__link">
+      <a href="../../../../language/rust/type/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Type
@@ -2043,15 +2218,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_15_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_17_9" >
         
           
-          <label class="md-nav__link" for="__nav_6_15_9" id="__nav_6_15_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_17_9" id="__nav_6_17_9_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Memory perspective
@@ -2062,8 +2239,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_15_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_15_9">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_17_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_17_9">
             <span class="md-nav__icon md-icon"></span>
             Memory perspective
           </label>
@@ -2076,11 +2253,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/memory_perspective/" class="md-nav__link">
+      <a href="../../../../language/rust/memory_perspective/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Memory Perspective
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/rust/memory_perspective/range/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Range
     
   </span>
   
@@ -2109,15 +2310,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_15_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_17_10" >
         
           
-          <label class="md-nav__link" for="__nav_6_15_10" id="__nav_6_15_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_17_10" id="__nav_6_17_10_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Std
@@ -2128,8 +2331,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_15_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_15_10">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_17_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_17_10">
             <span class="md-nav__icon md-icon"></span>
             Std
           </label>
@@ -2142,8 +2345,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/alloc/" class="md-nav__link">
+      <a href="../../../../language/rust/std/alloc/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::alloc
@@ -2164,8 +2368,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/borrow/" class="md-nav__link">
+      <a href="../../../../language/rust/std/borrow/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::borrow
@@ -2186,8 +2391,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/boxed/" class="md-nav__link">
+      <a href="../../../../language/rust/std/boxed/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::boxed
@@ -2208,8 +2414,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/cell/" class="md-nav__link">
+      <a href="../../../../language/rust/std/cell/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     RefCell
@@ -2230,8 +2437,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/cmp/" class="md-nav__link">
+      <a href="../../../../language/rust/std/cmp/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::cmp
@@ -2252,8 +2460,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/collections/" class="md-nav__link">
+      <a href="../../../../language/rust/std/collections/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::collections
@@ -2274,8 +2483,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/default/" class="md-nav__link">
+      <a href="../../../../language/rust/std/default/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::default
@@ -2296,8 +2506,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/intrinsics/" class="md-nav__link">
+      <a href="../../../../language/rust/std/intrinsics/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::intrinsics
@@ -2318,8 +2529,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/maker/" class="md-nav__link">
+      <a href="../../../../language/rust/std/maker/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::marker
@@ -2340,8 +2552,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/mem/" class="md-nav__link">
+      <a href="../../../../language/rust/std/mem/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::mem
@@ -2362,8 +2575,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/ops/" class="md-nav__link">
+      <a href="../../../../language/rust/std/ops/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::ops
@@ -2384,8 +2598,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/option/" class="md-nav__link">
+      <a href="../../../../language/rust/std/option/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::option
@@ -2406,8 +2621,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/rc/" class="md-nav__link">
+      <a href="../../../../language/rust/std/rc/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::rc::Rc
@@ -2428,8 +2644,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/string/" class="md-nav__link">
+      <a href="../../../../language/rust/std/string/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::string
@@ -2450,8 +2667,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/std/vec/" class="md-nav__link">
+      <a href="../../../../language/rust/std/vec/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     std::vec
@@ -2483,15 +2701,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_15_11" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_6_17_11" >
         
           
-          <label class="md-nav__link" for="__nav_6_15_11" id="__nav_6_15_11_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_6_17_11" id="__nav_6_17_11_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Tools
@@ -2502,8 +2722,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_15_11_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_6_15_11">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_6_17_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_6_17_11">
             <span class="md-nav__icon md-icon"></span>
             Tools
           </label>
@@ -2516,8 +2736,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/tools/cargo/" class="md-nav__link">
+      <a href="../../../../language/rust/tools/cargo/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     cargo
@@ -2538,11 +2759,58 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../language/rust/tools/playground/" class="md-nav__link">
+      <a href="../../../../language/rust/tools/criterion/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    Criterion
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/rust/tools/playground/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     playground
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/rust/tools/ratarui/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Ratatui
     
   </span>
   
@@ -2586,6 +2854,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -2595,6 +2864,7 @@
           
           <label class="md-nav__link" for="__nav_7" id="__nav_7_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Leedcode
@@ -2619,8 +2889,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leedcode/" class="md-nav__link">
+      <a href="../../../../leedcode/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     LeedCode Thought
@@ -2641,8 +2912,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leedcode/bit_operation/" class="md-nav__link">
+      <a href="../../../../leedcode/bit_operation/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Bid
@@ -2663,8 +2935,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../leedcode/linked_list_cycle/" class="md-nav__link">
+      <a href="../../../../leedcode/linked_list_cycle/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Linked List Cycle
@@ -2697,6 +2970,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
@@ -2706,6 +2980,7 @@
           
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Machine learning
@@ -2730,8 +3005,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../general/" class="md-nav__link">
+      <a href="../../../general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     ML for Quant
@@ -2749,21 +3025,25 @@
                 
   
   
+    
   
   
+  
     
     
     
     
-    <li class="md-nav__item md-nav__item--nested">
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2" checked>
         
           
           <label class="md-nav__link" for="__nav_8_2" id="__nav_8_2_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Models
@@ -2774,7 +3054,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="false">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_2_label" aria-expanded="true">
           <label class="md-nav__title" for="__nav_8_2">
             <span class="md-nav__icon md-icon"></span>
             Models
@@ -2788,8 +3068,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/" class="md-nav__link">
+      <a href="../../" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     What is a Algorithm
@@ -2810,8 +3091,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/backtracking/" class="md-nav__link">
+      <a href="../../backtracking/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Backtracking
@@ -2832,8 +3114,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/binary_search/" class="md-nav__link">
+      <a href="../../binary_search/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Binary Search
@@ -2854,8 +3137,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/binary_search_tree/" class="md-nav__link">
+      <a href="../../binary_search_tree/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Binary Search Tree
@@ -2876,8 +3160,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/binary_tree/" class="md-nav__link">
+      <a href="../../binary_tree/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Binary Tree
@@ -2898,8 +3183,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/decision_tree/" class="md-nav__link">
+      <a href="../../decision_tree/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Decision Tree
@@ -2920,30 +3206,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/dynamic_programming/" class="md-nav__link">
+      <a href="../../GMM/" class="md-nav__link">
         
   
-  <span class="md-ellipsis">
-    Dynamic Programming
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../../models/GMM/" class="md-nav__link">
-        
   
   <span class="md-ellipsis">
     GMM(Gaussian Mixture Model)
@@ -2964,8 +3229,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/gbdt/" class="md-nav__link">
+      <a href="../../gbdt/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     GBDT(Gradient Boosting Decision Tree)
@@ -2986,8 +3252,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/greedy/" class="md-nav__link">
+      <a href="../../greedy/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Greedy Algorithm
@@ -3008,8 +3275,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/LSTM/" class="md-nav__link">
+      <a href="../../LSTM/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     LSTM
@@ -3030,8 +3298,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/lightgbm/" class="md-nav__link">
+      <a href="../../lightgbm/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     LightGBM(Light Gradient-Boosting Machine) official web wiki code
@@ -3052,8 +3321,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/recursion/" class="md-nav__link">
+      <a href="../../recursion/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Recursion
@@ -3074,8 +3344,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/TSNE/" class="md-nav__link">
+      <a href="../../TSNE/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     TSNE
@@ -3096,8 +3367,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/technique_vs_algorithm/" class="md-nav__link">
+      <a href="../../technique_vs_algorithm/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Technique vs algorithm
@@ -3121,15 +3393,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_16" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_15" >
         
           
-          <label class="md-nav__link" for="__nav_8_2_16" id="__nav_8_2_16_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_2_15" id="__nav_8_2_15_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Activation function
@@ -3140,8 +3414,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_16_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_2_16">
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_15_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_2_15">
             <span class="md-nav__icon md-icon"></span>
             Activation function
           </label>
@@ -3154,8 +3428,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/activation_function/ReLU/" class="md-nav__link">
+      <a href="../../activation_function/ReLU/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     ReLU(Rectified Linear Unit)
@@ -3176,8 +3451,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/activation_function/Tanh/" class="md-nav__link">
+      <a href="../../activation_function/Tanh/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Tanh(Hyperbolic Tangent)
@@ -3203,8 +3479,157 @@
                 
   
   
+    
   
   
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_2_16" checked>
+        
+          
+          <label class="md-nav__link" for="__nav_8_2_16" id="__nav_8_2_16_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Dynamic programming
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_8_2_16_label" aria-expanded="true">
+          <label class="md-nav__title" for="__nav_8_2_16">
+            <span class="md-nav__icon md-icon"></span>
+            Dynamic programming
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Dynamic Programming
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../divide_and_conquer/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Divide and conquer
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../kadane_algorithm/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Kadane's Algorithm
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+    
+  
+  
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
+        
+  
+  
+  <span class="md-ellipsis">
+    Knapsack
+    
+  </span>
+  
+
+      </a>
+      
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
     
     
     
@@ -3218,6 +3643,7 @@
           
           <label class="md-nav__link" for="__nav_8_2_17" id="__nav_8_2_17_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Graph
@@ -3242,8 +3668,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/" class="md-nav__link">
+      <a href="../../graph/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Graph Concept
@@ -3264,8 +3691,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/depth_first_search/" class="md-nav__link">
+      <a href="../../graph/depth_first_search/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Depth-first Search
@@ -3286,8 +3714,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/flood_fill/" class="md-nav__link">
+      <a href="../../graph/flood_fill/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Flood Fill
@@ -3308,8 +3737,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/floyd%27s_cycle_finding/" class="md-nav__link">
+      <a href="../../graph/floyd%27s_cycle_finding/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Floyd's Cycle-Finding Algorithm
@@ -3330,8 +3760,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/graph_type/" class="md-nav__link">
+      <a href="../../graph/graph_type/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Graph Type
@@ -3352,11 +3783,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/graph/topological_sort/" class="md-nav__link">
+      <a href="../../graph/topological_sort/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Topological Sort
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../graph/union_find/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Union Find
     
   </span>
   
@@ -3385,6 +3840,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -3394,6 +3850,7 @@
           
           <label class="md-nav__link" for="__nav_8_2_18" id="__nav_8_2_18_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Loss function
@@ -3418,8 +3875,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/loss_function/general/" class="md-nav__link">
+      <a href="../../loss_function/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Loss Function()
@@ -3440,8 +3898,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/loss_function/MAE/" class="md-nav__link">
+      <a href="../../loss_function/MAE/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     MAE
@@ -3462,8 +3921,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/loss_function/MAPE/" class="md-nav__link">
+      <a href="../../loss_function/MAPE/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     MAPE
@@ -3484,8 +3944,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/loss_function/MSE/" class="md-nav__link">
+      <a href="../../loss_function/MSE/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     MSE(Mean Square Error)
@@ -3517,6 +3978,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -3526,6 +3988,7 @@
           
           <label class="md-nav__link" for="__nav_8_2_19" id="__nav_8_2_19_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Optimizer
@@ -3550,8 +4013,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/AdaGrad/" class="md-nav__link">
+      <a href="../../optimizer/AdaGrad/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     AdaGrad
@@ -3572,8 +4036,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/Adam/" class="md-nav__link">
+      <a href="../../optimizer/Adam/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Adam(Adaptive Moment Estimation)
@@ -3594,8 +4059,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/general/" class="md-nav__link">
+      <a href="../../optimizer/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Optimizer
@@ -3616,8 +4082,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/Momentum/" class="md-nav__link">
+      <a href="../../optimizer/Momentum/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Momentum
@@ -3638,8 +4105,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/RMSProp/" class="md-nav__link">
+      <a href="../../optimizer/RMSProp/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     RMSProp(Root Mean Square Propagation)
@@ -3660,8 +4128,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../models/optimizer/SGD/" class="md-nav__link">
+      <a href="../../optimizer/SGD/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     SGD(Stochastic Gradient Descent)
@@ -3701,6 +4170,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -3710,6 +4180,7 @@
           
           <label class="md-nav__link" for="__nav_8_3" id="__nav_8_3_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Optimization
@@ -3734,8 +4205,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../optimization/general/" class="md-nav__link">
+      <a href="../../../optimization/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Optimization
@@ -3761,130 +4233,9 @@
                 
   
   
-    
-  
-  
-  
-    
-    
-    
-    
-    <li class="md-nav__item md-nav__item--active md-nav__item--nested">
-      
-        
-        
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" checked>
-        
-          
-          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
-            
-  
-  <span class="md-ellipsis">
-    Reference
-    
-  </span>
-  
-
-            <span class="md-nav__icon md-icon"></span>
-          </label>
-        
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="true">
-          <label class="md-nav__title" for="__nav_8_4">
-            <span class="md-nav__icon md-icon"></span>
-            Reference
-          </label>
-          <ul class="md-nav__list" data-md-scrollfix>
-            
-              
-                
   
   
     
-  
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
-        
-  
-  <span class="md-ellipsis">
-    Books
-    
-  </span>
-  
-
-      </a>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../correcting_the_factor_mirage_a_research_protocol_for_causal_factor_investing/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Correcting the Factor Mirage: A Research Protocol for Causal Factor Investing
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../dymamic_investment_strategies/" class="md-nav__link">
-        
-  
-  <span class="md-ellipsis">
-    Dynamic Investment Strategies Through Market Classification and Volatility: A Machine Learning Approach
-    
-  </span>
-  
-
-      </a>
-    </li>
-  
-
-              
-            
-          </ul>
-        </nav>
-      
-    </li>
-  
-
-              
-            
-              
-                
-  
-  
-  
-  
     
     
     
@@ -3893,11 +4244,12 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_4" >
         
           
-          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_4" id="__nav_8_4_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Theory
@@ -3908,8 +4260,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_4">
             <span class="md-nav__icon md-icon"></span>
             Theory
           </label>
@@ -3922,8 +4274,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/deep_learning/" class="md-nav__link">
+      <a href="../../../theory/deep_learning/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Axon
@@ -3944,8 +4297,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/feature_engineering/" class="md-nav__link">
+      <a href="../../../theory/feature_engineering/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Feature Engineering
@@ -3966,8 +4320,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/general/" class="md-nav__link">
+      <a href="../../../theory/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     MLFQ Theory
@@ -3988,8 +4343,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/prediction/" class="md-nav__link">
+      <a href="../../../theory/prediction/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Prediction Theory
@@ -4010,8 +4366,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../theory/statistics/" class="md-nav__link">
+      <a href="../../../theory/statistics/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Statistical Measures
@@ -4043,15 +4400,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8_5" >
         
           
-          <label class="md-nav__link" for="__nav_8_6" id="__nav_8_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_8_5" id="__nav_8_5_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Tools
@@ -4062,8 +4421,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_8_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_8_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_8_5">
             <span class="md-nav__icon md-icon"></span>
             Tools
           </label>
@@ -4076,8 +4435,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/featuretools/" class="md-nav__link">
+      <a href="../../../tools/featuretools/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Featuretools
@@ -4098,8 +4458,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/general/" class="md-nav__link">
+      <a href="../../../tools/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Tools For ML
@@ -4120,8 +4481,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/random_forest/" class="md-nav__link">
+      <a href="../../../tools/random_forest/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     feature importance
@@ -4142,8 +4504,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/seaborn/" class="md-nav__link">
+      <a href="../../../tools/seaborn/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     heatmap
@@ -4164,8 +4527,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/sklearn/" class="md-nav__link">
+      <a href="../../../tools/sklearn/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     GaussianMixture
@@ -4186,8 +4550,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/statsmodels/" class="md-nav__link">
+      <a href="../../../tools/statsmodels/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     seasonal_decompose
@@ -4208,8 +4573,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../tools/tersorflow/" class="md-nav__link">
+      <a href="../../../tools/tersorflow/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     TensorFlow
@@ -4248,6 +4614,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -4257,6 +4624,7 @@
           
           <label class="md-nav__link" for="__nav_9" id="__nav_9_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Os
@@ -4281,8 +4649,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../os/most_significant_bit/" class="md-nav__link">
+      <a href="../../../../os/mac/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    Mac Skill
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../os/most_significant_bit/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     MSB
@@ -4303,8 +4695,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../os/two%27s_complement/" class="md-nav__link">
+      <a href="../../../../os/two%27s_complement/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Two's Complement
@@ -4335,6 +4728,7 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
@@ -4344,6 +4738,7 @@
           
           <label class="md-nav__link" for="__nav_10" id="__nav_10_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Topics
@@ -4368,8 +4763,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/masters/" class="md-nav__link">
+      <a href="../../../../topics/ecommerce/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    OpenCart
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/masters/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     Masters
@@ -4393,15 +4812,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" >
         
           
-          <label class="md-nav__link" for="__nav_10_2" id="__nav_10_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Algorithm
@@ -4412,8 +4833,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_3">
             <span class="md-nav__icon md-icon"></span>
             Algorithm
           </label>
@@ -4426,8 +4847,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/algorithm/general/" class="md-nav__link">
+      <a href="../../../../topics/algorithm/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Algorithm
@@ -4448,8 +4870,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/algorithm/sort/" class="md-nav__link">
+      <a href="../../../../topics/algorithm/sort/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Sort
@@ -4481,15 +4904,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
         
           
-          <label class="md-nav__link" for="__nav_10_3" id="__nav_10_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Blockchain
@@ -4500,8 +4925,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_4">
             <span class="md-nav__icon md-icon"></span>
             Blockchain
           </label>
@@ -4514,8 +4939,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/blockchain/concept/" class="md-nav__link">
+      <a href="../../../../topics/blockchain/concept/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Blockchain Concepts
@@ -4547,15 +4973,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_4" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5" >
         
           
-          <label class="md-nav__link" for="__nav_10_4" id="__nav_10_4_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_5" id="__nav_10_5_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Database
@@ -4566,8 +4994,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_4_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_4">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_5">
             <span class="md-nav__icon md-icon"></span>
             Database
           </label>
@@ -4580,8 +5008,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/database/database/" class="md-nav__link">
+      <a href="../../../../topics/database/database/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     postgres
@@ -4602,8 +5031,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/database/general/" class="md-nav__link">
+      <a href="../../../../topics/database/general/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     OLTP vs OLAP
@@ -4624,8 +5054,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/database/sqlite/" class="md-nav__link">
+      <a href="../../../../topics/database/sqlite/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Sqlite
@@ -4646,8 +5077,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/database/tigerbeetle/" class="md-nav__link">
+      <a href="../../../../topics/database/tigerbeetle/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     TigerBeetle: financial transactions database for OLTP
@@ -4667,9 +5099,71 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="../../../topics/database/tortoise/" class="md-nav__link">
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
         
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5_5" >
+        
+          
+          <label class="md-nav__link" for="__nav_10_5_5" id="__nav_10_5_5_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    Postgres
+    
+  </span>
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="3" aria-labelledby="__nav_10_5_5_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_5_5">
+            <span class="md-nav__icon md-icon"></span>
+            Postgres
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/database/postgres/aerich/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    aerich
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/database/postgres/tortoise/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     Tortoise
@@ -4678,6 +5172,14 @@
   
 
       </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
     </li>
   
 
@@ -4701,15 +5203,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_5" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_6" >
         
           
-          <label class="md-nav__link" for="__nav_10_5" id="__nav_10_5_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_6" id="__nav_10_6_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     How to learn
@@ -4720,8 +5224,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_5_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_5">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_6_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_6">
             <span class="md-nav__icon md-icon"></span>
             How to learn
           </label>
@@ -4734,8 +5238,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/how_to_learn/algorithm/" class="md-nav__link">
+      <a href="../../../../topics/how_to_learn/algorithm/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Learning Algorithm
@@ -4756,8 +5261,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/how_to_learn/define/" class="md-nav__link">
+      <a href="../../../../topics/how_to_learn/define/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Give a Definition
@@ -4778,8 +5284,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/how_to_learn/how_to_define_a_question/" class="md-nav__link">
+      <a href="../../../../topics/how_to_learn/how_to_define_a_question/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     The most important ability in AI age
@@ -4800,8 +5307,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/how_to_learn/prompts/" class="md-nav__link">
+      <a href="../../../../topics/how_to_learn/prompts/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     AI Prompts
@@ -4833,15 +5341,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_6" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_7" >
         
           
-          <label class="md-nav__link" for="__nav_10_6" id="__nav_10_6_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_7" id="__nav_10_7_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Mathmatics
@@ -4852,8 +5362,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_6_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_6">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_7_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_7">
             <span class="md-nav__icon md-icon"></span>
             Mathmatics
           </label>
@@ -4866,8 +5376,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/count/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/count/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Count
@@ -4888,8 +5399,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/e/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/e/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     e: Eluer's number
@@ -4910,8 +5422,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/euler_identity/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/euler_identity/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Euler's Identity
@@ -4932,8 +5445,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/i/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/i/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     i
@@ -4954,8 +5468,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/linear_algebra/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/linear_algebra/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Linear Algebra
@@ -4976,8 +5491,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/modulo/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/modulo/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     module
@@ -4998,8 +5514,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/normal_distribution/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/normal_distribution/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Normal Distribution
@@ -5020,8 +5537,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/probability_statistics/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/probability_statistics/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Probability Statistics
@@ -5042,8 +5560,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/proof/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/proof/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Proof
@@ -5064,8 +5583,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/mathmatics/standard_deviation/" class="md-nav__link">
+      <a href="../../../../topics/mathmatics/standard_deviation/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Standard Deviation
@@ -5097,15 +5617,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_7" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_8" >
         
           
-          <label class="md-nav__link" for="__nav_10_7" id="__nav_10_7_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_8" id="__nav_10_8_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Methodology
@@ -5116,8 +5638,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_7_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_7">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_8_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_8">
             <span class="md-nav__icon md-icon"></span>
             Methodology
           </label>
@@ -5130,8 +5652,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/ai-concepts/" class="md-nav__link">
+      <a href="../../../../topics/methodology/ai-concepts/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     AI concepts
@@ -5152,8 +5675,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/domain-driven-design/" class="md-nav__link">
+      <a href="../../../../topics/methodology/domain-driven-design/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Intro
@@ -5174,8 +5698,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/principles/" class="md-nav__link">
+      <a href="../../../../topics/methodology/principles/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     If you don't know how to format and classify it ,just leave it there until you know how
@@ -5196,8 +5721,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/professional-programming/" class="md-nav__link">
+      <a href="../../../../topics/methodology/professional-programming/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     专业的程序员用结构化数据传参
@@ -5218,8 +5744,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/program_pipeline/" class="md-nav__link">
+      <a href="../../../../topics/methodology/program_pipeline/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     How to Solve A Programming Problem
@@ -5240,8 +5767,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/methodology/programming_as_graph/" class="md-nav__link">
+      <a href="../../../../topics/methodology/programming_as_graph/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Programming From Graph Perspective
@@ -5273,15 +5801,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_8" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_9" >
         
           
-          <label class="md-nav__link" for="__nav_10_8" id="__nav_10_8_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_9" id="__nav_10_9_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Network
@@ -5292,8 +5822,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_8_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_8">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_9_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_9">
             <span class="md-nav__icon md-icon"></span>
             Network
           </label>
@@ -5306,8 +5836,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/network/network/" class="md-nav__link">
+      <a href="../../../../topics/network/httpie/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    HTTPie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/network/network/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     Error
@@ -5339,15 +5893,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_9" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_10" >
         
           
-          <label class="md-nav__link" for="__nav_10_9" id="__nav_10_9_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_10" id="__nav_10_10_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     System
@@ -5358,8 +5914,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_9_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_9">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_10_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_10">
             <span class="md-nav__icon md-icon"></span>
             System
           </label>
@@ -5372,8 +5928,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/system/BibTeX/" class="md-nav__link">
+      <a href="../../../../topics/system/BibTeX/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     BibTex is both a Protocol and a Tool
@@ -5394,8 +5951,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/system/lsp/" class="md-nav__link">
+      <a href="../../../../topics/system/lsp/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     LSP
@@ -5416,11 +5974,35 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/system/protocol/" class="md-nav__link">
+      <a href="../../../../topics/system/protocol/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     why we need understand Concepts
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/system/shell_setup/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Shell Terminal Setup
     
   </span>
   
@@ -5449,15 +6031,17 @@
     
     
     
+    
     <li class="md-nav__item md-nav__item--nested">
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_10" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_10_11" >
         
           
-          <label class="md-nav__link" for="__nav_10_10" id="__nav_10_10_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_10_11" id="__nav_10_11_label" tabindex="0">
             
+  
   
   <span class="md-ellipsis">
     Tools
@@ -5468,8 +6052,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_10_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_10_10">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_10_11_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_10_11">
             <span class="md-nav__icon md-icon"></span>
             Tools
           </label>
@@ -5482,8 +6066,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/auto-action/" class="md-nav__link">
+      <a href="../../../../topics/tools/apks/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    哪里下载APK Andriod
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/tools/auto-action/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     pre-commit执行工作流
@@ -5504,11 +6112,12 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/bash/" class="md-nav__link">
+      <a href="../../../../topics/tools/bash/" class="md-nav__link">
         
   
+  
   <span class="md-ellipsis">
-    Bash Shell
+    Bash
     
   </span>
   
@@ -5526,8 +6135,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/docker/" class="md-nav__link">
+      <a href="../../../../topics/tools/docker/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Docker
@@ -5548,8 +6158,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/fish/" class="md-nav__link">
+      <a href="../../../../topics/tools/fish/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     pydantic在fish中会自动从fish shell中提取变量，而不是指定的.env
@@ -5570,8 +6181,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/format/" class="md-nav__link">
+      <a href="../../../../topics/tools/format/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     flake8
@@ -5592,8 +6204,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/git/" class="md-nav__link">
+      <a href="../../../../topics/tools/git/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Git
@@ -5614,8 +6227,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/github-action/" class="md-nav__link">
+      <a href="../../../../topics/tools/github-action/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Error
@@ -5636,8 +6250,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/github-pages/" class="md-nav__link">
+      <a href="../../../../topics/tools/github-pages/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     GitHub Pages
@@ -5658,8 +6273,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/github-workflow/" class="md-nav__link">
+      <a href="../../../../topics/tools/github-workflow/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Github Workflow
@@ -5680,8 +6296,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/grafana/" class="md-nav__link">
+      <a href="../../../../topics/tools/grafana/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Grafana
@@ -5702,8 +6319,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/make/" class="md-nav__link">
+      <a href="../../../../topics/tools/make/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     使用make的理由
@@ -5724,8 +6342,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/markdown/" class="md-nav__link">
+      <a href="../../../../topics/tools/markdown/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     MarkDown
@@ -5746,8 +6365,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/mermaid/" class="md-nav__link">
+      <a href="../../../../topics/tools/mermaid/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     mermaid
@@ -5768,8 +6388,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/mkdocs/" class="md-nav__link">
+      <a href="../../../../topics/tools/mkdocs/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     mkdocs
@@ -5790,8 +6411,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/moviepy/" class="md-nav__link">
+      <a href="../../../../topics/tools/moviepy/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     moviepy
@@ -5812,8 +6434,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/nc/" class="md-nav__link">
+      <a href="../../../../topics/tools/nc/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     nc
@@ -5834,8 +6457,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/nvim/" class="md-nav__link">
+      <a href="../../../../topics/tools/nvim/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     nvim 是一个事件驱动框架
@@ -5856,8 +6480,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/perf/" class="md-nav__link">
+      <a href="../../../../topics/tools/perf/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     perl Linux profiling with performance counters
@@ -5878,8 +6503,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/pre-commit/" class="md-nav__link">
+      <a href="../../../../topics/tools/powerlevel10k/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    powerlevel10k
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/tools/pre-commit/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     pre-commit
@@ -5900,8 +6549,32 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/ta-lib/" class="md-nav__link">
+      <a href="../../../../topics/tools/starship/" class="md-nav__link">
         
+  
+  
+  <span class="md-ellipsis">
+    Starship
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../topics/tools/ta-lib/" class="md-nav__link">
+        
+  
   
   <span class="md-ellipsis">
     TA-Lib
@@ -5922,8 +6595,9 @@
   
   
     <li class="md-nav__item">
-      <a href="../../../topics/tools/windows/" class="md-nav__link">
+      <a href="../../../../topics/tools/windows/" class="md-nav__link">
         
+  
   
   <span class="md-ellipsis">
     Windows使用技巧
@@ -5969,8 +6643,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -5986,12 +6658,9 @@
 
 
 
-<h1 id="books">Books</h1>
-<ul>
-<li><a href="https://jeffe.cs.illinois.edu/teaching/algorithms/">Algorithms, Jeff Erickson</a></li>
-<li><a href="https://mimoza.marmara.edu.tr/~msakalli/cse706_12/SkienaTheAlgorithmDesignManual.pdf">The Algorithm Design Manual</a></li>
-<li><a href="https://enos.itcollege.ee/~japoia/algorithms/GT/Introduction_to_algorithms-3rd%20Edition.pdf">Introduce to Algorithms, TCRC</a></li>
-</ul>
+  <h1>Knapsack</h1>
+
+
 
 
 
@@ -6038,10 +6707,12 @@
     </div>
     
     
-    <script id="__config" type="application/json">{"base": "../../..", "features": [], "search": "../../../assets/javascripts/workers/search.f8cc74c7.min.js", "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}}</script>
+    
+      
+      <script id="__config" type="application/json">{"base": "../../../..", "features": [], "search": "../../../../assets/javascripts/workers/search.d50fe291.min.js", "tags": null, "translations": {"clipboard.copied": "Copied to clipboard", "clipboard.copy": "Copy to clipboard", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.placeholder": "Type to start searching", "search.result.term.missing": "Missing", "select.version": "Select version"}, "version": null}</script>
     
     
-      <script src="../../../assets/javascripts/bundle.c8b220af.min.js"></script>
+      <script src="../../../../assets/javascripts/bundle.13a4f30d.min.js"></script>
       
     
   </body>
