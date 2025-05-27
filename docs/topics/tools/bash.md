@@ -1,5 +1,6 @@
-# Bash Shell
-
+# Bash
+# Setup Shell 
+[craftdog](https://github.com/craftzdog/dotfiles-public)
 # Usage
 - `exec "$@"`
 
