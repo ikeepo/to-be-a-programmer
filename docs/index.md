@@ -39,6 +39,7 @@ Focus on your product, abstract into knowledge, then compare with other people's
 - [Brendan Gregg](https://www.brendangregg.com/index.html)
 - [Stephen Diehl](https://www.stephendiehl.com/)
 - [Serhii Potapov](https://www.screamingvalue.com/about/)
+- [Lee Robinson](https://leerob.com/)  
 # Principles
 
 - [professional programming](./topics/professional-programming.md)

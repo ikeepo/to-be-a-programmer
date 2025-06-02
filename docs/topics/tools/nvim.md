@@ -9,6 +9,12 @@ use [jupytext.nvim](https://github.com/goerz/jupytext.nvim) but neet to install 
 ```shell
 Ctrl + r
 ```
+# How to add [] || [ nvim-surround ](https://github.com/kylechui/nvim-surround)
+```shell
+:h nvim-surround.usage
+```
+
+
 # `setup`是关键字么？
 
 `setup`并不是一个关键字，只是惯例函数名，

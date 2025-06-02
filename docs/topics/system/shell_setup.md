@@ -1,4 +1,9 @@
 # Shell Terminal Setup 
+# Tools
+- starship 
+
+- fish
+
 
 
 
