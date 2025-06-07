@@ -1576,6 +1576,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../language/nextjs/typography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Typpgraphy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../language/nextjs/wisp/" class="md-nav__link">
         
   
@@ -4778,6 +4801,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linuxgui" class="md-nav__link">
+    <span class="md-ellipsis">
+      如何远程登录Linux服务器(GUI)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="如何远程登录Linux服务器(GUI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      问题
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#realvnc" class="md-nav__link">
+    <span class="md-ellipsis">
+      RealVNC
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6441,6 +6503,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../topics/tools/httpie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Httpie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../topics/tools/make/" class="md-nav__link">
         
   
@@ -6792,6 +6877,45 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#linuxgui" class="md-nav__link">
+    <span class="md-ellipsis">
+      如何远程登录Linux服务器(GUI)
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="如何远程登录Linux服务器(GUI)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#_1" class="md-nav__link">
+    <span class="md-ellipsis">
+      问题
+    </span>
+  </a>
+  
+    <nav class="md-nav" aria-label="问题">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#realvnc" class="md-nav__link">
+    <span class="md-ellipsis">
+      RealVNC
+    </span>
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -6813,6 +6937,90 @@
 <p>Download the app <strong>mirrcast</strong> on your android devices.</p>
 <h2 id="how-to-write-to-ntfs-system">How to Write to NTFS system</h2>
 <p>Pro NTFS Drive-NTFS Write Tool, follow its instruction get work done.</p>
+<h2 id="linuxgui">如何远程登录Linux服务器(GUI)</h2>
+<ul>
+<li>noMachine
+如下记录问题，登录后出现键盘不对应，并且鼠标光标消失。不好用</li>
+<li>在linux安装noMachine</li>
+</ul>
+<pre><code class="language-shell">#!/bin/bash
+# 一键安装 Ubuntu 图形桌面 + NoMachine（适用于腾讯云）
+
+# 更新系统
+sudo apt update &amp;&amp; sudo apt upgrade -y
+
+# 安装 Ubuntu 桌面环境（非最重的 GNOME，使用轻量 XFCE）
+sudo apt install -y xfce4 xfce4-goodies
+
+# 下载并安装 NoMachine
+# 需要重新定向
+curl -L -o nomachine.deb https://www.nomachine.com/free/linux/64/deb
+sudo dpkg -i nomachine_8.11.3_1_amd64.deb
+
+# 查看 NoMachine 状态
+sudo /usr/NX/bin/nxserver --status
+
+# 提示完成
+echo &quot;✅ 桌面和 NoMachine 安装完成，请确保安全组已开放 TCP 4000 端口&quot;
+echo &quot;👉 现在你可以在 Mac 上用 NoMachine 客户端连接这台机器了&quot;
+
+</code></pre>
+<ol>
+<li>
+<p>服务器开放4000端口</p>
+</li>
+<li>
+<p><a href="https://www.nomachine.com/"> 本地安装客户端 </a> </p>
+</li>
+</ol>
+<h4 id="_1">问题</h4>
+<ul>
+<li>重启后登录vnc方式lighthouse/ubuntu账号不成功</li>
+</ul>
+<p>ssh登录可以，但是vnc不行，两边不是同一个密码，shell中运行<code>vncserver</code>后输入的密码或者不输入密码，会重新启用一个界面，在nomachine中可以看到。</p>
+<ul>
+<li>noMachine 键盘不对应
+tab-6</li>
+</ul>
+<p>q-7</p>
+<p>w-8</p>
+<p>e-9</p>
+<p>r--</p>
+<p>t-=</p>
+<p>y-[</p>
+<p>u-]</p>
+<p>i-;</p>
+<p>o-'</p>
+<p>p-\</p>
+<p>a-a</p>
+<p>s-b</p>
+<p>d-c</p>
+<p>f-d</p>
+<p>g-e</p>
+<p>h-f</p>
+<p>j-g</p>
+<p>k-h</p>
+<p>l-i</p>
+<p>;-j</p>
+<p>'-k</p>
+<p>enter-/</p>
+<p>shift-m</p>
+<p>z-o</p>
+<p>x-p</p>
+<p>c-q</p>
+<p>v-r</p>
+<p>b-s</p>
+<p>n-t</p>
+<p>m-u</p>
+<p>,-v</p>
+<p>.-w</p>
+<p>/-x</p>
+<p>right-shift-y</p>
+<p>{opt}-backspace</p>
+<p>space - enter</p>
+<p>UP-tab</p>
+<h5 id="realvnc"><a href="https://www.realvnc.com/en/?lai_vid=vgWXVPzn9sGe&amp;lai_sr=10-14&amp;lai_sl=l"> RealVNC </a></h5>
+<p>同样适用vncserver在服务器启动，然后ip:1连接；</p>
 
 
 

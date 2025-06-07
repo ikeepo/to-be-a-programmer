@@ -1576,6 +1576,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../../../language/nextjs/typography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Typpgraphy
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../../../language/nextjs/wisp/" class="md-nav__link">
         
   
@@ -6383,6 +6406,29 @@
   
   
     <li class="md-nav__item">
+      <a href="../httpie/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    Httpie
+    
+  </span>
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../make/" class="md-nav__link">
         
   
@@ -6500,6 +6546,15 @@
       Table of contents
     </label>
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-to-publish-the-site-to-local-lan" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to publish the site to local LAN
+    </span>
+  </a>
+  
+</li>
       
         <li class="md-nav__item">
   <a href="#icons-in-mkdocs" class="md-nav__link">
@@ -6768,6 +6823,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#how-to-publish-the-site-to-local-lan" class="md-nav__link">
+    <span class="md-ellipsis">
+      How to publish the site to local LAN
+    </span>
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#icons-in-mkdocs" class="md-nav__link">
     <span class="md-ellipsis">
       icons in mkdocs
@@ -6793,6 +6857,13 @@
 
 
 <h1 id="mkdocs"><a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a></h1>
+<h2 id="how-to-publish-the-site-to-local-lan">How to publish the site to local LAN</h2>
+<pre><code class="language-shell">ifconfig 
+# en0找到本地局域网ip,inet 后面192开头的
+# en0 表示以太网接口0，通常是wifi，如果连接了网线还会有en1 等
+mkdocs serve -a 0.0.0.0:8000 
+# 局域网内通过192...:8000访问
+</code></pre>
 <h2 id="icons-in-mkdocs">icons in mkdocs</h2>
 <p>This is the domain of <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">material for mkdocs</a>.
 How to use <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss">Icons, Emojis</a> can be found here. On the head of the page, there is a <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search"><code>Search</code></a> input which is used to find the exact code for icons/emojis you need like <code>:smile:</code></p>
