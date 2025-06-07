@@ -40,6 +40,81 @@ echo "👉 现在你可以在 Mac 上用 NoMachine 客户端连接这台机器�
 ssh登录可以，但是vnc不行，两边不是同一个密码，shell中运行`vncserver`后输入的密码或者不输入密码，会重新启用一个界面，在nomachine中可以看到。
 
 - noMachine 键盘不对应
+tab-6
+
+q-7
+
+w-8
+
+e-9
+
+r--
+
+t-=
+
+y-[
+
+u-]
+
+i-;
+
+o-'
+
+p-\
+
+a-a
+
+s-b
+
+d-c
+
+f-d
+
+g-e
+
+h-f
+
+j-g
+
+k-h
+
+l-i
+
+;-j
+
+'-k
+
+enter-/
+
+shift-m
+
+z-o
+
+x-p
+
+c-q
+
+v-r
+
+b-s
+
+n-t
+
+m-u
+
+,-v
+
+.-w
+
+/-x
+
+right-shift-y
+
+{opt}-backspace
+
+space - enter
+
+UP-tab
 
 ##### [ RealVNC ](https://www.realvnc.com/en/?lai_vid=vgWXVPzn9sGe&lai_sr=10-14&lai_sl=l)
 同样适用vncserver在服务器启动，然后ip:1连接；
