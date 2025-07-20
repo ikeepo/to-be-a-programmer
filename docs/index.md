@@ -35,6 +35,7 @@ Focus on your product, abstract into knowledge, then compare with other people's
 # Design Patterns
 
 - [DDD(Domain Driven Design)](https://en.wikipedia.org/wiki/Domain-driven_design), [topic](./topics/domain-driven-design.md)
+
 # idol
 - [Brendan Gregg](https://www.brendangregg.com/index.html)
 - [Stephen Diehl](https://www.stephendiehl.com/)
