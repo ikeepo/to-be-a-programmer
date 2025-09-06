@@ -89,7 +89,7 @@ LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright�
 ### nvim-lspconfig
 封装了lsp配置复杂度，实现简单配置开箱即用；
 
-# [nvim-surround]()
+# [nvim-surround](https://github.com/kylechui/nvim-surround): 插入包围符号
 # Refs
 
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
