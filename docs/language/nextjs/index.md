@@ -1,5 +1,20 @@
-# tailwind
+# NextJs 
+## `page.tsx` vs `route.ts`
+page.tsx is used for client-facing routes, for rendering , exports a React component, work as a UI page.
 
+route.ts is used for server-side API route, can handle HTTP methods like `GET`, `POST`, `PUT`, `DELETE`.
+## why page.tsx use tsx and route.ts use ts?
+`tsx` contains React components that return `JSX`, TypeScript needs `.tsx` to parse it correctly.
+## if a component is an `async function`, it always runs on the server 
+It's a Server Component.
+All components are Server Component by default.
+
+## Server Component vs Server Actions
+## JavaScript Bundle 
+bundle all the module files into html&js&css that can run by browser directly.
+# tailwind
+## HOOK: useFormStatus relay on the client side bundle
+It depends on client-side JS to track a form's submission state
 ## @tailwind base;
 
 引入tailwind基础样式，components是内置组件库，utilities是工具类；

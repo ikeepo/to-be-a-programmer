@@ -91,7 +91,7 @@ LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright�
 
 # [nvim-surround](https://github.com/kylechui/nvim-surround): 插入包围符号
 # Refs
-
+0. [Zero to IDE with LazyVim](https://www.youtube.com/watch?v=N93cTbtLCIM)
 1. [NeuralNine](https://www.youtube.com/watch?v=tfC1i32eW3A)
 2. [DevOps Toolbox](https://www.youtube.com/watch?v=RziPWdTzSV8)
 3. [TJ DeVries](https://www.youtube.com/watch?v=lyNfnI-B640)
