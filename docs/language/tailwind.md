@@ -7,3 +7,5 @@ Postcss is a tool for transforming CSS with JS plugins.
 1 = 0.25rem = 4px    
 1rem = 16px  
 `rem` means `root em`, relative to the root element's font size which is defined in the `<html>` element as `font-size: 16px`;
+## arbitrary values
+`lg:h-[60px]`
