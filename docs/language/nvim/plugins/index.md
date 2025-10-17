@@ -3,7 +3,9 @@
 ## Auto Completetion
 
 ### [blink.cmp](https://github.com/Saghen/blink.cmp)
-
+##  Format 
+### [conform.nvim](https://github.com/stevearc/conform.nvim)
+最长80char;
 ## Ref 
 - [nvim intro](https://github.com/ikeepo/to-be-a-programmer/blob/master/topics/nvim.md)
 - [How to write a neovim plugin in lua](https://miguelcrespo.co/posts/how-to-write-a-neovim-plugin-in-lua)

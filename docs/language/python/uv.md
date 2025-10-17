@@ -26,3 +26,5 @@ uv python pin 3.11 # pin version by create .python-version file
 uv pip install . # from pyproject.yaml [dependencies]
 uv pip list
 ```
+## [Best Practice](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment)
+
