@@ -1,6 +1,6 @@
 # Git
 ## BP 
-### [Git Flow][1][^2] 
+### [Git Flow][^1] 
 
 ## Commands
 ```shell
@@ -9,5 +9,4 @@ git add . # current dir and subdir, without delete
 ```
 
 # Refs 
-[1]: [Git workflow and best practice](https://github.com/Piwigo/Piwigo/wiki/Git-workflow-and-best-pratices)
-[^2]: This is test method 2
+[^1]: [Git workflow and best practice](https://github.com/Piwigo/Piwigo/wiki/Git-workflow-and-best-pratices)
