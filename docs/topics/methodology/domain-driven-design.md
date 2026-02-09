@@ -1,8 +1,11 @@
 # DDD 
 # Best Practice
 
-# Intro 
 [ddd-crew/welcome-to-ddd](https://github.com/ddd-crew/welcome-to-ddd)
+
+[domain-driven-hexagon](https://github.com/Sairyss/domain-driven-hexagon)
+
+# Intro 
 每一个Domain Class has corresponding Config Class, 好处是：
 
 1. 分离

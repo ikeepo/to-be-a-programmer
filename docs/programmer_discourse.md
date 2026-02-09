@@ -11,3 +11,5 @@ Progrmming plans and discourse rules.
 
 # Discourse Rules 
 1. Memory layout;
+# Principles 
+[W3C](https://www.w3.org/)
