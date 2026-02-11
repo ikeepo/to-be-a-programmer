@@ -1,8 +1,6 @@
-# To be a Programmer(Craftsman)
-> What Did You Practice for Your Body Today?
+# Craftsman
 
-
-> Make a change: From knowledge collection perspective to project and structure perspective.
+**A programmer is a craftsman building products in the digital world.**
 
 Knowledge that I think I should know to be a better programmer named [ikeepo](https://ikeepo.github.io/).
 This is a collection, rather introduction.
@@ -23,8 +21,9 @@ Focus on your product, abstract into knowledge, then compare with other people's
 
 <details>
   <summary>Refs</summary>
-  - [Think Like a Craftsman and Master a Skillset; it Will Give You Meaning and Transform Your Career](https://www.omaritani.com/blog/craftsman-skill-mastery)
-  - [Unlocking Craftsmanship: 10 Essential Traits That Define a Great Craftsman](https://cleanwhale.de/en/blog/unlocking-craftsmanship-10-essential-traits-that-define-a-great-craftsman)
+  [Think Like a Craftsman and Master a Skillset; it Will Give You Meaning and Transform Your Career](https://www.omaritani.com/blog/craftsman-skill-mastery)
+
+  [Unlocking Craftsmanship: 10 Essential Traits That Define a Great Craftsman](https://cleanwhale.de/en/blog/unlocking-craftsmanship-10-essential-traits-that-define-a-great-craftsman)
 </details>
 
 # RULES

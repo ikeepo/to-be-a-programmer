@@ -1,4 +1,4 @@
-# Mac Skill
+# Mac
 ## How to cast screen 
 Download the app **mirrcast** on your android devices.
 ## How to Write to NTFS system

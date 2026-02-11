@@ -1,4 +1,5 @@
-# Java的设计哲学是显式声明
+# Java
+设计哲学是显式声明
 
 ## doing it yourself becomes a tall order
 

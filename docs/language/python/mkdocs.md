@@ -1,4 +1,35 @@
 # [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
+## Plugins
+
+- [ mkdocs ](https://mkdocs-macros-plugin.readthedocs.io/en/latest/)-macros-plugin  
+
+自定义宏；mkdocs层面的自动化功能；   
+
+step1 : `pip install mkdocs-macros-plugin`  
+
+step2: `在mkdocs.yml中plugins下添加macros`  
+
+step3: `在main.py中define_env下添加函数`
+```
+def define_env(env):
+    @env.macro
+    def ddmenu(answer, *options):
+        html = f'<select onchange="this.style.backgroundColor = (this.value == \'{answer}\' ? \'transparent\' : \'#ffcccc\');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;">'
+        html += '<option value="">???</option>'
+        # 把正确答案也放进选项
+        all_opts = [answer] + list(options)
+        for opt in all_opts:
+            html += f'<option value="{opt}">{opt}</option>'
+        html += '</select>'
+        return html
+```
+
+step4: `在md中调用 There are {*2 ddmenu('six', 'five', 'seven') }*2 heading elements.`
+
+- [git-revision-date-localized](https://github.com/timvink/mkdocs-git-revision-date-localized-plugin)
+display the date of the last git modification of a page.
+
+
 ## How to publish the site to local LAN 
 ```shell 
 ifconfig 

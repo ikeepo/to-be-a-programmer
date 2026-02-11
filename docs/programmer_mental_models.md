@@ -1,4 +1,4 @@
-# How to think like a programmer
+# Programmer Mental Models
 # 高级程序员心智图
 - Soloway, E., & Ehrlich, K. (1984). Empirical studies of programming knowledge.
 
