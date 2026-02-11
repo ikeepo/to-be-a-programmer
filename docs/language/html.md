@@ -1,7 +1,7 @@
 # Html
 ## Knowledge
 
-- There are many key concepts in HTML, such as {{ddmenu_u('void element', 'attribute', 'boilerplate', 'id', 'class', 'entity', 'Open Graph Protocol')}}
+- There are many key concepts in HTML, such as {{ddmenu_u('void element', 'attribute', 'boilerplate', 'id', 'class', 'entity', 'Open Graph Protocol', 'replaced element')}}
 
 - There are {{ ddmenu('six', 'five') }} heading elements.
 
@@ -32,6 +32,27 @@ Markup use tag to define elements, and markdown is a easier and lighter alternat
 
 - SVG stands for a scalable vector graphic. A vector graphic tracks data based on paths and equations to plot points, lines, and curves. 
 SVGs specifically have the added benefit of storing data in XML.
+
+- `referrerpolicy` attribute and set it to `strict-origin-when-cross-origin`. This shares the full address on the same site, only the site name on other sites, and nothing on insecure sites. which displaied in the `Request Header`.
+
+- There are five different states a link can be in. `:link, :visited, :hover, :focus, :active`
+
+- The term `href` stands for Hypertext Reference.
+
+- In HTML, the `#` (hash) symbol refers to a fragment identifier. When used alone in an `href` attribute, it acts as a placeholder or a "top of page" link.
+
+- There are two common forms of abbreviations: acronyms and initialisms. The distinction is acronyms are pronounced as words and initialisms are pronounced as individual letters.
+
+- A superscript `sup` is a symbol or letter printed above the normal line of text. It is important to note that the superscript element should only be used for typographical reasons. 
+
+-  Default styling of content inside of the code element is a monospaced font
+
+- in HTML5, the u element should only be used to indicate that text has non-textual annotation applied.
+
+- The strikethrough element, or `s` element for short, should be used to represent when text is no longer accurate or relevant.
+
+- Lorem ipsum is commonly used in web development to serve as placeholder text. 
+
 
 # Boilerplate
 - Version 1

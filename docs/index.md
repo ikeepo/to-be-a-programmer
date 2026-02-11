@@ -2,6 +2,9 @@
 
 **A programmer is a craftsman building products in the digital world.**
 
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="./img/logo.jpeg">
+</div>
 Knowledge that I think I should know to be a better programmer named [ikeepo](https://ikeepo.github.io/).
 This is a collection, rather introduction.
 
