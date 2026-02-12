@@ -5,16 +5,16 @@
 
 - There are {{ ddmenu('six', 'five') }} heading elements.
 
-- What's the difference between MarkUp and MarkDown in HTML? 
+- What's the difference between MarkUp and MarkDown in HTML?
 Markup use tag to define elements, and markdown is a easier and lighter alternative.
 
-- The `rel` attribute is used to specify the relationship between the linked resource and the HTML document. 
+- The `rel` attribute is used to specify the relationship between the linked resource and the HTML document.
 
 - `<!DOCTYPE html>` tells browsers that the document is an {{ddmenu('HTML5')}} document which is the latest version of HTML.
 
-- You will mainly use the {{ddmenu('div')}} element when you want to group HTML elements that will share a set of CSS styles. 
+- You will mainly use the {{ddmenu('div')}} element when you want to group HTML elements that will share a set of CSS styles.
 
-- The {{ddmenu('section')}} element has semantic meaning over the {{ddmenu('div')}} element which is not semantic. Semantics are the meaning of words or phrases in a language. 
+- The {{ddmenu('section')}} element has semantic meaning over the {{ddmenu('div')}} element which is not semantic. Semantics are the meaning of words or phrases in a language.
 
 - {{ddmenu('Classes')}} are best used when you want to apply a set of styles to many elements. If you want to target a specific element, it is best to use id because those values need to be unique.
 
@@ -26,11 +26,11 @@ Markup use tag to define elements, and markdown is a easier and lighter alternat
 
 - It's worth noting that specific file formats, such as JPG, are not lossless.  Lossless means that the original data can be perfectly reconstructed from the compressed data
 
-- By default, images are released as all rights reserved. 
+- By default, images are released as all rights reserved.
 
 - Common image formats like PNG and JPG are classified as raster formats. This essentially means that they are pixel-based, with the data tracking the color value in each pixel.
 
-- SVG stands for a scalable vector graphic. A vector graphic tracks data based on paths and equations to plot points, lines, and curves. 
+- SVG stands for a scalable vector graphic. A vector graphic tracks data based on paths and equations to plot points, lines, and curves.
 SVGs specifically have the added benefit of storing data in XML.
 
 - `referrerpolicy` attribute and set it to `strict-origin-when-cross-origin`. This shares the full address on the same site, only the site name on other sites, and nothing on insecure sites. which displaied in the `Request Header`.
@@ -43,7 +43,7 @@ SVGs specifically have the added benefit of storing data in XML.
 
 - There are two common forms of abbreviations: acronyms and initialisms. The distinction is acronyms are pronounced as words and initialisms are pronounced as individual letters.
 
-- A superscript `sup` is a symbol or letter printed above the normal line of text. It is important to note that the superscript element should only be used for typographical reasons. 
+- A superscript `sup` is a symbol or letter printed above the normal line of text. It is important to note that the superscript element should only be used for typographical reasons.
 
 -  Default styling of content inside of the code element is a monospaced font
 
@@ -51,7 +51,17 @@ SVGs specifically have the added benefit of storing data in XML.
 
 - The strikethrough element, or `s` element for short, should be used to represent when text is no longer accurate or relevant.
 
-- Lorem ipsum is commonly used in web development to serve as placeholder text. 
+- Lorem ipsum is commonly used in web development to serve as placeholder text.
+
+- An HTML validator([w3,org](https://validator.w3.org/), [jsonformatter](https://jsonformatter.org/)) is a tool that checks the validity of your HTML code against the standard HTML specifications.
+
+- "Web Content Accessibility Guidelines" (WCAG).These guidelines are designed with four core principles in mind, known as POUR(Perceivable,Operable,Understandable,Robust).
+
+- Simple structure tells information.
+
+- WAI-ARIA stands for Web Accessibility Initiative - Accessible Rich Internet Applications.WCAG provides general guidelines for web accessibility, while WAI-ARIA offers specific rules for making dynamic and interactive content accessible for users of assistive technologies.
+
+- WAI-ARIA works by introducing a set of attributes you can add to HTML elements to provide additional semantic information. These attributes are categorized into roles, states, and properties.
 
 
 # Boilerplate
