@@ -32,6 +32,6 @@ This is a closed experiment. The execution itself is the focus.
 ## Resource
 - anki: [How to use](./day1.md) 
 
-- [google sheet](https://docs.google.com/spreadsheets/d/14lzJe6akTA81fHQDC95ahSsKRRzDLwI9p75YdzWmU74/edit?gid=0#gid=0)  
+- [google sheet](./day1.md)
 
 - question bank: Notion 
