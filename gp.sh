@@ -42,3 +42,6 @@ echo "wait 3s ... to git pull"
 # 重新拉取数据，因为github workflow会更新README
 sleep 3s
 git pull
+
+echo "deploy again"
+make deploy
