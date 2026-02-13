@@ -1,4 +1,16 @@
 # [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
+## markdown-extensions
+### pymdownx.tasklist
+
+```shell
+- markdown_extensions:
+  - pymdownx.tasklist:
+      custom_checkbox: true  # Optional: Makes checkboxes look better
+      clickable_checkbox: true # Allows users to toggle them (UI only)
+```
+
+- How to add checkbox in mkdocs
+
 ## Plugins
 
 - [ mkdocs ](https://mkdocs-macros-plugin.readthedocs.io/en/latest/)-macros-plugin  
