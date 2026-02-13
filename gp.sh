@@ -38,6 +38,7 @@ git commit -m "$commit_message"
 # 推送更改到提取的远程仓库和当前分支
 git push -u $remote_name $(git rev-parse --abbrev-ref HEAD)
 
+echo "wait 3s ... to git pull"
 # 重新拉取数据，因为github workflow会更新README
-sleep 30s
+sleep 3s
 git pull
