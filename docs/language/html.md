@@ -6,7 +6,7 @@
 - There are {{ ddmenu('six', 'five') }} heading elements.
 
 - What's the difference between MarkUp and MarkDown in HTML?
-Markup use tag to define elements, and markdown is a easier and lighter alternative.
+Markup use {{ddmenu('tag')}} to define elements, and markdown is a easier and lighter alternative.
 
 - The `rel` attribute is used to specify the relationship between the linked resource and the HTML document.
 
@@ -16,9 +16,9 @@ Markup use tag to define elements, and markdown is a easier and lighter alternat
 
 - The {{ddmenu('section')}} element has semantic meaning over the {{ddmenu('div')}} element which is not semantic. Semantics are the meaning of words or phrases in a language.
 
-- {{ddmenu('Classes')}} are best used when you want to apply a set of styles to many elements. If you want to target a specific element, it is best to use id because those values need to be unique.
+- {ddmenu('Classes')}} are best used when you want to apply a set of styles to many elements. If you want to target a specific element, it is best to use {ddmenu('id')}} because those values need to be unique.
 
-- An HTML entity, or character reference, is a set of characters used to represent a reserved character in HTML. There are three types, named character references: `&lt;`; decimal numeric reference: `&#169;`; hexadecimal numeric  reference `&#x20AC;`;
+- An {ddmenu('HTML entity')}}, or character reference, is a set of characters used to represent a reserved character in HTML. There are three types, named character references: `&lt;`; decimal numeric reference: `&#169;`; hexadecimal numeric  reference `&#x20AC;`;
 
 - {{ddmenu('Separation of concerns')}} is a design principle where you separate your programs into distinct sections and have each section address a separate concern.
 
@@ -45,23 +45,23 @@ SVGs specifically have the added benefit of storing data in XML.
 
 - A superscript `sup` is a symbol or letter printed above the normal line of text. It is important to note that the superscript element should only be used for typographical reasons.
 
--  Default styling of content inside of the code element is a monospaced font
+-  Default styling of content inside of the code element is a {{ddmenu('monospaced')}} font
 
-- in HTML5, the u element should only be used to indicate that text has non-textual annotation applied.
+- in HTML5, the `u` element should only be used to indicate that text has {{ddmenu('non-textual')}} annotation applied.
 
-- The strikethrough element, or `s` element for short, should be used to represent when text is no longer accurate or relevant.
+- The strikethrough element, or {{ddmenu('`s`')}} element for short, should be used to represent when text is no longer accurate or relevant.
 
-- Lorem ipsum is commonly used in web development to serve as placeholder text.
+- {{ddmenu{'Lorem ipsum'}}} is commonly used in web development to serve as placeholder text.
 
 - An HTML validator([w3,org](https://validator.w3.org/), [jsonformatter](https://jsonformatter.org/)) is a tool that checks the validity of your HTML code against the standard HTML specifications.
 
-- "Web Content Accessibility Guidelines" (WCAG).These guidelines are designed with four core principles in mind, known as POUR(Perceivable,Operable,Understandable,Robust).
+- "Web Content Accessibility Guidelines" (WCAG).These guidelines are designed with four core principles in mind, known as POUR({{ddmenu('Perceivable,Operable,Understandable,Robust)')}}.
 
-- Simple structure tells information.
+- **Simple structure tells information.**
 
 - WAI-ARIA stands for Web Accessibility Initiative - Accessible Rich Internet Applications.WCAG provides general guidelines for web accessibility, while WAI-ARIA offers specific rules for making dynamic and interactive content accessible for users of assistive technologies.
 
-- WAI-ARIA works by introducing a set of attributes you can add to HTML elements to provide additional semantic information. These attributes are categorized into roles, states, and properties.
+- WAI-ARIA works by introducing a set of attributes you can add to HTML elements to provide additional  {{ddmenu('semantic information.')}}. These attributes are categorized into roles, states, and properties.
 
 
 # Boilerplate
