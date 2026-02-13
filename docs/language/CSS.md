@@ -1,13 +1,9 @@
 # CSS
 ## Concepts
 
-- While HTML defines the structure and {{}}  <option value="content">content</option>
-  <option value="undefined">undefined</option>
-</select> of a webpage, CSS is used to add style, JavaScript makes your webpage <select onchange="this.style.backgroundColor = (this.value == 'interactive' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;">
-  <option value="">???</option>
-  <option value="interactive">interactive</option>
-  <option value="undefined">undefined</option>
-</select>
+- While HTML defines the structure and {{ddmenu('content')}} of a webpage, CSS is used to add style, JavaScript makes your webpage {{ddmenu('interactive')}}
+
+- Cascading Style Sheets (CSS) is a {{ddmenu('markup')}} language used to apply styles to HTML elements. 
 
 - CSS works by selecting HTML elements and applying styles to them.
 
@@ -23,11 +19,18 @@
 
 - CSS can be applied to a webpage in three main ways: inline, internal, or external.
 
-- A descendant combinator is used to target elements matched by the second selector if they are nested within an ancestor element that matches the first selector. An ancestor can be a parent element or a parent's parent.
+- A descendant combinator `figure img {}` is used to target elements matched by the second selector if they are nested within an ancestor element that matches the first selector. An ancestor can be a parent element or a parent's parent.
 
 - The child combinator (`>`) in CSS is used to select elements that are direct children of a specified parent element.
 
 - The next-sibling combinator (`+`) in CSS selects an element that immediately follows a specified sibling element.
+```shell
+img + figcaption {}
+<figure>
+  <img>
+  <giccaption>
+</figure>
+```
 
 - The subsequent-sibling combinator (~) in CSS selects all siblings of a specified element that come after it.
 
@@ -39,9 +42,44 @@
 
 - Margins control the space outside an element, while padding controls the space inside an element
 
-- If three values are provided, the first value applies to the top margin, the second value to the left and right margin, and the third value to the bottom margin.
+- If three values of margin and padding are provided, the first value applies to the top margin, the second value to the left and right margin, and the third value to the bottom margin.
 
 - If four, top-right-bottom-left.
+
+- CSS {{ddmenu('specificity')}} is a fundamental concept that determines which styles are applied to an element when multiple rules could apply.
+```shell
+0. !important - overwirte any other, used by following the value
+1. inline styles
+2. id - #
+3.0 Class selectors can be combined with other selectors to create more specific rules. - p.class_value 
+3. class - .
+3.2 type - p
+4. attribute - [type="text"]
+5. pseudo-classes - ::before
+6. universal - asterisk(*)
+```
+
+- Specificity values are calculated as a four-part value (a, b, c, d):
+```shell
+a: Inline styles (1 or 0).
+b: Number of ID selectors.
+c: Number of class selectors, attribute selectors, and pseudo-classes.
+d: Number of type selectors, pseudo-elements, and universal selectors.
+```
+
+- A media query is a CSS technique used to apply styles based on the characteristics of the device or viewport, such as its width, height, or orientation.
+
+- The Cascade Algorithm is the process the browser uses to decide which CSS rules to apply when there are multiple styles targeting the same element.
+```shell
+1. relevance 
+2. origin and !importance 
+3. specificity
+4. order of appearance (last)
+```
+
+- Inheritance is a key concept in CSS that determines how styles are passed down from parent elements to their child elements. For the properties not inherited by default, you can use {{ddmenu('padding: inherit')}} in the child property to implement inheritance.
+
+
 
 # Questions
 
