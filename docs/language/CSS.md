@@ -3,7 +3,7 @@
 
 - While HTML defines the structure and {{ddmenu('content')}} of a webpage, CSS is used to add style, JavaScript makes your webpage {{ddmenu('interactive')}}
 
-- Cascading Style Sheets (CSS) is a {{ddmenu('markup')}} language used to apply styles to HTML elements. 
+- Cascading Style Sheets (CSS) is a {{ddmenu('markup')}} language used to apply styles to HTML elements.
 
 - CSS works by selecting HTML elements and applying styles to them.
 
@@ -51,7 +51,7 @@ img + figcaption {}
 0. !important - overwirte any other, used by following the value
 1. inline styles
 2. id - #
-3.0 Class selectors can be combined with other selectors to create more specific rules. - p.class_value 
+3.0 Class selectors can be combined with other selectors to create more specific rules. - p.class_value
 3. class - .
 3.2 type - p
 4. attribute - [type="text"]
@@ -71,15 +71,15 @@ d: Number of type selectors, pseudo-elements, and universal selectors.
 
 - The Cascade Algorithm is the process the browser uses to decide which CSS rules to apply when there are multiple styles targeting the same element.
 ```shell
-1. relevance 
-2. origin and !importance 
+1. relevance
+2. origin and !importance
 3. specificity
 4. order of appearance (last)
 ```
 
 - Inheritance is a key concept in CSS that determines how styles are passed down from parent elements to their child elements. For the properties not inherited by default, you can use {{ddmenu('padding: inherit')}} in the child property to implement inheritance.
 
-
+-
 
 # Questions
 
@@ -87,9 +87,23 @@ d: Number of type selectors, pseudo-elements, and universal selectors.
 
 The browser doesn't delete all spaces, but compresses consecutive spaces (including line breaks and tabs) into one 'space character'.
 
--
-
-
+- `background: radial-gradient(shape size at position, color-stop1, color-stop2, ...)`
+```shell
+.radial-gradient{
+  background: radial-gradient(circle closest-side at center, red, yellow 50%, green); --- 红到黄占据50%比例；圆心是100%red，50%是100%yellow；
+  height: 60vh;  ---View Height
+}
+```
+```shell
+这个圆画多大算是画完了。边缘触碰以最后一个颜色100%为准，停止之外的是这个颜色的纯色。
+The size determines the size of the gradient's ending shape which could be:
+1. closest-side, 最近的边 == contain
+2. closest-corner, 最近的角
+3. farthest-side,
+4. farthest-corner, == cover
+5. contain,
+6. cover.
+```
 # Boilerplate
 ```shell
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
