@@ -35,3 +35,30 @@ This is a closed experiment. The execution itself is the focus.
 - [google sheet](./day1.md)
 
 - question bank: Notion 
+
+## Time Investment Analysis
+The average effective study time to reach CLB5 (B1) level in a language is 350–600 hours. This is the global statistical range for language learning (B1 level).  
+Usually the time is distributed as following:  
+
+
+| Skill     | Percentage | Hours (350–600h) | Description                                             |
+| --------- | ---------- | ---------------- | ------------------------------------------------------- |
+| Listening | 25–30%     | 90–180h          | Understand everyday conversations and short talks       |
+| Speaking  | 25–30%     | 90–180h          | Produce coherent sentences and daily expressions        |
+| Reading   | 20–25%     | 70–150h          | Comprehend short texts, signs, and simple articles      |
+| Writing   | 15–20%     | 50–120h          | Write everyday notes, letters, and describe experiences |
+| **Total** | 100%       | 350–600h         |                                                        |
+
+Our goal is only listening and speaking, but these four aspects cannot be completely decoupled. Based on these two factors, we will increase the time spent on listening and speaking by 50%, while only retaining the vocabulary improvement aspect for reading and writing.
+
+
+| Skill     | Percentage | Hours (350–600h) | Description                                             |
+| --------- | ---------- | ---------------- | ------------------------------------------------------- |
+| Listening | 35–45%     | 135–270h          | Understand everyday conversations and short talks       |
+| Speaking  | 35–45%     | 135–270h          | Produce coherent sentences and daily expressions        |
+| Reading   | 10–12%     | 35–70h          |  Only vocabulary     |
+| Writing   | %     | 0          |  |
+| **Total** | 100%       | 300–600h         |                                                        |
+
+A 300-hour commitment is feasible. If you complete it in 60 days, you will need 5 hours a day. In addition to the 3 full hours, you will need an extra 2-3 hours of spare time to practice speaking and listening.
+
