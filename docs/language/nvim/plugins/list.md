@@ -1,4 +1,16 @@
 # Plugin List
+## Grammar Check
+
+- [harper](https://writewithharper.com/docs/integrations/neovim)
+需要在nvim-lsconfig的servers中配置harper_ls；
+## Translator
+
+- [uga-rosa/translate.nvim](https://github.com/uga-rosa/translate.nvim)
+
+```shell
+选中--Translate EN -output=replace/insert
+```
+
 
 ## Auto Completetion
 
