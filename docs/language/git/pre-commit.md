@@ -1,4 +1,17 @@
 # [pre-commit](https://pre-commit.com/)
+
+## pre-commit的自动修复流程
+```shell
+1. 如果发现未staged的内容会自动git stash暂存(在pre-commit运行初识只进行一次全局stash)
+2. 运行自动修复
+3. git stash pop 拿出暂存的环节
+4. 发现与修改后内容有差异，rolling back fixes
+# 这个问题出现，是因为pre-commit自动修复的部分，不会自动git add，运行一次pre-commit完成自动修改，再次运行pre-commit此时文件内容是修复后的与之前git add的未修复内容出现冲突，所以会自动git stash修复内容，仓库内容再次成为git add之后的未修复内容，再次发生pre-commit自动修复？但此时自动修复后的内容不就是跟git stash的内容一样么？(这个暂时没解决)
+```
+## pre-commit Best Practice
+```shell
+为避免上述问题，pre-commit的best practice不是等git commit被动调动，而是pre-commit run --all-files(从.git根目录开始recursively check all files)
+```
 ## `.pre-commit-config.yaml`定义pre-commit的行为
 ## `pre-commit sample-config > .pre-commit-config.yaml`
 生成模板配置文件

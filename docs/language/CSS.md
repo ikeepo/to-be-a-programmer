@@ -1,5 +1,13 @@
 # CSS
+## Property Selecter Tools
+- [Can I Use](https://caniuse.com/)
+
+- CSS Peeper
+
+
 ## Concepts
+
+- `em`: 并非一个单词缩写，而是继承自M印刷传统，M宽度正好是字体宽度。`em`具有向上继承特点，`rem` 是root即`<html>`字体大小。如果用于`font-size: 2em`则是向上继承，如果用于其他属性，则是基于当前字体的`font-size`;
 
 - While HTML defines the structure and {{ddmenu('content')}} of a webpage, CSS is used to add style, JavaScript makes your webpage {{ddmenu('interactive')}}
 
@@ -79,7 +87,9 @@ d: Number of type selectors, pseudo-elements, and universal selectors.
 
 - Inheritance is a key concept in CSS that determines how styles are passed down from parent elements to their child elements. For the properties not inherited by default, you can use {{ddmenu('padding: inherit')}} in the child property to implement inheritance.
 
--
+- The Web Content Accessibility Guidelines (WCAG) recommend a minimum contrast ratio of 4.5:1 for normal text and 3:1 for large text.
+
+- While similar to `border`, `outline` doesn't affect the element's dimensions or layout:
 
 # Questions
 
