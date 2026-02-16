@@ -25,7 +25,9 @@ jobs:
           pip install mkdocs           # 安装基础 mkdocs
           pip install mkdocs-git-revision-date-localized-plugin
           pip install mkdocs-macros-plugin
-          # 如果有其他插件（如 mkdocs-static-i18n），也写在这里
+          pip install mkdocs-material-extensions
+          pip install mkdocs-awesome-nav
+          pip install mkdocs-get-deps          # 如果有其他插件（如 mkdocs-static-i18n），也写在这里
 
       - name: Deploy to GitHub Pages
         run: |
