@@ -1,0 +1,34 @@
+name: Deploy Mkdocs
+on: 
+  push:
+    branches:
+      - master
+
+permissions:
+  contents: write  # 需要为GITHUB_TOKEN开启写入权限
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/checkout@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install dependencies
+        run: |
+          pip install mkdocs-material  # 如果你用了 material 主题
+          pip install mkdocs           # 安装基础 mkdocs
+          pip install mkdocs-git-revision-date-localized-plugin
+          pip install mkdocs-macros-plugin
+          # 如果有其他插件（如 mkdocs-static-i18n），也写在这里
+
+      - name: Deploy to GitHub Pages
+        run: |
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          mkdocs gh-deploy --force
