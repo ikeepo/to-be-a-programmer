@@ -1,40 +1,36 @@
-# Day 3
-## Abstract
-What I thought yesterday is wrong, I must strictly adhere to the original plan. Yesterday's idea was that the brain was trying to take control. The core of this learning plan is not in the brain. Once the brain has formulated the plan, it should be implemented. The rest is left to the body to execute and time to take its course. This is a collaborative task, not a solo effort by the brain.
-## Mind Change 
+# Tools
 
-### Listening & Speaking 
-Listening skills can be improved through speaking practice. Speaking practice is divided into two parts: 
+## Interactive IPA for French
+- [French Phonetic Chart](https://ceciestlafrance.com/french-phonetic-alphabet/?utm_source=chatgpt.com)
+- [International Phonetic Alphabet for French — IPA Chart](https://easypronunciation.com/en/french-letters-pronunciation-ipa-chart)
 
-- in the first month, follow the textbook to practice standard pronunciation;
+## 动词变位规则 
+先去掉`er`然后按照如下规则：
+| 人称代词 (Subject) | 词尾 (Ending) | 示例：Parler (Speak) |
+| :--- | :--- | :--- |
+| **Je** | **-e** | Je parle |
+| **Tu** | **-es** | Tu parles |
+| **Il / Elle / On** | **-e** | Il parle |
+| **Nous** | **-ons** | Nous parlons |
+| **Vous** | **-ez** | Vous parlez |
+| **Ils / Elles** | **-ent** | Ils parlent |
 
-- in the second month, actively output and make use of the skills you have mastered.
+## 反身代词列表
 
-This was my initial thought. After a moment of contemplation, I realized that this is a traditional and stable approach. The so-called "standard" is false. The second part is to actively express oneself, directly addressing the exam questions.
-
-## Plan 
-[ ] 1h grammar search 
-
-[ ] 30 mins slice(30S) Grammar review
-
-[ ] 30S vocabulary memorization  
-
-[ ] 30S sentence memorization
-
-[x] Find the standard speaking material
-
-## Standard Speaking Materials 
-I will not process the exam questions directly, because the exam questions are the active output part, and we need to process the standard input first.
-
-- Expression Orale  
-
-- Comprehensive French Course
+| 主语代词 (Subject Pronoun) | 反身代词 (Reflexive Pronoun) | 英文意思                                         |
+| ---------------------- | ------------------------ | -------------------------------------------- |
+| je                     | me → m’                  | myself                                       |
+| tu                     | te → t’                  | yourself (singular/informal)                 |
+| il                     | se → s’                  | himself                                      |
+| elle                   | se → s’                  | herself                                      |
+| on                     | se → s’                  | oneself / we / people (depending on context) |
+| nous                   | nous                     | ourselves                                    |
+| vous                   | vous                     | yourself (formal) / yourselves               |
+| ils                    | se → s’                  | themselves                                   |
+| elles                  | se → s’                  | themselves                                   |
 
 ## Accent 重音符号
 
-- [French Phonetic Chart](https://ceciestlafrance.com/french-phonetic-alphabet/?utm_source=chatgpt.com)
-
-- [IPA](https://www.ipachart.com/)
 
 | 字母组合  | 法语名称               | IPA 发音      | 说明                                                                     |
 | ----- | ------------------ | ----------- | ---------------------------------------------------------------------- |
@@ -51,6 +47,28 @@ I will not process the exam questions directly, because the exam questions are t
 | **ï** | tréma              | **/i/**     | 表示元音分开发音，如 *maïs* /ma.is/ “玉米”。([frenchcircles.ca][1])                 |
 | **ü** | tréma              | **/y/**     | 表示元音分开发音，较少见，如 *Aïeul* /a.jœl/ “祖父母”。([frenchcircles.ca][1])           |
 | **ç** | cédille            | **/s/**     | 仅在 c 下加，用作 /s/，如 *ça* /sa/ “那”。([frenchcircles.ca][1])                 |
+
+
+
+##  标准发音分析框架
+```shell
+1. Syllabification（音节划分）
+划分每个音节
+标出 onset（辅音起始）、nucleus（元音核）、coda（尾辅音）
+
+2. Orthography / Phonological Rules（拼写 & 音系规则）
+Silent letters（e muet, final consonant deletion）
+Nasalization（元音鼻化规则）
+Double consonants / orthographic conventions（历史或拼写约定）
+
+3. Surface Form（表层发音）
+输出最终 IPA
+标注哪些辅音或元音被 silent 或 nasalized
+
+4. Optional: Historical / Etymology Notes（历史/词源说明）
+解释拼写和发音脱节的原因
+提示规则来源
+```
 
 
 ## 标准句型语法分析框架
