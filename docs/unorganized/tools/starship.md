@@ -2,4 +2,3 @@
 
 # Error
 ## Starship affect nvim theme
-

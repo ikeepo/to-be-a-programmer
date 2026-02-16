@@ -269,4 +269,3 @@ except Exception as e:
 - [SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf](./asset/books/SimonMarlow-ParallelandConcurrentProgramminginHaskell_2013.pdf)
 - [RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf](./asset/books/RobertNystrom-CraftingInterpreters2021_GeneverBenning.pdf)
 - [BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf](./asset/books/BenjaminC.Pierce-PierceAdvancedTopicsInTypesAndProgrammingLanguages2004_MIT.pdf)
-

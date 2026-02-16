@@ -7,6 +7,7 @@
 3. git stash pop 拿出暂存的环节
 4. 发现与修改后内容有差异，rolling back fixes
 # 这个问题出现，是因为pre-commit自动修复的部分，不会自动git add，运行一次pre-commit完成自动修改，再次运行pre-commit此时文件内容是修复后的与之前git add的未修复内容出现冲突，所以会自动git stash修复内容，仓库内容再次成为git add之后的未修复内容，再次发生pre-commit自动修复？但此时自动修复后的内容不就是跟git stash的内容一样么？(这个暂时没解决)
+# 想要查看哪些内容修改： git status ;  git diff
 ```
 ## pre-commit Best Practice
 ```shell

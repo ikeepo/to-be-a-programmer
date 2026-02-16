@@ -118,4 +118,3 @@ UP-tab
 
 ##### [ RealVNC ](https://www.realvnc.com/en/?lai_vid=vgWXVPzn9sGe&lai_sr=10-14&lai_sl=l)
 同样适用vncserver在服务器启动，然后ip:1连接；
-

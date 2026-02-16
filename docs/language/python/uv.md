@@ -27,4 +27,3 @@ uv pip install . # from pyproject.yaml [dependencies]
 uv pip list
 ```
 ## [Best Practice](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment)
-

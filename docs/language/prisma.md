@@ -11,4 +11,3 @@ npx prisma migrate dev/deploy
 npx prisma generate
 # just generate Prisma Client from schema.prisma 
 ```
-
