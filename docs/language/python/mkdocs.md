@@ -1,4 +1,64 @@
 # [mkdocs](https://www.mkdocs.org/user-guide/writing-your-docs/)
+## How to add a comment module in mkdocs 
+[giscus](https://github.com/giscus/giscus)
+
+```shell
+1. Repo --> Settings --> General --> Features --> Discussion(active)
+2. Install Github App giscus --> access to the target repo;
+3. https://giscus.app/ --> github_id/repo_name --> Discussion 的标题包含页面的 pathname --> announcements -->  data-repo-id & data-category-id From the Script 
+4. mkdocs.yml 
+theme:
+  name: material
+  custom_dir: overrides
+extra:
+  comments:
+    provider: giscus
+    options:
+      repo: 你的用户名/仓库名
+      repo_id: MDEwOlJlcG9zaXRvcnkz... # 替换为你获取的值
+      category: Announcements
+      category_id: DIC_kwDOEn... # 替换为你获取的值
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      input_position: bottom
+      theme: preferred_color_scheme # 自动跟随主题深色/浅色
+      lang: zh-CN
+5. root dir overrides/main.html
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if page.meta.comments != false %}
+    <h2 id="__comments">评论</h2>
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ config.extra.comments.options.repo }}"
+            data-repo-id="{{ config.extra.comments.options.repo_id }}"
+            data-category="{{ config.extra.comments.options.category }}"
+            data-category-id="{{ config.extra.comments.options.category_id }}"
+            data-mapping="{{ config.extra.comments.options.mapping }}"
+            data-strict="{{ config.extra.comments.options.strict }}"
+            data-reactions-enabled="{{ config.extra.comments.options.reactions_enabled }}"
+            data-emit-metadata="{{ config.extra.comments.options.emit_metadata }}"
+            data-input-position="{{ config.extra.comments.options.input_position }}"
+            data-theme="{{ config.extra.comments.options.theme }}"
+            data-lang="{{ config.extra.comments.options.lang }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+  {% endif %}
+{% endblock %}
+
+```
+
+- How to forbid comments
+```shell
+---
+comments: false
+---
+```
 ## markdown-extensions
 ### pymdownx.tasklist
 
@@ -10,6 +70,7 @@
 ```
 
 - How to add checkbox in mkdocs
+`- [x]`
 
 ## Plugins
 

@@ -8,6 +8,7 @@ theme:
   name: material
   logo: img/logo.jpeg
   favicon: img/logo.jpeg
+  custom_dir: overrides
 plugins:
   - search
   - awesome-nav
@@ -21,3 +22,19 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true  # Optional: Makes checkboxes look better
       clickable_checkbox: true # Allows users to toggle them (UI only)
+
+extra:
+  comments:
+    provider: giscus
+    options:
+      repo: ikeepo/to-be-a-programmer
+      repo_id: R_kgDOKOEK4A # 替换为你获取的值
+      category: Announcements
+      category_id: DIC_kwDOKOEK4M4C2kjn # 替换为你获取的值
+      mapping: pathname
+      strict: 0
+      reactions_enabled: 1
+      emit_metadata: 0
+      input_position: bottom
+      theme: preferred_color_scheme # 自动跟随主题深色/浅色
+      lang: zh-CN

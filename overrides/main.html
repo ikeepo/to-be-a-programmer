@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+
+{% block content %}
+  {{ super() }}
+
+  {% if page.meta.comments != false %}
+    <h2 id="__comments">评论</h2>
+    <script src="https://giscus.app/client.js"
+            data-repo="{{ config.extra.comments.options.repo }}"
+            data-repo-id="{{ config.extra.comments.options.repo_id }}"
+            data-category="{{ config.extra.comments.options.category }}"
+            data-category-id="{{ config.extra.comments.options.category_id }}"
+            data-mapping="{{ config.extra.comments.options.mapping }}"
+            data-strict="{{ config.extra.comments.options.strict }}"
+            data-reactions-enabled="{{ config.extra.comments.options.reactions_enabled }}"
+            data-emit-metadata="{{ config.extra.comments.options.emit_metadata }}"
+            data-input-position="{{ config.extra.comments.options.input_position }}"
+            data-theme="{{ config.extra.comments.options.theme }}"
+            data-lang="{{ config.extra.comments.options.lang }}"
+            crossorigin="anonymous"
+            async>
+    </script>
+  {% endif %}
+{% endblock %}
