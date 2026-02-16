@@ -118,3 +118,37 @@ The size determines the size of the gradient's ending shape which could be:
 ```shell
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 ```
+
+
+## Design Terminology
+- Layout 
+
+`Layout is how the visual elements are arranged on a page or screen to communicate a message. `
+
+- alignment 
+
+`Alignment is how the elements are placed in relation to one another.`
+
+- Composition
+
+`Composition is the art of arranging elements to create a harmonious design. `
+
+- Balance
+
+`Balance is how the visual weight is distributed within a composition. `
+
+- Hierarchy 
+
+`Hierarchy establishes the order of importance of the elements in a design. `
+
+- Contrast 
+
+`Contrast is helpful for guiding user attention to what you want to emphasize.`
+
+- White/Negative Space
+
+`The empty space in a design. It's the area surrounding the elements.`
+
+- UI & UX 
+
+`user interface, user experience. An application with a well-designed user experience is intuitive, easy to use, efficient, accessible, and enjoyable.`  
