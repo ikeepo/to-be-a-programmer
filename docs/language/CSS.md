@@ -145,6 +145,16 @@ The size determines the size of the gradient's ending shape which could be:
 
 `Contrast is helpful for guiding user attention to what you want to emphasize.`
 
+```shell
+Web Content Accessibility Guidelines, or WCAG standards:
+1. Text with a contrast ratio of 7:1 is considered the AAA standard
+2. Text with a contrast ratio of 4.5:1 is considered the AA standard
+
+What impacts the contrast ratio: Hue, Saturation, Lightness
+```
+How to know the contrast? The developer tools --> style --> color / [WebAIM Contrast Checker](https://webaim.org/resources/contrastchecker/)
+
+
 - White/Negative Space
 
 `The empty space in a design. It's the area surrounding the elements.`
