@@ -33,3 +33,13 @@ def define_env(env):
             html += f'<option value="{opt}">{opt}</option>'
         html += "</select>"
         return html
+
+    # 添加法语发音宏
+    @env.macro
+    def fr(text):
+        """
+        生成一个点击可发音的法语单词链接
+        用法: {{ fr('Bonjour') }}
+        """
+        # 这里调用我们之前在 tts.js 里定义的 speakFrench 函数
+        return f'<span class="fr-word" onclick="speakFrench(\'{text}\')">{text}</span>'

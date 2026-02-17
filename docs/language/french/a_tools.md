@@ -1,41 +1,49 @@
 # Tools
-
 ## Interactive IPA for French
 - [French Phonetic Chart](https://ceciestlafrance.com/french-phonetic-alphabet/?utm_source=chatgpt.com)
 - [International Phonetic Alphabet for French — IPA Chart](https://easypronunciation.com/en/french-letters-pronunciation-ipa-chart)
+## 冠词articles
+
+| 类别                           | 阳性单数 | 阴性单数  | 元音前   | 复数  | 英文对应          | 用法核心     |
+| ---------------------------- | ---- | ----- | ----- | --- | ------------- | -------- |
+| **定冠词**<br>Article défini    | {{fr('le')}}   | {{fr('la')}}    | l’    | {{fr('les')}} | the           | 特指、已知    |
+| **不定冠词**<br>Article indéfini | {{fr('un')}}   | {{fr('une')}}   | —     | {{fr('des')}} | a / an / some | 第一次提到    |
+| **部分冠词**<br>Article partitif | {{fr('du')}}   | {{fr('de la')}}  | de l’ | {{fr('des')}} | some          | 不可数 / 抽象 |
+
+
 
 ## 动词变位规则 
 先去掉`er`然后按照如下规则：
 
 | 人称代词 (Subject) | 词尾 (Ending) | 示例：Parler (Speak) |
 | :--- | :--- | :--- |
-| **Je** | **-e** | Je parle |
-| **Tu** | **-es** | Tu parles |
-| **Il / Elle / On** | **-e** | Il parle |
-| **Nous** | **-ons** | Nous parlons |
-| **Vous** | **-ez** | Vous parlez |
-| **Ils / Elles** | **-ent** | Ils parlent |
+| {{fr('Je')}} | **-e** | Je parle |
+| {{fr('Tu')}} | **-es** | Tu parles |
+| {{fr('Il')}} / {{fr('Elle')}} / {{fr('On')}} | **-e** | Il parle |
+| {{fr('Nous')}} | **-ons** | Nous parlons |
+| {{fr('Vous')}} | **-ez** | Vous parlez |
+| {{fr('Ils')}} / {{fr('Elles')}} | **-ent** | Ils parlent |
 
 ## 反身代词列表
 
 | 主语代词 (Subject Pronoun) | 反身代词 (Reflexive Pronoun) | 英文意思                                         |
 | ---------------------- | ------------------------ | -------------------------------------------- |
-| je                     | me → m’                  | myself                                       |
-| tu                     | te → t’                  | yourself (singular/informal)                 |
-| il                     | se → s’                  | himself                                      |
-| elle                   | se → s’                  | herself                                      |
-| on                     | se → s’                  | oneself / we / people (depending on context) |
-| nous                   | nous                     | ourselves                                    |
-| vous                   | vous                     | yourself (formal) / yourselves               |
-| ils                    | se → s’                  | themselves                                   |
-| elles                  | se → s’                  | themselves                                   |
+| {{fr('je')}}                     | me → m’                  | myself                                       |
+| {{fr('tu')}}                     | te → t’                  | yourself (singular/informal)                 |
+| {{fr('il')}}                     | se → s’                  | himself                                      |
+| {{fr('elle')}}                   | se → s’                  | herself                                      |
+| {{fr('on')}}                     | se → s’                  | oneself / we / people (depending on context) |
+| {{fr('nous')}}                   | nous                     | ourselves                                    |
+| {{fr('vous')}}                   | vous                     | yourself (formal) / yourselves               |
+| {{fr('ils')}}                    | se → s’                  | themselves                                   |
+| {{fr('elles')}}                  | se → s’                  | themselves                                   |
 
 ## Accent 重音符号
 
 
 | 字母组合  | 法语名称               | IPA 发音      | 说明                                                                     |
 | ----- | ------------------ | ----------- | ---------------------------------------------------------------------- |
-| **é** | accent aigu        | **/e/**     | 闭前不圆唇元音，如 *café* “咖啡” ；只能出现在 e 上。([frenchcircles.ca][1])               |
+| **{{fr('é')}}** | accent aigu        | **/e/**     | 闭前不圆唇元音，如 *café* “咖啡” ；只能出现在 e 上。([frenchcircles.ca][1])               |
 | **è** | accent grave       | **/ɛ/**     | 开前不圆唇元音，如 *père* “父亲”。([frenchlearner.com][2])                         |
 | **ê** | accent circonflexe | **/ɛ/**     | 类似 è；表示历史音素或词形区分，如 *tête* “头”。([frenchcircles.ca][1])                  |
 | **à** | accent grave       | **/a/**     | 不改音（与 *a* 发音相同），主要用于区分词义，如 *à* “到/在”。([frenchlearner.com][2])          |

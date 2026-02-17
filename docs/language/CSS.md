@@ -127,7 +127,16 @@ The size determines the size of the gradient's ending shape which could be:
 
 - alignment 
 
-`Alignment is how the elements are placed in relation to one another.`
+```shell
+Alignment is how the elements are placed in relation to one another.
+Alignment is the process of arranging text and images in a way that creates a visual connection between elements.
+- left alignment
+- center alignment
+- right alignment
+- justified alignment: text is aligned to both the left and right margins
+- vertical alignment
+
+```
 
 - Composition
 
@@ -158,7 +167,134 @@ How to know the contrast? The developer tools --> style --> color / [WebAIM Cont
 - White/Negative Space
 
 `The empty space in a design. It's the area surrounding the elements.`
+```shell
+- Macro white space is the space between larger elements like images, text blocks, and buttons.
+- Active white space is the space that is intentionally created to help guide the user's eye and draw attention to certain elements on the page.
+- Micro white space is the space between individual characters in a line of text.
+```
+
+> Law of Proximity: elements that are close together are perceived as being related, while elements that are far apart are perceived as being unrelated
 
 - UI & UX 
 
 `user interface, user experience. An application with a well-designed user experience is intuitive, easy to use, efficient, accessible, and enjoyable.`  
+
+```shell
+# Image 
+- Responsive images 
+- resolution for images
+- size of your images
+- image placement: balance, hierarchy, and alignment
+- accessibility for images
+```
+
+- scale 
+
+`The "scale" of something refers to its size. When you're looking at scaling in your web design, you're looking at the size relationships between different elements, and how these elements might adapt to different screen sizes.`
+
+- Progressive Enhancement
+`Progressive enhancement is a design approach that ensures all users, regardless of browser or device, can access the essential content and functionality of an application.`
+```shell
+- All core content and basic functionality should be accessible on all browsers
+- All advanced layouts should be provided through external CSS stylesheets
+- All advanced functionality should be provided through external JavaScript files
+- A user's browser preferences should be respected
+```
+
+
+## User-Centered Design
+- One of the first aspects of user-centered design is considering your target demographics
+
+
+- Another aspect to consider is the goal of your end users. 
+
+- Ultimately, user-centered design means you need to put the user at the forefront of your decision making
+
+### User Research
+- Net Promoter Score, or NPS. The NPS measures how likely your users are to recommend your product to a friend.
+
+- Exit interview
+
+- User testing: AB test 
+
+- user requirements refer to the stories or rubric that your application needs to follow
+
+### Dark Mode
+- The first consideration is the avoidance of saturated colors in dark mode. Saturated colors are colors that are bright and intense
+
+- Another consideration with dark mode is the use of pure black backgrounds with white text
+
+- Another consideration is the use of dark mode with the site's brand identity.
+
+### Breadcrumbs
+`Breadcrumbs are a navigation aid that shows the user where they are in the site's hierarchy`
+
+- Common **separators** include the greater than sign (`>`), right angle quotation marks (`»`) ,and the forward slash (`/`).
+
+- **Position**: Breadcrumbs are typically placed at the top of the page, either above or below the main navigation bar
+
+- **Size**: You want to make sure the breadcrumbs are large enough to be easily read, but not so large that they take up too much space on the page.
+
+### Designing Cards 
+- The first consideration for card design should be simplicity.
+
+- Having less information and good spacing between items on the card makes it easier for the user to process the information
+
+- Another thing to consider is where the user can click on the card.
+
+- Another consideration is the use of media on your cards.
+
+- One of the last things to consider is the use of color hierarchy
+
+### Designing Infinite Scrolls 
+`Infinite scrolling is a design pattern that loads more content as the user scrolls down the page. `
+
+- Infinite scrolling is also used as a substitute for pagination
+
+- "Load More"
+
+-  "Back" button
+
+### Designing Modal Dialogs 
+`A modal is the type of pop-up that a website might show you on top of their content.`
+
+- The content behind a modal is usually dimmed.
+
+- It's always a good idea to allow the user to click outside of the modal to close it.
+
+- You'll often see very prominent buttons on modals. These are called CTAs, or call-to-action. 
+
+- Modals should also have a close button. 
+
+### Progress Indication
+`Progress indication is a way to show users how far they are in a process. `
+
+- The first consideration is to keep it simple.
+
+- The second consideration is to make it possible to go back to previous steps. 
+
+- Another consideration is to make the progress indication section easy to find. 
+
+- The last consideration is to have clear section titles, percentages, or steps.
+
+### Designing Shopping Carts
+
+- The first design consideration is making sure the shopping cart is visible to users at all times. 
+
+- Another consideration is providing a clear way for users to update the quantity of items in their cart. 
+
+- You should also provide a "Remove" button next to each item in the cart. 
+
+- Another consideration is the shopping cart icon itself. The icon should be something easily recognizable for all users.
+
+- When the user wants to review the total in their cart, they should be able to easily find the total cost of all items in the cart. 
+
+- Finally, you should provide a clear call-to-action button for users to proceed to checkout.
+
+### Progressive Disclosure
+
+`A progressive disclosure is a design pattern used to only show users relevant content based on their current activity and hide the rest. `
+
+- The first consideration is to keep all important information visible at all times. 
+
+- Another consideration is to provide a single access point for users to access additional features or information. 
