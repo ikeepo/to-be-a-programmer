@@ -2,6 +2,9 @@
 ## Interactive IPA for French
 - [French Phonetic Chart](https://ceciestlafrance.com/french-phonetic-alphabet/?utm_source=chatgpt.com)
 - [International Phonetic Alphabet for French — IPA Chart](https://easypronunciation.com/en/french-letters-pronunciation-ipa-chart)
+
+- [Interactive IPA Chart](https://www.ipachart.com/)
+
 ## 冠词articles
 
 | 类别                           | 阳性单数 | 阴性单数  | 元音前   | 复数  | 英文对应          | 用法核心     |
@@ -67,6 +70,15 @@
 | /ɛ/ | “哎”     | 张口比 /e/ 大一些 |
 | /ə/ | 类似轻声“呃” | 弱化音，口型小，常省略 |
 
+## 法语主要有4个鼻化元音
+
+
+| 拼写                       | 发音   |
+| ------------------------ | ---- |
+| an / am / en / em        | /ɑ̃/ |
+| in / im / ain / ein / yn | /ɛ̃/ |
+| on / om                  | /ɔ̃/ |
+| un / um                  | /œ̃/ |
 
 ##  标准发音分析框架
 ```shell
@@ -88,7 +100,16 @@ Double consonants / orthographic conventions（历史或拼写约定）
 提示规则来源
 ```
 
-
+## 发音分析：人脑意识流
+```shell
+# 确定音节数量
+1. 看有几个元音 # 拼写元音并不完全等于发音元音
+2. 看有没有连续元音需要滑音及一些固定音变组合
+# 确定辅音位置
+3. 基于Maximal Onset Principle（辅音优先归于后一个音节，简单理解为词首）划分辅音所属音节
+4. 基于浊化、硬化等发音规则确定各个音节发音
+5. 基于syllable-timed确定读音
+```
 ## 标准句型语法分析框架
 ```shell
 请帮我分析以下法语句子，严格按以下要求执行：
