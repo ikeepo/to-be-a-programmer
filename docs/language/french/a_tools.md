@@ -13,6 +13,13 @@
 
 - [Google Translate](https://translate.google.com/)
 
+## Pronounciation with IPA
+- [easypronunciation](https://easypronunciation.com/en/french-phonetic-transcription-converter)：付费
+
+- [Wordreference](https://www.wordreference.com/)
+
+- [Larousse](https://www.larousse.fr/)
+
 
 ## 冠词articles
 
