@@ -5,6 +5,15 @@
 
 - [Interactive IPA Chart](https://www.ipachart.com/)
 
+## Pronounciation Tools 
+
+- [forvo](https://forvo.com/): 真人发音 
+
+- [Deepl](https://www.deepl.com/en)
+
+- [Google Translate](https://translate.google.com/)
+
+
 ## 冠词articles
 
 | 类别                           | 阳性单数 | 阴性单数  | 元音前   | 复数  | 英文对应          | 用法核心     |
