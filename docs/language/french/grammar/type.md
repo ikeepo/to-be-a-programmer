@@ -6,9 +6,18 @@
 ### 疑问句
 
 ### 命令句/祈使句
-- 动词变位规则
+#### 动词变位规则
 
 `Ferme la porte.` 为什么 Ferme 没有 s？在法语词法形变 (Morphology) 规则中，所有以 -er 结尾的动词，在命令式单数形式下都要去掉 s.
+
+- 为什么要有去掉`s`这个规则?
+```shell
+1. Etymology： 拉丁语如此
+
+2. Visual Distinction: 动词变位发音基本一致，去掉s可以从视觉上体现orthography
+
+3. Liguistic Economy: 命令式要求极速, 前省主语，后省s
+```
 
 #### 主语显化原则 (Principle of Explicit Subject) vs. 命令式豁免 (Imperative Exception)
 
