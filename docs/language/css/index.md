@@ -298,3 +298,12 @@ How to know the contrast? The developer tools --> style --> color / [WebAIM Cont
 - The first consideration is to keep all important information visible at all times. 
 
 - Another consideration is to provide a single access point for users to access additional features or information. 
+
+### Lazy registration
+
+```shell
+Lazy registration is a UI design pattern that allows users to browse and interact with your application without having to register.
+Lazy registration is a useful design pattern that allows users to see the value of your application before they are willing to provide their information.
+```
+
+
