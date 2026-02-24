@@ -18,4 +18,3 @@ A design brief is a document that outlines the objectives, goals, and requiremen
 ```shell
 - Figma/Sketch/Adobe XD/Canva: UI/UX
 ```
-
