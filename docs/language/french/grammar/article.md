@@ -9,10 +9,12 @@
 
 ## Abstract
 在法语的底层架构中，冠词 (Articles) 属于协调层 (Agreement) 的核心工具。它们不仅限定名词，还提前预告了名词的性 (Gender) 和 数 (Number)，这是语流（Speech Stream）顺畅的关键。
-### 语序角度
+## Relationship
+### 语序
 冠词永远置于名词（及形容词）的前面。在法语中，冠词几乎从不缺失。
 ### 语音
 省音 (Elision): 当定冠词 le/la 遇到元音或哑音 h 开头的词时，触发省音变成 l'（如：l'eau）。
-### 语体 (Registre):
+## 语体 (Registre):
 在极正式的雅致语体 (Formal) 中，如果复数形容词在名词前，不定冠词 des 往往会变为 de（如：de bons amis）。
-## 
+## 主语显化
+名词前必须有冠词，因为冠词承担了协调层 (Agreement) 的关键任务：提前预报性（阴阳）和数（单复）。

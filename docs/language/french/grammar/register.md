@@ -20,4 +20,3 @@ TCF考试会全覆盖。
 `通俗语体 (Informal Register): /l/ 在辅音前几乎 100% 脱落（如 Il faut → I'faut）`
 
 `通俗语体 (Informal Register): 当语速极快时，/i/ 作为一个高元音，如果前面有强辅音（如 froid 在某些地区发出的轻微 /d/ 或紧接着前一个词的尾音），第一个 /i/ 可能会发生吞音 (Apheresis)，听起来像 'ci。`
-

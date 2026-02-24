@@ -8,6 +8,3 @@
 | **Subject-Verb Coordination** | 主谓人称协调 | 动词变位必须反映主语的人称 (Person) 和 数 (Number)。 | *Nous mangeons.* |
 | **Participle Agreement** | 分词协调规则 | 在复合时态下，过去分词根据助动词或宾语位置进行性数形变。 | *Elles sont allées.* |
 | **Pronominal Consistency** | 代词一致性 | 自反代词或宾语代词必须与所指代的先行词属性匹配。 | *Je me lave.* |
-
-
-
