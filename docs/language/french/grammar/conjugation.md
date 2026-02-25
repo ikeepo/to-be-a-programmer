@@ -38,3 +38,14 @@
 
 #### 变位规则例外-命令式
 在命令式中，基于agreement layer考虑，去掉结尾的`s`.
+
+### 动词变位规则：`ir`动词
+
+| 人称 | 词尾 (Ending) | 变位形式 (Finir) | 发音要领 (IPA) |
+| :--- | :--- | :--- | :--- |
+| **Je** | **-is** | *Je finis* | /fi.ni/ |
+| **Tu** | **-is** | *Tu finis* | /fi.ni/ |
+| **Il/Elle** | **-it** | *Il finit* | /fi.ni/ |
+| **Nous** | **-issons** | *Nous finissons* | /fi.ni.sɔ̃/ |
+| **Vous** | **-issez** | *Vous finissez* | /fi.ni.se/ |
+| **Ils/Elles** | **-issent** | *Ils finissent* | /fi.nis/ |
