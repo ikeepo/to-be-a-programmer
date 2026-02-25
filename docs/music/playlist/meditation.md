@@ -6,9 +6,6 @@
 
 ![type:video](https://www.youtube.com/embed/iPHIpSN-ft0)
 
-![type:video](https://www.youtube.com/watch?v=iPHIpSN-ft0)
-
-
 - [Tony R. Clef](https://www.youtube.com/watch?v=F_VPQg5Nckc)
 
 - [Steven Joseph](https://www.youtube.com/watch?v=H11unPTk4P8)
