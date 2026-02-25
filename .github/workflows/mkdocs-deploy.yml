@@ -28,6 +28,7 @@ jobs:
           pip install mkdocs-material-extensions
           pip install mkdocs-awesome-nav
           pip install mkdocs-get-deps          # 如果有其他插件（如 mkdocs-static-i18n），也写在这里
+          pip install mkdocs-video          # 如果有其他插件（如 mkdocs-static-i18n），也写在这里
 
       - name: Deploy to GitHub Pages
         run: |

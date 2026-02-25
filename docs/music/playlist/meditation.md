@@ -34,5 +34,3 @@
 - [Yo-Yo Ma](https://www.youtube.com/watch?v=C7qR6CVROHY)
 
 - [Leila Josefowicz](https://www.youtube.com/watch?v=RAiQdUQ7Lm4)
-
-

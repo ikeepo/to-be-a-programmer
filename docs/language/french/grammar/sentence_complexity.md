@@ -17,5 +17,3 @@
 | (Adv-like) | **时间从句** | **quand** | 交代时间背景 | *Je sors **quand il pleut**.* |
 | | **原因从句** | **parce que** | 交代因果逻辑 | *Il rit **parce que c'est drôle**.* |
 | | **目的从句** | **pour que** | 交代行动目标 | *Lisez **pour que vous appreniez**.* |
-
-
