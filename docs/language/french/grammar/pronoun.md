@@ -14,9 +14,21 @@
 
 ## 一、主语代词
 主语代词不能单独站立。
+
 ## 二、动词前宾语: 人称宾语代词 (Personal Object Pronouns)
 动作的发出者和接受者不同。
 又分为直接宾语代词 和 间接宾语代词。
+
+### List 
+
+| 人称 | 直接宾语 (COD) | 间接宾语 (COI) | 位置 (Position) | 架构示例 (Examples) |
+| :--- | :--- | :--- | :--- | :--- |
+| **1st Sg.** | **me (m')** | **me (m')** | 动词前 | *Je **me** vois / Je **me** parle* |
+| **2nd Sg.** | **te (t')** | **te (t')** | 动词前 | *Tu **te** vois / Tu **te** parle* |
+| **3rd Sg.** | **le / la (l')** | **lui** | 动词前 | *Il **le** voit / Il **lui** parle* |
+| **1st Pl.** | **nous** | **nous** | 动词前 | *Nous **nous** voyons / Nous **nous** parlons* |
+| **2nd Pl.** | **vous** | **vous** | 动词前 | *Vous **vous** voyez / Vous **vous** parlez* |
+| **3rd Pl.** | **les** | **leur** | 动词前 | *Ils **les** voient / Ils **leur** parlent* |
 
 ## 三、动词前宾语: 反身代词 (Reflexive Pronouns)
 表示动作的发出者和接受者是同一个人。
@@ -71,3 +83,6 @@
 | **2. 介词之后** | 介词（如 avec, pour）后须用重读。 | *Avec tu (X)* | **Avec toi** (和你一起) |
 | **3. 强调或对比** | 用于突出主语或进行人称对比。 | *Je, j'aime... (X)* | **Moi, j'aime...** (我嘛，我喜欢...) |
 | **4. 独立/简短回答** | 无动词支撑时，代词须能独立生存。 | *Qui ? Je. (X)* | **Qui ? —— Moi.** (谁？—— 我。) |
+
+### Rules
+#### 命令式+后置代词 需要连写

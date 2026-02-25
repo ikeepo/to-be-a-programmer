@@ -14,6 +14,7 @@ plugins:
   - awesome-nav
   - macros
   - git-revision-date-localized
+  - mkdocs-video
 
 markdown_extensions:
   - toc:
