@@ -36,7 +36,7 @@
 | {{fr('Vous')}} | **-ez** | Vous parlez |
 | {{fr('Ils')}} / {{fr('Elles')}} | **-ent** | Ils parlent |
 
-#### 变位规则例外-命令式
+#### 变位规则例外-命令式 {: #conjugation-rules-er-exception-imperative}
 在命令式中，基于agreement layer考虑，去掉结尾的`s`.
 
 ### 动词变位规则：`ir`动词

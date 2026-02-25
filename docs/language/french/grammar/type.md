@@ -6,7 +6,7 @@
 ### 疑问句
 
 ### 命令句/祈使句
-#### 动词变位规则
+#### [动词变位规则例外](./conjugation.md#conjugation-rules-er-exception-imperative)
 
 `Ferme la porte.` 为什么 Ferme 没有 s？在法语词法形变 (Morphology) 规则中，所有以 -er 结尾的动词，[在命令式单数形式下都要去掉 `s`](./conjugation.md#变位规则例外-命令式).
 
