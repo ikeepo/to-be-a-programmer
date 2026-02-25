@@ -1,0 +1,18 @@
+.fr-word {
+    color: #2094f3; /* 蓝色，像链接一样 */
+    border-bottom: 1px dashed #2094f3; /* 下划虚线 */
+    cursor: pointer; /* 鼠标悬停变手型 */
+    padding: 0 2px;
+    transition: background-color 0.2s;
+}
+
+.fr-word:hover {
+    background-color: #e3f2fd; /* 悬停背景色 */
+}
+
+/* 自动添加一个小喇叭图标 */
+.fr-word::after {
+    content: " 🔊";
+    font-size: 0.7em;
+    opacity: 0.6;
+}
