@@ -1,25 +1,32 @@
 # 代词-Pronoun
 ## Abstract
 
-## 代词范式（paradigme pronominal）
+## 人称代词范式（paradigme pronominal）
 
-```shell
-第一人称单数
-├── 主语位置 → je
-├── 动词前宾语 → me
-└── 独立/强调/命令式后 → moi
+| 层级 (Level) | 零件 (Form) | 角色名称 (English Name) | 位置逻辑 (Position) |
+| :--- | :--- | :--- | :--- |
+| **1. 主语代词** | **Je (J')** | **Subject Pronoun** | 变位动词前，作为动作发起者。 |
+| **2. 人称宾语代词** | **me (m')** | **Object Pronoun** | **总称**，指代他人动作的接收者。 |
+| --- 直接宾语 (COD) | *me (m')* | *Direct Object Pronoun* | 动作直接作用于对象（无介词）。 |
+| --- 间接宾语 (COI) | *me (m')* | *Indirect Object Pronoun* | 动作通过介词 **à** 作用于对象。 |
+| **3. 自反代词** | **me (m')** | **Reflexive Pronoun** | 动作发起者与接收者同为“我”。 |
+| **4. 重读代词** | **Moi** | **Stressed Pronoun** | 独立使用、介词后或肯定命令句后。 |
 
-```
-## 主语代词
+## 一、主语代词
 主语代词不能单独站立。
+## 二、动词前宾语: 人称宾语代词 (Personal Object Pronouns)
+动作的发出者和接受者不同。
+又分为直接宾语代词 和 间接宾语代词。
 
-
-## 反身代词 (Reflexive Pronouns)
+## 三、动词前宾语: 反身代词 (Reflexive Pronouns)
 表示动作的发出者和接受者是同一个人。
+
 ### Rules
 #### 反身代词放在动词的前面
 大部分情况。
 功能层问题。
+
+命令式，放在动词后？
 #### 反身代词很多时候'省音
 `'`[ 是省音符号 ](./voice/elision.md#defination)，跟反身代词概念没有直接关系，只要是 “单音节词 + 以 -e 结尾”，在遇到元音或哑音 H 时，几乎都要服从这个协议.
 
@@ -40,7 +47,7 @@
 | {{fr('elles')}}                  | se → s’                  | themselves                                   |
 
 
-## 重读代词 (Stressed Pronouns)
+## 四、重读代词 (Stressed Pronouns)
 主语代词（如 Je, Tu）是很弱的，不能单独站立；而重读代词则是强力插件，专门用于需要“**加重语气**”或“**独立支撑**”的结构中。
 
 ### List
