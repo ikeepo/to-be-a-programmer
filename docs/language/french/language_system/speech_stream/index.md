@@ -1,4 +1,4 @@
-# 语流 Speech Stream
+# 语流 Speech Stream Layer
 ## 原则
 - 节奏组 (Rhythmic Group / Groupe rythmique)： 法语倾向于把几个语义相关的词打包成一个“发音单位”，重音只落在最后一个音节。
 
