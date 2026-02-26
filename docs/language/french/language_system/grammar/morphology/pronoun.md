@@ -1,6 +1,18 @@
 # 代词-Pronoun
-## Abstract
 
+| 代词类别 | 英文概念 (English) | 中文概念 (Chinese) | 典型代表 (Examples) | 功能简述 |
+| --- | --- | --- | --- | --- |
+| 人称代词 | Personal Pronouns | 人称代词 | je, tu, il, nous, vous, ils | 指代说话人、听话人或第三方主体。 |
+| 指示代词 | Demonstrative Pronouns | 指示代词 | celui, celle, ce, ça, ceci | 指代特定的人或事物，或上文提到的概念。 |
+| 主有代词 | Possessive Pronouns | 主有代词 | le mien, la tienne, le nôtre | 指代属于某人的人或事物。 |
+| 关系代词 | Relative Pronouns | 关系代词 | qui, que, dont, où, lequel | 引导从句，连接主句并指代先行词。 |
+| 疑问代词 | Interrogative Pronouns | 疑问代词 | qui, que, quoi, lequel | 用于对人或事物提问。 |
+| 不定代词 | Indefinite Pronouns | 不定代词 | quelqu'un, chacun, personne, rien | 指代不确定或泛指的人或事物。 |
+| 副代词 | Adverbial Pronouns | 副代词 | y, en | 替代地点或由 de/à 引导的数量、事物。 |
+| 自反代词 | Reflexive Pronouns | 自反代词 | me, te, se, nous, vous | 用于代词式动词，表示动作回到主语自身。 |
+
+
+# 人称代词
 ## 人称代词范式（paradigme pronominal）
 
 | 层级 (Level) | 零件 (Form) | 角色名称 (English Name) | 位置逻辑 (Position) |
@@ -96,3 +108,25 @@
 * **规则判定**：
     * **有横线** -> 肯定命令 -> 代词在后 (Regarde-moi)
     * **无横线** -> 否定命令 -> 代词在前 (Ne me regarde pas)
+
+
+# 指示代词
+
+| 指示代词 | 英文概念 (English) | 中文概念 (Chinese) | 类别 |
+| --- | --- | --- | --- |
+| celui | the one (m.s.) | 那个（阳性单数） | 简单形式 |
+| celle | the one (f.s.) | 那个（阴性单数） | 简单形式 |
+| ceux | the ones (m.p.) | 那些（阳性复数） | 简单形式 |
+| celles | the ones (f.p.) | 那些（阴性复数） | 简单形式 |
+| celui-ci | this one (m.s.) | 这个（阳性单数） | 复合形式（近） |
+| celle-ci | this one (f.s.) | 这个（阴性单数） | 复合形式（近） |
+| ceux-ci | these ones (m.p.) | 这些（阳性复数） | 复合形式（近） |
+| celles-ci | these ones (f.p.) | 这些（阴性复数） | 复合形式（近） |
+| celui-là | that one (m.s.) | 那个（阳性单数） | 复合形式（远） |
+| celle-là | that one (f.s.) | 那个（阴性单数） | 复合形式（远） |
+| ceux-là | those ones (m.p.) | 那些（阳性复数） | 复合形式（远） |
+| celles-là | those ones (f.p.) | 那些（阴性复数） | 复合形式（远） |
+| ce (c') | it / this / that | 这 / 那 | 中性形式 |
+| ceci | this | 这个（事/物） | 中性形式（近） |
+| cela | that | 那个（事/物） | 中性形式（远） |
+| ça | it / this / that | 这个 / 那个 | 中性形式（口语） |
