@@ -37,5 +37,4 @@
 #### 副词的“拖尾”效应
 当一个形容词被副词（如 bien, très, extrêmement）修饰时，它变得“更重”了。在法语的平衡感里，重的零件必须放在后面。
 
-## [介词不定式短语 Prepositional Infinitive Phrase](../morphology/conjugation.md#介词不定式短语-prepositional-infinitive-phrase
-)
+## [介词不定式短语 Prepositional Infinitive Phrase](../morphology/conjugation.md#介词不定式短语-prepositional-infinitive-phrase)
