@@ -22,5 +22,3 @@
 | **de + la** | **de la** | *La porte **de la** maison* | (不缩合) |
 | **de + l'** | **de l'** | *L'éclat **de l'**or* | (不缩合) |
 | **de + les** | **des** | *Le livre **des** enfants* | 孩子们的书 |
-
-
