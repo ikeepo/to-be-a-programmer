@@ -7,5 +7,3 @@
 | 疑问句 (Interrogative) | Tu viens ? | Tu ne viens pas ? | 你不来吗？ |
 | 命令句 (Impérative) | Mange ! | Ne mange pas ! | 别吃！ |
 | 感叹句 (Exclamative) | C'est beau ! | Ce n'est pas beau ! | 这简直一点都不漂亮！ |
-
-

@@ -19,5 +19,3 @@ Subject Linking Verb Predictive.
 | 代词 | Pronoun | 代词 | Ce livre est le mien. (这本书是我的) |
 | 动词不定式 | Infinitive | 动词原形 | Vouloir, c'est pouvoir. (有志者事竟成) |
 | 介词短语 | Prepositional Phrase | 介词短语 | Il est en colère. (他在生气) |
-
-
