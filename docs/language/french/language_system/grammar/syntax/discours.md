@@ -18,5 +18,3 @@
 | 时态配合 | 现状 -> 过去 | Présent (现在时) | Imparfait (未完成过去时) | 主句为过去时，从句需降级。 |
 | 时态配合 | 过去 -> 过去 | Passé composé (复合过去时) | Plus-que-parfait (愈过去时) | 表示“过去的过去”。 |
 | 时态配合 | 将来 -> 过去 | Futur simple (简单将来时) | Conditionnel présent (条件式现在时) | 表示过去看将来。 |
-
-

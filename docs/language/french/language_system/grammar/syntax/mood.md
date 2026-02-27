@@ -16,4 +16,3 @@
 | Infinitif | Infinitive | 不定式 | 非定式 (Impersonal) | 动词的原形，不随人称变化。 | 动词以 -er, -ir, -re 等原形结尾，常位于介词或动词后。 |
 | Participe | Participle | 分词式 | 非定式 (Impersonal) | 包含现在分词和过去分词，具形容词性质。 | 过去分词以 -é, -i, -u 等结尾；现在分词以 -ant 结尾。 |
 | Gérondif | Gerund | 副分词式 | 非定式 (Impersonal) | 表达同时性、方式或原因。 | 结构固定为 en + 现在分词 (-ant 结尾)。 |
-
