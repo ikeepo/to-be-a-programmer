@@ -27,3 +27,11 @@ uv pip install . # from pyproject.yaml [dependencies]
 uv pip list
 ```
 ## [Best Practice](https://docs.astral.sh/uv/pip/environments/#creating-a-virtual-environment)
+
+## Questions 
+##### `tool.uv in pyproject.toml`
+```shell
+[tool.uv]
+extra-index-url = ["https://download.pytorch.org/whl/cpu"] # 优先找这里的源
+override-dependencies = ["markupsafe<3.0.3"] # 强制覆盖类型
+```

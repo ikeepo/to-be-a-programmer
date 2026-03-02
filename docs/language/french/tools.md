@@ -1,5 +1,8 @@
 # Tools
 ## Interactive IPA for French
+
+- [internationalphoneticassociation](https://www.internationalphoneticassociation.org/IPAcharts/IPA_charts_TI/IPA_charts_TI.html#eng)
+
 - [French Phonetic Chart](https://ceciestlafrance.com/french-phonetic-alphabet/?utm_source=chatgpt.com)
 - [International Phonetic Alphabet for French — IPA Chart](https://easypronunciation.com/en/french-letters-pronunciation-ipa-chart)
 
