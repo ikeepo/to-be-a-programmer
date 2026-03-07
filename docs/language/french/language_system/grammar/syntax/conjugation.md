@@ -124,6 +124,19 @@
 | **Vous** | **{{fr('avez')}}** | **/a.ve/** | av- 词根 + /e/ |
 | **Ils/Elles** | **{{fr('ont')}}** | **/ɔ̃/** | 仅发鼻化音，与 sont 区分 |
 
+##### `dire`
+
+| 时态 (Temps) | Je / J' | Tu | Il / Elle / On | Nous | Vous | Ils / Elles |
+| :--- | :--- | :--- | :--- | :--- | :--- | :--- |
+| **Présent** (现在时) | dis | dis | dit | disons | **dites** | disent |
+| **Imparfait** (未完成过去时) | disais | disais | disait | disions | disiez | disaient |
+| **Futur Simple** (简单将来时) | dirai | diras | dira | dirons | direz | diront |
+| **Passé Composé** (复合过去时) | ai dit | as dit | a dit | avons dit | avez dit | ont dit |
+| **Conditionnel Présent** (条件式) | dirais | dirais | dirait | dirions | diriez | diraient |
+| **Subjonctif Présent** (虚拟式) | dise | dises | dise | disions | disiez | disent |
+| **Impératif** (命令式) | - | dis | - | disons | **dites** | - |
+
+
 ### 基于时态的变位
 #### 条件式现在时 
 
