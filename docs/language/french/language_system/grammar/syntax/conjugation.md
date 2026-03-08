@@ -115,6 +115,9 @@
 
 ##### `avoir`
 
+
+- 直陈式现在时
+
 | 人称 (Person) | 变位 (Conjugation) | **IPA 发音** | 助记/规律 |
 | :--- | :--- | :--- | :--- |
 | **J'** | **{{fr('ai')}}** | **/e/** | Je + ai 省音缩合 |
@@ -123,6 +126,8 @@
 | **Nous** | **{{fr('avons')}}** | **/a.vɔ̃/** | av- 词根 + 鼻化音 |
 | **Vous** | **{{fr('avez')}}** | **/a.ve/** | av- 词根 + /e/ |
 | **Ils/Elles** | **{{fr('ont')}}** | **/ɔ̃/** | 仅发鼻化音，与 sont 区分 |
+
+- 条件式现在时
 
 ##### `dire`
 
@@ -146,3 +151,55 @@
 | 语义功能 | 表达礼貌、委婉或假设 | 相比直陈式的 veut (他想要)，voudrait 听起来是“他想... (如果可以的话)”。 |
 
 #### 复合过去时
+
+## 所有人称、所有时态下变位规则
+
+法语大多数时态是由少数几个“基础形态（stems + participles(现在分词/过去分词)）”生成的:
+
+| 基底类型        | 形式          | IPA      | 用途           |
+| ----------- | ----------- | -------- | ------------ |
+| 不定式         | avoir       | /a.vwaʁ/ | 词典原型         |
+| 现在时 nous 词干^[取nous形式去除ons得到词干] | av- (avons) | /av/     | 生成未完成过去、现在分词 |
+| 将来词干        | aur-        | /oʁ/     | 生成将来时和条件式    |
+| 过去分词        | eu          | /y/      | 生成所有复合时态     |
+
+
+
+| 时态 / 语气                                           | 人称         | 第一组 -er  | 第二组 -ir  | 第三组 -re（规则型） |
+| ------------------------------------------------- | ---------- | -------- | -------- | ------------ |
+| **Présent**             | je         | -e       | -is      | -s           |
+| **现在时 nous 词干**                                  | tu         | -es      | -is      | -s           |
+| 直陈式（Indicatif）                          | il/elle/on | -e       | -it      | -            |
+|                                                   | nous       | -ons     | -issons  | -ons         |
+|                                                   | vous       | -ez      | -issez   | -ez          |
+|                                                   | ils/elles  | -ent     | -issent  | -ent         |
+| **Imparfait** (未完成过去时)         | je         | -ais     | -ais     | -ais         |
+| **现在时 nous 词干**                               | tu         | -ais     | -ais     | -ais         |
+|              直陈式（Indicatif）                                     | il/elle/on | -ait     | -ait     | -ait         |
+|                                                   | nous       | -ions    | -ions    | -ions        |
+|                                                   | vous       | -iez     | -iez     | -iez         |
+|                                                   | ils/elles  | -aient   | -aient   | -aient       |
+| **Futur simple**       | je         | -erai    | -irai    | -rai         |
+| **将来词干（不定式/特殊）**                                 | tu         | -eras    | -iras    | -ras         |
+|            直陈式（Indicatif）                                       | il/elle/on | -era     | -ira     | -ra          |
+|                                                   | nous       | -erons   | -irons   | -rons        |
+|                                                   | vous       | -erez    | -irez    | -rez         |
+|                                                   | ils/elles  | -eront   | -iront   | -ront        |
+| **Conditionnel présent**       | je         | -erais   | -irais   | -rais        |
+| **将来词干**                         | tu         | -erais   | -irais   | -rais        |
+|                                                   | il/elle/on | -erait   | -irait   | -rait        |
+|                                                   | nous       | -erions  | -irions  | -rions       |
+|                                                   | vous       | -eriez   | -iriez   | -riez        |
+|                                                   | ils/elles  | -eraient | -iraient | -raient      |
+| **Passé simple** | je         | -ai      | -is      | -is          |
+| **现在时 nous 词干 + 变音标记**                                 | tu         | -as      | -is      | -is          |
+|   直陈式（Indicatif）                                                | il/elle/on | -a       | -it      | -it          |
+|                                                   | nous       | -âmes    | -îmes    | -îmes        |
+|                                                   | vous       | -âtes    | -îtes    | -îtes        |
+|                                                   | ils/elles  | -èrent   | -irent   | -irent       |
+| **Subjonctif présent**  | je         | -e       | -isse    | -e           |
+| **现在时 nous 词干**                           | tu         | -es      | -isses   | -es          |
+|                                                   | il/elle/on | -e       | -isse    | -e           |
+|                                                   | nous       | -ions    | -issions | -ions        |
+|                                                   | vous       | -iez     | -issiez  | -iez         |
+|                                                   | ils/elles  | -ent     | -issent  | -ent         |
