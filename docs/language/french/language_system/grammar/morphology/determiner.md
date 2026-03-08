@@ -26,4 +26,3 @@
 | 数量   | deux livres      | two books     |
 | 不定   | plusieurs livres | several books |
 | 疑问   | quel livre ?     | which book    |
-

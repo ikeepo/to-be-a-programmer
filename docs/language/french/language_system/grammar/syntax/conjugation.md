@@ -175,19 +175,19 @@
 |                                                   | ils/elles  | -ent     | -issent  | -ent         |
 | **Imparfait** (未完成过去时)         | je         | -ais     | -ais     | -ais         |
 | **现在时 nous 词干**                               | tu         | -ais     | -ais     | -ais         |
-|              直陈式（Indicatif）                                     | il/elle/on | -ait     | -ait     | -ait         |
+| 直陈式（Indicatif）                                     | il/elle/on | -ait     | -ait     | -ait         |
 |                                                   | nous       | -ions    | -ions    | -ions        |
 |                                                   | vous       | -iez     | -iez     | -iez         |
 |                                                   | ils/elles  | -aient   | -aient   | -aient       |
 | **Futur simple**       | je         | -erai    | -irai    | -rai         |
 | **将来词干（不定式/特殊）**                                 | tu         | -eras    | -iras    | -ras         |
-|            直陈式（Indicatif）                                       | il/elle/on | -era     | -ira     | -ra          |
+| 直陈式（Indicatif）                                       | il/elle/on | -era     | -ira     | -ra          |
 |                                                   | nous       | -erons   | -irons   | -rons        |
 |                                                   | vous       | -erez    | -irez    | -rez         |
 |                                                   | ils/elles  | -eront   | -iront   | -ront        |
 | **Conditionnel présent**       | je         | -erais   | -irais   | -rais        |
 | **将来词干**                         | tu         | -erais   | -irais   | -rais        |
-|                                                   | il/elle/on | -erait   | -irait   | -rait        |
+| 条件式（Conditionnel）                                       | il/elle/on | -erait   | -irait   | -rait        |
 |                                                   | nous       | -erions  | -irions  | -rions       |
 |                                                   | vous       | -eriez   | -iriez   | -riez        |
 |                                                   | ils/elles  | -eraient | -iraient | -raient      |
@@ -199,7 +199,7 @@
 |                                                   | ils/elles  | -èrent   | -irent   | -irent       |
 | **Subjonctif présent**  | je         | -e       | -isse    | -e           |
 | **现在时 nous 词干**                           | tu         | -es      | -isses   | -es          |
-|                                                   | il/elle/on | -e       | -isse    | -e           |
+| 虚拟式（Subjonctif）                                         | il/elle/on | -e       | -isse    | -e           |
 |                                                   | nous       | -ions    | -issions | -ions        |
 |                                                   | vous       | -iez     | -issiez  | -iez         |
 |                                                   | ils/elles  | -ent     | -issent  | -ent         |
