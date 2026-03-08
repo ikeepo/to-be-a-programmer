@@ -159,7 +159,7 @@
 | 基底类型        | 形式          | IPA      | 用途           |
 | ----------- | ----------- | -------- | ------------ |
 | 不定式         | avoir       | /a.vwaʁ/ | 词典原型         |
-| 现在时 nous 词干^[取nous形式去除ons得到词干] | av- (avons) | /av/     | 生成未完成过去、现在分词 |
+| 现在时 nous 词干[^1] | av- (avons) | /av/     | 生成未完成过去、现在分词 |
 | 将来词干        | aur-        | /oʁ/     | 生成将来时和条件式    |
 | 过去分词        | eu          | /y/      | 生成所有复合时态     |
 
@@ -203,3 +203,7 @@
 |                                                   | nous       | -ions    | -issions | -ions        |
 |                                                   | vous       | -iez     | -issiez  | -iez         |
 |                                                   | ils/elles  | -ent     | -issent  | -ent         |
+
+
+# Refs 
+[^1]: 取nous形式去除ons得到词干
