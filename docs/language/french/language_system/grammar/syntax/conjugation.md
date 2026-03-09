@@ -142,48 +142,7 @@
 | **Impératif** (命令式) | - | dis | - | disons | **dites** | - |
 
 ##### 所有不规则动词的所有变位形式 
-```shell
 
-```
-
-| 时态 / 语气                  | 人称         | aller    | avoir    | être     | dire     |
-| ------------------------ | ---------- | -------- | -------- | -------- | -------- |
-| **Présent**              | je         | vais     | ai       | suis     | dis      |
-| 现在时 nous 词干              | tu         | vas      | as       | es       | dis      |
-| 直陈式（Indicatif）           | il/elle/on | va       | a        | est      | dit      |
-|                          | nous       | allons   | avons    | sommes   | disons   |
-|                          | vous       | allez    | avez     | êtes     | dites    |
-|                          | ils/elles  | vont     | ont      | sont     | disent   |
-| **Imparfait (未完成过去时)**   | je         | allais   | avais    | étais    | disais   |
-| 现在时 nous 词干              | tu         | allais   | avais    | étais    | disais   |
-| 直陈式（Indicatif）           | il/elle/on | allait   | avait    | était    | disait   |
-|                          | nous       | allions  | avions   | étions   | disions  |
-|                          | vous       | alliez   | aviez    | étiez    | disiez   |
-|                          | ils/elles  | allaient | avaient  | étaient  | disaient |
-| **Futur simple**         | je         | irai     | aurai    | serai    | dirai    |
-| 将来词干（不定式/特殊）             | tu         | iras     | auras    | seras    | diras    |
-| 直陈式（Indicatif）           | il/elle/on | ira      | aura     | sera     | dira     |
-|                          | nous       | irons    | aurons   | serons   | dirons   |
-|                          | vous       | irez     | aurez    | serez    | direz    |
-|                          | ils/elles  | iront    | auront   | seront   | diront   |
-| **Conditionnel présent** | je         | irais    | aurais   | serais   | dirais   |
-| 将来词干                     | tu         | irais    | aurais   | serais   | dirais   |
-|                          | il/elle/on | irait    | aurait   | serait   | dirait   |
-|                          | nous       | irions   | aurions  | serions  | dirions  |
-|                          | vous       | iriez    | auriez   | seriez   | diriez   |
-|                          | ils/elles  | iraient  | auraient | seraient | diraient |
-| **Passé simple**         | je         | allai    | eus      | fus      | dis      |
-| 现在时 nous 词干 + 变音标记       | tu         | allas    | eus      | fus      | dis      |
-| 直陈式（Indicatif）           | il/elle/on | alla     | eut      | fut      | dit      |
-|                          | nous       | allâmes  | eûmes    | fûmes    | dîmes    |
-|                          | vous       | allâtes  | eûtes    | fûtes    | dîtes    |
-|                          | ils/elles  | allèrent | eurent   | furent   | dirent   |
-| **Subjonctif présent**   | je         | aille    | aie      | sois     | dise     |
-| 现在时 nous 词干              | tu         | ailles   | aies     | sois     | dises    |
-|                          | il/elle/on | aille    | ait      | soit     | dise     |
-|                          | nous       | allions  | ayons    | soyons   | disions  |
-|                          | vous       | alliez   | ayez     | soyez    | disiez   |
-|                          | ils/elles  | aillent  | aient    | soient   | disent   |
 
 
 | 时态 / 语气                  | 人称         | aller    | 基础词干             | avoir    | 基础词干            | être     | 基础词干            | dire     | 基础词干           |
