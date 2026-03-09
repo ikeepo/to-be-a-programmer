@@ -144,6 +144,44 @@
 ##### 所有不规则动词的所有变位形式 
 
 
+| 时态 / 语气                  | 人称                   | aller              | 基础词干             | avoir              | 基础词干            | être               | 基础词干            | dire               | 基础词干           |
+| ------------------------ | -------------------- | ------------------ | ---------------- | ------------------ | --------------- | ------------------ | --------------- | ------------------ | -------------- |
+| **Présent**              | {{fr('je')}}         | {{fr('vais')}}     | 现在时 nous 词干 all- | {{fr('ai')}}       | 现在时 nous 词干 av- | {{fr('suis')}}     | 现在时 nous 词干 s-  | {{fr('dis')}}      | 现在时 nous 词干 d- |
+|                          | {{fr('tu')}}         | {{fr('vas')}}      | all-             | {{fr('as')}}       | av-             | {{fr('es')}}       | s-              | {{fr('dis')}}      | d-             |
+|                          | {{fr('il/elle/on')}} | {{fr('va')}}       | all-             | {{fr('a')}}        | av-             | {{fr('est')}}      | s-              | {{fr('dit')}}      | d-             |
+|                          | {{fr('nous')}}       | {{fr('allons')}}   | all-             | {{fr('avons')}}    | av-             | {{fr('sommes')}}   | s-              | {{fr('disons')}}   | d-             |
+|                          | {{fr('vous')}}       | {{fr('allez')}}    | all-             | {{fr('avez')}}     | av-             | {{fr('êtes')}}     | s-              | {{fr('dites')}}    | d-             |
+|                          | {{fr('ils/elles')}}  | {{fr('vont')}}     | all-             | {{fr('ont')}}      | av-             | {{fr('sont')}}     | s-              | {{fr('disent')}}   | d-             |
+| **Imparfait**            | {{fr('je')}}         | {{fr('allais')}}   | 现在时 nous 词干 all- | {{fr('avais')}}    | 现在时 nous 词干 av- | {{fr('étais')}}    | 现在时 nous 词干 ét- | {{fr('disais')}}   | 现在时 nous 词干 d- |
+|                          | {{fr('tu')}}         | {{fr('allais')}}   | all-             | {{fr('avais')}}    | av-             | {{fr('étais')}}    | ét-             | {{fr('disais')}}   | d-             |
+|                          | {{fr('il/elle/on')}} | {{fr('allait')}}   | all-             | {{fr('avait')}}    | av-             | {{fr('était')}}    | ét-             | {{fr('disait')}}   | d-             |
+|                          | {{fr('nous')}}       | {{fr('allions')}}  | all-             | {{fr('avions')}}   | av-             | {{fr('étions')}}   | ét-             | {{fr('disions')}}  | d-             |
+|                          | {{fr('vous')}}       | {{fr('alliez')}}   | all-             | {{fr('aviez')}}    | av-             | {{fr('étiez')}}    | ét-             | {{fr('disiez')}}   | d-             |
+|                          | {{fr('ils/elles')}}  | {{fr('allaient')}} | all-             | {{fr('avaient')}}  | av-             | {{fr('étaient')}}  | ét-             | {{fr('disaient')}} | d-             |
+| **Futur simple**         | {{fr('je')}}         | {{fr('irai')}}     | 将来词干 ir-         | {{fr('aurai')}}    | 将来词干 aur-       | {{fr('serai')}}    | 将来词干 ser-       | {{fr('dirai')}}    | 将来词干 dir-      |
+|                          | {{fr('tu')}}         | {{fr('iras')}}     | ir-              | {{fr('auras')}}    | aur-            | {{fr('seras')}}    | ser-            | {{fr('diras')}}    | dir-           |
+|                          | {{fr('il/elle/on')}} | {{fr('ira')}}      | ir-              | {{fr('aura')}}     | aur-            | {{fr('sera')}}     | ser-            | {{fr('dira')}}     | dir-           |
+|                          | {{fr('nous')}}       | {{fr('irons')}}    | ir-              | {{fr('aurons')}}   | aur-            | {{fr('serons')}}   | ser-            | {{fr('dirons')}}   | dir-           |
+|                          | {{fr('vous')}}       | {{fr('irez')}}     | ir-              | {{fr('aurez')}}    | aur-            | {{fr('serez')}}    | ser-            | {{fr('direz')}}    | dir-           |
+|                          | {{fr('ils/elles')}}  | {{fr('iront')}}    | ir-              | {{fr('auront')}}   | aur-            | {{fr('seront')}}   | ser-            | {{fr('diront')}}   | dir-           |
+| **Conditionnel présent** | {{fr('je')}}         | {{fr('irais')}}    | 将来词干 ir-         | {{fr('aurais')}}   | 将来词干 aur-       | {{fr('serais')}}   | 将来词干 ser-       | {{fr('dirais')}}   | 将来词干 dir-      |
+|                          | {{fr('tu')}}         | {{fr('irais')}}    | ir-              | {{fr('aurais')}}   | aur-            | {{fr('serais')}}   | ser-            | {{fr('dirais')}}   | dir-           |
+|                          | {{fr('il/elle/on')}} | {{fr('irait')}}    | ir-              | {{fr('aurait')}}   | aur-            | {{fr('serait')}}   | ser-            | {{fr('dirait')}}   | dir-           |
+|                          | {{fr('nous')}}       | {{fr('irions')}}   | ir-              | {{fr('aurions')}}  | aur-            | {{fr('serions')}}  | ser-            | {{fr('dirions')}}  | dir-           |
+|                          | {{fr('vous')}}       | {{fr('iriez')}}    | ir-              | {{fr('auriez')}}   | aur-            | {{fr('seriez')}}   | ser-            | {{fr('diriez')}}   | dir-           |
+|                          | {{fr('ils/elles')}}  | {{fr('iraient')}}  | ir-              | {{fr('auraient')}} | aur-            | {{fr('seraient')}} | ser-            | {{fr('diraient')}} | dir-           |
+| **Passé simple**         | {{fr('je')}}         | {{fr('allai')}}    | 过去分词 / 特殊 all-   | {{fr('eus')}}      | 过去分词 / 特殊 eu    | {{fr('fus')}}      | 过去分词 / 特殊 f-    | {{fr('dis')}}      | 过去分词 / 特殊 d-   |
+|                          | {{fr('tu')}}         | {{fr('allas')}}    | all-             | {{fr('eus')}}      | eu              | {{fr('fus')}}      | f-              | {{fr('dis')}}      | d-             |
+|                          | {{fr('il/elle/on')}} | {{fr('alla')}}     | all-             | {{fr('eut')}}      | eu              | {{fr('fut')}}      | f-              | {{fr('dit')}}      | d-             |
+|                          | {{fr('nous')}}       | {{fr('allâmes')}}  | all-             | {{fr('eûmes')}}    | eu              | {{fr('fûmes')}}    | f-              | {{fr('dîmes')}}    | d-             |
+|                          | {{fr('vous')}}       | {{fr('allâtes')}}  | all-             | {{fr('eûtes')}}    | eu              | {{fr('fûtes')}}    | f-              | {{fr('dîtes')}}    | d-             |
+|                          | {{fr('ils/elles')}}  | {{fr('allèrent')}} | all-             | {{fr('eurent')}}   | eu              | {{fr('furent')}}   | f-              | {{fr('dirent')}}   | d-             |
+| **Subjonctif présent**   | {{fr('je')}}         | {{fr('aille')}}    | 现在时 nous 词干 all- | {{fr('aie')}}      | 现在时 nous 词干 av- | {{fr('sois')}}     | 现在时 nous 词干 s-  | {{fr('dise')}}     | 现在时 nous 词干 d- |
+|                          | {{fr('tu')}}         | {{fr('ailles')}}   | all-             | {{fr('aies')}}     | av-             | {{fr('sois')}}     | s-              | {{fr('dises')}}    | d-             |
+|                          | {{fr('il/elle/on')}} | {{fr('aille')}}    | all-             | {{fr('ait')}}      | av-             | {{fr('soit')}}     | s-              | {{fr('dise')}}     | d-             |
+|                          | {{fr('nous')}}       | {{fr('allions')}}  | all-             | {{fr('ayons')}}    | av-             | {{fr('soyons')}}   | s-              | {{fr('disions')}}  | d-             |
+|                          | {{fr('vous')}}       | {{fr('alliez')}}   | all-             | {{fr('ayez')}}     | av-             | {{fr('soyez')}}    | s-              | {{fr('disiez')}}   | d-             |
+|                          | {{fr('ils/elles')}}  | {{fr('aillent')}}  | all-             | {{fr('aient')}}    | av-             | {{fr('soient')}}   | s-              | {{fr('disent')}}   | d-             |
 
 | 时态 / 语气                  | 人称         | aller    | 基础词干             | avoir    | 基础词干            | être     | 基础词干            | dire     | 基础词干           |
 | ------------------------ | ---------- | -------- | ---------------- | -------- | --------------- | -------- | --------------- | -------- | -------------- |
