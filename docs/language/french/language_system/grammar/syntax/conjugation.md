@@ -142,6 +142,9 @@
 | **Impératif** (命令式) | - | dis | - | disons | **dites** | - |
 
 ##### 所有不规则动词的所有变位形式 
+```shell
+
+```
 
 | 时态 / 语气                  | 人称         | aller    | avoir    | être     | dire     |
 | ------------------------ | ---------- | -------- | -------- | -------- | -------- |
@@ -181,6 +184,48 @@
 |                          | nous       | allions  | ayons    | soyons   | disions  |
 |                          | vous       | alliez   | ayez     | soyez    | disiez   |
 |                          | ils/elles  | aillent  | aient    | soient   | disent   |
+
+
+| 时态 / 语气                  | 人称         | aller    | 基础词干             | avoir    | 基础词干            | être     | 基础词干            | dire     | 基础词干           |
+| ------------------------ | ---------- | -------- | ---------------- | -------- | --------------- | -------- | --------------- | -------- | -------------- |
+| **Présent**              | je         | vais     | 现在时 nous 词干 all- | ai       | 现在时 nous 词干 av- | suis     | 现在时 nous 词干 s-  | dis      | 现在时 nous 词干 d- |
+|                          | tu         | vas      | all-             | as       | av-             | es       | s-              | dis      | d-             |
+|                          | il/elle/on | va       | all-             | a        | av-             | est      | s-              | dit      | d-             |
+|                          | nous       | allons   | all-             | avons    | av-             | sommes   | s-              | disons   | d-             |
+|                          | vous       | allez    | all-             | avez     | av-             | êtes     | s-              | dites    | d-             |
+|                          | ils/elles  | vont     | all-             | ont      | av-             | sont     | s-              | disent   | d-             |
+| **Imparfait**            | je         | allais   | 现在时 nous 词干 all- | avais    | 现在时 nous 词干 av- | étais    | 现在时 nous 词干 ét- | disais   | 现在时 nous 词干 d- |
+|                          | tu         | allais   | all-             | avais    | av-             | étais    | ét-             | disais   | d-             |
+|                          | il/elle/on | allait   | all-             | avait    | av-             | était    | ét-             | disait   | d-             |
+|                          | nous       | allions  | all-             | avions   | av-             | étions   | ét-             | disions  | d-             |
+|                          | vous       | alliez   | all-             | aviez    | av-             | étiez    | ét-             | disiez   | d-             |
+|                          | ils/elles  | allaient | all-             | avaient  | av-             | étaient  | ét-             | disaient | d-             |
+| **Futur simple**         | je         | irai     | 将来词干 ir-         | aurai    | 将来词干 aur-       | serai    | 将来词干 ser-       | dirai    | 将来词干 dir-      |
+|                          | tu         | iras     | ir-              | auras    | aur-            | seras    | ser-            | diras    | dir-           |
+|                          | il/elle/on | ira      | ir-              | aura     | aur-            | sera     | ser-            | dira     | dir-           |
+|                          | nous       | irons    | ir-              | aurons   | aur-            | serons   | ser-            | dirons   | dir-           |
+|                          | vous       | irez     | ir-              | aurez    | aur-            | serez    | ser-            | direz    | dir-           |
+|                          | ils/elles  | iront    | ir-              | auront   | aur-            | seront   | ser-            | diront   | dir-           |
+| **Conditionnel présent** | je         | irais    | 将来词干 ir-         | aurais   | 将来词干 aur-       | serais   | 将来词干 ser-       | dirais   | 将来词干 dir-      |
+|                          | tu         | irais    | ir-              | aurais   | aur-            | serais   | ser-            | dirais   | dir-           |
+|                          | il/elle/on | irait    | ir-              | aurait   | aur-            | serait   | ser-            | dirait   | dir-           |
+|                          | nous       | irions   | ir-              | aurions  | aur-            | serions  | ser-            | dirions  | dir-           |
+|                          | vous       | iriez    | ir-              | auriez   | aur-            | seriez   | ser-            | diriez   | dir-           |
+|                          | ils/elles  | iraient  | ir-              | auraient | aur-            | seraient | ser-            | diraient | dir-           |
+| **Passé simple**         | je         | allai    | 过去分词 / 特殊 all-   | eus      | 过去分词 / 特殊 eu    | fus      | 过去分词 / 特殊 f-    | dis      | 过去分词 / 特殊 d-   |
+|                          | tu         | allas    | all-             | eus      | eu              | fus      | f-              | dis      | d-             |
+|                          | il/elle/on | alla     | all-             | eut      | eu              | fut      | f-              | dit      | d-             |
+|                          | nous       | allâmes  | all-             | eûmes    | eu              | fûmes    | f-              | dîmes    | d-             |
+|                          | vous       | allâtes  | all-             | eûtes    | eu              | fûtes    | f-              | dîtes    | d-             |
+|                          | ils/elles  | allèrent | all-             | eurent   | eu              | furent   | f-              | dirent   | d-             |
+| **Subjonctif présent**   | je         | aille    | 现在时 nous 词干 all- | aie      | 现在时 nous 词干 av- | sois     | 现在时 nous 词干 s-  | dise     | 现在时 nous 词干 d- |
+|                          | tu         | ailles   | all-             | aies     | av-             | sois     | s-              | dises    | d-             |
+|                          | il/elle/on | aille    | all-             | ait      | av-             | soit     | s-              | dise     | d-             |
+|                          | nous       | allions  | all-             | ayons    | av-             | soyons   | s-              | disions  | d-             |
+|                          | vous       | alliez   | all-             | ayez     | av-             | soyez    | s-              | disiez   | d-             |
+|                          | ils/elles  | aillent  | all-             | aient    | av-             | soient   | s-              | disent   | d-             |
+
+
 
 ### 基于时态的变位
 #### 条件式现在时 
