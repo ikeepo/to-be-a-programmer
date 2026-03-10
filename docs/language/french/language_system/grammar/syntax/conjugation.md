@@ -183,85 +183,46 @@
 |                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('aillent')}} /aj/    | all-             | {{fr('aient')}} /ɛ/       | av-             | {{fr('soient')}} /swa/     | s-              | {{fr('disent')}} /diz/     | d-             |
 
 
-| 时态 / 语气                  | 人称                   | aller              | 基础词干             | avoir              | 基础词干            | être               | 基础词干            | dire               | 基础词干           |
-| ------------------------ | -------------------- | ------------------ | ---------------- | ------------------ | --------------- | ------------------ | --------------- | ------------------ | -------------- |
-| **Présent**              | {{fr('je')}}         | {{fr('vais')}}     | 现在时 nous 词干 all- | {{fr('ai')}}       | 现在时 nous 词干 av- | {{fr('suis')}}     | 现在时 nous 词干 s-  | {{fr('dis')}}      | 现在时 nous 词干 d- |
-|                          | {{fr('tu')}}         | {{fr('vas')}}      | all-             | {{fr('as')}}       | av-             | {{fr('es')}}       | s-              | {{fr('dis')}}      | d-             |
-|                          | {{fr('il/elle/on')}} | {{fr('va')}}       | all-             | {{fr('a')}}        | av-             | {{fr('est')}}      | s-              | {{fr('dit')}}      | d-             |
-|                          | {{fr('nous')}}       | {{fr('allons')}}   | all-             | {{fr('avons')}}    | av-             | {{fr('sommes')}}   | s-              | {{fr('disons')}}   | d-             |
-|                          | {{fr('vous')}}       | {{fr('allez')}}    | all-             | {{fr('avez')}}     | av-             | {{fr('êtes')}}     | s-              | {{fr('dites')}}    | d-             |
-|                          | {{fr('ils/elles')}}  | {{fr('vont')}}     | all-             | {{fr('ont')}}      | av-             | {{fr('sont')}}     | s-              | {{fr('disent')}}   | d-             |
-| **Imparfait**            | {{fr('je')}}         | {{fr('allais')}}   | 现在时 nous 词干 all- | {{fr('avais')}}    | 现在时 nous 词干 av- | {{fr('étais')}}    | 现在时 nous 词干 ét- | {{fr('disais')}}   | 现在时 nous 词干 d- |
-|                          | {{fr('tu')}}         | {{fr('allais')}}   | all-             | {{fr('avais')}}    | av-             | {{fr('étais')}}    | ét-             | {{fr('disais')}}   | d-             |
-|                          | {{fr('il/elle/on')}} | {{fr('allait')}}   | all-             | {{fr('avait')}}    | av-             | {{fr('était')}}    | ét-             | {{fr('disait')}}   | d-             |
-|                          | {{fr('nous')}}       | {{fr('allions')}}  | all-             | {{fr('avions')}}   | av-             | {{fr('étions')}}   | ét-             | {{fr('disions')}}  | d-             |
-|                          | {{fr('vous')}}       | {{fr('alliez')}}   | all-             | {{fr('aviez')}}    | av-             | {{fr('étiez')}}    | ét-             | {{fr('disiez')}}   | d-             |
-|                          | {{fr('ils/elles')}}  | {{fr('allaient')}} | all-             | {{fr('avaient')}}  | av-             | {{fr('étaient')}}  | ét-             | {{fr('disaient')}} | d-             |
-| **Futur simple**         | {{fr('je')}}         | {{fr('irai')}}     | 将来词干 ir-         | {{fr('aurai')}}    | 将来词干 aur-       | {{fr('serai')}}    | 将来词干 ser-       | {{fr('dirai')}}    | 将来词干 dir-      |
-|                          | {{fr('tu')}}         | {{fr('iras')}}     | ir-              | {{fr('auras')}}    | aur-            | {{fr('seras')}}    | ser-            | {{fr('diras')}}    | dir-           |
-|                          | {{fr('il/elle/on')}} | {{fr('ira')}}      | ir-              | {{fr('aura')}}     | aur-            | {{fr('sera')}}     | ser-            | {{fr('dira')}}     | dir-           |
-|                          | {{fr('nous')}}       | {{fr('irons')}}    | ir-              | {{fr('aurons')}}   | aur-            | {{fr('serons')}}   | ser-            | {{fr('dirons')}}   | dir-           |
-|                          | {{fr('vous')}}       | {{fr('irez')}}     | ir-              | {{fr('aurez')}}    | aur-            | {{fr('serez')}}    | ser-            | {{fr('direz')}}    | dir-           |
-|                          | {{fr('ils/elles')}}  | {{fr('iront')}}    | ir-              | {{fr('auront')}}   | aur-            | {{fr('seront')}}   | ser-            | {{fr('diront')}}   | dir-           |
-| **Conditionnel présent** | {{fr('je')}}         | {{fr('irais')}}    | 将来词干 ir-         | {{fr('aurais')}}   | 将来词干 aur-       | {{fr('serais')}}   | 将来词干 ser-       | {{fr('dirais')}}   | 将来词干 dir-      |
-|                          | {{fr('tu')}}         | {{fr('irais')}}    | ir-              | {{fr('aurais')}}   | aur-            | {{fr('serais')}}   | ser-            | {{fr('dirais')}}   | dir-           |
-|                          | {{fr('il/elle/on')}} | {{fr('irait')}}    | ir-              | {{fr('aurait')}}   | aur-            | {{fr('serait')}}   | ser-            | {{fr('dirait')}}   | dir-           |
-|                          | {{fr('nous')}}       | {{fr('irions')}}   | ir-              | {{fr('aurions')}}  | aur-            | {{fr('serions')}}  | ser-            | {{fr('dirions')}}  | dir-           |
-|                          | {{fr('vous')}}       | {{fr('iriez')}}    | ir-              | {{fr('auriez')}}   | aur-            | {{fr('seriez')}}   | ser-            | {{fr('diriez')}}   | dir-           |
-|                          | {{fr('ils/elles')}}  | {{fr('iraient')}}  | ir-              | {{fr('auraient')}} | aur-            | {{fr('seraient')}} | ser-            | {{fr('diraient')}} | dir-           |
-| **Passé simple**         | {{fr('je')}}         | {{fr('allai')}}    | 过去分词 / 特殊 all-   | {{fr('eus')}}      | 过去分词 / 特殊 eu    | {{fr('fus')}}      | 过去分词 / 特殊 f-    | {{fr('dis')}}      | 过去分词 / 特殊 d-   |
-|                          | {{fr('tu')}}         | {{fr('allas')}}    | all-             | {{fr('eus')}}      | eu              | {{fr('fus')}}      | f-              | {{fr('dis')}}      | d-             |
-|                          | {{fr('il/elle/on')}} | {{fr('alla')}}     | all-             | {{fr('eut')}}      | eu              | {{fr('fut')}}      | f-              | {{fr('dit')}}      | d-             |
-|                          | {{fr('nous')}}       | {{fr('allâmes')}}  | all-             | {{fr('eûmes')}}    | eu              | {{fr('fûmes')}}    | f-              | {{fr('dîmes')}}    | d-             |
-|                          | {{fr('vous')}}       | {{fr('allâtes')}}  | all-             | {{fr('eûtes')}}    | eu              | {{fr('fûtes')}}    | f-              | {{fr('dîtes')}}    | d-             |
-|                          | {{fr('ils/elles')}}  | {{fr('allèrent')}} | all-             | {{fr('eurent')}}   | eu              | {{fr('furent')}}   | f-              | {{fr('dirent')}}   | d-             |
-| **Subjonctif présent**   | {{fr('je')}}         | {{fr('aille')}}    | 现在时 nous 词干 all- | {{fr('aie')}}      | 现在时 nous 词干 av- | {{fr('sois')}}     | 现在时 nous 词干 s-  | {{fr('dise')}}     | 现在时 nous 词干 d- |
-|                          | {{fr('tu')}}         | {{fr('ailles')}}   | all-             | {{fr('aies')}}     | av-             | {{fr('sois')}}     | s-              | {{fr('dises')}}    | d-             |
-|                          | {{fr('il/elle/on')}} | {{fr('aille')}}    | all-             | {{fr('ait')}}      | av-             | {{fr('soit')}}     | s-              | {{fr('dise')}}     | d-             |
-|                          | {{fr('nous')}}       | {{fr('allions')}}  | all-             | {{fr('ayons')}}    | av-             | {{fr('soyons')}}   | s-              | {{fr('disions')}}  | d-             |
-|                          | {{fr('vous')}}       | {{fr('alliez')}}   | all-             | {{fr('ayez')}}     | av-             | {{fr('soyez')}}    | s-              | {{fr('disiez')}}   | d-             |
-|                          | {{fr('ils/elles')}}  | {{fr('aillent')}}  | all-             | {{fr('aient')}}    | av-             | {{fr('soient')}}   | s-              | {{fr('disent')}}   | d-             |
-
-| 时态 / 语气                  | 人称         | aller    | 基础词干             | avoir    | 基础词干            | être     | 基础词干            | dire     | 基础词干           |
-| ------------------------ | ---------- | -------- | ---------------- | -------- | --------------- | -------- | --------------- | -------- | -------------- |
-| **Présent**              | je         | vais     | 现在时 nous 词干 all- | ai       | 现在时 nous 词干 av- | suis     | 现在时 nous 词干 s-  | dis      | 现在时 nous 词干 d- |
-|                          | tu         | vas      | all-             | as       | av-             | es       | s-              | dis      | d-             |
-|                          | il/elle/on | va       | all-             | a        | av-             | est      | s-              | dit      | d-             |
-|                          | nous       | allons   | all-             | avons    | av-             | sommes   | s-              | disons   | d-             |
-|                          | vous       | allez    | all-             | avez     | av-             | êtes     | s-              | dites    | d-             |
-|                          | ils/elles  | vont     | all-             | ont      | av-             | sont     | s-              | disent   | d-             |
-| **Imparfait**            | je         | allais   | 现在时 nous 词干 all- | avais    | 现在时 nous 词干 av- | étais    | 现在时 nous 词干 ét- | disais   | 现在时 nous 词干 d- |
-|                          | tu         | allais   | all-             | avais    | av-             | étais    | ét-             | disais   | d-             |
-|                          | il/elle/on | allait   | all-             | avait    | av-             | était    | ét-             | disait   | d-             |
-|                          | nous       | allions  | all-             | avions   | av-             | étions   | ét-             | disions  | d-             |
-|                          | vous       | alliez   | all-             | aviez    | av-             | étiez    | ét-             | disiez   | d-             |
-|                          | ils/elles  | allaient | all-             | avaient  | av-             | étaient  | ét-             | disaient | d-             |
-| **Futur simple**         | je         | irai     | 将来词干 ir-         | aurai    | 将来词干 aur-       | serai    | 将来词干 ser-       | dirai    | 将来词干 dir-      |
-|                          | tu         | iras     | ir-              | auras    | aur-            | seras    | ser-            | diras    | dir-           |
-|                          | il/elle/on | ira      | ir-              | aura     | aur-            | sera     | ser-            | dira     | dir-           |
-|                          | nous       | irons    | ir-              | aurons   | aur-            | serons   | ser-            | dirons   | dir-           |
-|                          | vous       | irez     | ir-              | aurez    | aur-            | serez    | ser-            | direz    | dir-           |
-|                          | ils/elles  | iront    | ir-              | auront   | aur-            | seront   | ser-            | diront   | dir-           |
-| **Conditionnel présent** | je         | irais    | 将来词干 ir-         | aurais   | 将来词干 aur-       | serais   | 将来词干 ser-       | dirais   | 将来词干 dir-      |
-|                          | tu         | irais    | ir-              | aurais   | aur-            | serais   | ser-            | dirais   | dir-           |
-|                          | il/elle/on | irait    | ir-              | aurait   | aur-            | serait   | ser-            | dirait   | dir-           |
-|                          | nous       | irions   | ir-              | aurions  | aur-            | serions  | ser-            | dirions  | dir-           |
-|                          | vous       | iriez    | ir-              | auriez   | aur-            | seriez   | ser-            | diriez   | dir-           |
-|                          | ils/elles  | iraient  | ir-              | auraient | aur-            | seraient | ser-            | diraient | dir-           |
-| **Passé simple**         | je         | allai    | 过去分词 / 特殊 all-   | eus      | 过去分词 / 特殊 eu    | fus      | 过去分词 / 特殊 f-    | dis      | 过去分词 / 特殊 d-   |
-|                          | tu         | allas    | all-             | eus      | eu              | fus      | f-              | dis      | d-             |
-|                          | il/elle/on | alla     | all-             | eut      | eu              | fut      | f-              | dit      | d-             |
-|                          | nous       | allâmes  | all-             | eûmes    | eu              | fûmes    | f-              | dîmes    | d-             |
-|                          | vous       | allâtes  | all-             | eûtes    | eu              | fûtes    | f-              | dîtes    | d-             |
-|                          | ils/elles  | allèrent | all-             | eurent   | eu              | furent   | f-              | dirent   | d-             |
-| **Subjonctif présent**   | je         | aille    | 现在时 nous 词干 all- | aie      | 现在时 nous 词干 av- | sois     | 现在时 nous 词干 s-  | dise     | 现在时 nous 词干 d- |
-|                          | tu         | ailles   | all-             | aies     | av-             | sois     | s-              | dises    | d-             |
-|                          | il/elle/on | aille    | all-             | ait      | av-             | soit     | s-              | dise     | d-             |
-|                          | nous       | allions  | all-             | ayons    | av-             | soyons   | s-              | disions  | d-             |
-|                          | vous       | alliez   | all-             | ayez     | av-             | soyez    | s-              | disiez   | d-             |
-|                          | ils/elles  | aillent  | all-             | aient    | av-             | soient   | s-              | disent   | d-             |
 
 
+| 时态 / 语气                  | 人称                              | savoir                      | 基础词干              |
+| ------------------------ | ------------------------------- | --------------------------- | ----------------- |
+| **Présent**              | {{fr('je')}} /ʒə/               | {{fr('sais')}} /sɛ/         | 现在时 nous 词干 sav-  |
+|                          | {{fr('tu')}} /ty/               | {{fr('sais')}} /sɛ/         | sav-              |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('sait')}} /sɛ/         | sav-              |
+|                          | {{fr('nous')}} /nu/             | {{fr('savons')}} /savɔ̃/    | sav-              |
+|                          | {{fr('vous')}} /vu/             | {{fr('savez')}} /save/      | sav-              |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('savent')}} /sav/      | sav-              |
+| **Imparfait**            | {{fr('je')}} /ʒə/               | {{fr('savais')}} /savɛ/     | 现在时 nous 词干 sav-  |
+|                          | {{fr('tu')}} /ty/               | {{fr('savais')}} /savɛ/     | sav-              |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('savait')}} /savɛ/     | sav-              |
+|                          | {{fr('nous')}} /nu/             | {{fr('savions')}} /savjɔ̃/  | sav-              |
+|                          | {{fr('vous')}} /vu/             | {{fr('saviez')}} /savje/    | sav-              |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('savaient')}} /savɛ/   | sav-              |
+| **Futur simple**         | {{fr('je')}} /ʒə/               | {{fr('saurai')}} /soʁe/     | 将来词干 saur-        |
+|                          | {{fr('tu')}} /ty/               | {{fr('sauras')}} /soʁa/     | saur-             |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('saura')}} /soʁa/      | saur-             |
+|                          | {{fr('nous')}} /nu/             | {{fr('saurons')}} /soʁɔ̃/   | saur-             |
+|                          | {{fr('vous')}} /vu/             | {{fr('saurez')}} /soʁe/     | saur-             |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('sauront')}} /soʁɔ̃/   | saur-             |
+| **Conditionnel présent** | {{fr('je')}} /ʒə/               | {{fr('saurais')}} /soʁɛ/    | 将来词干 saur-        |
+|                          | {{fr('tu')}} /ty/               | {{fr('saurais')}} /soʁɛ/    | saur-             |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('saurait')}} /soʁɛ/    | saur-             |
+|                          | {{fr('nous')}} /nu/             | {{fr('saurions')}} /soʁjɔ̃/ | saur-             |
+|                          | {{fr('vous')}} /vu/             | {{fr('sauriez')}} /soʁje/   | saur-             |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('sauraient')}} /soʁɛ/  | saur-             |
+| **Passé simple**         | {{fr('je')}} /ʒə/               | {{fr('sus')}} /sy/          | 过去分词 / 特殊 su-     |
+|                          | {{fr('tu')}} /ty/               | {{fr('sus')}} /sy/          | su-               |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('sut')}} /sy/          | su-               |
+|                          | {{fr('nous')}} /nu/             | {{fr('sûmes')}} /sym/       | su-               |
+|                          | {{fr('vous')}} /vu/             | {{fr('sûtes')}} /syt/       | su-               |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('surent')}} /syʁ/      | su-               |
+| **Subjonctif présent**   | {{fr('je')}} /ʒə/               | {{fr('sache')}} /saʃ/       | 现在时 nous 词干 sach- |
+|                          | {{fr('tu')}} /ty/               | {{fr('saches')}} /saʃ/      | sach-             |
+|                          | {{fr('il/elle/on')}} /il ɛl ɔ̃/ | {{fr('sache')}} /saʃ/       | sach-             |
+|                          | {{fr('nous')}} /nu/             | {{fr('sachions')}} /saʃjɔ̃/ | sach-             |
+|                          | {{fr('vous')}} /vu/             | {{fr('sachiez')}} /saʃje/   | sach-             |
+|                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('sachent')}} /saʃ/     | sach-             |
 
 ### 基于时态的变位
 #### 条件式现在时 
