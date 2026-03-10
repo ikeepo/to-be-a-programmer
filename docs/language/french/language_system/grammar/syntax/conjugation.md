@@ -224,6 +224,37 @@
 |                          | {{fr('vous')}} /vu/             | {{fr('sachiez')}} /saʃje/   | sach-             |
 |                          | {{fr('ils/elles')}} /il ɛl/     | {{fr('sachent')}} /saʃ/     | sach-             |
 
+# 不基于人称的不规则动词变位
+
+| 不定式                | IPA        | 现在分词                 | IPA         | 过去分词              | IPA      |
+| ------------------ | ---------- | -------------------- | ----------- | ----------------- | -------- |
+| {{fr('aller')}}    | /ale/      | {{fr('allant')}}     | /alɑ̃/      | {{fr('allé')}}    | /ale/    |
+| {{fr('avoir')}}    | /avwaʁ/    | {{fr('ayant')}}      | /ajɑ̃/      | {{fr('eu')}}      | /y/      |
+| {{fr('être')}}     | /ɛtʁ/      | {{fr('étant')}}      | /etɑ̃/      | {{fr('été')}}     | /ete/    |
+| {{fr('faire')}}    | /fɛʁ/      | {{fr('faisant')}}    | /fəzɑ̃/     | {{fr('fait')}}    | /fɛ/     |
+| {{fr('dire')}}     | /diʁ/      | {{fr('disant')}}     | /dizɑ̃/     | {{fr('dit')}}     | /di/     |
+| {{fr('voir')}}     | /vwaʁ/     | {{fr('voyant')}}     | /vwajɑ̃/    | {{fr('vu')}}      | /vy/     |
+| {{fr('pouvoir')}}  | /puvwaʁ/   | {{fr('pouvant')}}    | /puvɑ̃/     | {{fr('pu')}}      | /py/     |
+| {{fr('vouloir')}}  | /vulwaʁ/   | {{fr('voulant')}}    | /vulɑ̃/     | {{fr('voulu')}}   | /vuly/   |
+| {{fr('devoir')}}   | /dəvwaʁ/   | {{fr('devant')}}     | /dəvɑ̃/     | {{fr('dû')}}      | /dy/     |
+| {{fr('savoir')}}   | /savwaʁ/   | {{fr('sachant')}}    | /saʃɑ̃/     | {{fr('su')}}      | /sy/     |
+| {{fr('boire')}}    | /bwaʁ/     | {{fr('buvant')}}     | /byvɑ̃/     | {{fr('bu')}}      | /by/     |
+| {{fr('prendre')}}  | /pʁɑ̃dʁ/   | {{fr('prenant')}}    | /pʁənɑ̃/    | {{fr('pris')}}    | /pʁi/    |
+| {{fr('mettre')}}   | /mɛtʁ/     | {{fr('mettant')}}    | /mɛtɑ̃/     | {{fr('mis')}}     | /mi/     |
+| {{fr('tenir')}}    | /təniʁ/    | {{fr('tenant')}}     | /tənɑ̃/     | {{fr('tenu')}}    | /təny/   |
+| {{fr('venir')}}    | /vəniʁ/    | {{fr('venant')}}     | /vənɑ̃/     | {{fr('venu')}}    | /vəny/   |
+| {{fr('recevoir')}} | /ʁəsəvwaʁ/ | {{fr('recevant')}}   | /ʁəsəvɑ̃/   | {{fr('reçu')}}    | /ʁəsy/   |
+| {{fr('ouvrir')}}   | /uvʁiʁ/    | {{fr('ouvrant')}}    | /uvʁɑ̃/     | {{fr('ouvert')}}  | /uvɛʁ/   |
+| {{fr('offrir')}}   | /ɔfʁiʁ/    | {{fr('offrant')}}    | /ɔfʁɑ̃/     | {{fr('offert')}}  | /ɔfɛʁ/   |
+| {{fr('courir')}}   | /kuʁiʁ/    | {{fr('courant')}}    | /kuʁɑ̃/     | {{fr('couru')}}   | /kuʁy/   |
+| {{fr('mourir')}}   | /muʁiʁ/    | {{fr('mourant')}}    | /muʁɑ̃/     | {{fr('mort')}}    | /mɔʁ/    |
+| {{fr('vivre')}}    | /vivʁ/     | {{fr('vivant')}}     | /vivɑ̃/     | {{fr('vécu')}}    | /veky/   |
+| {{fr('écrire')}}   | /ekʁiʁ/    | {{fr('écrivant')}}   | /ekʁivɑ̃/   | {{fr('écrit')}}   | /ekʁi/   |
+| {{fr('lire')}}     | /liʁ/      | {{fr('lisant')}}     | /lizɑ̃/     | {{fr('lu')}}      | /ly/     |
+| {{fr('conduire')}} | /kɔ̃dɥiʁ/  | {{fr('conduisant')}} | /kɔ̃dɥizɑ̃/ | {{fr('conduit')}} | /kɔ̃dɥi/ |
+| {{fr('traduire')}} | /tʁadyiʁ/  | {{fr('traduisant')}} | /tʁadyizɑ̃/ | {{fr('traduit')}} | /tʁadyi/ |
+
+
 ### 基于时态的变位
 #### 条件式现在时 
 
