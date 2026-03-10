@@ -6,6 +6,10 @@
 | 限定形式 (Modes personnels) | 现在时、未完成过去时、条件式等 | 必须随人称 (我、你、他) 发生变化。 |
 | 非限定形式 (Modes impersonals) | 不定式、过去分词、现在分词 | 不随人称变化。它更像是一个“插件”，代表动作的状态。 |
 
+大多数动词用 avoir 作为助动词构成复合过去时（passé composé），过去分词 不随主语变化：
+
+少数动词用 être 作为助动词（主要是“Dr & Mrs Vandertramp”动词 + 所有反身动词），过去分词 要与主语的人称和性数一致.
+
 ### 限定形式 
 ### 非限定形式
 #### 过去分词
@@ -226,33 +230,34 @@
 
 # 不基于人称的不规则动词变位
 
-| 不定式                | IPA        | 现在分词                 | IPA         | 过去分词              | IPA      |
-| ------------------ | ---------- | -------------------- | ----------- | ----------------- | -------- |
-| {{fr('aller')}}    | /ale/      | {{fr('allant')}}     | /alɑ̃/      | {{fr('allé')}}    | /ale/    |
-| {{fr('avoir')}}    | /avwaʁ/    | {{fr('ayant')}}      | /ajɑ̃/      | {{fr('eu')}}      | /y/      |
-| {{fr('être')}}     | /ɛtʁ/      | {{fr('étant')}}      | /etɑ̃/      | {{fr('été')}}     | /ete/    |
-| {{fr('faire')}}    | /fɛʁ/      | {{fr('faisant')}}    | /fəzɑ̃/     | {{fr('fait')}}    | /fɛ/     |
-| {{fr('dire')}}     | /diʁ/      | {{fr('disant')}}     | /dizɑ̃/     | {{fr('dit')}}     | /di/     |
-| {{fr('voir')}}     | /vwaʁ/     | {{fr('voyant')}}     | /vwajɑ̃/    | {{fr('vu')}}      | /vy/     |
-| {{fr('pouvoir')}}  | /puvwaʁ/   | {{fr('pouvant')}}    | /puvɑ̃/     | {{fr('pu')}}      | /py/     |
-| {{fr('vouloir')}}  | /vulwaʁ/   | {{fr('voulant')}}    | /vulɑ̃/     | {{fr('voulu')}}   | /vuly/   |
-| {{fr('devoir')}}   | /dəvwaʁ/   | {{fr('devant')}}     | /dəvɑ̃/     | {{fr('dû')}}      | /dy/     |
-| {{fr('savoir')}}   | /savwaʁ/   | {{fr('sachant')}}    | /saʃɑ̃/     | {{fr('su')}}      | /sy/     |
-| {{fr('boire')}}    | /bwaʁ/     | {{fr('buvant')}}     | /byvɑ̃/     | {{fr('bu')}}      | /by/     |
-| {{fr('prendre')}}  | /pʁɑ̃dʁ/   | {{fr('prenant')}}    | /pʁənɑ̃/    | {{fr('pris')}}    | /pʁi/    |
-| {{fr('mettre')}}   | /mɛtʁ/     | {{fr('mettant')}}    | /mɛtɑ̃/     | {{fr('mis')}}     | /mi/     |
-| {{fr('tenir')}}    | /təniʁ/    | {{fr('tenant')}}     | /tənɑ̃/     | {{fr('tenu')}}    | /təny/   |
-| {{fr('venir')}}    | /vəniʁ/    | {{fr('venant')}}     | /vənɑ̃/     | {{fr('venu')}}    | /vəny/   |
-| {{fr('recevoir')}} | /ʁəsəvwaʁ/ | {{fr('recevant')}}   | /ʁəsəvɑ̃/   | {{fr('reçu')}}    | /ʁəsy/   |
-| {{fr('ouvrir')}}   | /uvʁiʁ/    | {{fr('ouvrant')}}    | /uvʁɑ̃/     | {{fr('ouvert')}}  | /uvɛʁ/   |
-| {{fr('offrir')}}   | /ɔfʁiʁ/    | {{fr('offrant')}}    | /ɔfʁɑ̃/     | {{fr('offert')}}  | /ɔfɛʁ/   |
-| {{fr('courir')}}   | /kuʁiʁ/    | {{fr('courant')}}    | /kuʁɑ̃/     | {{fr('couru')}}   | /kuʁy/   |
-| {{fr('mourir')}}   | /muʁiʁ/    | {{fr('mourant')}}    | /muʁɑ̃/     | {{fr('mort')}}    | /mɔʁ/    |
-| {{fr('vivre')}}    | /vivʁ/     | {{fr('vivant')}}     | /vivɑ̃/     | {{fr('vécu')}}    | /veky/   |
-| {{fr('écrire')}}   | /ekʁiʁ/    | {{fr('écrivant')}}   | /ekʁivɑ̃/   | {{fr('écrit')}}   | /ekʁi/   |
-| {{fr('lire')}}     | /liʁ/      | {{fr('lisant')}}     | /lizɑ̃/     | {{fr('lu')}}      | /ly/     |
-| {{fr('conduire')}} | /kɔ̃dɥiʁ/  | {{fr('conduisant')}} | /kɔ̃dɥizɑ̃/ | {{fr('conduit')}} | /kɔ̃dɥi/ |
-| {{fr('traduire')}} | /tʁadyiʁ/  | {{fr('traduisant')}} | /tʁadyizɑ̃/ | {{fr('traduit')}} | /tʁadyi/ |
+
+| 不定式                | IPA        | 现在分词                 | IPA         | 过去分词              | IPA      | 注释                                                     |
+| ------------------ | ---------- | -------------------- | ----------- | ----------------- | -------- | ------------------------------------------------------ |
+| {{fr('aller')}}    | /ale/      | {{fr('allant')}}     | /alɑ̃/      | {{fr('allé')}}    | /ale/    | 使用 être 时，需根据主语性数加 e 或 s：allé → allée / allés / allées |
+| {{fr('avoir')}}    | /avwaʁ/    | {{fr('ayant')}}      | /ajɑ̃/      | {{fr('eu')}}      | /y/      | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('être')}}     | /ɛtʁ/      | {{fr('étant')}}      | /etɑ̃/      | {{fr('été')}}     | /ete/    | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('faire')}}    | /fɛʁ/      | {{fr('faisant')}}    | /fəzɑ̃/     | {{fr('fait')}}    | /fɛ/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('dire')}}     | /diʁ/      | {{fr('disant')}}     | /dizɑ̃/     | {{fr('dit')}}     | /di/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('voir')}}     | /vwaʁ/     | {{fr('voyant')}}     | /vwajɑ̃/    | {{fr('vu')}}      | /vy/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('pouvoir')}}  | /puvwaʁ/   | {{fr('pouvant')}}    | /puvɑ̃/     | {{fr('pu')}}      | /py/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('vouloir')}}  | /vulwaʁ/   | {{fr('voulant')}}    | /vulɑ̃/     | {{fr('voulu')}}   | /vuly/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('devoir')}}   | /dəvwaʁ/   | {{fr('devant')}}     | /dəvɑ̃/     | {{fr('dû')}}      | /dy/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('savoir')}}   | /savwaʁ/   | {{fr('sachant')}}    | /saʃɑ̃/     | {{fr('su')}}      | /sy/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('boire')}}    | /bwaʁ/     | {{fr('buvant')}}     | /byvɑ̃/     | {{fr('bu')}}      | /by/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('prendre')}}  | /pʁɑ̃dʁ/   | {{fr('prenant')}}    | /pʁənɑ̃/    | {{fr('pris')}}    | /pʁi/    | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('mettre')}}   | /mɛtʁ/     | {{fr('mettant')}}    | /mɛtɑ̃/     | {{fr('mis')}}     | /mi/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('tenir')}}    | /təniʁ/    | {{fr('tenant')}}     | /tənɑ̃/     | {{fr('tenu')}}    | /təny/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('venir')}}    | /vəniʁ/    | {{fr('venant')}}     | /vənɑ̃/     | {{fr('venu')}}    | /vəny/   | 使用 être 时，需根据主语性数加 e 或 s：venu → venue / venus / venues |
+| {{fr('recevoir')}} | /ʁəsəvwaʁ/ | {{fr('recevant')}}   | /ʁəsəvɑ̃/   | {{fr('reçu')}}    | /ʁəsy/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('ouvrir')}}   | /uvʁiʁ/    | {{fr('ouvrant')}}    | /uvʁɑ̃/     | {{fr('ouvert')}}  | /uvɛʁ/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('offrir')}}   | /ɔfʁiʁ/    | {{fr('offrant')}}    | /ɔfʁɑ̃/     | {{fr('offert')}}  | /ɔfɛʁ/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('courir')}}   | /kuʁiʁ/    | {{fr('courant')}}    | /kuʁɑ̃/     | {{fr('couru')}}   | /kuʁy/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('mourir')}}   | /muʁiʁ/    | {{fr('mourant')}}    | /muʁɑ̃/     | {{fr('mort')}}    | /mɔʁ/    | 使用 être 时，需根据主语性数加 e 或 s：mort → morte / morts / mortes |
+| {{fr('vivre')}}    | /vivʁ/     | {{fr('vivant')}}     | /vivɑ̃/     | {{fr('vécu')}}    | /veky/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('écrire')}}   | /ekʁiʁ/    | {{fr('écrivant')}}   | /ekʁivɑ̃/   | {{fr('écrit')}}   | /ekʁi/   | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('lire')}}     | /liʁ/      | {{fr('lisant')}}     | /lizɑ̃/     | {{fr('lu')}}      | /ly/     | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('conduire')}} | /kɔ̃dɥiʁ/  | {{fr('conduisant')}} | /kɔ̃dɥizɑ̃/ | {{fr('conduit')}} | /kɔ̃dɥi/ | 与 avoir 搭配过去分词通常不变                                     |
+| {{fr('traduire')}} | /tʁadyiʁ/  | {{fr('traduisant')}} | /tʁadyizɑ̃/ | {{fr('traduit')}} | /tʁadyi/ | 与 avoir 搭配过去分词通常不变                                     |
 
 
 ### 基于时态的变位
