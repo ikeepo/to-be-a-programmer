@@ -9,6 +9,7 @@
 | 地点 (Place) | {{fr('dans')}} | /dɑ̃/ | 定义在某个空间内部 | Dans la boîte. |
 | 地点 (Place) | {{fr('chez')}} | /ʃe/ | 在某人的住所或营业场所 | Chez moi. |
 | 地点 (Place) | {{fr('sur')}} | /syʁ/ | 在...上面（接触表面） | Sur la table. |
+| 地点 (Place) | {{fr('en')}}   | /ɑ̃/ | 表示在某个无界或抽象空间环境中 | Je me promène en forêt. |
 | 时间 (Time) | {{fr('à')}} | /a/ | 标记具体的时刻 | À midi. |
 | 时间 (Time) | {{fr('en')}} | /ɑ̃/ | 标记月份、年份或季节 | En été. |
 | 时间 (Time) | {{fr('pendant')}} | /pɑ̃.dɑ̃/ | 标记动作持续的过程 | Pendant une heure. |
