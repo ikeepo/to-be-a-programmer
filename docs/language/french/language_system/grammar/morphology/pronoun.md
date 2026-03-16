@@ -130,3 +130,26 @@
 | ceci | this | 这个（事/物） | 中性形式（近） |
 | cela | that | 那个（事/物） | 中性形式（远） |
 | ça | it / this / that | 这个 / 那个 | 中性形式（口语） |
+
+# 物主代词
+有两类：
+
+- 物主形容词  
+
+物品的主人，谁的？  
+
+- 物主代词 
+
+代词名词，某人的东西，直接做主语或者宾语补足语；  
+
+
+> 阴性名词以元音或哑音 h 开头时，用阳性形式（mon / ton / son）。
+
+| 人称    | 物主形容词单数          | 阴性元音开头名词 | 物主形容词复数 | 物主代词单数              | 物主代词复数                  | 使用/听力提示                                   |
+| ----- | ---------------- | -------- | ------- | ------------------- | ----------------------- | ----------------------------------------- |
+| 我     | mon (m) / ma (f) | mon      | mes     | le mien / la mienne | les miens / les miennes | 阴性元音开头用阳性 mon；快速语流常连读 /mɔ̃ami/，/mɔ̃aʁive/ |
+| 你（单）  | ton / ta         | ton      | tes     | le tien / la tienne | les tiens / les tiennes | 阴性元音前用 ton；高频口语块 /tɔ̃ami/                 |
+| 他/她/它 | son / sa         | son      | ses     | le sien / la sienne | les siens / les siennes | 阴性元音前用 son；鼻音 /sɔ̃/ + 连读 aʁive            |
+| 我们    | notre / notre    | notre    | nos     | le nôtre / la nôtre | les nôtres              | 阴性元音无特殊变化，nos/les nôtres 一视同仁             |
+| 您/你们  | votre / votre    | votre    | vos     | le vôtre / la vôtre | les vôtres              | 高频听力块 /vɔtʁ/；快速口语中 /lesvɔtʁ/ 连读           |
+| 他们/她们 | leur / leur      | leur     | leurs   | le leur / la leur   | les leurs               | 阴性元音无特殊变化，快速语流 /lœʁ/ + 连读                 |
