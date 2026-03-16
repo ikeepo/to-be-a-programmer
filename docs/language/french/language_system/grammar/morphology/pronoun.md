@@ -60,13 +60,13 @@
 
 | 主语代词 (Subject Pronoun) | 反身代词 (Reflexive Pronoun) | 英文意思                                         |
 | ---------------------- | ------------------------ | -------------------------------------------- |
-| {{fr('je')}}                     | me → m’                  | myself                                       |
-| {{fr('tu')}}                     | te → t’                  | yourself (singular/informal)                 |
-| {{fr('il')}}                     | se → s’                  | himself                                      |
+| {{fr('je')}}                     | {{fr('me')}} → m’                  | myself                                       |
+| {{fr('tu')}}                     | {{fr('te')}} → t’                  | yourself (singular/informal)                 |
+| {{fr('il')}}                     | {{fr('se')}} → s’                  | himself                                      |
 | {{fr('elle')}}                   | se → s’                  | herself                                      |
 | {{fr('on')}}                     | se → s’                  | oneself / we / people (depending on context) |
-| {{fr('nous')}}                   | nous                     | ourselves                                    |
-| {{fr('vous')}}                   | vous                     | yourself (formal) / yourselves               |
+| {{fr('nous')}}                   | {{fr('nous')}}                     | ourselves                                    |
+| {{fr('vous')}}                   | {{fr('vous')}}                     | yourself (formal) / yourselves               |
 | {{fr('ils')}}                    | se → s’                  | themselves                                   |
 | {{fr('elles')}}                  | se → s’                  | themselves                                   |
 
