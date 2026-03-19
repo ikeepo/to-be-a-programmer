@@ -39,6 +39,7 @@
 | | 单音节形容词 + 名词 | *Gran**d**_homme* | [t] | [ɡʁɑ̃.**t**ɔm] |
 | | 固定短语 | *Tout_à coup* | [t] | [tu.**t**a.ku] |
 | **2. 禁止 (Interdite)** | 连词 **"et"** 之后 | *Lui et / elle* | **❌ 无** | [lɥi e ɛl] |
+| | 复合词词尾 | rendez-vous avec| **❌ 无**| The final consonant of a compound noun generally does not link to the following word.|
 | | **嘘音 H** (H aspiré) | *Un / héros* | **❌ 无** | [œ̃ e.ʁo] |
 | | 名词主语 + 动词 | *Le train / arrive* | **❌ 无** | [lə tʁɛ̃ a.ʁiv] |
 | | 单数名词结尾 | *Un sujet / intéressant* | **❌ 无** | [œ̃ sy.ʒɛ ɛ̃.te.ʁɛ.sɑ̃] |
