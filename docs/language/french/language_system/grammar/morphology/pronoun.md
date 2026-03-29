@@ -153,3 +153,8 @@
 | 我们    | notre / notre    | notre    | nos     | le nôtre / la nôtre | les nôtres              | 阴性元音无特殊变化，nos/les nôtres 一视同仁             |
 | 您/你们  | votre / votre    | votre    | vos     | le vôtre / la vôtre | les vôtres              | 高频听力块 /vɔtʁ/；快速口语中 /lesvɔtʁ/ 连读           |
 | 他们/她们 | leur / leur      | leur     | leurs   | le leur / la leur   | les leurs               | 阴性元音无特殊变化，快速语流 /lœʁ/ + 连读                 |
+
+
+
+# 代词与不定式
+`动词 + 不定式`结构中如果`代词`是这个`不定式`的宾语，那代词要放在不定式的前面。
