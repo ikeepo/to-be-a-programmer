@@ -369,5 +369,12 @@
 |                                                   | ils/elles  | -ent     | -issent  | -ent         |
 
 
+
+# 动词不定式的用法
+## la + infinitif强调行为，当作名词化使用
+类型上还是不定式，但是句子结构中理解为名词。
+
+`la maîtriser et de la dépasser`如果并列，就加一个`de`稳定句子。
+
 # Refs 
 [^1]: 取nous形式去除ons得到词干
