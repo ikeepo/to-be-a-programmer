@@ -376,5 +376,8 @@
 
 `la maîtriser et de la dépasser`如果并列，就加一个`de`稳定句子。
 
+## `de + infinitif`引导不定式，作为实际主语
+这里的 “de + infinitif” 不是修饰形容词，而是把整个不定式动作名词化，作为“il est + adj”的真正主语。
+`Il est intéressant d’analyser…`
 # Refs 
 [^1]: 取nous形式去除ons得到词干
