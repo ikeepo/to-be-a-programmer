@@ -19,6 +19,7 @@
 | 方式 (Manner) | {{fr('par')}} | /paʁ/ | 通过某种媒介或方式 | Par avion. |
 | 目的 (Purpose) | {{fr('pour')}} | /puʁ/ | 指向受益者或行动目标 | Pour toi. |
 | 来源 (Origin) | {{fr('de')}} | /də/ | 标记所属、成分或出处 | Un verre de vin. |
+| 举例 (Example) | {{fr('comme')}} | /kɔm/ | 引出具体例子或类别成员（从抽象到具体） | Des facteurs comme la technologie. |
 
 ## Rules
 ### 介词不定式短语 Prepositional Infinitive Phrase
@@ -88,3 +89,11 @@ dans 既是语法上必须的连接点，同时在语义上明确表达“进入
 这正是学习一门外语的价值。
 
 
+### il + adj + infinitif vs il + adj + de + infinitif 
+```shell
+il vaut mieux adopter une vision
+
+ Il n’est donc pas possible de donner une réponse absolue
+```
+
+如果`infinitif`被`adj`控制，也即是补充说明这个`adj`，那需要`de`来引导这个`infinitif`,如果语义关系相对清晰，就不需要这个`de`.
