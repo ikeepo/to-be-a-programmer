@@ -42,6 +42,10 @@
 | **2nd Pl.** | **vous** | **vous** | 动词前 | *Vous **vous** voyez / Vous **vous** parlez* |
 | **3rd Pl.** | **les** | **leur** | 动词前 | *Ils **les** voient / Ils **leur** parlent* |
 
+`le & la`既是代词，又是冠词： 
+
+`Je prends le livre;  Je le prends`
+
 ## 三、动词前宾语: 反身代词 (Reflexive Pronouns)
 表示动作的发出者和接受者是同一个人。
 
