@@ -15,6 +15,9 @@ plugins:
   - macros
   - git-revision-date-localized
   - mkdocs-video
+  - timetoread:
+      wpm: 190
+      
 
 markdown_extensions:
   - footnotes
