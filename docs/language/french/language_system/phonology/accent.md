@@ -1,6 +1,6 @@
 # 法语音高量化分析
 
-# `Il est également important de reconnaître`
+# {{fr("Il est également important de reconnaître")}}
 ## Google 发音  VS. 我自己发音
 ![google vs me](../../imgs/accent_contrast.png)
 
@@ -28,6 +28,6 @@
 整体构成了法语口语的韵律。
 
 ## 每个音节组里最后一个音节是重音
-这是法语的普遍规律，我的发音是尝试实现这个重音，但是我用**提升音高来实现重音**。
+这是法语的普遍规律，我的发音是尝试实现这个重音，但是我用**提升音高来实现重音**。这对于**法语重音accent**的理解是错误的。
 
 ## 法语的重音：时长、音强、音高
