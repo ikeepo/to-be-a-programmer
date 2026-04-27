@@ -21,6 +21,9 @@
 | 来源 (Origin) | {{fr('de')}} | /də/ | 标记所属、成分或出处 | Un verre de vin. |
 | 举例 (Example) | {{fr('comme')}} | /kɔm/ | 引出具体例子或类别成员（从抽象到具体） | Des facteurs comme la technologie. |
 
+`en`既是介词（空间/方式），又是代词，代替`de+内容`；
+
+`tu penses de ça → tu en penses`
 ## Rules
 ### 介词不定式短语 Prepositional Infinitive Phrase
 
