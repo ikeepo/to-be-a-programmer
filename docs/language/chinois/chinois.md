@@ -4,3 +4,8 @@
 这个字包含了中文字拆解后大部分的基础结构
 
 ![type:video](https://www.youtube.com/embed/7t38uZg92uQ)
+
+# 作业批改
+![429](./imgs/429.png) 
+
+
