@@ -1,9 +1,8 @@
 # Chinois 中文
 
-# 中文第一字：永
-这个字包含了中文字拆解后大部分的基础结构
-
-![type:video](https://www.youtube.com/embed/7t38uZg92uQ)
+# 目录
+## [学习资料](./materials.md)
+## [作业批改](./homework_correct.md)
 
 # 作业批改
 ![429](./imgs/429.png) 
