@@ -30,3 +30,17 @@
 | cet   | 阳性元音前 | cet homme    | 这个男人 |
 | cette | 阴性单数  | cette maison | 这栋房子 |
 | ces   | 复数    | ces enfants  | 这些孩子 |
+
+
+# 形容词位置
+一般形容词放在名词的后面，但是有一些列外：BAGS
+
+
+| 类别           | 含义               |
+| ------------ | ---------------- |
+| B = Beauty   | 美丽（beau, joli）   |
+| A = Age      | 年龄（jeune, vieux） |
+| G = Goodness | 好坏（bon, mauvais） |
+| S = Size     | 大小（grand, petit） |
+
+
