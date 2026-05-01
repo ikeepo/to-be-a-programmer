@@ -20,3 +20,8 @@
 
 ![type:video](https://www.youtube.com/embed/7t38uZg92uQ)
 
+# 发音
+
+## 四种声调
+
+![type:video](https://www.youtube.com/embed/-k4aHG0LfTo)
