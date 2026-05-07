@@ -7,4 +7,8 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 
 # 中文
 
-住 VS 处
+住(zhu) VS 处(chu)
+
+闪(shan)电 VS 商(shang)店
+
+
