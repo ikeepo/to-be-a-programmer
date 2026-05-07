@@ -43,3 +43,13 @@ def define_env(env):
         """
         # 这里调用我们之前在 tts.js 里定义的 speakFrench 函数
         return f'<span class="fr-word" onclick="speakFrench(\'{text}\')">{text}</span>'
+
+    # 添加中文发音宏
+    @env.macro
+    def zh(text):
+        """
+        生成一个点击可发音的中文单词链接
+        用法: {{ zh('你好') }}
+        """
+        # 调用 tts.js 里定义的 speakChinese 函数
+        return f'<span class="zh-word" onclick="speakChinese(\'{text}\')">{text}</span>'

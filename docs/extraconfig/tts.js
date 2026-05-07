@@ -6,3 +6,15 @@ function speakFrench(text) {
   const audio = new Audio(url);
   audio.play();
 }
+
+// 在你的 tts.js 中添加
+function speakChinese(text) {
+  if ("speechSynthesis" in window) {
+    const utterance = new SpeechSynthesisUtterance(text);
+    utterance.lang = "zh-CN"; // 设置为中文
+    utterance.rate = 0.9; // 语速稍微调慢一点点，方便听清
+    window.speechSynthesis.speak(utterance);
+  } else {
+    console.error("您的浏览器不支持语音合成。");
+  }
+}
