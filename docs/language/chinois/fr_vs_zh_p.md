@@ -14,8 +14,8 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 | Right | Wrong | How to be Right |
 | --- | --- | --- |
 | {{zh('住')}}(zhu) |  {{zh('处')}}(chu) | |
-| 商(shang)店 |  闪(shan)电 | |
-| 周(zhou)末 | 出(chu)没 | Pull the corners of your mouth back as far as possible |
-| 去(qu) | | |
+| {{zh('商')}}(shang)店 |  {{zh('闪')}}(shan)电 | |
+| {{zh('周')}}(zhou)末 | {{zh('出')}}(chu)没 | Pull the corners of your mouth back as far as possible |
+| {{zh('去')}}(qu) | | |
 
 
