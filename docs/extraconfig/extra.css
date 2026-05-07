@@ -16,3 +16,15 @@
     font-size: 0.7em;
     opacity: 0.6;
 }
+
+/* 中文单词样式 */
+.zh-word {
+    color: #2196F3; /* 蓝色，或者你喜欢的颜色 */
+    border-bottom: 1px dashed #2196F3;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.zh-word:hover {
+    background-color: #e3f2fd;
+}
