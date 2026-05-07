@@ -7,10 +7,6 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 
 # 中文
 
-{{fr('livr')}}
-
-{{ zh('嘴角尽量往后') }}
-
 | Right | Wrong | How to be Right |
 | --- | --- | --- |
 | {{zh('住')}}(zhu) |  {{zh('处')}}(chu) | |
