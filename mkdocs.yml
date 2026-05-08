@@ -35,6 +35,9 @@ extra_javascript:
 extra_css:
   - extraconfig/extra.css
 extra:
+  analytics:
+    provider: google
+    property: G-JFRYG5996E  # 这里填写你的衡量 ID
   comments:
     provider: giscus
     options:
