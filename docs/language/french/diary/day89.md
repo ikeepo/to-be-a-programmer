@@ -201,3 +201,89 @@ chunk预测 (继续压缩)
 
 
 !!! note "法语听力 = 声学压缩空间中的向量检索系统"
+
+
+# 声音预测修复细节
+
+对于partir，我听到的是 paʁkiʁo,知道单词后再听，确实有paʁtiʁ的感觉。
+
+对于未听清的音节，大脑未能准确匹配词库，先进行**phonotactic repair（音系合法性修复）**。听成`kiro`是因为这是我的认知里面，最符合的音节；
+
+当知道是`partir`，此时听到模糊轮廓，大脑会进行**lexical repair（词库修复）**；
+
+## 大脑对声音的处理流程
+### Step 1：声音进入（模糊）
+
+paʁtɪʁdəkɛlmɔmɑ̃（连续流）
+### Step 2：chunk“抢占解释权”
+
+系统会同时激活：
+
+À partir de quel moment
+partir de
+moment
+其他候选
+### Step 3：winner chunk 选中
+
+如果：
+
+À partir de quel moment 激活最强
+### Step 4：感知重建（关键）
+
+大脑做的是：
+
+“把声音强行解释成这个chunk”
+
+于是发生：
+
+paʁtɪʁ ≈ partir（被“对齐”）
+
+听到“tiʁ”是解释结果，不是输入结果
+
+### 总结
+不是“从声音推chunk”，而是“用chunk去重写声音感知”。
+
+通过逐个因素去推理是错误的，因为因素可能扭曲，真实的过程是通过多个因素轮廓构建chunks，准确的那个chunk在竞争中胜出，再解释听到的因素。
+
+声音一进来 → 所有chunk同时激活 → 相互竞争 → 胜者反过来“吸收解释声音”
+
+```shell
+Layer 1：声学证据（bottom-up）
+
+输入：
+
+paʁt…
+kɛl…
+mɔmɑ̃…
+
+特点：
+
+不完整
+被压缩
+有噪声
+
+Layer 2：chunk候选池（top-down）
+
+同时激活(但空间有限)：
+
+À partir de quel moment
+partir de
+moment important
+quel moment précis
+
+Layer 3：竞争系统（关键）
+
+不是“推理”，而是：
+
+每个chunk都在“解释这段声音”
+
+然后进行：
+
+match score（匹配度）
+coherence（整体一致性）
+frequency prior（熟悉度）
+
+最终胜出(而非推测出)：
+
+À partir de quel moment
+```
