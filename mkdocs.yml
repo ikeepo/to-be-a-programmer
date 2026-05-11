@@ -30,6 +30,10 @@ markdown_extensions:
   - pymdownx.tasklist:
       custom_checkbox: true  # Optional: Makes checkboxes look better
       clickable_checkbox: true # Allows users to toggle them (UI only)
+  - admonition
+  - pymdownx.details  # 如果需要使用 ??? 折叠功能
+  - pymdownx.superfences # 支持在 Callout 中嵌套代码块
+
 extra_javascript:
   - extraconfig/tts.js
 extra_css:
