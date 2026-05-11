@@ -9,6 +9,11 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 
 ### `est-ce celui`
 `est`本身`/ɛ/`,连在一起是`/ɛs/`,`celui`是`/sə.lɥi/`，整体在一起是`/ɛs.sə.lɥi/`,自然状态下，两个`s`会连在一起长一点。
+
+|Text|Right|What I Heard|How to be Right|
+|----|-----|------------|---------------|
+|{{fr('est-ce celui')}}|`/ɛs.sə.lɥi/`|`/ɛsyliv/`||
+
 # 中文
 
 | Right | Wrong | How to be Right |
