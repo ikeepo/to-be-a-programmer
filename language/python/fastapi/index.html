@@ -16045,12 +16045,12 @@
 <h1 id="concepts">Concepts</h1>
 <ul>
 <li><code>path operation function</code>
-A python function defines the logic for handling a specific HTTP request.</li>
+A python function defines the logic for handling a specific HTTP request.
+<div class="highlight"><pre><span></span><code><span class="nd">@app</span><span class="o">.</span><span class="n">get</span><span class="p">(</span><span class="s1">'/ping'</span><span class="p">)</span>
+<span class="k">def</span><span class="w"> </span><span class="nf">pong</span><span class="p">():</span>
+  <span class="k">return</span> <span class="p">{</span><span class="s2">"ping"</span><span class="p">:</span><span class="s2">"pong"</span><span class="p">}</span>
+</code></pre></div></li>
 </ul>
-<pre><code class="language-python">@app.get('/ping')
-def pong():
-  return {"ping":"pong"}
-</code></pre>
 <h1 id="dependency-injection1">Dependency Injection[^1]</h1>
 <ul>
 <li><code>settings: Settings = Depends(get_settings) vs settings: Settings = get_settings()</code>
@@ -16065,15 +16065,15 @@ First is Dependency Injection, run on request, later is run at module load.</li>
 <p>最佳方式是让fastapi统一管理前端，前端build后将静态文件挂载到fastapi下由其统一管理。这样就避免跨域问题。
 前端文件、数据都可以挂载，但是挂载要放在路由定义之后，最好就放在文件最后面。</p>
 <p>也可临时在CORS中添加外网IP, 此时会出现一个问题，就是笔记本可以访问，但是手机、平板又出现跨域问题，这是因为移动端浏览器更严格，origin会变化，可以通过添加<code>allow_origin_regex=r"https://.*\.xxx\.com",</code>实现访问，保证复合所有origin变体。</p>
-<pre><code class="language-shell"># 允许 CORS
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=[
-        "http://192.168.2.19:3000/" # 没有，分割
-        "http://127.0.0.1:3000/" # origin不能有/
-        "http://localhost:3000/"
-        ],  # 或 ["*"] 允许所有
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="c1"># 允许 CORS</span>
+app.add_middleware<span class="o">(</span>
+<span class="w">    </span>CORSMiddleware,
+<span class="w">    </span><span class="nv">allow_origins</span><span class="o">=[</span>
+<span class="w">        </span><span class="s2">"http://192.168.2.19:3000/"</span><span class="w"> </span><span class="c1"># 没有，分割</span>
+<span class="w">        </span><span class="s2">"http://127.0.0.1:3000/"</span><span class="w"> </span><span class="c1"># origin不能有/</span>
+<span class="w">        </span><span class="s2">"http://localhost:3000/"</span>
+<span class="w">        </span><span class="o">]</span>,<span class="w">  </span><span class="c1"># 或 ["*"] 允许所有</span>
+</code></pre></div>
 <h1 id="refs">Refs</h1>
 <p>[^1] <a href="https://fastapi.tiangolo.com/tutorial/dependencies/">FastAPI Dependency</a></p></div>
 

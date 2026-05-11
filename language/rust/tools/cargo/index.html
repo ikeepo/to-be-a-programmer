@@ -16113,35 +16113,35 @@
 
 <h2 id="change-resource">change resource</h2>
 <blockquote>
-<p><a href="https://rustwiki.org/zh-CN/cargo/reference/source-replacement.html">1</a></p>
-</blockquote>
-<pre><code class="language-shell"># ~/.cargo/config
+<p><a href="https://rustwiki.org/zh-CN/cargo/reference/source-replacement.html">1</a>
+</p><div class="highlight"><pre><span></span><code><span class="c1"># ~/.cargo/config</span>
 
-[source]
-[source.crates-io]
-registry = "https://github.com/rust-lang/crates.io-index"
-replace-with = "ustc"
-# 中科大
-[source.ustc]
-registry = "https://mirrors.ustc.edu.cn/crates.io-index"
-# 上海交通大学
-[source.sjtu]
-registry = "https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"
+<span class="o">[</span>source<span class="o">]</span>
+<span class="o">[</span>source.crates-io<span class="o">]</span>
+<span class="nv">registry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://github.com/rust-lang/crates.io-index"</span>
+replace-with<span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"ustc"</span>
+<span class="c1"># 中科大</span>
+<span class="o">[</span>source.ustc<span class="o">]</span>
+<span class="nv">registry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://mirrors.ustc.edu.cn/crates.io-index"</span>
+<span class="c1"># 上海交通大学</span>
+<span class="o">[</span>source.sjtu<span class="o">]</span>
+<span class="nv">registry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://mirrors.sjtug.sjtu.edu.cn/git/crates.io-index/"</span>
 
-# 清华大学
-[source.tuna]
-registry = "https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"
+<span class="c1"># 清华大学</span>
+<span class="o">[</span>source.tuna<span class="o">]</span>
+<span class="nv">registry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://mirrors.tuna.tsinghua.edu.cn/git/crates.io-index.git"</span>
 
-# rustcc社区
-[source.rustcc]
-registry = "https://code.aliyun.com/rustcc/crates.io-index.git"
-# Subcommand
-## [`cargo-readme`](https://crates.io/crates/cargo-readme)
-```shell
-cargo install cargo-readme
-cargo readme &gt; README.md
-</code></pre>
-<p>优先使用<code>lib.rs</code>内容，没有会使用<code>main.rs</code>;</p></div>
+<span class="c1"># rustcc社区</span>
+<span class="o">[</span>source.rustcc<span class="o">]</span>
+<span class="nv">registry</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://code.aliyun.com/rustcc/crates.io-index.git"</span>
+<span class="c1"># Subcommand</span>
+<span class="c1">## [`cargo-readme`](https://crates.io/crates/cargo-readme)</span>
+<span class="sb">```</span>shell
+cargo<span class="w"> </span>install<span class="w"> </span>cargo-readme
+cargo<span class="w"> </span>readme<span class="w"> </span>&gt;<span class="w"> </span>README.md
+</code></pre></div>
+优先使用<code>lib.rs</code>内容，没有会使用<code>main.rs</code>;
+</blockquote></div>
 
 
 

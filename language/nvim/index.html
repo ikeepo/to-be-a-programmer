@@ -16048,11 +16048,11 @@
 <h1 id="how-to-view-jupyter-in-nvim">How to view jupyter in Nvim</h1>
 <p>use <a href="https://github.com/goerz/jupytext.nvim">jupytext.nvim</a> but neet to install <a href="https://jupytext.readthedocs.io/en/latest/">jupytext</a> first.</p>
 <h1 id="how-to-recover-from-a-u">How to recover from a <code>u</code></h1>
-<pre><code class="language-shell">Ctrl + r
-</code></pre>
+<div class="highlight"><pre><span></span><code>Ctrl<span class="w"> </span>+<span class="w"> </span>r
+</code></pre></div>
 <h1 id="how-to-add---nvim-surround">How to add [] || <a href="https://github.com/kylechui/nvim-surround"> nvim-surround </a></h1>
-<pre><code class="language-shell">:h nvim-surround.usage
-</code></pre>
+<div class="highlight"><pre><span></span><code>:h<span class="w"> </span>nvim-surround.usage
+</code></pre></div>
 <h1 id="setup是关键字么"><code>setup</code>是关键字么？</h1>
 <p><code>setup</code>并不是一个关键字，只是惯例函数名，</p>
 <ol>
@@ -16083,22 +16083,22 @@ nvim启动时候，vim.api被注入到Lua的全局明明空加你<code>vim</code
 <p>OS level question, rather nvim.</p>
 <h1 id="poetry">Poetry</h1>
 <h3 id="how-to-activate-the-poetry-virtual-enviriment-in-nvim">How to activate the poetry virtual enviriment in nvim</h3>
-<pre><code class="language-shell">poetry run nvim name.py
-</code></pre>
+<div class="highlight"><pre><span></span><code>poetry<span class="w"> </span>run<span class="w"> </span>nvim<span class="w"> </span>name.py
+</code></pre></div>
 <h1 id="plugin">Plugin</h1>
 <h2 id="plugin-creation-dir-layout">plugin creation dir layout</h2>
-<pre><code class="language-shell">├── LICENSE
-├── plugin  # get executed as soon as nvim starts, like keymaps or autocmds
-│  └── plugin-file.lua
-├── lua # major of the functionality, work until user explicitly `require('name')`
-│  └── main-file.lua
-└── README.md
-</code></pre>
+<div class="highlight"><pre><span></span><code>├──<span class="w"> </span>LICENSE
+├──<span class="w"> </span>plugin<span class="w">  </span><span class="c1"># get executed as soon as nvim starts, like keymaps or autocmds</span>
+│<span class="w">  </span>└──<span class="w"> </span>plugin-file.lua
+├──<span class="w"> </span>lua<span class="w"> </span><span class="c1"># major of the functionality, work until user explicitly `require('name')`</span>
+│<span class="w">  </span>└──<span class="w"> </span>main-file.lua
+└──<span class="w"> </span>README.md
+</code></pre></div>
 <h1 id="how-to-search-function-docs">how to search function docs</h1>
-<pre><code class="language-shell"># in nvim
-:Telescope help_tags
-# the cmd want to know
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="c1"># in nvim</span>
+:Telescope<span class="w"> </span>help_tags
+<span class="c1"># the cmd want to know</span>
+</code></pre></div>
 <h1 id="lsp-vs-pyright">LSP vs Pyright</h1>
 <p>LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright之间的通信规则，如果输入gx命令，编辑器将向pyright发送一个通讯请求，pyright分析后返回变量定义位置，编辑器便会跳转到对应位置。</p>
 <h3 id="nvim-lspconfig">nvim-lspconfig</h3>

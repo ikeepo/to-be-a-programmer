@@ -16056,11 +16056,11 @@ it refers to temporarily using a reference to a memory location without taking o
 Ownership in here means being responsible for managing that memory.</li>
 </ul>
 <h2 id="defination">Defination</h2>
-<pre><code class="language-rust">pub struct RefCell&lt;T&gt;
-where
-    T: ?Sized,
-{ /* private fields */ }
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">RefCell</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span>
+<span class="k">where</span>
+<span class="w">    </span><span class="n">T</span><span class="p">:</span><span class="w"> </span><span class="o">?</span><span class="nb">Sized</span><span class="p">,</span>
+<span class="p">{</span><span class="w"> </span><span class="cm">/* private fields */</span><span class="w"> </span><span class="p">}</span>
+</code></pre></div>
 <h5 id="what-the-structure-mean">What the Structure mean</h5>
 <p><code>where</code> clause in Rust used to specify constraits on generic type parameters.
 since it's either sized or unsized, why need here.

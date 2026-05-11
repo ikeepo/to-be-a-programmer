@@ -16050,18 +16050,18 @@
 <p>The installed C version talib is called libra_lib.so, so make a soft link <code>sudo ln -s /usr/lib/libta_lib.so /usr/lib/libta-lib.so</code>.
 这是因为用了旧版本C ta-lib和新版本Python ta-lib导致；</p>
 <h3 id="importerror-libta_libso0-cannot-open-shared-object-file-no-such-file-or-directory">ImportError: libta_lib.so.0: cannot open shared object file: No such file or directory</h3>
-<p>安装配置问题；</p>
-<pre><code>make clean
+<p>安装配置问题；
+</p><div class="highlight"><pre><span></span><code>make clean
 ./configure --prefix=/usr --enable-shared
 make
 sudo make install
-</code></pre>
-<p>上述方法无效：</p>
-<pre><code>sudo nvim /etc/ld.so.conf
+</code></pre></div>
+上述方法无效：
+<div class="highlight"><pre><span></span><code>sudo nvim /etc/ld.so.conf
 # add
 include /usr/local/lib
 sudo ldconfig
-</code></pre></div>
+</code></pre></div></div>
 
 
 

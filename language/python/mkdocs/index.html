@@ -16235,44 +16235,44 @@
 
 <h2 id="how-to-add-a-comment-module-in-mkdocs">How to add a comment module in mkdocs</h2>
 <p><a href="https://github.com/giscus/giscus">giscus</a></p>
-<pre><code class="language-shell">1. Repo --&gt; Settings --&gt; General --&gt; Features --&gt; Discussion(active)
-2. Install Github App giscus --&gt; access to the target repo;
-3. https://giscus.app/ --&gt; github_id/repo_name --&gt; Discussion 的标题包含页面的 pathname --&gt; announcements --&gt;  data-repo-id &amp; data-category-id From the Script 
-4. mkdocs.yml 
+<div class="highlight"><pre><span></span><code><span class="m">1</span>.<span class="w"> </span>Repo<span class="w"> </span>--&gt;<span class="w"> </span>Settings<span class="w"> </span>--&gt;<span class="w"> </span>General<span class="w"> </span>--&gt;<span class="w"> </span>Features<span class="w"> </span>--&gt;<span class="w"> </span>Discussion<span class="o">(</span>active<span class="o">)</span>
+<span class="m">2</span>.<span class="w"> </span>Install<span class="w"> </span>Github<span class="w"> </span>App<span class="w"> </span>giscus<span class="w"> </span>--&gt;<span class="w"> </span>access<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>target<span class="w"> </span>repo<span class="p">;</span>
+<span class="m">3</span>.<span class="w"> </span>https://giscus.app/<span class="w"> </span>--&gt;<span class="w"> </span>github_id/repo_name<span class="w"> </span>--&gt;<span class="w"> </span>Discussion<span class="w"> </span>的标题包含页面的<span class="w"> </span>pathname<span class="w"> </span>--&gt;<span class="w"> </span>announcements<span class="w"> </span>--&gt;<span class="w">  </span>data-repo-id<span class="w"> </span><span class="p">&amp;</span><span class="w"> </span>data-category-id<span class="w"> </span>From<span class="w"> </span>the<span class="w"> </span>Script<span class="w"> </span>
+<span class="m">4</span>.<span class="w"> </span>mkdocs.yml<span class="w"> </span>
 theme:
-  name: material
-  custom_dir: overrides
+<span class="w">  </span>name:<span class="w"> </span>material
+<span class="w">  </span>custom_dir:<span class="w"> </span>overrides
 extra:
-  comments:
-    provider: giscus
-    options:
-      repo: 你的用户名/仓库名
-      repo_id: MDEwOlJlcG9zaXRvcnkz... # 替换为你获取的值
-      category: Announcements
-      category_id: DIC_kwDOEn... # 替换为你获取的值
-      mapping: pathname
-      strict: 0
-      reactions_enabled: 1
-      emit_metadata: 0
-      input_position: bottom
-      theme: preferred_color_scheme # 自动跟随主题深色/浅色
-      lang: zh-CN
-5. root dir overrides/main.html
-</code></pre>
+<span class="w">  </span>comments:
+<span class="w">    </span>provider:<span class="w"> </span>giscus
+<span class="w">    </span>options:
+<span class="w">      </span>repo:<span class="w"> </span>你的用户名/仓库名
+<span class="w">      </span>repo_id:<span class="w"> </span>MDEwOlJlcG9zaXRvcnkz...<span class="w"> </span><span class="c1"># 替换为你获取的值</span>
+<span class="w">      </span>category:<span class="w"> </span>Announcements
+<span class="w">      </span>category_id:<span class="w"> </span>DIC_kwDOEn...<span class="w"> </span><span class="c1"># 替换为你获取的值</span>
+<span class="w">      </span>mapping:<span class="w"> </span>pathname
+<span class="w">      </span>strict:<span class="w"> </span><span class="m">0</span>
+<span class="w">      </span>reactions_enabled:<span class="w"> </span><span class="m">1</span>
+<span class="w">      </span>emit_metadata:<span class="w"> </span><span class="m">0</span>
+<span class="w">      </span>input_position:<span class="w"> </span>bottom
+<span class="w">      </span>theme:<span class="w"> </span>preferred_color_scheme<span class="w"> </span><span class="c1"># 自动跟随主题深色/浅色</span>
+<span class="w">      </span>lang:<span class="w"> </span>zh-CN
+<span class="m">5</span>.<span class="w"> </span>root<span class="w"> </span>dir<span class="w"> </span>overrides/main.html
+</code></pre></div>
 <ul>
-<li>How to forbid comments</li>
-</ul>
-<pre><code class="language-shell">---
-comments: false
+<li>How to forbid comments
+<div class="highlight"><pre><span></span><code>---
+comments:<span class="w"> </span><span class="nb">false</span>
 ---
-</code></pre>
+</code></pre></div></li>
+</ul>
 <h2 id="markdown-extensions">markdown-extensions</h2>
 <h3 id="pymdownxtasklist">pymdownx.tasklist</h3>
-<pre><code class="language-shell">- markdown_extensions:
-  - pymdownx.tasklist:
-      custom_checkbox: true  # Optional: Makes checkboxes look better
-      clickable_checkbox: true # Allows users to toggle them (UI only)
-</code></pre>
+<div class="highlight"><pre><span></span><code>-<span class="w"> </span>markdown_extensions:
+<span class="w">  </span>-<span class="w"> </span>pymdownx.tasklist:
+<span class="w">      </span>custom_checkbox:<span class="w"> </span><span class="nb">true</span><span class="w">  </span><span class="c1"># Optional: Makes checkboxes look better</span>
+<span class="w">      </span>clickable_checkbox:<span class="w"> </span><span class="nb">true</span><span class="w"> </span><span class="c1"># Allows users to toggle them (UI only)</span>
+</code></pre></div>
 <ul>
 <li>How to add checkbox in mkdocs
 <code>- [x]</code></li>
@@ -16284,8 +16284,8 @@ comments: false
 <p>自定义宏；mkdocs层面的自动化功能；   </p>
 <p>step1 : <code>pip install mkdocs-macros-plugin</code>  </p>
 <p>step2: <code>在mkdocs.yml中plugins下添加macros</code>  </p>
-<p>step3: <code>在main.py中define_env下添加函数</code></p>
-<pre><code>def define_env(env):
+<p>step3: <code>在main.py中define_env下添加函数</code>
+</p><div class="highlight"><pre><span></span><code>def define_env(env):
     @env.macro
     def ddmenu(answer, *options):
         html = f'&lt;select onchange="this.style.backgroundColor = (this.value == \'{answer}\' ? \'transparent\' : \'#ffcccc\');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"&gt;'
@@ -16296,19 +16296,19 @@ comments: false
             html += f'&lt;option value="{opt}"&gt;{opt}&lt;/option&gt;'
         html += '&lt;/select&gt;'
         return html
-</code></pre>
+</code></pre></div>
 <p>step4: <code>在md中调用 There are {*2 ddmenu('six', 'five', 'seven') }*2 heading elements.</code></p>
 <ul>
 <li><a href="https://github.com/timvink/mkdocs-git-revision-date-localized-plugin">git-revision-date-localized</a>
 display the date of the last git modification of a page.</li>
 </ul>
 <h2 id="how-to-publish-the-site-to-local-lan">How to publish the site to local LAN</h2>
-<pre><code class="language-shell">ifconfig 
-# en0找到本地局域网ip,inet 后面192开头的
-# en0 表示以太网接口0，通常是wifi，如果连接了网线还会有en1 等
-mkdocs serve -a 0.0.0.0:8000 
-# 局域网内通过192...:8000访问
-</code></pre>
+<div class="highlight"><pre><span></span><code>ifconfig<span class="w"> </span>
+<span class="c1"># en0找到本地局域网ip,inet 后面192开头的</span>
+<span class="c1"># en0 表示以太网接口0，通常是wifi，如果连接了网线还会有en1 等</span>
+mkdocs<span class="w"> </span>serve<span class="w"> </span>-a<span class="w"> </span><span class="m">0</span>.0.0.0:8000<span class="w"> </span>
+<span class="c1"># 局域网内通过192...:8000访问</span>
+</code></pre></div>
 <h2 id="icons-in-mkdocs">icons in mkdocs</h2>
 <p>This is the domain of <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">material for mkdocs</a>.
 How to use <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss">Icons, Emojis</a> can be found here. On the head of the page, there is a <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search"><code>Search</code></a> input which is used to find the exact code for icons/emojis you need like <code>:smile:</code>, but you should set the <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration">setting</a> first</p>
@@ -16316,11 +16316,11 @@ How to use <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-
 <ol>
 <li><code>could not determine a constructor for the tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'
   in "mkdocs.yml", line 14, column 20</code> happened in pre-commit
-Same problem can be found in pre-commit issues <a href="https://github.com/pre-commit/pre-commit-hooks/issues/552">552</a></li>
-</ol>
-<pre><code># in the .pre-commit-config.yaml
+Same problem can be found in pre-commit issues <a href="https://github.com/pre-commit/pre-commit-hooks/issues/552">552</a>
+<div class="highlight"><pre><span></span><code># in the .pre-commit-config.yaml
 args: [--unsafe]
-</code></pre>
+</code></pre></div></li>
+</ol>
 <h1 id="authntication">Authntication</h1>
 <blockquote>
 <p><a href="https://github.com/squidfunk/mkdocs-material/discussions/5875">Access private MkDocs after logging in #5875</a>  <a href="https://github.com/meadapt/login-static-site">OAuth2 Proxy</a>(Active)</p>

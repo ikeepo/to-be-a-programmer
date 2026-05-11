@@ -16161,15 +16161,15 @@
 When you reach the end of the array, the next position wraps around to the start (index 0) which makes a loop, making it resemble a ring.</p>
 <h2 id="struct-hashmap"><a href="https://doc.rust-lang.org/std/collections/struct.HashMap.html"><code>Struct HashMap</code></a></h2>
 <h2 id="enum-entry"><a href="https://doc.rust-lang.org/std/collections/hash_map/enum.Entry.html"><code>Enum Entry</code></a></h2>
-<pre><code class="language-rust">use std::collections::HashMap;
-fn main() {
-  let mut letters = HashMap::new();
-  for ch in "s gad ga".chars() {
-    let y = letters.entry(ch).and_modify(|x| *x += 1).or_insert(1);
-    println!("{}", y);
-  }
-}
-</code></pre></div>
+<div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">collections</span><span class="p">::</span><span class="n">HashMap</span><span class="p">;</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">letters</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">HashMap</span><span class="p">::</span><span class="n">new</span><span class="p">();</span>
+<span class="w">  </span><span class="k">for</span><span class="w"> </span><span class="n">ch</span><span class="w"> </span><span class="k">in</span><span class="w"> </span><span class="s">"s gad ga"</span><span class="p">.</span><span class="n">chars</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">letters</span><span class="p">.</span><span class="n">entry</span><span class="p">(</span><span class="n">ch</span><span class="p">).</span><span class="n">and_modify</span><span class="p">(</span><span class="o">|</span><span class="n">x</span><span class="o">|</span><span class="w"> </span><span class="o">*</span><span class="n">x</span><span class="w"> </span><span class="o">+=</span><span class="w"> </span><span class="mi">1</span><span class="p">).</span><span class="n">or_insert</span><span class="p">(</span><span class="mi">1</span><span class="p">);</span>
+<span class="w">    </span><span class="fm">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span><span class="w"> </span><span class="n">y</span><span class="p">);</span>
+<span class="w">  </span><span class="p">}</span>
+<span class="p">}</span>
+</code></pre></div></div>
 
 
 

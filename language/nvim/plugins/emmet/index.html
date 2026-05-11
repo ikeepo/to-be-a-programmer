@@ -16136,25 +16136,25 @@
 <p><a href="https://emmet.io/">docs</a>, <a href="https://mattn.github.io/emmet-vim/">emmet-vim</a>
 <a href="https://raw.githubusercontent.com/mattn/emmet-vim/master/TUTORIAL">Tutorial</a></p>
 <h2 id="lazyvim">lazy.vim</h2>
-<pre><code class="language-shell">:Mason
-Find the emmet-language-server 
-i for install 
-# go to nvim-lspconfig 
+<div class="highlight"><pre><span></span><code>:Mason
+Find<span class="w"> </span>the<span class="w"> </span>emmet-language-server<span class="w"> </span>
+i<span class="w"> </span><span class="k">for</span><span class="w"> </span>install<span class="w"> </span>
+<span class="c1"># go to nvim-lspconfig </span>
 
-    config = function(_, opts)
-      local lspconfig = require("lspconfig")
-      for server, config in pairs(opts.servers) do
-        -- passing config.capabilities to blink.cmp merges with the capabilities in your
-        -- `opts[server].capabilities, if you've defined it
-        config.capabilities = require("blink.cmp").get_lsp_capabilities(config.capabilities)
-        lspconfig[server].setup(config)
-      end
-      -- emmet
-      lspconfig.emmet_language_server.setup({
-        filetypes = { "html", "css", "javascriptreact", "typescriptreact", "vue", "next" },
-      })
-    end,
-</code></pre>
+<span class="w">    </span><span class="nv">config</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="k">function</span><span class="o">(</span>_,<span class="w"> </span>opts<span class="o">)</span>
+<span class="w">      </span><span class="nb">local</span><span class="w"> </span><span class="nv">lspconfig</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>require<span class="o">(</span><span class="s2">"lspconfig"</span><span class="o">)</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span>server,<span class="w"> </span>config<span class="w"> </span><span class="k">in</span><span class="w"> </span>pairs<span class="o">(</span>opts.servers<span class="o">)</span><span class="w"> </span><span class="k">do</span>
+<span class="w">        </span>--<span class="w"> </span>passing<span class="w"> </span>config.capabilities<span class="w"> </span>to<span class="w"> </span>blink.cmp<span class="w"> </span>merges<span class="w"> </span>with<span class="w"> </span>the<span class="w"> </span>capabilities<span class="w"> </span><span class="k">in</span><span class="w"> </span>your
+<span class="w">        </span>--<span class="w"> </span><span class="sb">`</span>opts<span class="o">[</span>server<span class="o">]</span>.capabilities,<span class="w"> </span><span class="k">if</span><span class="w"> </span>you<span class="err">'</span>ve<span class="w"> </span>defined<span class="w"> </span>it
+<span class="w">        </span>config.capabilities<span class="w"> </span><span class="o">=</span><span class="w"> </span>require<span class="o">(</span><span class="s2">"blink.cmp"</span><span class="o">)</span>.get_lsp_capabilities<span class="o">(</span>config.capabilities<span class="o">)</span>
+<span class="w">        </span>lspconfig<span class="o">[</span>server<span class="o">]</span>.setup<span class="o">(</span>config<span class="o">)</span>
+<span class="w">      </span>end
+<span class="w">      </span>--<span class="w"> </span>emmet
+<span class="w">      </span>lspconfig.emmet_language_server.setup<span class="o">({</span>
+<span class="w">        </span><span class="nv">filetypes</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">{</span><span class="w"> </span><span class="s2">"html"</span>,<span class="w"> </span><span class="s2">"css"</span>,<span class="w"> </span><span class="s2">"javascriptreact"</span>,<span class="w"> </span><span class="s2">"typescriptreact"</span>,<span class="w"> </span><span class="s2">"vue"</span>,<span class="w"> </span><span class="s2">"next"</span><span class="w"> </span><span class="o">}</span>,
+<span class="w">      </span><span class="o">})</span>
+<span class="w">    </span>end,
+</code></pre></div>
 <h2 id="refs">Refs</h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=QYnPVXZ_BH0">r1</a></li>

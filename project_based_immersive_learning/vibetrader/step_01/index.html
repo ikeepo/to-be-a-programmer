@@ -16263,18 +16263,18 @@
 <p><code>-b</code> means build mode, it's for incremental compilation. 
 生成的文件位置取决于<code>tsconfig.json</code>中的配置，</p>
 <h3 id="如何理解这个tsconfigjson">如何理解这个tsconfig.json</h3>
-<pre><code class="language-shell">{
-    "files": [],  # 不要在这个根目录下寻找代码文件，去references找
-    "references": [
-        {
-            "path": "./tsconfig.app.json" # 浏览器端代码
-        },
-        {
-            "path": "./tsconfig.node.json" # node.js 环境代码
-        }
-    ]
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="o">{</span>
+<span class="w">    </span><span class="s2">"files"</span>:<span class="w"> </span><span class="o">[]</span>,<span class="w">  </span><span class="c1"># 不要在这个根目录下寻找代码文件，去references找</span>
+<span class="w">    </span><span class="s2">"references"</span>:<span class="w"> </span><span class="o">[</span>
+<span class="w">        </span><span class="o">{</span>
+<span class="w">            </span><span class="s2">"path"</span>:<span class="w"> </span><span class="s2">"./tsconfig.app.json"</span><span class="w"> </span><span class="c1"># 浏览器端代码</span>
+<span class="w">        </span><span class="o">}</span>,
+<span class="w">        </span><span class="o">{</span>
+<span class="w">            </span><span class="s2">"path"</span>:<span class="w"> </span><span class="s2">"./tsconfig.node.json"</span><span class="w"> </span><span class="c1"># node.js 环境代码</span>
+<span class="w">        </span><span class="o">}</span>
+<span class="w">    </span><span class="o">]</span>
+<span class="o">}</span>
+</code></pre></div>
 <h3 id="如何配置tsc只检查不生成js">如何配置<code>tsc</code>只检查不生成<code>js</code></h3>
 <p><code>tsconfig.app/node.json</code>中<code>noEmit: true</code>表示只检查ts格式，不生成js;相反如果是false且配置<code>outDir</code>，就会生成js。</p>
 <p>这是<code>vite</code>引导程序自动配置的，也就是说，是<code>vite</code>默认采用<code>tsc -b &amp;&amp; vite build</code>这个逻辑。</p>

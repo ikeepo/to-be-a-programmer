@@ -16210,37 +16210,38 @@
 </ul>
 <h2 id="how-to-setup-google-sheet">How to Setup Google Sheet</h2>
 <ul>
-<li>Auto Lowercase </li>
+<li>
+<p>Auto Lowercase 
+</p><div class="highlight"><pre><span></span><code><span class="c1"># Google Sheet Cell can't be used as the input and output at the same time, so you need the AppsScript</span>
+<span class="c1"># Just add this script to AppsScript, no need for configuration</span>
+<span class="k">function</span><span class="w"> </span>onEdit<span class="o">(</span>e<span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">  </span>var<span class="w"> </span><span class="nv">sheet</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>e.source.getActiveSheet<span class="o">()</span><span class="p">;</span>
+<span class="w">  </span>var<span class="w"> </span><span class="nv">range</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>e.range<span class="p">;</span>
+
+<span class="w">  </span>//<span class="w"> </span>Only<span class="w"> </span>Validate<span class="w"> </span><span class="k">for</span><span class="w"> </span>A<span class="w"> </span>column
+<span class="w">  </span><span class="k">if</span><span class="w"> </span><span class="o">(</span>range.getColumn<span class="o">()</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="m">1</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">    </span>var<span class="w"> </span><span class="nv">values</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>range.getValues<span class="o">()</span><span class="p">;</span>
+
+
+<span class="w">    </span><span class="k">for</span><span class="w"> </span><span class="o">(</span>var<span class="w"> </span><span class="nv">i</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span>i<span class="w"> </span>&lt;<span class="w"> </span>values.length<span class="p">;</span><span class="w"> </span>i++<span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">      </span><span class="k">for</span><span class="w"> </span><span class="o">(</span>var<span class="w"> </span><span class="nv">j</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="m">0</span><span class="p">;</span><span class="w"> </span>j<span class="w"> </span>&lt;<span class="w"> </span>values<span class="o">[</span>i<span class="o">]</span>.length<span class="p">;</span><span class="w"> </span>j++<span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">        </span><span class="k">if</span><span class="w"> </span><span class="o">(</span>typeof<span class="w"> </span>values<span class="o">[</span>i<span class="o">][</span>j<span class="o">]</span><span class="w"> </span><span class="o">==</span><span class="w"> </span><span class="s2">"string"</span><span class="o">)</span><span class="w"> </span><span class="o">{</span>
+<span class="w">          </span>values<span class="o">[</span>i<span class="o">][</span>j<span class="o">]</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>values<span class="o">[</span>i<span class="o">][</span>j<span class="o">]</span>.toLowerCase<span class="o">()</span><span class="p">;</span>
+<span class="w">        </span><span class="o">}</span>
+<span class="w">      </span><span class="o">}</span>
+<span class="w">    </span><span class="o">}</span>
+
+<span class="w">    </span>range.setValues<span class="o">(</span>values<span class="o">)</span><span class="p">;</span>
+<span class="w">  </span><span class="o">}</span>
+<span class="o">}</span>
+</code></pre></div>
+</li>
+<li>
+<p>Auto translate<br>
+</p><div class="highlight"><pre><span></span><code>B<span class="w"> </span>column:<span class="w"> </span><span class="o">=</span>GoogleTranslate<span class="o">(</span>A,<span class="w"> </span><span class="s2">"fr"</span>,<span class="w"> </span><span class="s2">"en"</span><span class="o">)</span>
+</code></pre></div>
+</li>
 </ul>
-<pre><code class="language-shell"># Google Sheet Cell can't be used as the input and output at the same time, so you need the AppsScript
-# Just add this script to AppsScript, no need for configuration
-function onEdit(e) {
-  var sheet = e.source.getActiveSheet();
-  var range = e.range;
-
-  // Only Validate for A column
-  if (range.getColumn() == 1) {
-    var values = range.getValues();
-
-
-    for (var i = 0; i &lt; values.length; i++) {
-      for (var j = 0; j &lt; values[i].length; j++) {
-        if (typeof values[i][j] == "string") {
-          values[i][j] = values[i][j].toLowerCase();
-        }
-      }
-    }
-
-    range.setValues(values);
-  }
-}
-</code></pre>
-<ul>
-<li>Auto translate  </li>
-</ul>
-<pre><code class="language-shell">B column: =GoogleTranslate(A, "fr", "en")
-
-</code></pre>
 <h2 id="how-to-use-anki">How to use anki</h2>
 <ul>
 <li>
@@ -16250,21 +16251,20 @@ function onEdit(e) {
 <p><a href="https://www.youtube.com/watch?v=saVJN5-_JDM">General Usage</a></p>
 </li>
 <li>
-<p>How to add pronounciation?  </p>
+<p>How to add pronounciation?<br>
+</p><div class="highlight"><pre><span></span><code><span class="c1"># 先整理到anki deck，然后批量添加pronounciation;</span>
+By<span class="w"> </span>plugin,<span class="w"> </span><span class="sb">`</span>Tools<span class="w"> </span>--&gt;<span class="w"> </span>Add-ons<span class="w"> </span>--&gt;<span class="w"> </span><span class="m">111623432</span><span class="o">(</span>HyperTTS<span class="o">)</span>.<span class="w">  </span>
+</code></pre></div>
+<a href="https://ankiweb.net/shared/info/111623432">HyperTTS Tutorial</a>
+</li>
+<li>
+<p>How to add flashcards through Google Sheet? 
+</p><div class="highlight"><pre><span></span><code><span class="m">1</span>.<span class="w"> </span>GoogleSheet:<span class="w"> </span>File<span class="w"> </span>--&gt;<span class="w"> </span>Download<span class="w"> </span>.csv
+<span class="m">2</span>.<span class="w"> </span>Anki:<span class="o">(</span>import<span class="o">)</span><span class="w"> </span>File<span class="w"> </span>--&gt;<span class="w"> </span>Import<span class="w"> </span><span class="o">(</span>Note<span class="w"> </span>Type:<span class="w"> </span>Basic<span class="p">;</span><span class="w"> </span>Existing<span class="w"> </span>notes:<span class="w"> </span>Update<span class="o">)</span>
+<span class="m">3</span>.<span class="w"> </span>Anki:<span class="o">(</span>add<span class="w"> </span>audio<span class="o">)</span><span class="w"> </span>Deck<span class="w"> </span>--&gt;<span class="w"> </span>Browse<span class="w"> </span>--&gt;<span class="w"> </span>Cmd+A<span class="w"> </span>--&gt;<span class="w"> </span>HyperTTS<span class="w"> </span>--&gt;<span class="w"> </span>Add<span class="w"> </span>Audio<span class="o">(</span>Collection<span class="o">)</span><span class="w"> </span>--&gt;<span class="w"> </span>Source/Source<span class="w"> </span>Field/Front<span class="w"> </span>--&gt;<span class="w"> </span>Target/Sound<span class="w"> </span>tags<span class="w"> </span>will<span class="w"> </span>be<span class="w"> </span>inserted<span class="w"> </span><span class="k">in</span><span class="w"> </span>this<span class="w"> </span>field<span class="o">(</span>Front<span class="o">)</span>/Text<span class="w"> </span>and<span class="w"> </span>Sound<span class="w"> </span>Tag<span class="w"> </span>Handling<span class="o">(</span>Text<span class="w"> </span>and<span class="w"> </span>Sound<span class="w"> </span>Tag<span class="o">)</span><span class="w"> </span>--&gt;<span class="w"> </span>Voice<span class="w"> </span>Selection/Language<span class="w"> </span>--&gt;<span class="w"> </span>Apply<span class="w"> </span>To<span class="w"> </span>Notes
+</code></pre></div>
 </li>
 </ul>
-<pre><code class="language-shell"># 先整理到anki deck，然后批量添加pronounciation;
-By plugin, `Tools --&gt; Add-ons --&gt; 111623432(HyperTTS).  
-</code></pre>
-<p><a href="https://ankiweb.net/shared/info/111623432">HyperTTS Tutorial</a></p>
-<ul>
-<li>How to add flashcards through Google Sheet? </li>
-</ul>
-<pre><code class="language-shell">1. GoogleSheet: File --&gt; Download .csv
-2. Anki:(import) File --&gt; Import (Note Type: Basic; Existing notes: Update)
-3. Anki:(add audio) Deck --&gt; Browse --&gt; Cmd+A --&gt; HyperTTS --&gt; Add Audio(Collection) --&gt; Source/Source Field/Front --&gt; Target/Sound tags will be inserted in this field(Front)/Text and Sound Tag Handling(Text and Sound Tag) --&gt; Voice Selection/Language --&gt; Apply To Notes
-
-</code></pre>
 <h2 id="准备一套题">准备一套题</h2>
 <p>TCF 口语考试分为三部分：</p>
 <table>
@@ -16297,16 +16297,16 @@ By plugin, `Tools --&gt; Add-ons --&gt; 111623432(HyperTTS).
 </tr>
 </tbody>
 </table>
-<pre><code class="language-shell"># Structured Interview Example
-Comment vous vous appelez ?  
-Je m’appelle [Nom], enchanté(e) de vous rencontrer.
-</code></pre>
-<h2 id="ai-configuration">AI Configuration</h2>
-<pre><code class="language-shell">这个tread是进行法语语法分析，你的回答要基于以下原则：
-1. 精要、简练、不必要过度扩展，但是可以跟之前给出的解释进行勾连。
-2. 每次回答要把这次分析中涉及的语法点在文首列出，列出顺序给予其使用的频繁程度降序。
-3. 关键概念同时给出法、中、英三种表示方式
+<div class="highlight"><pre><span></span><code><span class="c1"># Structured Interview Example</span>
+Comment<span class="w"> </span>vous<span class="w"> </span>vous<span class="w"> </span>appelez<span class="w"> </span>?<span class="w">  </span>
+Je<span class="w"> </span>m’appelle<span class="w"> </span><span class="o">[</span>Nom<span class="o">]</span>,<span class="w"> </span>enchanté<span class="o">(</span>e<span class="o">)</span><span class="w"> </span>de<span class="w"> </span>vous<span class="w"> </span>rencontrer.
 </code></pre></div>
+<h2 id="ai-configuration">AI Configuration</h2>
+<div class="highlight"><pre><span></span><code>这个tread是进行法语语法分析，你的回答要基于以下原则：
+<span class="m">1</span>.<span class="w"> </span>精要、简练、不必要过度扩展，但是可以跟之前给出的解释进行勾连。
+<span class="m">2</span>.<span class="w"> </span>每次回答要把这次分析中涉及的语法点在文首列出，列出顺序给予其使用的频繁程度降序。
+<span class="m">3</span>.<span class="w"> </span>关键概念同时给出法、中、英三种表示方式
+</code></pre></div></div>
 
 
 

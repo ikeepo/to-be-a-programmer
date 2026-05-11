@@ -16229,38 +16229,35 @@
 <ul>
 <li>noMachine
 如下记录问题，登录后出现键盘不对应，并且鼠标光标消失。不好用</li>
-<li>在linux安装noMachine</li>
-</ul>
-<pre><code class="language-shell">#!/bin/bash
-# 一键安装 Ubuntu 图形桌面 + NoMachine（适用于腾讯云）
+<li>在linux安装noMachine
+<div class="highlight"><pre><span></span><code><span class="ch">#!/bin/bash</span>
+<span class="c1"># 一键安装 Ubuntu 图形桌面 + NoMachine（适用于腾讯云）</span>
 
-# 更新系统
-sudo apt update &amp;&amp; sudo apt upgrade -y
+<span class="c1"># 更新系统</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>update<span class="w"> </span><span class="o">&amp;&amp;</span><span class="w"> </span>sudo<span class="w"> </span>apt<span class="w"> </span>upgrade<span class="w"> </span>-y
 
-# 安装 Ubuntu 桌面环境（非最重的 GNOME，使用轻量 XFCE）
-sudo apt install -y xfce4 xfce4-goodies
+<span class="c1"># 安装 Ubuntu 桌面环境（非最重的 GNOME，使用轻量 XFCE）</span>
+sudo<span class="w"> </span>apt<span class="w"> </span>install<span class="w"> </span>-y<span class="w"> </span>xfce4<span class="w"> </span>xfce4-goodies
 
-# 下载并安装 NoMachine
-# 需要重新定向
-curl -L -o nomachine.deb https://www.nomachine.com/free/linux/64/deb
-sudo dpkg -i nomachine_8.11.3_1_amd64.deb
+<span class="c1"># 下载并安装 NoMachine</span>
+<span class="c1"># 需要重新定向</span>
+curl<span class="w"> </span>-L<span class="w"> </span>-o<span class="w"> </span>nomachine.deb<span class="w"> </span>https://www.nomachine.com/free/linux/64/deb
+sudo<span class="w"> </span>dpkg<span class="w"> </span>-i<span class="w"> </span>nomachine_8.11.3_1_amd64.deb
 
-# 查看 NoMachine 状态
-sudo /usr/NX/bin/nxserver --status
+<span class="c1"># 查看 NoMachine 状态</span>
+sudo<span class="w"> </span>/usr/NX/bin/nxserver<span class="w"> </span>--status
 
-# 提示完成
-echo "✅ 桌面和 NoMachine 安装完成，请确保安全组已开放 TCP 4000 端口"
-echo "👉 现在你可以在 Mac 上用 NoMachine 客户端连接这台机器了"
-
-</code></pre>
-<ol>
+<span class="c1"># 提示完成</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">"✅ 桌面和 NoMachine 安装完成，请确保安全组已开放 TCP 4000 端口"</span>
+<span class="nb">echo</span><span class="w"> </span><span class="s2">"👉 现在你可以在 Mac 上用 NoMachine 客户端连接这台机器了"</span>
+</code></pre></div></li>
 <li>
 <p>服务器开放4000端口</p>
 </li>
 <li>
 <p><a href="https://www.nomachine.com/"> 本地安装客户端 </a> </p>
 </li>
-</ol>
+</ul>
 <h4 id="问题">问题</h4>
 <ul>
 <li>重启后登录vnc方式lighthouse/ubuntu账号不成功</li>

@@ -16139,12 +16139,12 @@
 <p>默认不支持中文，只识别标题中的英文部分，比如 <code>动词变位：er类</code>就只识别为<code>#er</code> anchor.</p>
 <p>配置如下后可以识别中文</p>
 <h2 id="config">Config</h2>
-<pre><code class="language-mkdocs.yml">markdown_extensions:
+<div class="highlight"><pre><span></span><code>markdown_extensions:
   - toc:
       permalink: true  # (可选) 会在标题旁显示一个链接符号，方便调试
       slugify: !!python/name:pymdownx.slugs.uslugify # 强烈建议：支持中文锚点
   - attr_list # 允许你手动定义 ID
-</code></pre></div>
+</code></pre></div></div>
 
 
 

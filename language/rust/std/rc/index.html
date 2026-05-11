@@ -16202,37 +16202,35 @@ For multi-threaded is <code>Arc</code> which stands for "Atomically Reference Co
 They are defined in an <code>impl</code> block for the type and don't take <code>self</code> as a parameter (unlike method);</p>
 <h1 id="code-explain">Code Explain</h1>
 <h2 id="get_mut"><code>get_mut</code></h2>
-<pre><code class="language-rust">use std::rc::Rc;
-fn main() {
-  let mut x = Rc::new(3);
-  *Rc::get_mut(&amp;mut x) = 5;
-  assert_eq!(x, Rc::new(5));
-}
-</code></pre>
+<div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">rc</span><span class="p">::</span><span class="n">Rc</span><span class="p">;</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<span class="w">  </span><span class="o">*</span><span class="n">Rc</span><span class="p">::</span><span class="n">get_mut</span><span class="p">(</span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">5</span><span class="p">;</span>
+<span class="w">  </span><span class="fm">assert_eq!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
+<span class="p">}</span>
+</code></pre></div>
 <h2 id="how-to-use">How to use</h2>
-<pre><code class="language-rust">use std::rc::Rc;
-fn main() {
-    let mut x = Rc::new(3);
-    assert_eq!(x, Rc::new(3));
-    let y = &amp;mut x;
-    *y = Rc::new(5);
-    assert_eq!(*x, 5);
-}
-</code></pre>
-<ul>
-<li><code>Rc &amp; Refcell</code> why the <code>borrow_mut</code> method belones to RefCell rather Rc?</li>
-</ul>
-<pre><code class="language-rust">pub fn invert_tree(root: Option&lt;Rc&lt;RefCell&lt;TreeNode&gt;&gt;&gt;) -&gt; Option {
-  root.map(|node| {
-    node.borrwo_mut().swap_all();
-    node
-  })
-}
-</code></pre>
-<p>Here is the concept <a href="/docs/topics/language/rust/general.md#here-is-the-concept-automatic-dereferencinghttpsdocrust-langorgreferenceexpressionsfield-exprhtmlhighlightautomatic20dereferencedr-exprfieldautoref-deref"><code>automatic dereferencing</code></a>;
+<p></p><div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">rc</span><span class="p">::</span><span class="n">Rc</span><span class="p">;</span>
+<span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
+<span class="w">    </span><span class="fm">assert_eq!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">));</span>
+<span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="o">&amp;</span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="p">;</span>
+<span class="w">    </span><span class="o">*</span><span class="n">y</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">5</span><span class="p">);</span>
+<span class="w">    </span><span class="fm">assert_eq!</span><span class="p">(</span><span class="o">*</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="mi">5</span><span class="p">);</span>
+<span class="p">}</span>
+</code></pre></div>
+- <code>Rc &amp; Refcell</code> why the <code>borrow_mut</code> method belones to RefCell rather Rc?
+<div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">fn</span><span class="w"> </span><span class="nf">invert_tree</span><span class="p">(</span><span class="n">root</span><span class="p">:</span><span class="w"> </span><span class="nb">Option</span><span class="o">&lt;</span><span class="n">Rc</span><span class="o">&lt;</span><span class="n">RefCell</span><span class="o">&lt;</span><span class="n">TreeNode</span><span class="o">&gt;&gt;&gt;</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nb">Option</span><span class="w"> </span><span class="p">{</span>
+<span class="w">  </span><span class="n">root</span><span class="p">.</span><span class="n">map</span><span class="p">(</span><span class="o">|</span><span class="n">node</span><span class="o">|</span><span class="w"> </span><span class="p">{</span>
+<span class="w">    </span><span class="n">node</span><span class="p">.</span><span class="n">borrwo_mut</span><span class="p">().</span><span class="n">swap_all</span><span class="p">();</span>
+<span class="w">    </span><span class="n">node</span>
+<span class="w">  </span><span class="p">})</span>
+<span class="p">}</span>
+</code></pre></div>
+Here is the concept <a href="/docs/topics/language/rust/general.md#here-is-the-concept-automatic-dereferencinghttpsdocrust-langorgreferenceexpressionsfield-exprhtmlhighlightautomatic20dereferencedr-exprfieldautoref-deref"><code>automatic dereferencing</code></a>;
 The <code>node</code> is "Container Operand". The container is because it encapsulates or pointers to the actual data of interest, often requiring dereferencing to reach that data.
 <code>borrow_mut</code> is th <code>field</code>.
-Autoderef is Rust's process of automatically dereferencing a container operand (by <code>Deref</code> or <code>DerefMut</code>) as many times as needed to make a filed access or method call valid.</p>
+Autoderef is Rust's process of automatically dereferencing a container operand (by <code>Deref</code> or <code>DerefMut</code>) as many times as needed to make a filed access or method call valid.
 <h1 id="why-need-rc-rather-direct-">Why need Rc rather direct &amp;</h1>
 <p><code>&amp;</code> only has one oewner, and <code>Rc</code> can create multi owners.
 Reference is tied to the lifetime of the original vairbale, if the owner goes out of scope, the reference is invalid.  <code>Rc</code> the data lives as long as any <code>Rc</code> reference exists, decoupling it from the original scope.</p>

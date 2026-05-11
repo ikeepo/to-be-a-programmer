@@ -16051,18 +16051,18 @@
 <p>语音块以流畅为主，这就导致听力训练在累计语音块、语义块的同时，需要理解语义块跨音节的规律。</p>
 <p>法语语义识别类似中文，高度依赖上下文，也就是场景识别。</p>
 <h1 id="法语听力合理映射流程听力识别算法">法语听力合理映射流程：听力识别算法</h1>
-<pre><code class="language-shell">声音流输入
-→ 抓锚点
-→ 激活高频模板
-→ 用语法接口切分
- 功能词重要--映射到高频句型
-→ 形成候选语义块
-→ 识别场景脚本
-→ 预测后续逻辑
-→ 用上下文验证/修正
-</code></pre>
+<div class="highlight"><pre><span></span><code>声音流输入
+→<span class="w"> </span>抓锚点
+→<span class="w"> </span>激活高频模板
+→<span class="w"> </span>用语法接口切分
+<span class="w"> </span>功能词重要--映射到高频句型
+→<span class="w"> </span>形成候选语义块
+→<span class="w"> </span>识别场景脚本
+→<span class="w"> </span>预测后续逻辑
+→<span class="w"> </span>用上下文验证/修正
+</code></pre></div>
 <h1 id="听力识别算法分层">听力识别算法分层</h1>
-<pre><code class="language-shell">第一层：锚点识别
+<div class="highlight"><pre><span></span><code>第一层：锚点识别
 
 听出高频词、时间词、态度词、句型接口。
 
@@ -16070,15 +16070,15 @@
 
 整块识别：
 
-ça te dit de...
+ça<span class="w"> </span>te<span class="w"> </span>dit<span class="w"> </span>de...
 
-tu veux...
+tu<span class="w"> </span>veux...
 
-j’ai envie de...
+j’ai<span class="w"> </span>envie<span class="w"> </span>de...
 
-il faut...
+il<span class="w"> </span>faut...
 
-je suis fatigué
+je<span class="w"> </span>suis<span class="w"> </span>fatigué
 
 第三层：场景识别
 
@@ -16087,7 +16087,7 @@ je suis fatigué
 第四层：预测与验证
 
 根据脚本预判下一句，再用实际听到的内容修正。
-</code></pre></div>
+</code></pre></div></div>
 
 
 

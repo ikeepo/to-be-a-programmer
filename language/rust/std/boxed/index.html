@@ -16044,13 +16044,13 @@
 
 <div><h1 id="stdboxed"><a href="https://doc.rust-lang.org/std/boxed/struct.Box.html">std::boxed</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<pre><code class="language-rust">pub struct Box&lt;T, A=Global&gt;(/*private fields*/)
-where
-  A: Allocator,
-  T: ?Sized;
-</code></pre>
-<p>A pointer type uniquely owns a heap allocation of type T.
-It provides the simplest form of heap allocation in Rust. Boxes also ensure that they never allocate more than <code>isize::MAX</code> bytes.</p>
+<p></p><div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nb">Box</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">A</span><span class="o">=</span><span class="n">Global</span><span class="o">&gt;</span><span class="p">(</span><span class="cm">/*private fields*/</span><span class="p">)</span>
+<span class="k">where</span>
+<span class="w">  </span><span class="n">A</span><span class="p">:</span><span class="w"> </span><span class="nc">Allocator</span><span class="p">,</span>
+<span class="w">  </span><span class="n">T</span><span class="p">:</span><span class="w"> </span><span class="o">?</span><span class="nb">Sized</span><span class="p">;</span>
+</code></pre></div>
+A pointer type uniquely owns a heap allocation of type T.
+It provides the simplest form of heap allocation in Rust. Boxes also ensure that they never allocate more than <code>isize::MAX</code> bytes.
 <h1 id="box-vs-rc"><code>Box</code> vs <code>Rc</code></h1>
 <p><code>Box</code> provides exclusive ownership of the data on the heap.
 Exclusive ownership means that a single variable has complete control over a piece of data at any given time.</p>
