@@ -13,6 +13,7 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 |Text|Right|What I Heard|How to be Right|
 |----|-----|------------|---------------|
 |{{fr('est-ce celui')}}|`/ɛs.sə.lɥi/`|`/ɛsyli/`||
+|dans ce rôle|/s/|/ʃ/||
 
 # 中文
 
