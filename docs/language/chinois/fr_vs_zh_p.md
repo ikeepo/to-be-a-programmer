@@ -7,6 +7,8 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 
 `marque/maʁk/` r会因为`Coarticulation协同发音（在发音过程中，发音器官（如舌、唇、软腭）不会为每个音素独立运动，而是提前或延迟执行部分动作。）`被前后更明显的因压缩而弱化。
 
+### `est-ce celui`
+`est`本身`/ɛ/`,连在一起是`/ɛs/`,`celui`是`/sə.lɥi/`，整体在一起是`/ɛs.sə.lɥi/`,自然状态下，两个`s`会连在一起长一点。
 # 中文
 
 | Right | Wrong | How to be Right |
