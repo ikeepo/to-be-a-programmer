@@ -4652,6 +4652,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day90/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day90
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -16104,6 +16132,57 @@
 <p>以<code>dans ce rôle</code>为例，听到的因素的确就是<code>/ʃ/</code>,属于某种音变，为了解释这种音变，语言学家提出了某种假设（也就是理论），创造了所谓<em>压缩</em>、<em>语流</em>等概念进一步细化假设，其中一种主要的假设就是将人类发音基于统计规律聚类划分为IPA中的音，这是一种标准音，实际使用中并不使用这种标准音，而是使用以这种音为锚点的音阈。</p>
 <p>换个角度解释，所谓<code>/s/</code>这个音，分类结果并不来自<strong>绝对匹配</strong>，而是来自统计归因，当一个真人发出某个音，基于<em>场景=&gt;句型=&gt;词汇=&gt;模糊音</em>逐级收敛后形成统计参数上最具说服力的聚类结果，就是<code>/s/</code>这个音，虽然实际发出的就是<code>/ʃ/</code>,但是此处统计归因结果是<code>/s/</code>。</p>
 <p>因素匹配 =&gt; 连续概率空间的最有匹配</p>
+<h4 id="分类模型决定感知">分类模型决定感知</h4>
+<p>对于<code>ai</code>,同一个声音，我如果按/e/去听，就能听成/e/；按/ɛ/去听，也能成立。</p>
+<p>这个现象叫categorical warping（类别牵引）或者top-down perceptual bias（自上而下感知偏置）。这说明不是声音决定分类，而是分类模型决定如何感知声音。</p>
+<p>因为音素本身的不稳定，声学证据本身通常不足以唯一决定类别。而是用先验、chunk库、统计归因、词库等加权感知，<strong>音素不是客观存在，而是解释模型</strong>。</p>
+<p>系统无法“直接认识现实”，只能用已有模型去拟合输入。你只能用自己知道的东西中找一个最接近的去解释接收到的信息。</p>
+<p>所以“听到”其实不是接收，constraint-based reconstruction（约束下的重建）。</p>
+<p>并不是：接收了/e/ or 接收了/ɛ/。而是：用自己已有的/e/、/ɛ/模型，去解释一个模糊连续信号。</p>
+<p>因为大脑无法处理<strong>无类别输入</strong>，如果完全没有对应模型，系统会强行归类、生成幻觉
+或完全无法识别。比如远古智慧。现实不是被直接感知的，而是被模型解释后的结果。</p>
+<p>声音信号认知重建纬度：</p>
+<table>
+<thead>
+<tr>
+<th>维度</th>
+<th>示例</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>声学相似度</td>
+<td>音像不像</td>
+</tr>
+<tr>
+<td>chunk一致性</td>
+<td>是否符合固定结构</td>
+</tr>
+<tr>
+<td>频率先验</td>
+<td>常不常见</td>
+</tr>
+<tr>
+<td>语义合理性</td>
+<td>是否讲得通</td>
+</tr>
+<tr>
+<td>上下文预测</td>
+<td>后面是否匹配</td>
+</tr>
+</tbody>
+</table>
+<div class="admonition info">
+<p class="admonition-title">技能学习模型</p>
+<p>学习语言真正重要的不是： 收集更多音素
+而是：建立更多高质量chunk模型
+交易作为一项技能同理</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">训练高效性来源</p>
+<p>训练的价值在于构建模型；猜测只是测试当前模型，不会替代模型训练。
+如果你能听懂，你是100%确定你对了（模型快速收敛）；反过来说，如果你还需要猜，就说明大脑内没有对应的模型或者说模型不清晰，就是还不懂（模型不够准确），就没必要在“猜测”环节（模型验证）花太多精力，因为没有价值（不更新模型参数），猜测只是一个验证（验证集），不是训练（更新模型）。投喂准确数据训练是有价值的，验证是一次性的、简短的、快速的。</p>
+</div>
 <h1 id="中文">中文</h1>
 <table>
 <thead>
@@ -16156,7 +16235,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 12, 2026 01:29:00 UTC">May 12, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="May 12, 2026 16:28:47 UTC">May 12, 2026</span>
   </span>
 
     
