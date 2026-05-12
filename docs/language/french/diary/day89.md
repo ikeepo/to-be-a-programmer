@@ -287,3 +287,7 @@ frequency prior（熟悉度）
 
 À partir de quel moment
 ```
+
+
+# [语音分类结果来自统计归因，而非绝对匹配](../../chinois/fr_vs_zh_p.md#语音识别是统计归因)
+
