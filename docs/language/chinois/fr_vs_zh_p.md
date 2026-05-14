@@ -70,7 +70,9 @@ personne /pɛʀsɔn/,后面的发音是/ɔn/,但听起来像是英文的/en/;
 | {{zh('商')}}(shang)店 |  {{zh('闪')}}(shan)电 | |
 | {{zh('周')}}(zhou)末 | {{zh('出')}}(chu)没 | Pull the corners of your mouth back as far as possible |
 | {{zh('去')}}(qu) | | |
-| {{zh('钱')}} (qian)|||
-|{{zh('甜')}} (tian)|||
-|{{zh('咸')}} (xian)|||
-|{{zh('天')}} (tian)|||
+| 我喜欢用{{zh('钱')}} (qian)|||
+|我喜欢吃{{zh('甜')}} (tian)|||
+|{{zh('咸')}} (xian)菜|||
+|{{zh('天')}} (tian)空|||
+|老{{zh('板')}}(ban)|老{{zh('本')}}(ben)||
+||||
