@@ -9,6 +9,8 @@ theme:
   logo: img/logo.jpeg
   favicon: img/logo.jpeg
   custom_dir: overrides
+  features:
+    - navigation.tags # 开启标签导航功能
 plugins:
   - search
   - awesome-nav
@@ -17,6 +19,8 @@ plugins:
   - mkdocs-video
   - timetoread:
       wpm: 190
+  - tags:
+      tags_file: tags.md  # 指定存储标签列表的文件
       
 
 markdown_extensions:
