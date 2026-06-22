@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17474,32 +17530,32 @@
 
 
 
-<div><h1 id="lightgbmlight-gradient-boosting-machine-official-web-wiki-code">LightGBM(Light Gradient-Boosting Machine) <a href="https://lightgbm.readthedocs.io/en/stable/">official web</a> <a href="https://en.wikipedia.org/wiki/LightGBM">wiki</a> <a href="https://github.com/microsoft/LightGBM/tree/master/examples/binary_classification">code</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="lightgbmlight-gradient-boosting-machine-official-web-wiki-code">LightGBM(Light Gradient-Boosting Machine) <a href="https://lightgbm.readthedocs.io/en/stable/">official web</a> <a href="https://en.wikipedia.org/wiki/LightGBM">wiki</a> <a href="https://github.com/microsoft/LightGBM/tree/master/examples/binary_classification">code</a><a class="headerlink" href="#lightgbmlight-gradient-boosting-machine-official-web-wiki-code" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <p>It was originally developed by Microsoft and first introduced in 2016 as part of their efforts to advance gradient-boosting techniques for large-scale data processing.
 The framework builds on the foundation of earlier gradient-boosting methods, such as Gradiet Boosting Decision Tree (GBDT), but incorporates innovative approaches to overcome their limitaions, particularly in terms of speed and memory usage.
 The development of LightGBM was motivated by the need for a faster and more scalable alternative to existing boosting frameworks like XGBoost(2014).
 First stable version was released in 2017 with paper titled "<a href="https://proceedings.neurips.cc/paper_files/paper/2017/file/6449f44a102fde848669bdd9eb6b76fa-Paper.pdf">LightGBM: A Highly Efficient Gradient Boosting Decision Tree</a>"
 The LightGBM framework supports : GBT, GBDT, GBRT, GBM, MART and RF.</p>
-<h2 id="key-innocative-work">Key Innocative Work</h2>
+<h2 id="key-innocative-work">Key Innocative Work<a class="headerlink" href="#key-innocative-work" title="Permanent link">¶</a></h2>
 <p>What makes LightGBM special isn't a variety of algorithms but its optimization to GBDT;</p>
-<h5 id="gradient-based-one-side-sampling">Gradient-Based One-Side Sampling</h5>
-<h5 id="exclusive-feature-bundling">Exclusive Feature Bundling</h5>
-<h5 id="lightgbm-adopts-a-leaf-wise-tree-growth-strategy-rather-level-wise-approach">LightGBM adopts a leaf-wise tree growth strategy rather level-wise approach</h5>
+<h5 id="gradient-based-one-side-sampling">Gradient-Based One-Side Sampling<a class="headerlink" href="#gradient-based-one-side-sampling" title="Permanent link">¶</a></h5>
+<h5 id="exclusive-feature-bundling">Exclusive Feature Bundling<a class="headerlink" href="#exclusive-feature-bundling" title="Permanent link">¶</a></h5>
+<h5 id="lightgbm-adopts-a-leaf-wise-tree-growth-strategy-rather-level-wise-approach">LightGBM adopts a leaf-wise tree growth strategy rather level-wise approach<a class="headerlink" href="#lightgbm-adopts-a-leaf-wise-tree-growth-strategy-rather-level-wise-approach" title="Permanent link">¶</a></h5>
 <p>This decides that how you customize GBDT's behaves for your task by setting: Objective function and Hyperparameters.</p>
-<h2 id="concepts">Concepts</h2>
-<h5 id="why-its-called-framework-rather-model">why it's called framework rather model</h5>
+<h2 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h2>
+<h5 id="why-its-called-framework-rather-model">why it's called framework rather model<a class="headerlink" href="#why-its-called-framework-rather-model" title="Permanent link">¶</a></h5>
 <p>It's a system that enables the creation of gradient-boosting models, not a single, specific model itself.
 LightGBM provides the algorithms, data-handling capabilities, and customizable settings that let users build and train their own gradient-boosting decision tree models for tasks like classification or regression.</p>
-<h5 id="gradient-boosting-technique">gradient-boosting technique</h5>
-<h5 id="large-scale-data">large-scale data</h5>
-<h5 id="what-lightgbm-is-built-around-a-single-core-algorithm-mean">What LightGBM is built around a single core algorithm mean</h5>
+<h5 id="gradient-boosting-technique">gradient-boosting technique<a class="headerlink" href="#gradient-boosting-technique" title="Permanent link">¶</a></h5>
+<h5 id="large-scale-data">large-scale data<a class="headerlink" href="#large-scale-data" title="Permanent link">¶</a></h5>
+<h5 id="what-lightgbm-is-built-around-a-single-core-algorithm-mean">What LightGBM is built around a single core algorithm mean<a class="headerlink" href="#what-lightgbm-is-built-around-a-single-core-algorithm-mean" title="Permanent link">¶</a></h5>
 <p>LightGBM is fundamentally based on one algorithm: GBDT. It's the engine under the hood.</p>
-<h5 id="what-zero-based-mean-in-libsvmzero-based">what zero-based mean in LibSVM(zero-based)</h5>
-<h1 id="practice">Practice</h1>
-<h2 id="install"><a href="https://lightgbm.readthedocs.io/en/stable/Installation-Guide.html#linux">Install</a></h2>
-<h2 id="python-quick-start"><a href="https://lightgbm.readthedocs.io/en/stable/Python-Intro.html">Python Quick Start</a></h2>
-<h2 id="kaggle-lightgbm-tutorial"><a href="https://www.kaggle.com/code/pumalin/lightgbm-tutorial">kaggle LightGBM Tutorial</a></h2></div>
+<h5 id="what-zero-based-mean-in-libsvmzero-based">what zero-based mean in LibSVM(zero-based)<a class="headerlink" href="#what-zero-based-mean-in-libsvmzero-based" title="Permanent link">¶</a></h5>
+<h1 id="practice">Practice<a class="headerlink" href="#practice" title="Permanent link">¶</a></h1>
+<h2 id="install"><a href="https://lightgbm.readthedocs.io/en/stable/Installation-Guide.html#linux">Install</a><a class="headerlink" href="#install" title="Permanent link">¶</a></h2>
+<h2 id="python-quick-start"><a href="https://lightgbm.readthedocs.io/en/stable/Python-Intro.html">Python Quick Start</a><a class="headerlink" href="#python-quick-start" title="Permanent link">¶</a></h2>
+<h2 id="kaggle-lightgbm-tutorial"><a href="https://www.kaggle.com/code/pumalin/lightgbm-tutorial">kaggle LightGBM Tutorial</a><a class="headerlink" href="#kaggle-lightgbm-tutorial" title="Permanent link">¶</a></h2></div>
 
 
 

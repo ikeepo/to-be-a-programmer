@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17332,21 +17388,21 @@
 
 
 
-<div><h1 id="stdrcrc"><code>std::rc::Rc</code></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
+<div><h1 id="stdrcrc"><code>std::rc::Rc</code><a class="headerlink" href="#stdrcrc" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <p>A single-threaded reference-counting pointer.
 Reference Counted.
 The inherent methods of <code>Rc</code> are all associated functions, which means you have to call them as <strong>e.g.</strong>, <code>Rc::get_mut(&amp;mut value)</code> instead of <code>value.get_mut()</code>. This avoids conflicts with methods of the inner type <code>T</code>;</p>
-<h2 id="decode">Decode</h2>
-<h5 id="what-single-threaded-mean-and-opposite">what single-threaded mean and opposite</h5>
+<h2 id="decode">Decode<a class="headerlink" href="#decode" title="Permanent link">¶</a></h2>
+<h5 id="what-single-threaded-mean-and-opposite">what single-threaded mean and opposite<a class="headerlink" href="#what-single-threaded-mean-and-opposite" title="Permanent link">¶</a></h5>
 <p>It means the Rc pointer is intended for use in an environment where only one thread accesses and manipulates it at a time.
 For multi-threaded is <code>Arc</code> which stands for "Atomically Reference Counted";</p>
-<h5 id="reference-counted-pointer">Reference Counted Pointer</h5>
-<h5 id="what-is-associated-functions">What is associated functions</h5>
+<h5 id="reference-counted-pointer">Reference Counted Pointer<a class="headerlink" href="#reference-counted-pointer" title="Permanent link">¶</a></h5>
+<h5 id="what-is-associated-functions">What is associated functions<a class="headerlink" href="#what-is-associated-functions" title="Permanent link">¶</a></h5>
 <p>Functions that are tied to a type rather than to an instance of that type.
 They are defined in an <code>impl</code> block for the type and don't take <code>self</code> as a parameter (unlike method);</p>
-<h1 id="code-explain">Code Explain</h1>
-<h2 id="get_mut"><code>get_mut</code></h2>
+<h1 id="code-explain">Code Explain<a class="headerlink" href="#code-explain" title="Permanent link">¶</a></h1>
+<h2 id="get_mut"><code>get_mut</code><a class="headerlink" href="#get_mut" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">rc</span><span class="p">::</span><span class="n">Rc</span><span class="p">;</span>
 <span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">  </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
@@ -17354,7 +17410,7 @@ They are defined in an <code>impl</code> block for the type and don't take <code
 <span class="w">  </span><span class="fm">assert_eq!</span><span class="p">(</span><span class="n">x</span><span class="p">,</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">5</span><span class="p">));</span>
 <span class="p">}</span>
 </code></pre></div>
-<h2 id="how-to-use">How to use</h2>
+<h2 id="how-to-use">How to use<a class="headerlink" href="#how-to-use" title="Permanent link">¶</a></h2>
 <p></p><div class="highlight"><pre><span></span><code><span class="k">use</span><span class="w"> </span><span class="n">std</span><span class="p">::</span><span class="n">rc</span><span class="p">::</span><span class="n">Rc</span><span class="p">;</span>
 <span class="k">fn</span><span class="w"> </span><span class="nf">main</span><span class="p">()</span><span class="w"> </span><span class="p">{</span>
 <span class="w">    </span><span class="kd">let</span><span class="w"> </span><span class="k">mut</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="n">Rc</span><span class="p">::</span><span class="n">new</span><span class="p">(</span><span class="mi">3</span><span class="p">);</span>
@@ -17376,13 +17432,13 @@ Here is the concept <a href="/docs/topics/language/rust/general.md#here-is-the-c
 The <code>node</code> is "Container Operand". The container is because it encapsulates or pointers to the actual data of interest, often requiring dereferencing to reach that data.
 <code>borrow_mut</code> is th <code>field</code>.
 Autoderef is Rust's process of automatically dereferencing a container operand (by <code>Deref</code> or <code>DerefMut</code>) as many times as needed to make a filed access or method call valid.
-<h1 id="why-need-rc-rather-direct-">Why need Rc rather direct &amp;</h1>
+<h1 id="why-need-rc-rather-direct-">Why need Rc rather direct &amp;<a class="headerlink" href="#why-need-rc-rather-direct-" title="Permanent link">¶</a></h1>
 <p><code>&amp;</code> only has one oewner, and <code>Rc</code> can create multi owners.
 Reference is tied to the lifetime of the original vairbale, if the owner goes out of scope, the reference is invalid.  <code>Rc</code> the data lives as long as any <code>Rc</code> reference exists, decoupling it from the original scope.</p>
-<h1 id="the-data-rc-managed-is-always-allocated-on-the-heap">The data <code>Rc</code> managed is always allocated on the heap</h1>
-<h1 id="weak-weak-reference"><code>Weak&lt;T&gt;</code> Weak reference</h1>
+<h1 id="the-data-rc-managed-is-always-allocated-on-the-heap">The data <code>Rc</code> managed is always allocated on the heap<a class="headerlink" href="#the-data-rc-managed-is-always-allocated-on-the-heap" title="Permanent link">¶</a></h1>
+<h1 id="weak-weak-reference"><code>Weak&lt;T&gt;</code> Weak reference<a class="headerlink" href="#weak-weak-reference" title="Permanent link">¶</a></h1>
 <p>A weak reference in Rust is a non-owning reference to data managed by an Rc</p>
-<h1 id="memory-layout">Memory Layout</h1></div>
+<h1 id="memory-layout">Memory Layout<a class="headerlink" href="#memory-layout" title="Permanent link">¶</a></h1></div>
 
 
 

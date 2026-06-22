@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17362,9 +17418,9 @@
 
 
 
-<div><h1 id="pre-commit"><a href="https://pre-commit.com/">pre-commit</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="pre-commit"><a href="https://pre-commit.com/">pre-commit</a><a class="headerlink" href="#pre-commit" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<h2 id="pre-commit的自动修复流程">pre-commit的自动修复流程</h2>
+<h2 id="pre-commit的自动修复流程">pre-commit的自动修复流程<a class="headerlink" href="#pre-commit%E7%9A%84%E8%87%AA%E5%8A%A8%E4%BF%AE%E5%A4%8D%E6%B5%81%E7%A8%8B" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="m">1</span>.<span class="w"> </span>如果发现未staged的内容会自动git<span class="w"> </span>stash暂存<span class="o">(</span>在pre-commit运行初识只进行一次全局stash<span class="o">)</span>
 <span class="m">2</span>.<span class="w"> </span>运行自动修复
 <span class="m">3</span>.<span class="w"> </span>git<span class="w"> </span>stash<span class="w"> </span>pop<span class="w"> </span>拿出暂存的环节
@@ -17372,26 +17428,26 @@
 <span class="c1"># 这个问题出现，是因为pre-commit自动修复的部分，不会自动git add，运行一次pre-commit完成自动修改，再次运行pre-commit此时文件内容是修复后的与之前git add的未修复内容出现冲突，所以会自动git stash修复内容，仓库内容再次成为git add之后的未修复内容，再次发生pre-commit自动修复？但此时自动修复后的内容不就是跟git stash的内容一样么？(这个暂时没解决)</span>
 <span class="c1"># 想要查看哪些内容修改： git status ;  git diff</span>
 </code></pre></div>
-<h2 id="pre-commit-best-practice">pre-commit Best Practice</h2>
+<h2 id="pre-commit-best-practice">pre-commit Best Practice<a class="headerlink" href="#pre-commit-best-practice" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>为避免上述问题，pre-commit的best<span class="w"> </span>practice不是等git<span class="w"> </span>commit被动调动，而是pre-commit<span class="w"> </span>run<span class="w"> </span>--all-files<span class="o">(</span>从.git根目录开始recursively<span class="w"> </span>check<span class="w"> </span>all<span class="w"> </span>files<span class="o">)</span>
 </code></pre></div>
-<h2 id="pre-commit-configyaml定义pre-commit的行为"><code>.pre-commit-config.yaml</code>定义pre-commit的行为</h2>
-<h2 id="pre-commit-sample-config--pre-commit-configyaml"><code>pre-commit sample-config &gt; .pre-commit-config.yaml</code></h2>
+<h2 id="pre-commit-configyaml定义pre-commit的行为"><code>.pre-commit-config.yaml</code>定义pre-commit的行为<a class="headerlink" href="#pre-commit-configyaml%E5%AE%9A%E4%B9%89pre-commit%E7%9A%84%E8%A1%8C%E4%B8%BA" title="Permanent link">¶</a></h2>
+<h2 id="pre-commit-sample-config--pre-commit-configyaml"><code>pre-commit sample-config &gt; .pre-commit-config.yaml</code><a class="headerlink" href="#pre-commit-sample-config--pre-commit-configyaml" title="Permanent link">¶</a></h2>
 <p>生成模板配置文件</p>
-<h2 id="pre-commit-install"><code>pre-commit install</code></h2>
+<h2 id="pre-commit-install"><code>pre-commit install</code><a class="headerlink" href="#pre-commit-install" title="Permanent link">¶</a></h2>
 <p>用于在本地仓库中安装Git hooks，会在.git/hooks/目录下创建一个名为pre-commit的hook script，这个脚本会在每次<code>git commit</code>时候触发，执行<code>.pre-commit-config.yaml</code>中定义的检查。
 没有配置文件也可以install，但git commit时候不触发任何检查，并提醒没有配置文件。</p>
-<h2 id="pre-commit配置文件修改后并不需要更新githookspre-commit文件">pre-commit配置文件修改后并不需要更新.git/hooks/pre-commit文件</h2>
+<h2 id="pre-commit配置文件修改后并不需要更新githookspre-commit文件">pre-commit配置文件修改后并不需要更新.git/hooks/pre-commit文件<a class="headerlink" href="#pre-commit%E9%85%8D%E7%BD%AE%E6%96%87%E4%BB%B6%E4%BF%AE%E6%94%B9%E5%90%8E%E5%B9%B6%E4%B8%8D%E9%9C%80%E8%A6%81%E6%9B%B4%E6%96%B0githookspre-commit%E6%96%87%E4%BB%B6" title="Permanent link">¶</a></h2>
 <p>后者只是一个触发器，会基于配置文件的内容执行</p>
-<h1 id="配合flake8">配合flake8</h1>
+<h1 id="配合flake8">配合flake8<a class="headerlink" href="#%E9%85%8D%E5%90%88flake8" title="Permanent link">¶</a></h1>
 <p>pre-commit会默认从运行命令的当前文件夹里寻找.flake8文件；
 如果根目录和submodule都需要，可以通过<code>args: [--config=absoluate_path/.flake8]</code></p>
-<h1 id="配合ruff">配合ruff</h1>
+<h1 id="配合ruff">配合ruff<a class="headerlink" href="#%E9%85%8D%E5%90%88ruff" title="Permanent link">¶</a></h1>
 <p>pre-commit-config中的args定义是传递给pre-commit使用，是pre-commit的工作流程，不是ruff的配置；
 而pyproject.toml中ruff的配置，是配置ruff的运行规则；</p>
-<h1 id="error">Error</h1>
-<h2 id="warning-unstaged-files-detected"><code>[WARNING] Unstaged files detected.</code></h2>
-<h1 id="pre-commit执行工作流">pre-commit执行工作流</h1>
+<h1 id="error">Error<a class="headerlink" href="#error" title="Permanent link">¶</a></h1>
+<h2 id="warning-unstaged-files-detected"><code>[WARNING] Unstaged files detected.</code><a class="headerlink" href="#warning-unstaged-files-detected" title="Permanent link">¶</a></h2>
+<h1 id="pre-commit执行工作流">pre-commit执行工作流<a class="headerlink" href="#pre-commit%E6%89%A7%E8%A1%8C%E5%B7%A5%E4%BD%9C%E6%B5%81" title="Permanent link">¶</a></h1>
 <ul>
 <li>pre-commit在本地执行
 执行的工作本质也可以放在github action这样的云端</li>
@@ -17401,7 +17457,7 @@
 <li>pre-commit会在运行的当前目录下寻找
 如果要在子目录，比如submodule中使用pre-commit，需要显式指定配置文件<code>--config</code>;</li>
 </ul>
-<h2 id="同一个项目里不同submodule里的pre-commit可能会冲突导致initializing卡住">同一个项目里不同submodule里的pre-commit可能会冲突，导致initializing卡住</h2>
+<h2 id="同一个项目里不同submodule里的pre-commit可能会冲突导致initializing卡住">同一个项目里不同submodule里的pre-commit可能会冲突，导致initializing卡住<a class="headerlink" href="#%E5%90%8C%E4%B8%80%E4%B8%AA%E9%A1%B9%E7%9B%AE%E9%87%8C%E4%B8%8D%E5%90%8Csubmodule%E9%87%8C%E7%9A%84pre-commit%E5%8F%AF%E8%83%BD%E4%BC%9A%E5%86%B2%E7%AA%81%E5%AF%BC%E8%87%B4initializing%E5%8D%A1%E4%BD%8F" title="Permanent link">¶</a></h2>
 <p>通过将.pre-commit-config.yaml放置在项目根目录下面，在submoudle中install然后指定--config文件使用pre-commit run，在对应hooks中修改--config参数指定配置文件。</p></div>
 
 

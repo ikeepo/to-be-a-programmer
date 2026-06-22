@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,11 +17243,11 @@
 
 
 
-<div><h1 id="refcell"><a href="https://doc.rust-lang.org/std/cell/struct.RefCell.html">RefCell</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="refcell"><a href="https://doc.rust-lang.org/std/cell/struct.RefCell.html">RefCell</a><a class="headerlink" href="#refcell" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
 <p>A mutable memory location with dynamically checked borrow rules.
 You can have many immutable references or one mutable reference, but not both at the same time. The <code>RefCell</code> check this on runtime rather compiler time.</p>
-<h1 id="concepts">Concepts</h1>
+<h1 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h1>
 <ul>
 <li>dynamically checked
 Dynamically means it's something happened at runtime.
@@ -17200,13 +17256,13 @@ Statically means it's on the compiler time.</li>
 it refers to temporarily using a reference to a memory location without taking owenership of it.
 Ownership in here means being responsible for managing that memory.</li>
 </ul>
-<h2 id="defination">Defination</h2>
+<h2 id="defination">Defination<a class="headerlink" href="#defination" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nc">RefCell</span><span class="o">&lt;</span><span class="n">T</span><span class="o">&gt;</span>
 <span class="k">where</span>
 <span class="w">    </span><span class="n">T</span><span class="p">:</span><span class="w"> </span><span class="o">?</span><span class="nb">Sized</span><span class="p">,</span>
 <span class="p">{</span><span class="w"> </span><span class="cm">/* private fields */</span><span class="w"> </span><span class="p">}</span>
 </code></pre></div>
-<h5 id="what-the-structure-mean">What the Structure mean</h5>
+<h5 id="what-the-structure-mean">What the Structure mean<a class="headerlink" href="#what-the-structure-mean" title="Permanent link">¶</a></h5>
 <p><code>where</code> clause in Rust used to specify constraits on generic type parameters.
 since it's either sized or unsized, why need here.
 The <code>Sized</code> is default implemented, so here is relaxing it.</p></div>

@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,7 +17243,7 @@
 
 
 
-<div><h1 id="stdboxed"><a href="https://doc.rust-lang.org/std/boxed/struct.Box.html">std::boxed</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="stdboxed"><a href="https://doc.rust-lang.org/std/boxed/struct.Box.html">std::boxed</a><a class="headerlink" href="#stdboxed" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
 <p></p><div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">struct</span><span class="w"> </span><span class="nb">Box</span><span class="o">&lt;</span><span class="n">T</span><span class="p">,</span><span class="w"> </span><span class="n">A</span><span class="o">=</span><span class="n">Global</span><span class="o">&gt;</span><span class="p">(</span><span class="cm">/*private fields*/</span><span class="p">)</span>
 <span class="k">where</span>
@@ -17196,10 +17252,10 @@
 </code></pre></div>
 A pointer type uniquely owns a heap allocation of type T.
 It provides the simplest form of heap allocation in Rust. Boxes also ensure that they never allocate more than <code>isize::MAX</code> bytes.
-<h1 id="box-vs-rc"><code>Box</code> vs <code>Rc</code></h1>
+<h1 id="box-vs-rc"><code>Box</code> vs <code>Rc</code><a class="headerlink" href="#box-vs-rc" title="Permanent link">¶</a></h1>
 <p><code>Box</code> provides exclusive ownership of the data on the heap.
 Exclusive ownership means that a single variable has complete control over a piece of data at any given time.</p>
-<h1 id="allocator">Allocator</h1>
+<h1 id="allocator">Allocator<a class="headerlink" href="#allocator" title="Permanent link">¶</a></h1>
 <p><code>A</code> is an optional generic parameter representing the allocator used to manage the memory. It defaults to <code>Global</code> which is the default global allocator provided by Rust.
 <code>Allocator</code> is the trait bound on the A parameter.</p></div>
 

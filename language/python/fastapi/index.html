@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17185,9 +17241,9 @@
 
 
 
-<div><h1 id="fastapi">FastAPI</h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="fastapi">FastAPI<a class="headerlink" href="#fastapi" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<h1 id="concepts">Concepts</h1>
+<h1 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h1>
 <ul>
 <li><code>path operation function</code>
 A python function defines the logic for handling a specific HTTP request.
@@ -17196,12 +17252,12 @@ A python function defines the logic for handling a specific HTTP request.
   <span class="k">return</span> <span class="p">{</span><span class="s2">"ping"</span><span class="p">:</span><span class="s2">"pong"</span><span class="p">}</span>
 </code></pre></div></li>
 </ul>
-<h1 id="dependency-injection1">Dependency Injection[^1]</h1>
+<h1 id="dependency-injection1">Dependency Injection[^1]<a class="headerlink" href="#dependency-injection1" title="Permanent link">¶</a></h1>
 <ul>
 <li><code>settings: Settings = Depends(get_settings) vs settings: Settings = get_settings()</code>
 First is Dependency Injection, run on request, later is run at module load.</li>
 </ul>
-<h2 id="cros">CROS</h2>
+<h2 id="cros">CROS<a class="headerlink" href="#cros" title="Permanent link">¶</a></h2>
 <p>端口不同 = 不同 Origin</p>
 <p>浏览器阻止了你的请求，因为 后端没有允许跨域访问。</p>
 <p>Preflight Request， 浏览器先问后端：我能不能从 3000 访问你？”</p>
@@ -17219,7 +17275,7 @@ app.add_middleware<span class="o">(</span>
 <span class="w">        </span><span class="s2">"http://localhost:3000/"</span>
 <span class="w">        </span><span class="o">]</span>,<span class="w">  </span><span class="c1"># 或 ["*"] 允许所有</span>
 </code></pre></div>
-<h1 id="refs">Refs</h1>
+<h1 id="refs">Refs<a class="headerlink" href="#refs" title="Permanent link">¶</a></h1>
 <p>[^1] <a href="https://fastapi.tiangolo.com/tutorial/dependencies/">FastAPI Dependency</a></p></div>
 
 

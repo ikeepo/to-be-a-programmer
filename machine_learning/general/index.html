@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17183,11 +17239,11 @@
 
 
 
-<div><h1 id="ml-for-quant">ML for Quant</h1><p style="color:#bdbdbd"><i>Estimated time to read: 5 minutes</i></p>
+<div><h1 id="ml-for-quant">ML for Quant<a class="headerlink" href="#ml-for-quant" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 5 minutes</i></p>
 
 <p>Things need to be done not because it's absolutely right or good, just because it have relative value for users.
 And this is enough for sell product to the user.</p>
-<h1 id="cognition">Cognition</h1>
+<h1 id="cognition">Cognition<a class="headerlink" href="#cognition" title="Permanent link">¶</a></h1>
 <ul>
 <li>Deep isn't deeper understanding; rather, stands for successive layers of representations. layered representations learning.</li>
 <li>Learning: a way to measure whether the algorithm is doing a good job is the distance between the algorithm's current output and its expected output, this feedback adjusts the algorithm's performance, which is called learning.</li>
@@ -17196,40 +17252,40 @@ Residual残差， <code>Mean Squared Error = Rss / n</code>;</li>
 <li>vector^T
 Transpose，</li>
 </ul>
-<h1 id="concepts">Concepts</h1>
-<h3 id="gradient">Gradient</h3>
+<h1 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h1>
+<h3 id="gradient">Gradient<a class="headerlink" href="#gradient" title="Permanent link">¶</a></h3>
 <p>Gradient is a VECTOR that represents the DIRECTION and RATE of the steepest increase of a function.
 Each component is a partial derivative, showing how the function changes with respect to (x) and (y);
 The gradient points in the direction of maximum increase and its magnitude indicates how steep that increase is.</p>
-<h3 id="learning-ratestepsizeη">Learning Rate(Stepsize)<code>η</code></h3>
+<h3 id="learning-ratestepsizeη">Learning Rate(Stepsize)<code>η</code><a class="headerlink" href="#learning-ratestepsize%CE%B7" title="Permanent link">¶</a></h3>
 <p>dynamic learning rate will decrease over time. <code>α/τ</code>
 - too small would slow converging
 - too large would be overshooting, potentially missing the minimum or diverging.</p>
-<h3 id="gradient-descent">Gradient Descent</h3>
+<h3 id="gradient-descent">Gradient Descent<a class="headerlink" href="#gradient-descent" title="Permanent link">¶</a></h3>
 <p>GD is an optimization algorithm commonly used in ML - typically a loss or cost function - by iteratively adjusting the parameters of a model.
 1. Objective, a cost function <code>J(θ)</code> which variables represent the parameters you want to optimize.
 2. Gradient Calculation: gradient the vector of partial derivatives with respect to each parameter. This gradient points in the direction of the steepest increase of <code>J(θ)</code>;
 3. Step in Opposite Direction: <code>θ = θ - η*δJ(θ)</code> which <code>η</code> is called <code>Learning Rate</code>， a small positive number that controls the step size.
 4. Iterate: Repeat the process until the paramters converge to a point where the gradient is near zero or a stopping criterion is met.</p>
-<h3 id="convergence">Convergence</h3>
+<h3 id="convergence">Convergence<a class="headerlink" href="#convergence" title="Permanent link">¶</a></h3>
 <p>stop learning when :
 1. changes in J(θ) or θ become negligible
 2. after a set number of iterations
 3. meet a stopping criterion</p>
-<h3 id="batch-gradient-descent-vs-gd">Batch Gradient Descent vs GD</h3>
+<h3 id="batch-gradient-descent-vs-gd">Batch Gradient Descent vs GD<a class="headerlink" href="#batch-gradient-descent-vs-gd" title="Permanent link">¶</a></h3>
 <p>BGD uses the entire dataset to compute the gradient of the cost function in each iteration.
 It calculate the gradient by averaging the contributions of all data points.
 GD is normally the BGD;
 SGD Stochastic Gradient Descent uses just one data point;
 Mini-Batch GD uses a small subset of the dataset ;</p>
-<h3 id="loss-or-cost-function">Loss or Cost function</h3>
+<h3 id="loss-or-cost-function">Loss or Cost function<a class="headerlink" href="#loss-or-cost-function" title="Permanent link">¶</a></h3>
 <p>cost function is typically the aggregate or average of the loss function over the entire dataset.</p>
-<h1 id="analytical-approach">Analytical Approach</h1>
+<h1 id="analytical-approach">Analytical Approach<a class="headerlink" href="#analytical-approach" title="Permanent link">¶</a></h1>
 <p>it refers to solving a problem - here, finding the optimal parametrs that minimize a loss function - by using exact mathematical formulas, rather than numerical or iterative methods like GD.</p>
-<h3 id="magnitude">Magnitude</h3>
+<h3 id="magnitude">Magnitude<a class="headerlink" href="#magnitude" title="Permanent link">¶</a></h3>
 <p>Maganitudes is a scalar value which typically refers to the size or length of the gradient vector, which indicates how steep (steepness) the cost function is at a given point.
 It's the Euclidean norm (or length) of the vector;   <code>∣∇J(θ)∣=(∂J∂θ1)2+(∂J∂θ2)2+…</code></p>
-<h4 id="norm">norm</h4>
+<h4 id="norm">norm<a class="headerlink" href="#norm" title="Permanent link">¶</a></h4>
 <p>A norm is a function that measures the size or length of a vector in a vector space.
 It's a way to quantify how big or significant a vector is, generalizing the idea of distance or magnitude.
 The Edlidean norm is one specific type of norm, commonly used because it corresonds to the straight-line distance we're familiar with in everyday geometry.
@@ -17237,7 +17293,7 @@ A norm is a ruler for vectors.
 The norm comes from Latin norma, means a carpenter's square or rule - a tool for measuring or setting a standard. By the 17th century, it evolved in English to mean a standard or pattern .
 Norm is neutral, technical term focused on measurement, not authority or personality like King or boss.
 In the 19th, mathematicians adopted norm to describe a function that measures size or length in a sonsistent, standardized way, aligning with its meaning as a rule or measure.</p>
-<h3 id="correlation">correlation</h3>
+<h3 id="correlation">correlation<a class="headerlink" href="#correlation" title="Permanent link">¶</a></h3>
 <ul>
 <li>correlation
 it's relationship between two variables- how they move together .</li>
@@ -17247,16 +17303,16 @@ It is the precise metric that measure correlation.
 Coefficient is just a number that tells you sth speficic about a relationship .
 It's term mathematicians have long used for numbers that describe a specific peroperty or relationship in a formula.</li>
 </ul>
-<h3 id="bias---variance">Bias - Variance</h3>
-<h4 id="bias">Bias</h4>
+<h3 id="bias---variance">Bias - Variance<a class="headerlink" href="#bias---variance" title="Permanent link">¶</a></h3>
+<h4 id="bias">Bias<a class="headerlink" href="#bias" title="Permanent link">¶</a></h4>
 <p>Bias is the error due to overly simple assumptions in the model.</p>
-<h4 id="variance">Variance</h4>
+<h4 id="variance">Variance<a class="headerlink" href="#variance" title="Permanent link">¶</a></h4>
 <p>It is the error due to sensitivity to small changes in the training data.
 Variance means how much sth changes or varies.
 In ML, it's about how much a model's predictions wiggle when you give it slightly different training data.</p>
-<h3 id="propagation">Propagation</h3>
+<h3 id="propagation">Propagation<a class="headerlink" href="#propagation" title="Permanent link">¶</a></h3>
 <p>Propagation in neural networks often refers to how information (inputs, gradients) moves through the network - forward propagation (predictions) or backward propagation (gradients for learning).</p>
-<h3 id="epoch">Epoch</h3>
+<h3 id="epoch">Epoch<a class="headerlink" href="#epoch" title="Permanent link">¶</a></h3>
 <p>An epoch refers to one complete pass through the entire training dataset during the training of your neural network.
 - why?
 The model sees the data once, which is usually not enough to learn intricate patterns.

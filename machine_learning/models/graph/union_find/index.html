@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,29 +17243,29 @@
 
 
 
-<div><h1 id="union-find">Union Find</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="union-find">Union Find<a class="headerlink" href="#union-find" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <p>Disjoint-Set  or Merge-Find, for solving dynamic connectivity problem</p>
-<h1 id="dynamic-connectivity-problem">dynamic connectivity problem</h1>
+<h1 id="dynamic-connectivity-problem">dynamic connectivity problem<a class="headerlink" href="#dynamic-connectivity-problem" title="Permanent link">¶</a></h1>
 <p>Elements are grouped into sets based on connectivity, initially, each element is in its own set.</p>
 <p>Dynamic means the connection is removed or added dynamically.</p>
-<h1 id="disjoint-set">Disjoint-Set</h1>
+<h1 id="disjoint-set">Disjoint-Set<a class="headerlink" href="#disjoint-set" title="Permanent link">¶</a></h1>
 <p>A data structure used to manage a collection of non-overlapping sets.</p>
 <p>Typically implemented using a forest of tree, where each tree represents a set, and the root of the tree is the representative ( or 'parent') of the set.</p>
-<h3 id="union">Union</h3>
+<h3 id="union">Union<a class="headerlink" href="#union" title="Permanent link">¶</a></h3>
 <p>It merges two sets (groups of elements) that contain the given elements, regard of there values or types.</p>
 <p>Not about identical, could be different, Union simply groups their sets together.</p>
-<h3 id="find">Find</h3>
+<h3 id="find">Find<a class="headerlink" href="#find" title="Permanent link">¶</a></h3>
 <p>It identifies the representative(or root) of the set that an element belongs to.</p>
 <p>If two elements have the same root, Find returns the same value for both.</p>
 <p>Not about identical too. Just find element's root.</p>
-<h3 id="path-compression">Path Compression</h3>
+<h3 id="path-compression">Path Compression<a class="headerlink" href="#path-compression" title="Permanent link">¶</a></h3>
 <p>Optimization for Find, flatten tree structure of a set duing a Find operation.</p>
-<h3 id="root">Root</h3>
+<h3 id="root">Root<a class="headerlink" href="#root" title="Permanent link">¶</a></h3>
 <p>the parent of a node is itself, then it is a root;</p>
-<h3 id="parent-pointers">Parent Pointers</h3>
+<h3 id="parent-pointers">Parent Pointers<a class="headerlink" href="#parent-pointers" title="Permanent link">¶</a></h3>
 <p>value in parent array, it means point to that node as its parent.</p>
-<h1 id="procedure">Procedure</h1>
+<h1 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">¶</a></h1>
 <ul>
 <li>
 <p>MakeSet(x): x as its own set root and rank 0</p>

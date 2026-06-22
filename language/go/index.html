@@ -5570,6 +5570,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17372,7 +17428,7 @@
 
 
 
-<div><h1 id="go"><a href="https://go.dev/learn/">Go</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 4 minutes</i></p>
+<div><h1 id="go"><a href="https://go.dev/learn/">Go</a><a class="headerlink" href="#go" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 4 minutes</i></p>
 
 <p><a href="https://go.dev/doc/manage-install">Install multiple Go versions</a>
 You need to download first, <a href="https://go.dev/dl/">all releases</a>.
@@ -17382,15 +17438,15 @@ source .profile
 go version
 </code></pre></div>
 Acquire skills from the <a href="https://gobyexample.com/">example</a>;
-<h2 id="why-for-has-multiple-implemented-method">Why <code>for</code> has multiple implemented method</h2>
+<h2 id="why-for-has-multiple-implemented-method">Why <code>for</code> has multiple implemented method<a class="headerlink" href="#why-for-has-multiple-implemented-method" title="Permanent link">¶</a></h2>
 <p>Business logic</p>
-<h2 id="func-self-trader-name"><code>func (self *Trader) name(){}</code></h2>
+<h2 id="func-self-trader-name"><code>func (self *Trader) name(){}</code><a class="headerlink" href="#func-self-trader-name" title="Permanent link">¶</a></h2>
 <p>This is receiver clause, making this a method attached to the Trader type.
 <code>self</code> is just a convention which can be changed to anyword used to represents the instance of Trader.
 <code>*Trader</code> a pointer to a Trade struct or type.</p>
-<h3 id="why-use-pointer-here">why use pointer here?</h3>
+<h3 id="why-use-pointer-here">why use pointer here?<a class="headerlink" href="#why-use-pointer-here" title="Permanent link">¶</a></h3>
 <p>Pointer Receiver,</p>
-<h3 id="receiver">Receiver</h3>
+<h3 id="receiver">Receiver<a class="headerlink" href="#receiver" title="Permanent link">¶</a></h3>
 <p>In go, a receiver is a special parameter in a method declaration that ties the method to a a specific type.
 It's what makes a function a "method" rather than a standalone function.</p>
 <ul>
@@ -17404,40 +17460,40 @@ Modifications are reflected in the caller’s Trader.</p>
 The method works with a duplicate of the originial Trader, so modifications to self inside the method don't affect the caller's instance.</p>
 </li>
 </ul>
-<h2 id="reflected">reflected</h2>
+<h2 id="reflected">reflected<a class="headerlink" href="#reflected" title="Permanent link">¶</a></h2>
 <p>In programming, when we say modifications are "reflected" in the caller's object, it means that any changes made to the object inside a function or method persist ouside that function.
 The caller sees those changes.
 This happens because the method is working directly with the originial object via a reference or pointer rather than a copy.</p>
-<h2 id="reference-vs-pointer">Reference vs Pointer</h2>
+<h2 id="reference-vs-pointer">Reference vs Pointer<a class="headerlink" href="#reference-vs-pointer" title="Permanent link">¶</a></h2>
 <p>A pointer is an explicit variable that holds the memory address of another variable. It's a low-level concept borrewed from language like C.
 A reference is a higher-level abstraction in many language. It's an alias or handle to an existing variable, often managed by the language to hide raw memory addresses from the programmer.
 Go doesn't have "reference" as a distinct language feature.</p>
-<h1 id="build-in">Build In</h1>
-<h2 id="make-vs-new">make vs new</h2>
+<h1 id="build-in">Build In<a class="headerlink" href="#build-in" title="Permanent link">¶</a></h1>
+<h2 id="make-vs-new">make vs new<a class="headerlink" href="#make-vs-new" title="Permanent link">¶</a></h2>
 <p>make is specifically designed to create and initialize certain built-in types that can't be fully set up with just a literal or declaration.
 <code>new</code> creates a zeroed instance of a type and gives you a pointer to it.
 <code>make</code> creates a fully initialzed, usable instance of slices, maps or channels - types that need more than just zeroing.
 <code>make</code> returns the instance which require initialization beyond zeroing.
 <code>new</code> returns a pointer leaving initialization to you.</p>
-<h5 id="zeroes-the-memory-vs-initialize">zeroes the memory vs initialize</h5>
+<h5 id="zeroes-the-memory-vs-initialize">zeroes the memory vs initialize<a class="headerlink" href="#zeroes-the-memory-vs-initialize" title="Permanent link">¶</a></h5>
 <p>Zeroes the Memory sets all the bytes of a memory block to zero, it's a basic, minimal setup - nothing more than clearing the slate.
 Initialize prepares a data structure for use by setting it up with specific values or internal state beyond just zeroing.
 Some types(slices, maps, channels) are unusable as just zero values - they need structure to function.</p>
-<h2 id="chan">chan</h2>
+<h2 id="chan">chan<a class="headerlink" href="#chan" title="Permanent link">¶</a></h2>
 <p>chan is a keyword in Go that defines a channel type.
 Channels are a core feature of Go's concurrency model, used for communication and synchronization between goroutines.</p>
-<h2 id="goroutine">goroutine</h2>
+<h2 id="goroutine">goroutine<a class="headerlink" href="#goroutine" title="Permanent link">¶</a></h2>
 <p><code>go func()</code></p>
-<h5 id="goroutine-vs-coroutine-in-python">goroutine vs coroutine in Python</h5>
+<h5 id="goroutine-vs-coroutine-in-python">goroutine vs coroutine in Python<a class="headerlink" href="#goroutine-vs-coroutine-in-python" title="Permanent link">¶</a></h5>
 <p>goroutine is lightweight threads managed by the Go runtime, not the OS. It's fully concurrent - gotoutines run independently and can execute in parallel on multiple CPU cores.
 goroutines are typically communicate with each other by cahnnels, enabling safe data exchange without locks.
 Coroutines are single-threaded and cooperative - coroutines run in one thread and yield control explicitly at <code>await</code>. No true parallelism unless combined with threads or processes.</p>
-<h2 id="channels">channels</h2>
+<h2 id="channels">channels<a class="headerlink" href="#channels" title="Permanent link">¶</a></h2>
 <p>Its purpose is enabling goroutines to share data safely without locks, embodying Go's "don't communicate by shareing memory; share memory by communicating" philosophy.
 channel as a Mediator:
 - Above Memeory: channels sit "above" raw memory, instead of goroutines accessing a shared variable directly, they interact via the channel. The channel manages the meory and ensures safe access.
 - Data Flow: send and receive.  What's more important is that the channel powers the layer concept, pass the data one layer to another.</p>
-<h5 id="multichanel">multichanel</h5>
+<h5 id="multichanel">multichanel<a class="headerlink" href="#multichanel" title="Permanent link">¶</a></h5>
 <p><code>single channel = list + lock + cond_var</code>
 <code>multiple channels</code> follow some business logic to make data flow.
 对于数据处理场景，当数据需要在多个业务逻辑链条内进行逐层使用时候，因为通过函数调用方式一次只能走一条逻辑链，这就导致逻辑链条的复杂、混乱而难以管理。用channel管理逻辑链条更加清晰明确，特别是多条、多层次的业务逻辑。
@@ -17445,13 +17501,13 @@ channel as a Mediator:
 通过channel，数据的传递（业务逻辑的展开）是隐性的，不需要函数有返回值，函数只实现具体的业务逻辑。
 函数对数据的需求通过channel获取，也不需要显式传入。
 channel类似深埋地底的电缆，传递各种数据，表面干净整齐，只需要有几个地表监视节点；传参类似地面的电线，杂乱。</p>
-<h1 id="error">Error</h1>
+<h1 id="error">Error<a class="headerlink" href="#error" title="Permanent link">¶</a></h1>
 <ul>
 <li><code>@Win:~$ /usr/local/go/bin/go
 -bash: /usr/local/go/bin/go: cannot execute binary file: Exec format error</code>
 Wrong Architecture;</li>
 </ul>
-<h1 id="_1"></h1></div>
+<h1 id="_1"><a class="headerlink" href="#_1" title="Permanent link">¶</a></h1></div>
 
 
 

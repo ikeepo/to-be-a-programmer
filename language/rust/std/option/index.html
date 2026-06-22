@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,18 +17243,18 @@
 
 
 
-<div><h1 id="stdoption"><a href="https://doc.rust-lang.org/std/option/enum.Option.html"><code>std::option</code></a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="stdoption"><a href="https://doc.rust-lang.org/std/option/enum.Option.html"><code>std::option</code></a><a class="headerlink" href="#stdoption" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
-<h1 id="enum-option"><code>Enum Option</code></h1>
-<h2 id="map"><a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.map">map</a></h2>
+<h1 id="enum-option"><code>Enum Option</code><a class="headerlink" href="#enum-option" title="Permanent link">¶</a></h1>
+<h2 id="map"><a href="https://doc.rust-lang.org/std/option/enum.Option.html#method.map">map</a><a class="headerlink" href="#map" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code><span class="k">pub</span><span class="w"> </span><span class="k">fn</span><span class="w"> </span><span class="nf">map</span><span class="o">&lt;</span><span class="n">U</span><span class="p">,</span><span class="w"> </span><span class="n">F</span><span class="o">&gt;</span><span class="p">(</span><span class="bp">self</span><span class="p">,</span><span class="w"> </span><span class="n">f</span><span class="p">:</span><span class="w"> </span><span class="nc">F</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nb">Option</span><span class="o">&lt;</span><span class="n">U</span><span class="o">&gt;</span>
 <span class="k">where</span>
 <span class="w">  </span><span class="n">F</span><span class="p">:</span><span class="w"> </span><span class="nb">FnOnce</span><span class="p">(</span><span class="n">T</span><span class="p">)</span><span class="w"> </span><span class="p">-&gt;</span><span class="w"> </span><span class="nc">U</span><span class="p">,</span>
 </code></pre></div>
-<h5 id="mut-option-as_ref--option"><code>&amp;mut Option&lt;Box&gt;. as_ref =&gt; Option&lt;&amp;Box&gt;</code></h5>
+<h5 id="mut-option-as_ref--option"><code>&amp;mut Option&lt;Box&gt;. as_ref =&gt; Option&lt;&amp;Box&gt;</code><a class="headerlink" href="#mut-option-as_ref--option" title="Permanent link">¶</a></h5>
 <p><code>as_ref()</code> abstracts over the reference type (whether it's <code>&amp;Optuon&lt;T&gt;</code> or <code>&amp;mut Option&lt;T&gt;</code>), producing an Option containing a reference to the inner value (T). The mutability of the origianl reference doesn't carry through to the result - it always give an immutable borrow;
 <code>r</code> is <code>&amp;mut Option&lt;Box&gt;</code> ,so <code>*r</code> will get <code>Option&lt;Box&gt;</code> which don't have <code>val</code> field, the <code>as_ref</code> convert <code>Option&lt;Box&gt; or &amp;mut Option&lt;Box&gt;</code> into <code>Option&lt;&amp;Box&gt;</code> which give you access to <code>val</code> field.</p>
-<h3 id="as_mut-vs-as_ref"><code>as_mut vs as_ref</code></h3>
+<h3 id="as_mut-vs-as_ref"><code>as_mut vs as_ref</code><a class="headerlink" href="#as_mut-vs-as_ref" title="Permanent link">¶</a></h3>
 <ul>
 <li><code>Option&lt;T&gt;::as_ref(&amp;self) -&gt; Option&lt;&amp;T&gt;</code>
 Borrows the inner value of an <code>Option</code> immutably, returning an Option containing an immutable reference to the inner value.</li>

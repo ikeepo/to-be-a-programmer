@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17376,9 +17432,9 @@
 
 
 
-<div><h1 id="mkdocs"><a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
+<div><h1 id="mkdocs"><a href="https://www.mkdocs.org/user-guide/writing-your-docs/">mkdocs</a><a class="headerlink" href="#mkdocs" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
-<h2 id="how-to-add-a-comment-module-in-mkdocs">How to add a comment module in mkdocs</h2>
+<h2 id="how-to-add-a-comment-module-in-mkdocs">How to add a comment module in mkdocs<a class="headerlink" href="#how-to-add-a-comment-module-in-mkdocs" title="Permanent link">¶</a></h2>
 <p><a href="https://github.com/giscus/giscus">giscus</a></p>
 <div class="highlight"><pre><span></span><code><span class="m">1</span>.<span class="w"> </span>Repo<span class="w"> </span>--&gt;<span class="w"> </span>Settings<span class="w"> </span>--&gt;<span class="w"> </span>General<span class="w"> </span>--&gt;<span class="w"> </span>Features<span class="w"> </span>--&gt;<span class="w"> </span>Discussion<span class="o">(</span>active<span class="o">)</span>
 <span class="m">2</span>.<span class="w"> </span>Install<span class="w"> </span>Github<span class="w"> </span>App<span class="w"> </span>giscus<span class="w"> </span>--&gt;<span class="w"> </span>access<span class="w"> </span>to<span class="w"> </span>the<span class="w"> </span>target<span class="w"> </span>repo<span class="p">;</span>
@@ -17411,8 +17467,8 @@ comments:<span class="w"> </span><span class="nb">false</span>
 ---
 </code></pre></div></li>
 </ul>
-<h2 id="markdown-extensions">markdown-extensions</h2>
-<h3 id="pymdownxtasklist">pymdownx.tasklist</h3>
+<h2 id="markdown-extensions">markdown-extensions<a class="headerlink" href="#markdown-extensions" title="Permanent link">¶</a></h2>
+<h3 id="pymdownxtasklist">pymdownx.tasklist<a class="headerlink" href="#pymdownxtasklist" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code>-<span class="w"> </span>markdown_extensions:
 <span class="w">  </span>-<span class="w"> </span>pymdownx.tasklist:
 <span class="w">      </span>custom_checkbox:<span class="w"> </span><span class="nb">true</span><span class="w">  </span><span class="c1"># Optional: Makes checkboxes look better</span>
@@ -17422,7 +17478,7 @@ comments:<span class="w"> </span><span class="nb">false</span>
 <li>How to add checkbox in mkdocs
 <code>- [x]</code></li>
 </ul>
-<h2 id="plugins">Plugins</h2>
+<h2 id="plugins">Plugins<a class="headerlink" href="#plugins" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://mkdocs-macros-plugin.readthedocs.io/en/latest/"> mkdocs </a>-macros-plugin  </li>
 </ul>
@@ -17447,17 +17503,17 @@ comments:<span class="w"> </span><span class="nb">false</span>
 <li><a href="https://github.com/timvink/mkdocs-git-revision-date-localized-plugin">git-revision-date-localized</a>
 display the date of the last git modification of a page.</li>
 </ul>
-<h2 id="how-to-publish-the-site-to-local-lan">How to publish the site to local LAN</h2>
+<h2 id="how-to-publish-the-site-to-local-lan">How to publish the site to local LAN<a class="headerlink" href="#how-to-publish-the-site-to-local-lan" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>ifconfig<span class="w"> </span>
 <span class="c1"># en0找到本地局域网ip,inet 后面192开头的</span>
 <span class="c1"># en0 表示以太网接口0，通常是wifi，如果连接了网线还会有en1 等</span>
 mkdocs<span class="w"> </span>serve<span class="w"> </span>-a<span class="w"> </span><span class="m">0</span>.0.0.0:8000<span class="w"> </span>
 <span class="c1"># 局域网内通过192...:8000访问</span>
 </code></pre></div>
-<h2 id="icons-in-mkdocs">icons in mkdocs</h2>
+<h2 id="icons-in-mkdocs">icons in mkdocs<a class="headerlink" href="#icons-in-mkdocs" title="Permanent link">¶</a></h2>
 <p>This is the domain of <a href="https://squidfunk.github.io/mkdocs-material/getting-started/">material for mkdocs</a>.
 How to use <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#with-colors-docsstylesheetsextracss">Icons, Emojis</a> can be found here. On the head of the page, there is a <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#search"><code>Search</code></a> input which is used to find the exact code for icons/emojis you need like <code>:smile:</code>, but you should set the <a href="https://squidfunk.github.io/mkdocs-material/reference/icons-emojis/#configuration">setting</a> first</p>
-<h1 id="errors">Errors</h1>
+<h1 id="errors">Errors<a class="headerlink" href="#errors" title="Permanent link">¶</a></h1>
 <ol>
 <li><code>could not determine a constructor for the tag 'tag:yaml.org,2002:python/name:material.extensions.emoji.twemoji'
   in "mkdocs.yml", line 14, column 20</code> happened in pre-commit
@@ -17466,7 +17522,7 @@ Same problem can be found in pre-commit issues <a href="https://github.com/pre-c
 args: [--unsafe]
 </code></pre></div></li>
 </ol>
-<h1 id="authntication">Authntication</h1>
+<h1 id="authntication">Authntication<a class="headerlink" href="#authntication" title="Permanent link">¶</a></h1>
 <blockquote>
 <p><a href="https://github.com/squidfunk/mkdocs-material/discussions/5875">Access private MkDocs after logging in #5875</a>  <a href="https://github.com/meadapt/login-static-site">OAuth2 Proxy</a>(Active)</p>
 </blockquote></div>

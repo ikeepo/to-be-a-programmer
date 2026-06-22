@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17396,18 +17452,18 @@
 
 
 
-<div><h1 id="first-step">First Step</h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="first-step">First Step<a class="headerlink" href="#first-step" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<h2 id="read-readmemd">Read Readme.md</h2>
+<h2 id="read-readmemd">Read Readme.md<a class="headerlink" href="#read-readmemd" title="Permanent link">¶</a></h2>
 <p>运行</p>
-<h2 id="questions">Questions</h2>
-<h3 id="why-use-tsc--b-before-build">why use <code>tsc -b</code> before build</h3>
+<h2 id="questions">Questions<a class="headerlink" href="#questions" title="Permanent link">¶</a></h2>
+<h3 id="why-use-tsc--b-before-build">why use <code>tsc -b</code> before build<a class="headerlink" href="#why-use-tsc--b-before-build" title="Permanent link">¶</a></h3>
 <p>Vite只strip类型标注，turn ts --&gt; js, 不管对错，只转换。</p>
 <p><code>tsc</code> works as type police for accuracy.</p>
-<h3 id="tsc的功能是将ts转成js">tsc的功能是将ts转成js</h3>
+<h3 id="tsc的功能是将ts转成js">tsc的功能是将ts转成js<a class="headerlink" href="#tsc%E7%9A%84%E5%8A%9F%E8%83%BD%E6%98%AF%E5%B0%86ts%E8%BD%AC%E6%88%90js" title="Permanent link">¶</a></h3>
 <p><code>-b</code> means build mode, it's for incremental compilation. 
 生成的文件位置取决于<code>tsconfig.json</code>中的配置，</p>
-<h3 id="如何理解这个tsconfigjson">如何理解这个tsconfig.json</h3>
+<h3 id="如何理解这个tsconfigjson">如何理解这个tsconfig.json<a class="headerlink" href="#%E5%A6%82%E4%BD%95%E7%90%86%E8%A7%A3%E8%BF%99%E4%B8%AAtsconfigjson" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code><span class="o">{</span>
 <span class="w">    </span><span class="s2">"files"</span>:<span class="w"> </span><span class="o">[]</span>,<span class="w">  </span><span class="c1"># 不要在这个根目录下寻找代码文件，去references找</span>
 <span class="w">    </span><span class="s2">"references"</span>:<span class="w"> </span><span class="o">[</span>
@@ -17420,10 +17476,10 @@
 <span class="w">    </span><span class="o">]</span>
 <span class="o">}</span>
 </code></pre></div>
-<h3 id="如何配置tsc只检查不生成js">如何配置<code>tsc</code>只检查不生成<code>js</code></h3>
+<h3 id="如何配置tsc只检查不生成js">如何配置<code>tsc</code>只检查不生成<code>js</code><a class="headerlink" href="#%E5%A6%82%E4%BD%95%E9%85%8D%E7%BD%AEtsc%E5%8F%AA%E6%A3%80%E6%9F%A5%E4%B8%8D%E7%94%9F%E6%88%90js" title="Permanent link">¶</a></h3>
 <p><code>tsconfig.app/node.json</code>中<code>noEmit: true</code>表示只检查ts格式，不生成js;相反如果是false且配置<code>outDir</code>，就会生成js。</p>
 <p>这是<code>vite</code>引导程序自动配置的，也就是说，是<code>vite</code>默认采用<code>tsc -b &amp;&amp; vite build</code>这个逻辑。</p>
-<h3 id="srcapptsx-vs-srcmaintsx"><code>src/App.tsx</code> vs <code>src/main.tsx</code></h3>
+<h3 id="srcapptsx-vs-srcmaintsx"><code>src/App.tsx</code> vs <code>src/main.tsx</code><a class="headerlink" href="#srcapptsx-vs-srcmaintsx" title="Permanent link">¶</a></h3>
 <p><code>main.tsx</code>是项目入口，<code>App.tsx</code>是前端React的入口。</p>
 <p>分开是为了保持文件指责的单一。</p>
 <p>这些也是<code>vite</code>默认配置。</p></div>

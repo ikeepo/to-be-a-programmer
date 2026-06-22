@@ -5465,6 +5465,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,18 +17243,18 @@
 
 
 
-<div><h1 id="day89">Day89</h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
+<div><h1 id="day89">Day89<a class="headerlink" href="#day89" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <blockquote>
 <p>11/05/2026</p>
 </blockquote>
-<h1 id="音节组边界对听力能力的影响">音节组边界对听力能力的影响</h1>
+<h1 id="音节组边界对听力能力的影响">音节组边界对听力能力的影响<a class="headerlink" href="#%E9%9F%B3%E8%8A%82%E7%BB%84%E8%BE%B9%E7%95%8C%E5%AF%B9%E5%90%AC%E5%8A%9B%E8%83%BD%E5%8A%9B%E7%9A%84%E5%BD%B1%E5%93%8D" title="Permanent link">¶</a></h1>
 <p>我现在的法语听力到了一种阶段：如果单独听，我应该是能听出来，但是因为音节组的构成是打破单词边界的，导致我自己组合的音节组跟实际听到的不一样，这样预测就会失败，如何解决这个问题？我知道应该更多的训练，但是如何让训练更高效。</p>
 <p>这个概念专业名词称为：<strong>语流切分能力（chunking + liaison + resyllabification）</strong>。</p>
-<h3 id="预测单位单词--音节组">预测单位：单词--音节组</h3>
+<h3 id="预测单位单词--音节组">预测单位：单词--音节组<a class="headerlink" href="#%E9%A2%84%E6%B5%8B%E5%8D%95%E4%BD%8D%E5%8D%95%E8%AF%8D--%E9%9F%B3%E8%8A%82%E7%BB%84" title="Permanent link">¶</a></h3>
 <p>不能让大脑形成“我听到的是被破坏的单词”，而是要重建“语音分词系统”；</p>
 <p>词典切分器 --&gt; 语音切分器，本质上是处理器用错了，所以需要重新训练一个新的预训练模型。</p>
-<h3 id="语音切分器训练方法">语音切分器训练方法</h3>
+<h3 id="语音切分器训练方法">语音切分器训练方法<a class="headerlink" href="#%E8%AF%AD%E9%9F%B3%E5%88%87%E5%88%86%E5%99%A8%E8%AE%AD%E7%BB%83%E6%96%B9%E6%B3%95" title="Permanent link">¶</a></h3>
 <ul>
 <li>单词听 --&gt; 音节写</li>
 </ul>
@@ -17218,7 +17274,7 @@
 </li>
 </ul>
 <p>这里训练的语言的预测系统，也是语言真实的使用模型</p>
-<h3 id="语音块的数量明显多余单词数量">语音块的数量明显多余单词数量</h3>
+<h3 id="语音块的数量明显多余单词数量">语音块的数量明显多余单词数量<a class="headerlink" href="#%E8%AF%AD%E9%9F%B3%E5%9D%97%E7%9A%84%E6%95%B0%E9%87%8F%E6%98%8E%E6%98%BE%E5%A4%9A%E4%BD%99%E5%8D%95%E8%AF%8D%E6%95%B0%E9%87%8F" title="Permanent link">¶</a></h3>
 <p>还有一个问题，当用单词切分，那只要记忆单词就可以，用语音块切分，就需要记忆更多的语音块，因为此构成语音块数量明显增加，这样是否增加记忆或者理解的负担。</p>
 <p>语音块的数量并不会指数级增长，是因为单词的组合并不是随机自由组合，而是有固定模式的，特定场景下，只会用到这么一两种组合。原本的单词切分模式，需要基于自由度重新预测组合，实际是增加了组合认知的成本。且存在一些组合出来与现实不相关的方式，也就是所谓“不地道”的表达，而真实的地道表达数量并不多。</p>
 <p>单词系统的处理路径远长于语音块系统。</p>
@@ -17238,9 +17294,9 @@
 <p>理论都是假设，对于语言系统来说，单词作为理解的最小单元只是一种经过验证的良好假设，但并不是真理，语言可以不用单词来切分，特别对于口语表达而言，本质上，口语就不是用单词切分的，是用语音块切分的，用单词切分，对于语言的传播、教学、文本、阅读、写作、思考，都有帮助，但是对于日常表达来说，单词数量过度、粒度过细，自由组合边界太大，对于初学者造成了认知负担。
 单词+语法是强绑定的、被普遍认可的语言理论分析框架，但是对于初级口语是低效且不准确的。</p>
 </div>
-<h1 id="记忆系统-vs-语言系统">记忆系统 VS 语言系统</h1>
+<h1 id="记忆系统-vs-语言系统">记忆系统 VS 语言系统<a class="headerlink" href="#%E8%AE%B0%E5%BF%86%E7%B3%BB%E7%BB%9F-vs-%E8%AF%AD%E8%A8%80%E7%B3%BB%E7%BB%9F" title="Permanent link">¶</a></h1>
 <p>还有一个问题，现在有时候，一句话，我连续听了多次，我感觉听懂了，但是我无法区分是真的懂了，还是因为我看过翻译了，我认为两种情况都是存在的，但是我无法区分他们的差异。</p>
-<h1 id="prompt">Prompt</h1>
+<h1 id="prompt">Prompt<a class="headerlink" href="#prompt" title="Permanent link">¶</a></h1>
 <p>再次修改：</p>
 <div class="highlight"><pre><span></span><code>Role:
 你是一位法语语言结构分析与自动化训练专家。
@@ -17321,7 +17377,7 @@ Task:
 目标：
 帮助建立“看到场景<span class="w"> </span>→<span class="w"> </span>自动调用chunk<span class="w"> </span>→<span class="w"> </span>输出句子”的法语自动化系统
 </code></pre></div>
-<h1 id="声音压缩识别">声音压缩识别</h1>
+<h1 id="声音压缩识别">声音压缩识别<a class="headerlink" href="#%E5%A3%B0%E9%9F%B3%E5%8E%8B%E7%BC%A9%E8%AF%86%E5%88%AB" title="Permanent link">¶</a></h1>
 <p>对于<code>est-ce celui</code>我没有听到<code>/ɛs.sə.lɥi/</code>而是<code>/ɛsyli/</code>。</p>
 <p>原因是没有建立<strong>法语语流压缩映射系统</strong>，目前是逐音素识别，听到的音是没错的，但那是压缩后的音素，所谓映射系统就是听到模糊音流自动恢复成合法法语。</p>
 <div class="highlight"><pre><span></span><code>声音<span class="w">                                      </span>声音轮廓
@@ -17331,10 +17387,10 @@ Task:
 失败<span class="w">                                      </span>自动补全
 </code></pre></div>
 <p>口语传递的不是字典标准IPA发音，而是声音的轮廓。</p>
-<h2 id="自然语言口语依赖预测chunk补全而非逐单词解码">自然语言口语依赖<strong>预测+chunk补全</strong>，而非<em>逐单词解码</em></h2>
+<h2 id="自然语言口语依赖预测chunk补全而非逐单词解码">自然语言口语依赖<strong>预测+chunk补全</strong>，而非<em>逐单词解码</em><a class="headerlink" href="#%E8%87%AA%E7%84%B6%E8%AF%AD%E8%A8%80%E5%8F%A3%E8%AF%AD%E4%BE%9D%E8%B5%96%E9%A2%84%E6%B5%8Bchunk%E8%A1%A5%E5%85%A8%E8%80%8C%E9%9D%9E%E9%80%90%E5%8D%95%E8%AF%8D%E8%A7%A3%E7%A0%81" title="Permanent link">¶</a></h2>
 <p>因为 声音不完整： </p>
 <p>吞音，连读，弱读，压缩，重音漂移，发音错误，噪音，方言，语速变化</p>
-<h2 id="大脑对于口语的作用流程">大脑对于口语的作用流程</h2>
+<h2 id="大脑对于口语的作用流程">大脑对于口语的作用流程<a class="headerlink" href="#%E5%A4%A7%E8%84%91%E5%AF%B9%E4%BA%8E%E5%8F%A3%E8%AF%AD%E7%9A%84%E4%BD%9C%E7%94%A8%E6%B5%81%E7%A8%8B" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>场景预测<span class="w"> </span><span class="o">(</span>压缩搜索空间<span class="o">)</span>
 ↓
 句型预测<span class="w"> </span><span class="o">(</span>继续压缩搜索空间<span class="o">)</span>
@@ -17350,7 +17406,7 @@ chunk预测<span class="w"> </span><span class="o">(</span>继续压缩<span cla
 <p>所以成年人学习语言效率会比儿童更高，因为成年人只学chunk，而儿童需要同时学习场景+chunk；</p>
 <p>最后就落到：<strong>chunk库存 × 自动化程度</strong>。</p>
 <p>场景 = 交际功能 + 对应词汇</p>
-<h1 id="人听不懂自己预先不知道的话">人听不懂自己预先不知道的话</h1>
+<h1 id="人听不懂自己预先不知道的话">人听不懂自己预先不知道的话<a class="headerlink" href="#%E4%BA%BA%E5%90%AC%E4%B8%8D%E6%87%82%E8%87%AA%E5%B7%B1%E9%A2%84%E5%85%88%E4%B8%8D%E7%9F%A5%E9%81%93%E7%9A%84%E8%AF%9D" title="Permanent link">¶</a></h1>
 <p>所以，这本质上可以为一个相对哲学性的观点提供论据：人，听不懂自己不知道的话。
 他要听懂，首先是自己知道这句话，如果不知道，是听不懂的；或许可以看懂，但听不懂。</p>
 <p>人听懂语言的能力，本质上是“用已有语言结构对不完整信号进行概率重建的能力”</p>
@@ -17361,29 +17417,29 @@ chunk预测<span class="w"> </span><span class="o">(</span>继续压缩<span cla
 <div class="admonition note">
 <p class="admonition-title">法语听力 = 声学压缩空间中的向量检索系统</p>
 </div>
-<h1 id="声音预测修复细节">声音预测修复细节</h1>
+<h1 id="声音预测修复细节">声音预测修复细节<a class="headerlink" href="#%E5%A3%B0%E9%9F%B3%E9%A2%84%E6%B5%8B%E4%BF%AE%E5%A4%8D%E7%BB%86%E8%8A%82" title="Permanent link">¶</a></h1>
 <p>对于partir，我听到的是 paʁkiʁo,知道单词后再听，确实有paʁtiʁ的感觉。</p>
 <p>对于未听清的音节，大脑未能准确匹配词库，先进行<strong>phonotactic repair（音系合法性修复）</strong>。听成<code>kiro</code>是因为这是我的认知里面，最符合的音节；</p>
 <p>当知道是<code>partir</code>，此时听到模糊轮廓，大脑会进行<strong>lexical repair（词库修复）</strong>；</p>
-<h2 id="大脑对声音的处理流程">大脑对声音的处理流程</h2>
-<h3 id="step-1声音进入模糊">Step 1：声音进入（模糊）</h3>
+<h2 id="大脑对声音的处理流程">大脑对声音的处理流程<a class="headerlink" href="#%E5%A4%A7%E8%84%91%E5%AF%B9%E5%A3%B0%E9%9F%B3%E7%9A%84%E5%A4%84%E7%90%86%E6%B5%81%E7%A8%8B" title="Permanent link">¶</a></h2>
+<h3 id="step-1声音进入模糊">Step 1：声音进入（模糊）<a class="headerlink" href="#step-1%E5%A3%B0%E9%9F%B3%E8%BF%9B%E5%85%A5%E6%A8%A1%E7%B3%8A" title="Permanent link">¶</a></h3>
 <p>paʁtɪʁdəkɛlmɔmɑ̃（连续流）</p>
-<h3 id="step-2chunk抢占解释权">Step 2：chunk“抢占解释权”</h3>
+<h3 id="step-2chunk抢占解释权">Step 2：chunk“抢占解释权”<a class="headerlink" href="#step-2chunk%E6%8A%A2%E5%8D%A0%E8%A7%A3%E9%87%8A%E6%9D%83" title="Permanent link">¶</a></h3>
 <p>系统会同时激活：</p>
 <p>À partir de quel moment
 partir de
 moment
 其他候选</p>
-<h3 id="step-3winner-chunk-选中">Step 3：winner chunk 选中</h3>
+<h3 id="step-3winner-chunk-选中">Step 3：winner chunk 选中<a class="headerlink" href="#step-3winner-chunk-%E9%80%89%E4%B8%AD" title="Permanent link">¶</a></h3>
 <p>如果：</p>
 <p>À partir de quel moment 激活最强</p>
-<h3 id="step-4感知重建关键">Step 4：感知重建（关键）</h3>
+<h3 id="step-4感知重建关键">Step 4：感知重建（关键）<a class="headerlink" href="#step-4%E6%84%9F%E7%9F%A5%E9%87%8D%E5%BB%BA%E5%85%B3%E9%94%AE" title="Permanent link">¶</a></h3>
 <p>大脑做的是：</p>
 <p>“把声音强行解释成这个chunk”</p>
 <p>于是发生：</p>
 <p>paʁtɪʁ ≈ partir（被“对齐”）</p>
 <p>听到“tiʁ”是解释结果，不是输入结果</p>
-<h3 id="总结">总结</h3>
+<h3 id="总结">总结<a class="headerlink" href="#%E6%80%BB%E7%BB%93" title="Permanent link">¶</a></h3>
 <p>不是“从声音推chunk”，而是“用chunk去重写声音感知”。</p>
 <p>通过逐个因素去推理是错误的，因为因素可能扭曲，真实的过程是通过多个因素轮廓构建chunks，准确的那个chunk在竞争中胜出，再解释听到的因素。</p>
 <p>声音一进来 → 所有chunk同时激活 → 相互竞争 → 胜者反过来“吸收解释声音”</p>
@@ -17426,7 +17482,7 @@ frequency<span class="w"> </span>prior（熟悉度）
 
 À<span class="w"> </span>partir<span class="w"> </span>de<span class="w"> </span>quel<span class="w"> </span>moment
 </code></pre></div>
-<h1 id="语音分类结果来自统计归因而非绝对匹配"><a href="../../chinois/fr_vs_zh_p.md#%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%98%AF%E7%BB%9F%E8%AE%A1%E5%BD%92%E5%9B%A0">语音分类结果来自统计归因，而非绝对匹配</a></h1></div>
+<h1 id="语音分类结果来自统计归因而非绝对匹配"><a href="../../chinois/fr_vs_zh_p.md#%E8%AF%AD%E9%9F%B3%E8%AF%86%E5%88%AB%E6%98%AF%E7%BB%9F%E8%AE%A1%E5%BD%92%E5%9B%A0">语音分类结果来自统计归因，而非绝对匹配</a><a class="headerlink" href="#%E8%AF%AD%E9%9F%B3%E5%88%86%E7%B1%BB%E7%BB%93%E6%9E%9C%E6%9D%A5%E8%87%AA%E7%BB%9F%E8%AE%A1%E5%BD%92%E5%9B%A0%E8%80%8C%E9%9D%9E%E7%BB%9D%E5%AF%B9%E5%8C%B9%E9%85%8D" title="Permanent link">¶</a></h1></div>
 
 
 

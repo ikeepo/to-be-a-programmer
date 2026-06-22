@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17308,17 +17364,17 @@
 
 
 
-<div><h1 id="attribute">Attribute</h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="attribute">Attribute<a class="headerlink" href="#attribute" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<h2 id="inline"><code>#[inline]</code></h2>
+<h2 id="inline"><code>#[inline]</code><a class="headerlink" href="#inline" title="Permanent link">¶</a></h2>
 <p>a hint to the compiler to inline the function.
 Inlining is an optimization technique where the compiler replaces a function call with the actual body of the function at the call site.
 It can eliminates the overhead of a function call.
 <a href="https://nnethercote.github.io/perf-book/inlining.html"><code>#[inline]</code></a> do not gurantee that a function is inlined or not inlined, it's just a suggestion, the compiler decides whether to inline based on its own heuristics, such as function size, call frequency, and optimization level(<code>--release</code> mode).</p>
-<h3 id="why-need-inline">Why need inline</h3>
+<h3 id="why-need-inline">Why need inline<a class="headerlink" href="#why-need-inline" title="Permanent link">¶</a></h3>
 <p>The key is function call.
 use <a href="https://rust.godbolt.org/">compiler explorer</a> to understand the underling code.</p>
-<h3 id="when-to-use-inline">When to use <code>#[inline]</code></h3>
+<h3 id="when-to-use-inline">When to use <code>#[inline]</code><a class="headerlink" href="#when-to-use-inline" title="Permanent link">¶</a></h3>
 <p>small but called repeatedly.
 - <code>new</code></p></div>
 

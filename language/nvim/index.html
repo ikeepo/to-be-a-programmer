@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17185,20 +17241,20 @@
 
 
 
-<div><h1 id="nvim-是一个事件驱动框架">nvim 是一个事件驱动框架</h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
+<div><h1 id="nvim-是一个事件驱动框架">nvim 是一个事件驱动框架<a class="headerlink" href="#nvim-%E6%98%AF%E4%B8%80%E4%B8%AA%E4%BA%8B%E4%BB%B6%E9%A9%B1%E5%8A%A8%E6%A1%86%E6%9E%B6" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <p>许多功能是监听事件，然后调用回调函数。</p>
-<h1 id="how-to-remove-m-from-paste">How to remove <code>^M</code> from paste</h1>
+<h1 id="how-to-remove-m-from-paste">How to remove <code>^M</code> from paste<a class="headerlink" href="#how-to-remove-m-from-paste" title="Permanent link">¶</a></h1>
 <p><code>^M</code> comes from Windows <code>\r\n</code></p>
-<h1 id="how-to-view-jupyter-in-nvim">How to view jupyter in Nvim</h1>
+<h1 id="how-to-view-jupyter-in-nvim">How to view jupyter in Nvim<a class="headerlink" href="#how-to-view-jupyter-in-nvim" title="Permanent link">¶</a></h1>
 <p>use <a href="https://github.com/goerz/jupytext.nvim">jupytext.nvim</a> but neet to install <a href="https://jupytext.readthedocs.io/en/latest/">jupytext</a> first.</p>
-<h1 id="how-to-recover-from-a-u">How to recover from a <code>u</code></h1>
+<h1 id="how-to-recover-from-a-u">How to recover from a <code>u</code><a class="headerlink" href="#how-to-recover-from-a-u" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code>Ctrl<span class="w"> </span>+<span class="w"> </span>r
 </code></pre></div>
-<h1 id="how-to-add---nvim-surround">How to add [] || <a href="https://github.com/kylechui/nvim-surround"> nvim-surround </a></h1>
+<h1 id="how-to-add---nvim-surround">How to add [] || <a href="https://github.com/kylechui/nvim-surround"> nvim-surround </a><a class="headerlink" href="#how-to-add---nvim-surround" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code>:h<span class="w"> </span>nvim-surround.usage
 </code></pre></div>
-<h1 id="setup是关键字么"><code>setup</code>是关键字么？</h1>
+<h1 id="setup是关键字么"><code>setup</code>是关键字么？<a class="headerlink" href="#setup%E6%98%AF%E5%85%B3%E9%94%AE%E5%AD%97%E4%B9%88" title="Permanent link">¶</a></h1>
 <p><code>setup</code>并不是一个关键字，只是惯例函数名，</p>
 <ol>
 <li>不是lua的关键字，你可以随便定义setup函数在lua中</li>
@@ -17206,32 +17262,32 @@
    nvim社区约定用setup作为插件的初始化函数，负责配置插件的行为。</li>
 <li>lazy.nvim可以在opts或者config字段中使用setup()，当配置opts时候，lazy.nvim会自动调用<code>require('module_name').setup({...})</code>.</li>
 </ol>
-<h1 id="lazyvim-vs-lazynvim">LazyVim vs lazy.nvim</h1>
+<h1 id="lazyvim-vs-lazynvim">LazyVim vs lazy.nvim<a class="headerlink" href="#lazyvim-vs-lazynvim" title="Permanent link">¶</a></h1>
 <p>lazy.nvim是一个插件管理器，LazyVim是一个基于lazy.nvim框架做好的使用demo，官方出品，预配置基本插件，以及如何规范使用lazy.nvim，有点类似更多人分享的自己的dotfiles. 不过是lazy.nvim作者发布的。
 lazy.nvim ==&gt; LazyVim ==&gt; dotfiles on github</p>
-<h1 id="nvim_create_buflisted-scratch-nvim_create_buf"><code>nvim_create_buf({listed}, {scratch})                       *nvim_create_buf()*</code></h1>
+<h1 id="nvim_create_buflisted-scratch-nvim_create_buf"><code>nvim_create_buf({listed}, {scratch})                       *nvim_create_buf()*</code><a class="headerlink" href="#nvim_create_buflisted-scratch-nvim_create_buf" title="Permanent link">¶</a></h1>
 <p><code>{listed}</code> 中<code>{}</code>并不表示表格，这个语境是文档，文档中用<code>{}</code>区分签名中是参数名还是普通文本。
 <code>{}</code>包裹参数名表示这些是named arguments（伪，lua本身不支持named arguments,lua是纯位置参数语言）.
 named arguments又称为关键字参数，同生态的除了位置参数，还有table of options, lua经常使用单个table传参数，用table的键值对模拟命名效果。
 listed 在这里只是文档中的惯例，用于表示是一个bool，改成什么对代码本身没有影响，只是在文档层面的命名。
 nvim的底层是C，会检查类型，lua不会，lua没有强制类型要求，只负责传递。</p>
-<h1 id="vimapi"><code>vim.api</code></h1>
+<h1 id="vimapi"><code>vim.api</code><a class="headerlink" href="#vimapi" title="Permanent link">¶</a></h1>
 <p>这是nvim内置的用<a href="https://github.com/neovim/neovim/tree/master/src/nvim/api">C实现的API</a>，暴露给Lua使用。让Lua能够操作Nvim的内部功能。
 nvim启动时候，vim.api被注入到Lua的全局明明空加你<code>vim</code>。所以在<code>.lua</code>代码中可以直接调用。</p>
-<h1 id="嵌入nvim的lua51跟linux-apt-install-lua51有什么区别">嵌入nvim的lua5.1跟linux <code>apt install lua5.1</code>有什么区别</h1>
+<h1 id="嵌入nvim的lua51跟linux-apt-install-lua51有什么区别">嵌入nvim的lua5.1跟linux <code>apt install lua5.1</code>有什么区别<a class="headerlink" href="#%E5%B5%8C%E5%85%A5nvim%E7%9A%84lua51%E8%B7%9Flinux-apt-install-lua51%E6%9C%89%E4%BB%80%E4%B9%88%E5%8C%BA%E5%88%AB" title="Permanent link">¶</a></h1>
 <p>nvim内嵌的是5.1，而不是最新版本，为了能够配合使用luajt，lua5.3跟5.1改动很大，这是nvim文档中介绍的。
 内嵌的lua5.1有标准库，但不是全部功能，限制了io和os，放置脚本直接访问文件系统。具体使用的是LuaJIT比普通lua多了bit模块和JIT优化。nvim装的是LuaJIT2.1,只是兼容Lua5.1，并非标准Lua5.1.
 所以，常谈到的nvim插件，其实是lua包，类似python通过pip安装包一样，nvim嵌入的是lua，通过lazy.nvim安装扩展plugins.</p>
-<h1 id="debug">Debug</h1>
+<h1 id="debug">Debug<a class="headerlink" href="#debug" title="Permanent link">¶</a></h1>
 <p>通过continue启动debug，默认为运行脚本所在路径为cdw，</p>
-<h1 id="不显示中文">不显示中文</h1>
+<h1 id="不显示中文">不显示中文<a class="headerlink" href="#%E4%B8%8D%E6%98%BE%E7%A4%BA%E4%B8%AD%E6%96%87" title="Permanent link">¶</a></h1>
 <p>OS level question, rather nvim.</p>
-<h1 id="poetry">Poetry</h1>
-<h3 id="how-to-activate-the-poetry-virtual-enviriment-in-nvim">How to activate the poetry virtual enviriment in nvim</h3>
+<h1 id="poetry">Poetry<a class="headerlink" href="#poetry" title="Permanent link">¶</a></h1>
+<h3 id="how-to-activate-the-poetry-virtual-enviriment-in-nvim">How to activate the poetry virtual enviriment in nvim<a class="headerlink" href="#how-to-activate-the-poetry-virtual-enviriment-in-nvim" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code>poetry<span class="w"> </span>run<span class="w"> </span>nvim<span class="w"> </span>name.py
 </code></pre></div>
-<h1 id="plugin">Plugin</h1>
-<h2 id="plugin-creation-dir-layout">plugin creation dir layout</h2>
+<h1 id="plugin">Plugin<a class="headerlink" href="#plugin" title="Permanent link">¶</a></h1>
+<h2 id="plugin-creation-dir-layout">plugin creation dir layout<a class="headerlink" href="#plugin-creation-dir-layout" title="Permanent link">¶</a></h2>
 <div class="highlight"><pre><span></span><code>├──<span class="w"> </span>LICENSE
 ├──<span class="w"> </span>plugin<span class="w">  </span><span class="c1"># get executed as soon as nvim starts, like keymaps or autocmds</span>
 │<span class="w">  </span>└──<span class="w"> </span>plugin-file.lua
@@ -17239,17 +17295,17 @@ nvim启动时候，vim.api被注入到Lua的全局明明空加你<code>vim</code
 │<span class="w">  </span>└──<span class="w"> </span>main-file.lua
 └──<span class="w"> </span>README.md
 </code></pre></div>
-<h1 id="how-to-search-function-docs">how to search function docs</h1>
+<h1 id="how-to-search-function-docs">how to search function docs<a class="headerlink" href="#how-to-search-function-docs" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code><span class="c1"># in nvim</span>
 :Telescope<span class="w"> </span>help_tags
 <span class="c1"># the cmd want to know</span>
 </code></pre></div>
-<h1 id="lsp-vs-pyright">LSP vs Pyright</h1>
+<h1 id="lsp-vs-pyright">LSP vs Pyright<a class="headerlink" href="#lsp-vs-pyright" title="Permanent link">¶</a></h1>
 <p>LSP 是一个通信协议，专门定义编辑器nvim与语言服务器pyright之间的通信规则，如果输入gx命令，编辑器将向pyright发送一个通讯请求，pyright分析后返回变量定义位置，编辑器便会跳转到对应位置。</p>
-<h3 id="nvim-lspconfig">nvim-lspconfig</h3>
+<h3 id="nvim-lspconfig">nvim-lspconfig<a class="headerlink" href="#nvim-lspconfig" title="Permanent link">¶</a></h3>
 <p>封装了lsp配置复杂度，实现简单配置开箱即用；</p>
-<h1 id="nvim-surround-插入包围符号"><a href="https://github.com/kylechui/nvim-surround">nvim-surround</a>: 插入包围符号</h1>
-<h1 id="refs">Refs</h1>
+<h1 id="nvim-surround-插入包围符号"><a href="https://github.com/kylechui/nvim-surround">nvim-surround</a>: 插入包围符号<a class="headerlink" href="#nvim-surround-%E6%8F%92%E5%85%A5%E5%8C%85%E5%9B%B4%E7%AC%A6%E5%8F%B7" title="Permanent link">¶</a></h1>
+<h1 id="refs">Refs<a class="headerlink" href="#refs" title="Permanent link">¶</a></h1>
 <ol>
 <li><a href="https://www.youtube.com/watch?v=N93cTbtLCIM">Zero to IDE with LazyVim</a></li>
 <li><a href="https://www.youtube.com/watch?v=tfC1i32eW3A">NeuralNine</a></li>

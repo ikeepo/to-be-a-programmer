@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17308,25 +17364,25 @@
 
 
 
-<div><h1 id="greedy-algorithm">Greedy Algorithm</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="greedy-algorithm">Greedy Algorithm<a class="headerlink" href="#greedy-algorithm" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <p>At each decision point, it chooses the option that looks best right now, without worrying about how it affects future steps.
 It doesn't always gurantee the absolute best overall solution.</p>
-<h2 id="why-greedy">Why Greedy</h2>
-<h5 id="short_slighted">Short_slighted</h5>
+<h2 id="why-greedy">Why Greedy<a class="headerlink" href="#why-greedy" title="Permanent link">¶</a></h2>
+<h5 id="short_slighted">Short_slighted<a class="headerlink" href="#short_slighted" title="Permanent link">¶</a></h5>
 <p>It optimizes locally (one node) without planning the global tree struture.</p>
-<h5 id="contrast">Contrast</h5>
+<h5 id="contrast">Contrast<a class="headerlink" href="#contrast" title="Permanent link">¶</a></h5>
 <p>A non-greedy approach might test all possible trees (exponential time) to find the absolute best, but that's impractical.</p>
-<h1 id="greedy-in-gbdt-and-lightgbm">Greedy in GBDT and LightGBM</h1>
+<h1 id="greedy-in-gbdt-and-lightgbm">Greedy in GBDT and LightGBM<a class="headerlink" href="#greedy-in-gbdt-and-lightgbm" title="Permanent link">¶</a></h1>
 <ul>
 <li>Each decision tree uses a greedy algorithm to grow</li>
 <li>At each node, it picks the slit that best reduces the loss</li>
 <li>LightGBM's leaf-wise growth is extra greedy: it only splits the leaf with the biggest potential gain, not all leaves at a level.</li>
 </ul>
-<h1 id="the-initial-feature-split-has-a-big-influence-on-the-trees-structure-and-predictions">The initial feature split has a big influence on the tree's structure and predictions</h1>
+<h1 id="the-initial-feature-split-has-a-big-influence-on-the-trees-structure-and-predictions">The initial feature split has a big influence on the tree's structure and predictions<a class="headerlink" href="#the-initial-feature-split-has-a-big-influence-on-the-trees-structure-and-predictions" title="Permanent link">¶</a></h1>
 <p>The initial feature shapes the tree.
 Greedy Bias, Path dependency.</p>
-<h2 id="how-to-avoid">How to Avoid</h2>
+<h2 id="how-to-avoid">How to Avoid<a class="headerlink" href="#how-to-avoid" title="Permanent link">¶</a></h2>
 <ul>
 <li>Feature Enginnering
 Create better features to make the root split more meaningful.</li>

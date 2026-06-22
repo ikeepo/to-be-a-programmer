@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17252,25 +17308,25 @@
 
 
 
-<div><h1 id="poetry">Poetry</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="poetry">Poetry<a class="headerlink" href="#poetry" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
-<h2 id="toolpoetry-vs-project"><code>tool.poetry vs project</code></h2>
+<h2 id="toolpoetry-vs-project"><code>tool.poetry vs project</code><a class="headerlink" href="#toolpoetry-vs-project" title="Permanent link">¶</a></h2>
 <p><code>project</code> defined by <code>[PEP621](https://peps.python.org/pep-0621/)</code>, tool.<tool_name> defined by <a href="https://peps.python.org/pep-0518/">PEP518</a>, exact detail is defined by tool itself.</tool_name></p>
-<h1 id="add-from-wle-need-to-relative-or-absolute-path">Add from wle need to relative or absolute path</h1>
+<h1 id="add-from-wle-need-to-relative-or-absolute-path">Add from wle need to relative or absolute path<a class="headerlink" href="#add-from-wle-need-to-relative-or-absolute-path" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code>portry<span class="w"> </span>add<span class="w"> </span>file.whl<span class="w">  </span><span class="c1"># wrong</span>
 poetry<span class="w"> </span>add<span class="w"> </span>./file.whl<span class="w"> </span><span class="c1"># right</span>
 </code></pre></div>
-<h1 id="how-to-migrate-from-venv-to-poetry">How to Migrate from venv to poetry</h1>
-<h3 id="pipx">pipx</h3>
+<h1 id="how-to-migrate-from-venv-to-poetry">How to Migrate from venv to poetry<a class="headerlink" href="#how-to-migrate-from-venv-to-poetry" title="Permanent link">¶</a></h1>
+<h3 id="pipx">pipx<a class="headerlink" href="#pipx" title="Permanent link">¶</a></h3>
 <p>推荐使用pipx安装poetry，但是pipx必须绑定某个python使用，因此绑定全局的python，同时将poetry通过全局的python下的
 全局pipx安装，也就是得到全局的poetry。</p>
-<h3 id="修改源">修改源</h3>
-<h5 id="全局">全局</h5>
+<h3 id="修改源">修改源<a class="headerlink" href="#%E4%BF%AE%E6%94%B9%E6%BA%90" title="Permanent link">¶</a></h3>
+<h5 id="全局">全局<a class="headerlink" href="#%E5%85%A8%E5%B1%80" title="Permanent link">¶</a></h5>
 <div class="highlight"><pre><span></span><code>poetry<span class="w"> </span>config<span class="w"> </span>repositories.pypi<span class="w"> </span>https://pypi.tuna.tsinghua.edu.cn/simple
 poetry<span class="w"> </span>config<span class="w"> </span>--list
 poetry<span class="w"> </span>config<span class="w"> </span><span class="nb">unset</span><span class="w"> </span>repositories.pypi<span class="w"> </span><span class="c1"># 恢复</span>
 </code></pre></div>
-<h5 id="仅修改当前项目">仅修改当前项目</h5>
+<h5 id="仅修改当前项目">仅修改当前项目<a class="headerlink" href="#%E4%BB%85%E4%BF%AE%E6%94%B9%E5%BD%93%E5%89%8D%E9%A1%B9%E7%9B%AE" title="Permanent link">¶</a></h5>
 <div class="highlight"><pre><span></span><code><span class="k">[[tool.poetry.source]]</span>
 <span class="n">name</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"tsinghua"</span>
 <span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://pypi.tuna.tsinghua.edu.cn/simple"</span>
@@ -17281,12 +17337,12 @@ poetry<span class="w"> </span>config<span class="w"> </span><span class="nb">uns
 <span class="n">url</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"https://pypi.org/simple"</span>
 <span class="n">priority</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="s2">"supplemental"</span>
 </code></pre></div>
-<h1 id="how">How</h1>
-<h3 id="从requirementstxt安装">从requirements.txt安装</h3>
+<h1 id="how">How<a class="headerlink" href="#how" title="Permanent link">¶</a></h1>
+<h3 id="从requirementstxt安装">从requirements.txt安装<a class="headerlink" href="#%E4%BB%8Erequirementstxt%E5%AE%89%E8%A3%85" title="Permanent link">¶</a></h3>
 <p>poetry 本身不支持，只能逐个安装;</p>
 <div class="highlight"><pre><span></span><code>cat<span class="w"> </span>requirements.txt<span class="w"> </span><span class="p">|</span><span class="w"> </span>xargs<span class="w"> </span>poetry<span class="w"> </span>add
 </code></pre></div>
-<h3 id="如何在新的路径下使用旧的环境">如何在新的路径下使用旧的环境</h3>
+<h3 id="如何在新的路径下使用旧的环境">如何在新的路径下使用旧的环境<a class="headerlink" href="#%E5%A6%82%E4%BD%95%E5%9C%A8%E6%96%B0%E7%9A%84%E8%B7%AF%E5%BE%84%E4%B8%8B%E4%BD%BF%E7%94%A8%E6%97%A7%E7%9A%84%E7%8E%AF%E5%A2%83" title="Permanent link">¶</a></h3>
 <blockquote>
 <p><a href="https://python-poetry.org/docs/managing-environments/#fish">docs-managing environments</a></p>
 </blockquote>
@@ -17295,12 +17351,12 @@ poetry<span class="w"> </span>config<span class="w"> </span>virtualenvs.path<spa
 <span class="c1"># delete 新环境</span>
 <span class="c1"># rename 旧环境 为新环境名称</span>
 </code></pre></div>
-<h1 id="根据pyprojectyaml修改poetrylock">根据pyproject.yaml修改poetry.lock</h1>
+<h1 id="根据pyprojectyaml修改poetrylock">根据pyproject.yaml修改poetry.lock<a class="headerlink" href="#%E6%A0%B9%E6%8D%AEpyprojectyaml%E4%BF%AE%E6%94%B9poetrylock" title="Permanent link">¶</a></h1>
 <p><code>poetry lock</code></p>
-<h1 id="poetry-show-module依据poetrylock"><code>poetry show module</code>依据<code>poetry.lock</code></h1>
-<h1 id="virtual_env环境变量可能影响使用的环境"><code>$VIRTUAL_ENV</code>环境变量可能影响使用的环境</h1>
+<h1 id="poetry-show-module依据poetrylock"><code>poetry show module</code>依据<code>poetry.lock</code><a class="headerlink" href="#poetry-show-module%E4%BE%9D%E6%8D%AEpoetrylock" title="Permanent link">¶</a></h1>
+<h1 id="virtual_env环境变量可能影响使用的环境"><code>$VIRTUAL_ENV</code>环境变量可能影响使用的环境<a class="headerlink" href="#virtual_env%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F%E5%8F%AF%E8%83%BD%E5%BD%B1%E5%93%8D%E4%BD%BF%E7%94%A8%E7%9A%84%E7%8E%AF%E5%A2%83" title="Permanent link">¶</a></h1>
 <p><code>unset VIRTUAL_ENV</code>清除，这个貌似是每个poetry项目单独的</p>
-<h1 id="refs">Refs</h1>
+<h1 id="refs">Refs<a class="headerlink" href="#refs" title="Permanent link">¶</a></h1>
 <ol>
 <li><a href="https://browniebroke.com/blog/2020-10-18-migrating-project-to-poetry/">Migrating a Project to Poetry</a></li>
 <li><a href="https://python-poetry.org/docs/pyproject/">the pyproject.tomal file</a></li>

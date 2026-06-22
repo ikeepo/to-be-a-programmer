@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17185,16 +17241,16 @@
 
 
 
-<div><h1 id="ta-lib">TA-Lib</h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="ta-lib">TA-Lib<a class="headerlink" href="#ta-lib" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
 <p><a href="https://github.com/TA-Lib/ta-lib-python/issues/566">This</a> module now requires the TA-Lib C library to be installed.
 1. <a href="https://ta-lib.org/install/#linux-build-from-source">Install</a> <a href="https://github.com/TA-Lib/ta-lib">ta-lib</a>
 2. Intall [ta-lib-python]</p>
-<h1 id="error">Error</h1>
-<h3 id="usrbinld-cannot-find--lta-lib">/usr/bin/ld: cannot find -lta-lib</h3>
+<h1 id="error">Error<a class="headerlink" href="#error" title="Permanent link">¶</a></h1>
+<h3 id="usrbinld-cannot-find--lta-lib">/usr/bin/ld: cannot find -lta-lib<a class="headerlink" href="#usrbinld-cannot-find--lta-lib" title="Permanent link">¶</a></h3>
 <p>The installed C version talib is called libra_lib.so, so make a soft link <code>sudo ln -s /usr/lib/libta_lib.so /usr/lib/libta-lib.so</code>.
 这是因为用了旧版本C ta-lib和新版本Python ta-lib导致；</p>
-<h3 id="importerror-libta_libso0-cannot-open-shared-object-file-no-such-file-or-directory">ImportError: libta_lib.so.0: cannot open shared object file: No such file or directory</h3>
+<h3 id="importerror-libta_libso0-cannot-open-shared-object-file-no-such-file-or-directory">ImportError: libta_lib.so.0: cannot open shared object file: No such file or directory<a class="headerlink" href="#importerror-libta_libso0-cannot-open-shared-object-file-no-such-file-or-directory" title="Permanent link">¶</a></h3>
 <p>安装配置问题；
 </p><div class="highlight"><pre><span></span><code>make clean
 ./configure --prefix=/usr --enable-shared

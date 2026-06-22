@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17187,19 +17243,19 @@
 
 
 
-<div><h1 id="topological-sort">Topological Sort</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="topological-sort">Topological Sort<a class="headerlink" href="#topological-sort" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <p>An algorithm that orders the vetices of a directed acyclic graph.
 Dependency resolution order for DAG.</p>
-<h1 id="complexity">Complexity</h1>
+<h1 id="complexity">Complexity<a class="headerlink" href="#complexity" title="Permanent link">¶</a></h1>
 <p>O(V + E)
 The Algorithm processes each vertex, and at every vertex, processing every neighbor which is Edge.</p>
-<h2 id="what-if-there-is-a-internal-iteration-on-processing-every-node">What if there is a internal iteration on processing every node</h2>
+<h2 id="what-if-there-is-a-internal-iteration-on-processing-every-node">What if there is a internal iteration on processing every node<a class="headerlink" href="#what-if-there-is-a-internal-iteration-on-processing-every-node" title="Permanent link">¶</a></h2>
 <p>The internal iteration has a constant cost (K), <code>O(KV)</code> still <code>O(V)</code></p>
-<h1 id="approaches">Approaches</h1>
-<h2 id="kahns-algorithm">Kahn's Algorithm</h2>
+<h1 id="approaches">Approaches<a class="headerlink" href="#approaches" title="Permanent link">¶</a></h1>
+<h2 id="kahns-algorithm">Kahn's Algorithm<a class="headerlink" href="#kahns-algorithm" title="Permanent link">¶</a></h2>
 <p>Vertices with in-degree 0 has no dependencies and can be processed first.</p>
-<h3 id="procedure">Procedure</h3>
+<h3 id="procedure">Procedure<a class="headerlink" href="#procedure" title="Permanent link">¶</a></h3>
 <ol>
 <li>calculate in-degree of all nodes</li>
 <li>put all in-degree 0 into queue</li>
@@ -17209,7 +17265,7 @@ The Algorithm processes each vertex, and at every vertex, processing every neigh
 3.3 neighbor in-degree to 0, push into queue
 3.4 check constrain condition</li>
 </ol>
-<h3 id="process-rule">Process Rule</h3>
+<h3 id="process-rule">Process Rule<a class="headerlink" href="#process-rule" title="Permanent link">¶</a></h3>
 <p>since the element pushed queue is in-degree 0, so the process's purpose is make neighbor in-degree 0;
 the in-degrees of its neighbors are decreased, simulating the removal of its dependencies.
 queue only process in-degree 0 makes sure every node can only be processed once.
@@ -17218,7 +17274,7 @@ In-degree 0 means on dependency.</p>
 - Current Node
 - Neighbors
 某种变换，变换后可以成为CurrenNode状态以push到queue中；</p>
-<h2 id="dfs">DFS</h2></div>
+<h2 id="dfs">DFS<a class="headerlink" href="#dfs" title="Permanent link">¶</a></h2></div>
 
 
 

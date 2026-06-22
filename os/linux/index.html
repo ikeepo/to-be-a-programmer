@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17185,9 +17241,9 @@
 
 
 
-<div><h1 id="linux">Linux</h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="linux">Linux<a class="headerlink" href="#linux" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<h1 id="could-not-create-moklistrt-volume-full"><code>Could not create MokListRT: Volume Full</code></h1>
+<h1 id="could-not-create-moklistrt-volume-full"><code>Could not create MokListRT: Volume Full</code><a class="headerlink" href="#could-not-create-moklistrt-volume-full" title="Permanent link">¶</a></h1>
 <p></p><div class="highlight"><pre><span></span><code>Could not create MokListRT: Volume Full
 Could not create MokListXRT: Volume Full
 Could not create SbatLevelRT: Volume Full
@@ -17199,7 +17255,7 @@ Something has gone seriously wrong: import_mok_state() failed: Volume Full
 UEFI固件读取主板里的启动项Boot Entries，找到对应的EFI文件（比如grubx64.efi），如果Secure Boot开启，就检查这个EFI文件是否有受信任的签名。通过GRUB启动Linux内核vmlinuuz，然后挂在initrd，进入系统。
 对与ROG主板，进入F2，找到EZ Mode/Advanced Mode,设置Boot Mode(UEFI),SecureBoot(disabled),FastBoot(disabled),SATA mode(AHCI).</p>
 <p>虽然设置了Secure Boot是disabled，但是还是一样的问题，这是因为如果有残留的Key，ROG的系统会认为是启动了Secure，所以要先在Key Management / Clear Secure Boot Keys，然后再启动。</p>
-<h1 id="挂载剩余空间">挂载剩余空间</h1>
+<h1 id="挂载剩余空间">挂载剩余空间<a class="headerlink" href="#%E6%8C%82%E8%BD%BD%E5%89%A9%E4%BD%99%E7%A9%BA%E9%97%B4" title="Permanent link">¶</a></h1>
 <div class="highlight"><pre><span></span><code>sudo vgdisplay ubuntu-vg
 sudo lvcreate -L 400G -n data ubuntu-vg
 sudo mkfs.ext4 /dev/ubuntu-vg/data

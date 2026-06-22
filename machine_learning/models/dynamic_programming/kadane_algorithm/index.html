@@ -5449,6 +5449,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../../language/french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17498,33 +17554,33 @@
 
 
 
-<div><h1 id="kadanes-algorithm">Kadane's Algorithm</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="kadanes-algorithm">Kadane's Algorithm<a class="headerlink" href="#kadanes-algorithm" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
-<h2 id="what-a-precise-specification-of-the-problem-that-the-algorithm-solves">What: A precise specification of the problem that the algorithm solves.</h2>
+<h2 id="what-a-precise-specification-of-the-problem-that-the-algorithm-solves">What: A precise specification of the problem that the algorithm solves.<a class="headerlink" href="#what-a-precise-specification-of-the-problem-that-the-algorithm-solves" title="Permanent link">¶</a></h2>
 <p>Maximum Subarray sum problem.</p>
-<h4 id="what-concepts-it-has-define-them-in-humanmathrust-language">What Concepts it has, define them in human/math/rust language</h4>
-<h5 id="max_so_far"><code>max_so_far</code></h5>
+<h4 id="what-concepts-it-has-define-them-in-humanmathrust-language">What Concepts it has, define them in human/math/rust language<a class="headerlink" href="#what-concepts-it-has-define-them-in-humanmathrust-language" title="Permanent link">¶</a></h4>
+<h5 id="max_so_far"><code>max_so_far</code><a class="headerlink" href="#max_so_far" title="Permanent link">¶</a></h5>
 <p><code>max_so_far</code> returned value, easy to understand.</p>
-<h5 id="max_ending_here"><code>max_ending_here</code></h5>
+<h5 id="max_ending_here"><code>max_ending_here</code><a class="headerlink" href="#max_ending_here" title="Permanent link">¶</a></h5>
 <p><code>max_ending_here</code> maximum of subarray ends at the current index.
 <code>max_ending_here</code> is the local maximum, the <code>max_so_far</code> is the global maximum.
 $$max_ending_here = max(max_ending_here+a[i], a[i])$$
 eliminating the starting sub-subsequence with negative sum, starting from the positive one immidiately. Only in this condition would choose <code>a[i]</code></p>
 <p>if max_ending_here is negative, discarding it then start from here.</p>
 <p>$$max_so_far = max(max_so_far, max_ending_here)$$</p>
-<h4 id="what-problem-it-deal-with">What Problem it deal with</h4>
-<h4 id="what-condition-it-use">What Condition it use?</h4>
-<h4 id="what-property-it-has">What Property it has?</h4>
-<h2 id="how-a-precise-description-of-the-algorithm-itself">How: A precise description of the algorithm itself.</h2>
-<h2 id="why-a-proof-that-the-algorithm-solves-the-problem-it-is-supposed-to-solve">Why: A proof that the algorithm solves the problem it is supposed to solve.</h2>
+<h4 id="what-problem-it-deal-with">What Problem it deal with<a class="headerlink" href="#what-problem-it-deal-with" title="Permanent link">¶</a></h4>
+<h4 id="what-condition-it-use">What Condition it use?<a class="headerlink" href="#what-condition-it-use" title="Permanent link">¶</a></h4>
+<h4 id="what-property-it-has">What Property it has?<a class="headerlink" href="#what-property-it-has" title="Permanent link">¶</a></h4>
+<h2 id="how-a-precise-description-of-the-algorithm-itself">How: A precise description of the algorithm itself.<a class="headerlink" href="#how-a-precise-description-of-the-algorithm-itself" title="Permanent link">¶</a></h2>
+<h2 id="why-a-proof-that-the-algorithm-solves-the-problem-it-is-supposed-to-solve">Why: A proof that the algorithm solves the problem it is supposed to solve.<a class="headerlink" href="#why-a-proof-that-the-algorithm-solves-the-problem-it-is-supposed-to-solve" title="Permanent link">¶</a></h2>
 <p>It used <code>contiguity</code> to implement a dynamic programming-type algorith.</p>
 <p>There are two conditions:</p>
 <p>First is a maximal adjacent subsequence cannot have a starting subsquence with a negative sum.</p>
-<h2 id="history-when-it-is-proposed-how-it-envolved">History: when it is proposed, how it envolved.</h2>
+<h2 id="history-when-it-is-proposed-how-it-envolved">History: when it is proposed, how it envolved.<a class="headerlink" href="#history-when-it-is-proposed-how-it-envolved" title="Permanent link">¶</a></h2>
 <p>Developed by Joseph Kadane in the late 1970s; Formal artical is a recounted one published by Kadane in 2023;</p>
-<h2 id="how-fast-an-analysis-of-the-running-time-of-the-algorithm">How fast: An analysis of the running time of the algorithm</h2>
+<h2 id="how-fast-an-analysis-of-the-running-time-of-the-algorithm">How fast: An analysis of the running time of the algorithm<a class="headerlink" href="#how-fast-an-analysis-of-the-running-time-of-the-algorithm" title="Permanent link">¶</a></h2>
 <p>O(n);</p>
-<h1 id="refs"><a href="../../refs.md#algorithm">Refs</a></h1>
+<h1 id="refs"><a href="../../refs.md#algorithm">Refs</a><a class="headerlink" href="#refs" title="Permanent link">¶</a></h1>
 <div class="footnote">
 <hr>
 <ol>

@@ -5451,6 +5451,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17728,92 +17784,92 @@
 
 
 
-<div><h1 id="rust">Rust</h1><p style="color:#bdbdbd"><i>Estimated time to read: 5 minutes</i></p>
+<div><h1 id="rust">Rust<a class="headerlink" href="#rust" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 5 minutes</i></p>
 
-<h2 id="practice-materials">Practice Materials</h2>
+<h2 id="practice-materials">Practice Materials<a class="headerlink" href="#practice-materials" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://www.techinterviewhandbook.org/grind75/">Grind 75</a></li>
 </ul>
-<h2 id="principles">Principles</h2>
+<h2 id="principles">Principles<a class="headerlink" href="#principles" title="Permanent link">¶</a></h2>
 <ol>
 <li>There's no concept of uninitialized or null values for fiels unless explicitly wrapped in an Option.</li>
 <li>A variable can only directly call methods that are defined for its type.</li>
 </ol>
-<h2 id="concepts">Concepts</h2>
-<h3 id="documentation-comments">Documentation comments<code>//!</code></h3>
+<h2 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h2>
+<h3 id="documentation-comments">Documentation comments<code>//!</code><a class="headerlink" href="#documentation-comments" title="Permanent link">¶</a></h3>
 <p>The comments are processed by <code>rustdoc</code> to generate API documentation.
 Document the containing item, like a module, crate or file.</p>
-<h3 id="inner-documentation-comments-">Inner documentation comments <code>///</code></h3>
+<h3 id="inner-documentation-comments-">Inner documentation comments <code>///</code><a class="headerlink" href="#inner-documentation-comments-" title="Permanent link">¶</a></h3>
 <p>Document the next item</p>
-<h3 id="olog-n"><code>O(log n)</code></h3>
+<h3 id="olog-n"><code>O(log n)</code><a class="headerlink" href="#olog-n" title="Permanent link">¶</a></h3>
 <p>Certain divide-and-conquer algorithms, such as binary search;</p>
-<h3 id="data-type">data type</h3>
-<h5 id="usize-vs-i32"><code>usize vs i32</code></h5>
+<h3 id="data-type">data type<a class="headerlink" href="#data-type" title="Permanent link">¶</a></h3>
+<h5 id="usize-vs-i32"><code>usize vs i32</code><a class="headerlink" href="#usize-vs-i32" title="Permanent link">¶</a></h5>
 <p>usize mean unsigned (&gt;=0), it's pointer sized.</p>
-<h3 id="generic-parameters-generic-type"><a href="https://doc.rust-lang.org/reference/items/generics.html">generic parameters: generic type</a></h3>
+<h3 id="generic-parameters-generic-type"><a href="https://doc.rust-lang.org/reference/items/generics.html">generic parameters: generic type</a><a class="headerlink" href="#generic-parameters-generic-type" title="Permanent link">¶</a></h3>
 <p><code>&lt;U,F&gt;</code> types involved in the method. not all types rather only the additional types introduced by the method that need to be determined by the caller or inferred by the compiler.
 The order doesn't inherently matter.</p>
-<h3 id="generic-function"><a href="https://doc.rust-lang.org/rust-by-example/generics.html">generic function</a></h3>
-<h3 id="type-parameter"><a href="">type parameter</a></h3>
-<h3 id="move"><a href="https://doc.rust-lang.org/rust-by-example/scope/move.html">move</a></h3>
+<h3 id="generic-function"><a href="https://doc.rust-lang.org/rust-by-example/generics.html">generic function</a><a class="headerlink" href="#generic-function" title="Permanent link">¶</a></h3>
+<h3 id="type-parameter"><a href="">type parameter</a><a class="headerlink" href="#type-parameter" title="Permanent link">¶</a></h3>
+<h3 id="move"><a href="https://doc.rust-lang.org/rust-by-example/scope/move.html">move</a><a class="headerlink" href="#move" title="Permanent link">¶</a></h3>
 <div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">x</span><span class="w"> </span><span class="o">=</span><span class="w"> </span><span class="mi">1</span><span class="p">;</span>
 <span class="n">func</span><span class="p">(</span><span class="n">x</span><span class="p">);</span>
 <span class="fm">println!</span><span class="p">(</span><span class="s">"{}"</span><span class="p">,</span><span class="n">x</span><span class="p">)</span><span class="w"> </span><span class="c1">// wrong, because the ownership of resource is transferred to func, which is called move</span>
 </code></pre></div>
-<h3 id="variable-is-a-memory-location-with-offset-which-inclued-structure">variable is a memory location with offset which inclued structure</h3>
+<h3 id="variable-is-a-memory-location-with-offset-which-inclued-structure">variable is a memory location with offset which inclued structure<a class="headerlink" href="#variable-is-a-memory-location-with-offset-which-inclued-structure" title="Permanent link">¶</a></h3>
 <p>A variable in Rust is a named binding that associated an identifier with a value stored in memory.
 A type determines its size, layout, and interpretation.
 Each piece of memory has exactly one owner at a time.
 When a variable owns data, it's responsible for freeing that memory when it goes out scope (drop mechnism)</p>
-<h3 id="here-is-the-concept-automatic-dereferencing">Here is the concept <a href="https://doc.rust-lang.org/reference/expressions/field-expr.html?highlight=automatic%20dereferenced#r-expr.field.autoref-deref"><code>automatic dereferencing</code></a></h3>
+<h3 id="here-is-the-concept-automatic-dereferencing">Here is the concept <a href="https://doc.rust-lang.org/reference/expressions/field-expr.html?highlight=automatic%20dereferenced#r-expr.field.autoref-deref"><code>automatic dereferencing</code></a><a class="headerlink" href="#here-is-the-concept-automatic-dereferencing" title="Permanent link">¶</a></h3>
 <p>Also called <a href="/docs/topics/language/rust/std/rc.md#how-to-use">autoderef</a> .</p>
-<h3 id="interior-mutability"><a href="https://doc.rust-lang.org/reference/interior-mutability.html">Interior Mutability</a></h3>
+<h3 id="interior-mutability"><a href="https://doc.rust-lang.org/reference/interior-mutability.html">Interior Mutability</a><a class="headerlink" href="#interior-mutability" title="Permanent link">¶</a></h3>
 <p><a href="https://doc.rust-lang.org/reference/interior-mutability.html">it's</a> a design pattern in Rust that allows you to mutate data ven when there are immutable references to that data.
 This action is not allowed by the borrowing rules.</p>
-<h3 id="pointer-sized">pointer-sized</h3>
+<h3 id="pointer-sized">pointer-sized<a class="headerlink" href="#pointer-sized" title="Permanent link">¶</a></h3>
 <p><code>usize</code> and <code>isize</code> are called pointer-sized integers because their size matches the CPU's native pointer size.
 <strong>pointer-size</strong> means architecture-dependent.
 A pointer(memory address) must be able to reference any location inmemory.
 Vec, arrays and slices use <code>usize</code> for indexing because memory addresses are pointer-sized, and indexing is essentially pointer arithmetic.
 If you're serializing data to disk or sending it over a network, avoid <code>usize</code> because its size varies across platform.
 When it refers the memory location, you should use <code>usize</code>;</p>
-<h5 id="linked-list">linked list</h5>
-<h5 id="box-is-a-smart-pointer-that-owns-a-value-of-type-t-on-the-heap">Box<t> is a smart pointer that owns a value of type T on the heap</t></h5>
+<h5 id="linked-list">linked list<a class="headerlink" href="#linked-list" title="Permanent link">¶</a></h5>
+<h5 id="box-is-a-smart-pointer-that-owns-a-value-of-type-t-on-the-heap">Box<t> is a smart pointer that owns a value of type T on the heap<a class="headerlink" href="#box-is-a-smart-pointer-that-owns-a-value-of-type-t-on-the-heap" title="Permanent link">¶</a></t></h5>
 <p>It's pointer in the sense that it holds the memory address of the heap-allocated data, but it's more than a raw pointer because it manages ownership and cleanup.
 You can take <code>Box&lt;T&gt;</code> as a single-owner handle to the heap data.</p>
 <p><code>&amp;Box</code> arises when you want to <strong>borrow</strong> the Box without taking ownership.
 <code>&amp;Box&lt;T&gt;</code> is a reference to the <code>Box</code> itself, not directly to the <code>T</code> inside it.</p>
-<h3 id="binding-vs-type">binding vs type</h3>
+<h3 id="binding-vs-type">binding vs type<a class="headerlink" href="#binding-vs-type" title="Permanent link">¶</a></h3>
 <p><code>mut</code> is part of the binding , not the type.
 It reflects how mutability is handled in the language.
 Mutability is a Property of the Binding, not the Type.
 <code>mut</code> indicates that the variable binding is mutable, meaning you can modify the value it holds.
 The type describes what the variable holds, not how it can be used.</p>
-<h3 id="confusion-about-">confusion about <code>=</code></h3>
+<h3 id="confusion-about-">confusion about <code>=</code><a class="headerlink" href="#confusion-about-" title="Permanent link">¶</a></h3>
 <p>Assigning a value versus Assigning a pointer or a reference.
 </p><div class="highlight"><pre><span></span><code>let mut r = &amp;mut list1;
 r = &amp;mut r.as_mut()?.next;
 </code></pre></div>
 r is a mutable reference, not assigning the <code>&amp;mut list1</code> to r, it's mutably bind r to the reference of list1, then not assigning again, but bind r to the &amp;mut value which is <code>r.as_mut()?.next</code> where <code>r.as_mut()</code> work because r is &amp;mut which is required by <code>.as_mut(&amp;mut self)</code>, then get the <code>Box</code> which is a smart pointer by <code>?</code>, then you can access the <code>next</code> variable.
 The reference or pointer is a moving point, rather a location waiting assigned which is the mechanism of data assignment in common programming.
-<h3 id="t-is-not-a-keyword-just-a-convention"><code>T</code> is not a keyword, just a convention</h3>
+<h3 id="t-is-not-a-keyword-just-a-convention"><code>T</code> is not a keyword, just a convention<a class="headerlink" href="#t-is-not-a-keyword-just-a-convention" title="Permanent link">¶</a></h3>
 <p>A placeholder name used to represent a generic type.
 It's part of Rust's generics system.
 </p><div class="highlight"><pre><span></span><code>fn print_type&lt;T&gt;(value: T) {
     println!("Type of value: {}", type_name::&lt;T&gt;());
 }
 </code></pre></div>
-<h1 id="perspective">Perspective</h1>
-<h2 id="data-structure">Data Structure</h2>
+<h1 id="perspective">Perspective<a class="headerlink" href="#perspective" title="Permanent link">¶</a></h1>
+<h2 id="data-structure">Data Structure<a class="headerlink" href="#data-structure" title="Permanent link">¶</a></h2>
 <ul>
 <li><a href="https://www.youtube.com/watch?v=7_o-YRxf_cc">Visualizing memory layout of Rust's data types</a></li>
 </ul>
-<h2 id="variable">variable</h2>
+<h2 id="variable">variable<a class="headerlink" href="#variable" title="Permanent link">¶</a></h2>
 <p></p><div class="highlight"><pre><span></span><code><span class="kd">let</span><span class="w"> </span><span class="n">x</span><span class="w">  </span><span class="o">=</span><span class="w"> </span><span class="fm">vec!</span><span class="p">[</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">]</span>
 </code></pre></div>
 <code>123</code> is on heap, Vec is on stack with ptr+len+cap, <code>x</code> is the name bound to the Vec structure.
 <code>x</code> isn't another memory location, it's the Vec strucure itself. When you use <code>x</code>, Rust accesses that stack memory directly.
-<h2 id="compile-time">Compile-time</h2>
+<h2 id="compile-time">Compile-time<a class="headerlink" href="#compile-time" title="Permanent link">¶</a></h2>
 <p><code>x</code> is a compile-time name that the Rust compiler uses to refer to a specific piece of data.
 Once the code is compiled to machie code , <code>x</code> disappears as a label and becomes an offset or regiter reference to actual memory location of the Vec structure.
 So, at runtime, on the memory level, <code>x</code> doesn't exist as a separate entiry.

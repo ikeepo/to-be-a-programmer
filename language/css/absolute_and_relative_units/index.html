@@ -5589,6 +5589,62 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day126/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day126: Prendre des notes en français.
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../french/diary/day130/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Day130
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17408,9 +17464,9 @@
 
 
 
-<div><h1 id="absolute-and-relative-units">Absolute and Relative Units</h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="absolute-and-relative-units">Absolute and Relative Units<a class="headerlink" href="#absolute-and-relative-units" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
-<h2 id="absolute-units">Absolute Units</h2>
+<h2 id="absolute-units">Absolute Units<a class="headerlink" href="#absolute-units" title="Permanent link">¶</a></h2>
 <p><code>Absolute length units are of fixed length and are not relative to anything else.</code></p>
 <div class="highlight"><pre><span></span><code>-<span class="w"> </span><span class="nv">px</span><span class="w"> </span><span class="o">=</span><span class="w"> </span>It<span class="w"> </span>is<span class="w"> </span>important<span class="w"> </span>to<span class="w"> </span>note<span class="w"> </span>that<span class="w"> </span><span class="k">while</span><span class="w"> </span>1px<span class="w"> </span>is<span class="w"> </span>standardized<span class="w"> </span>as<span class="w"> </span><span class="m">1</span>/96th<span class="w"> </span>of<span class="w"> </span>an<span class="w"> </span>inch<span class="w"> </span><span class="k">for</span><span class="w"> </span>the<span class="w"> </span>purposes<span class="w"> </span>of<span class="w"> </span>CSS<span class="w"> </span>layout,<span class="w"> </span>the<span class="w"> </span>actual<span class="w"> </span>physical<span class="w"> </span>size<span class="w"> </span>of<span class="w"> </span>a<span class="w"> </span>pixel<span class="w"> </span>may<span class="w"> </span>differ<span class="w"> </span>depending<span class="w"> </span>on<span class="w"> </span>the<span class="w"> </span>display.
 
@@ -17421,18 +17477,18 @@
 -<span class="w"> </span>pc<span class="w"> </span><span class="o">(</span>picas<span class="o">)</span><span class="w"> </span>unit,<span class="w"> </span>which<span class="w"> </span>is<span class="w"> </span>equal<span class="w"> </span>to<span class="w"> </span><span class="m">1</span>/6th<span class="w"> </span>of<span class="w"> </span>an<span class="w"> </span>inch
 -<span class="w"> </span>pt<span class="w"> </span><span class="o">(</span>points<span class="o">)</span><span class="w"> </span>unit,<span class="w"> </span>which<span class="w"> </span>is<span class="w"> </span>equal<span class="w"> </span>to<span class="w"> </span><span class="m">1</span>/72th<span class="w"> </span>of<span class="w"> </span>an<span class="w"> </span>inch
 </code></pre></div>
-<h3 id="既然是196-inch为什么可能不同">既然是1/96 inch,为什么可能不同?</h3>
+<h3 id="既然是196-inch为什么可能不同">既然是1/96 inch,为什么可能不同?<a class="headerlink" href="#%E6%97%A2%E7%84%B6%E6%98%AF196-inch%E4%B8%BA%E4%BB%80%E4%B9%88%E5%8F%AF%E8%83%BD%E4%B8%8D%E5%90%8C" title="Permanent link">¶</a></h3>
 <p>因为浏览器会根据DPR(Device Pixel Ratio，由浏览器实现，根据硬件+操作系统共同决定)调整；</p>
-<h2 id="relative-units">Relative Units</h2>
-<h3 id="percentages">Percentages</h3>
+<h2 id="relative-units">Relative Units<a class="headerlink" href="#relative-units" title="Permanent link">¶</a></h2>
+<h3 id="percentages">Percentages<a class="headerlink" href="#percentages" title="Permanent link">¶</a></h3>
 <p><code>in CSS are relative units that allow you to define sizes, dimensions, and other properties as a proportion of their parent element.</code></p>
-<h3 id="em--rem"><code>em</code> &amp; <code>rem</code></h3>
+<h3 id="em--rem"><code>em</code> &amp; <code>rem</code><a class="headerlink" href="#em--rem" title="Permanent link">¶</a></h3>
 <p><code>em</code> units are relative to the font size of the element. If you are using ems for the font-size property, the size of the text will be relative to the font size of the parent element.</p>
 <p>A <code>rem</code> unit is relative to the font size of the root element, which is the <code>html</code> element.</p>
-<h3 id="vh--vw"><code>vh</code> &amp; <code>vw</code></h3>
+<h3 id="vh--vw"><code>vh</code> &amp; <code>vw</code><a class="headerlink" href="#vh--vw" title="Permanent link">¶</a></h3>
 <p><code>vh and vw are viewport-relative units that allow you to size elements based on the dimensions of the browser window. These units are particularly useful for creating responsive designs that adapt to different screen sizes.</code></p>
 <p><code>1vh</code> is equal to 1% of the viewport's height.</p>
-<h3 id="calc"><code>calc()</code></h3>
+<h3 id="calc"><code>calc()</code><a class="headerlink" href="#calc" title="Permanent link">¶</a></h3>
 <p>You can perform calculations on values that represent length, angle, time, percentages, numbers, and colors. You can also combine different units like pixels, percentages, and ems.</p>
 <p>With numbers, all the values in the expression, also called the operands, must have their corresponding units, like px, em, and percentage (%). Depending on the operator, different operands may have different units.</p></div>
 
