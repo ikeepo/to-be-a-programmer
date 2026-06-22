@@ -16,8 +16,7 @@ plugins:
   - mkdocs-video
   - timetoread:
       wpm: 190
-  - tags:
-      tags_file: tags.md  # 指定存储标签列表的文件
+  - tags
       
 
 markdown_extensions:
