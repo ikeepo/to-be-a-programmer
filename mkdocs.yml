@@ -24,6 +24,7 @@ markdown_extensions:
   - footnotes
   - toc:
       slugify: !!python/name:pymdownx.slugs.uslugify  # 支持 Unicode (中文)
+      permalink: true
   - attr_list  # 开启方案一所需的手动属性功能
   - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
