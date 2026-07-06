@@ -9,7 +9,7 @@
       
       
       
-        <link rel="prev" href="../absolute_and_relative_units/">
+        <link rel="prev" href="../box_model/">
       
       
         <link rel="next" href="../common_design_tools/">
@@ -2472,6 +2472,34 @@
                 
   
   
+  
+  
+    <li class="md-nav__item">
+      <a href="../box_model/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Box Model
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
     
   
   
@@ -2608,6 +2636,34 @@
     
   
     Pseudo Classes &amp; Elements
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../styling_forms/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Styling Forms
   
 
     
@@ -17609,7 +17665,7 @@
 
 
 
-<div><h1 id="color">Color<a class="headerlink" href="#color" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="color">Color<a class="headerlink" href="#color" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <h2 id="color-theory-in-design">Color Theory in Design<a class="headerlink" href="#color-theory-in-design" title="Permanent link">¶</a></h2>
 <p>Color theory is the study of how colors interact with each other and how they affect our perception</p>
@@ -17633,7 +17689,51 @@
 </ul>
 </li>
 <li>
-<p><select onchange="this.style.backgroundColor = (this.value == 'Named colors' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="Named colors">Named colors</option></select> are predefined color names recognized by browsers. Named colors in CSS are a collection of <select onchange="this.style.backgroundColor = (this.value == '140' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="140">140</option></select> standard color names like red, blue, yellow, aqua, fuchsia, black, and so on.</p>
+<p><select onchange="this.style.backgroundColor = (this.value == 'Named colors' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="Named colors">Named colors</option></select> are predefined color names recognized by browsers. Named colors in CSS are a collection of <select onchange="this.style.backgroundColor = (this.value == '140' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="140">140</option></select> <a href="https://developer.mozilla.org/en-US/docs/Web/CSS/Reference/Values/named-color">standard color names</a> like red, blue, yellow, aqua, fuchsia, black, and so on.</p>
+</li>
+<li>
+<p>the primary colors of light: RGB(自发光，additive color model); the primary colors of paint: RYB（反射光，减色）;</p>
+</li>
+<li>
+<p>编程主要是加色(<code>rgb(0,0,0), rgba(0-255,0-255,0-255,0-1</code>)，因为代码都是通过屏幕发光呈现的。平板是加色，kindle是减色。</p>
+</li>
+<li>
+<p>HSL stands for Hue[0-360], Saturation[0-100%], and Lightness[0-100%]</p>
+<ul>
+<li>
+<p>The hue is the color type</p>
+</li>
+<li>
+<p>Saturation refers to the intensity or purity of the color.</p>
+</li>
+<li>
+<p>Lightness determines how light or dark the color is</p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>hsl(hue saturation lightness), hsl(hue saturation lightness / alpha), hsla(hue, saturation, lightness, alpha)</code>, 数学上的关系是：$H \times S \times L$ 的连续组合，完整映射了 $R \times G \times B$ 的全部空间。</p>
+</li>
+<li>
+<p>A hex code (short for hexadecimal code) is a six-character string used to represent colors in the RGB color model. The first two characters represent the red value, the next two represent green, and the last two represent blue.</p>
+</li>
+<li>
+<p>hex 16进制和rgb的255有什么对应关系？<code>F * 16 + F = 240 + 15 = 255</code></p>
+</li>
+<li>
+<h1 id="ffffff-white-can-be-written-as-fff">FFFFFF (white) can be written as #FFF.<a class="headerlink" href="#ffffff-white-can-be-written-as-fff" title="Permanent link">¶</a></h1>
+</li>
+<li>
+<p>Gradients in CSS allow you to create smooth transitions between two or more specified colors. </p>
+</li>
+<li>
+<p>Linear gradients(<code>linear-gradient(to right/45deg, red 20%, blue, ...);</code>) create a gradual blend between colors along a straight line. linear-gradient function actually creates an image element</p>
+</li>
+<li>
+<p>Radial gradients(<code>radial-gradient(circle/ellipse at top left, red, blue)</code>), on the other hand, create circular or elliptical gradients that radiate from a central point.</p>
+</li>
+<li>
+<p>background: linear-gradient(to right, red 20%, yellow 40%, blue 80%); 为什么数值加起来不是100？ it means the color stops at precise positions. 0-20%是纯红，20-40%是红变黄，40%位置纯黄，40-80%是黄变蓝，80%及以后是纯蓝。</p>
 </li>
 </ul></div>
 
@@ -17656,7 +17756,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 6, 2026 14:51:26 UTC">July 6, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 6, 2026 22:44:03 UTC">July 6, 2026</span>
   </span>
 
     
