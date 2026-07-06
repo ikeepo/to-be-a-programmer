@@ -305,3 +305,14 @@ How to know the contrast? The developer tools --> style --> color / [WebAIM Cont
 Lazy registration is a UI design pattern that allows users to browse and interact with your application without having to register.
 Lazy registration is a useful design pattern that allows users to see the value of your application before they are willing to provide their information.
 ```
+
+# Apply DDD in CSS learning
+[DDD](../../programmer_mental_models/ddd.md) is a coganitive method, can bu used in knowledge learning.
+
+[Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/table-of-contents/)
+
+[BEM](https://getbem.com/introduction/)
+
+[Thinking in React](https://react.dev/learn/thinking-in-react)
+
+
