@@ -32,7 +32,7 @@ Color theory is the study of how colors interact with each other and how they af
 
 - hex 16进制和rgb的255有什么对应关系？`F * 16 + F = 240 + 15 = 255`
 
--  #FFFFFF (white) can be written as #FFF.
+-  `#FFFFFF` (white) can be written as `#FFF`.
 
 - Gradients in CSS allow you to create smooth transitions between two or more specified colors. 
 
