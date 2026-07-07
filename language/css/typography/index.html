@@ -2503,6 +2503,34 @@
   
   
     <li class="md-nav__item">
+      <a href="../accessibility/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Accessibility
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../box_model/" class="md-nav__link">
         
   
@@ -17660,11 +17688,136 @@
 
 
 
-<div><h1 id="typography">Typography<a class="headerlink" href="#typography" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="typography">Typography<a class="headerlink" href="#typography" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <h1 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h1>
 <ul>
-<li><select onchange="this.style.backgroundColor = (this.value == 'Typography' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="Typography">Typography</option></select> is the art of choosing the right fonts and format to make text visually appealing and easy to read. </li>
+<li>
+<p><select onchange="this.style.backgroundColor = (this.value == 'Typography' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="Typography">Typography</option></select> is the art of choosing the right fonts and format to make text visually appealing and easy to read. </p>
+</li>
+<li>
+<p>Fundamental elements of <strong>typography</strong>:</p>
+<ul>
+<li>
+<p>baseline</p>
+</li>
+<li>
+<p>cap height</p>
+</li>
+<li>
+<p>x-height</p>
+</li>
+<li>
+<p>ascenders </p>
+</li>
+<li>
+<p>descenders </p>
+</li>
+<li>
+<p>kerning</p>
+</li>
+<li>
+<p>tracking</p>
+</li>
+<li>
+<p>leading</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Other factors that enhance the readability of your content and reinforce your brand's identity: </p>
+<ul>
+<li>
+<p>line length</p>
+</li>
+<li>
+<p>underling</p>
+</li>
+<li>
+<p>italic </p>
+</li>
+<li>
+<p>fonts </p>
+</li>
+<li>
+<p>spacing</p>
+</li>
+<li>
+<p>hierarchy</p>
+</li>
+</ul>
+</li>
+<li>
+<p>A <select onchange="this.style.backgroundColor = (this.value == 'typeface' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="typeface">typeface</option></select> is the overall design and style of a set of characters, numbers, and symbols. It's like a blueprint for a family(weight, style, width) of <select onchange="this.style.backgroundColor = (this.value == 'fonts' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="fonts">fonts</option></select>. </p>
+</li>
+<li>
+<p>A <select onchange="this.style.backgroundColor = (this.value == 'font' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="font">font</option></select> is a specific variation of a typeface with specific characteristics, such as size, weight, style, and width.</p>
+</li>
+<li>
+<p>Web Content Accessibility Guidelines</p>
+</li>
+<li>
+<p>A <select onchange="this.style.backgroundColor = (this.value == 'font family' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="font family">font family</option></select> is a group of fonts that share a common design. </p>
+</li>
+<li>
+<p><code>font-family: Arial, Lato;</code>： The selection process doesn't stop if the first font is available. The font family is chosen one character at a time, so if a font lacks a specific character, the browser looks for it in the lower-priority fonts. </p>
+</li>
+<li>
+<p>generic font family :</p>
+</li>
+<li>
+<p>serif</p>
+</li>
+<li>
+<p>sans-serif</p>
+</li>
+<li>
+<p>monospace</p>
+</li>
+<li>
+<p>cursive</p>
+</li>
+<li>
+<p>fantasy</p>
+</li>
+<li>
+<p><select onchange="this.style.backgroundColor = (this.value == 'Web-safe fonts' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="Web-safe fonts">Web-safe fonts</option></select> are a subset of fonts that are very likely to be installed on a computer or device.</p>
+</li>
+<li>
+<p>Web-safe fonts vs generic font family ==&gt; font vs typeface</p>
+</li>
+<li>
+<p><select onchange="this.style.backgroundColor = (this.value == 'At-rules' ? 'transparent' : '#ffcccc');" style="border: none; border-bottom: 2px solid gray; font-weight: bold; padding: 2px; cursor: pointer;"><option value="">???</option><option value="At-rules">At-rules</option></select> are statements that provide instructions to the browser.</p>
+</li>
+<li>
+<p>With <code>@font-face</code>, you can define a custom font by specifying the font file, format, and other important properties, like weight and style. </p>
+</li>
+</ul>
+<div class="highlight"><pre><span></span><code>@font-face<span class="w"> </span><span class="o">{</span>
+<span class="w">  </span>font-family:<span class="w"> </span><span class="s2">"MyCustomFont"</span><span class="p">;</span><span class="w"> </span>
+<span class="w">  </span>src:<span class="w"> </span>url<span class="o">(</span><span class="s2">"path/to/font.woff2"</span><span class="o">)</span><span class="w"> </span>format<span class="o">(</span><span class="s2">"woff2"</span><span class="o">)</span>,
+<span class="w">    </span>url<span class="o">(</span><span class="s2">"path/to/font.otf"</span><span class="o">)</span><span class="w"> </span>format<span class="o">(</span><span class="s2">"opentype"</span><span class="o">)</span><span class="w">  </span>tech<span class="o">(</span>color-COLRv1<span class="o">)</span>,
+<span class="w">    </span>url<span class="o">(</span><span class="s2">"path/to/font.woff"</span><span class="o">)</span><span class="w"> </span>format<span class="o">(</span><span class="s2">"woff"</span><span class="o">)</span><span class="p">;</span>
+<span class="o">}</span>
+</code></pre></div>
+<ul>
+<li>
+<p>Possible font formats include <code>collection, embedded-opentype, opentype, svg, truetype, woff, and woff2</code>.</p>
+</li>
+<li>
+<p>External Fonts:</p>
+<ul>
+<li>
+<p><a href="https://fonts.google.com">Google Fonts</a></p>
+</li>
+<li>
+<p><a href="https://www.fontsquirrel.com">Font Squirrel</a></p>
+</li>
+</ul>
+</li>
+<li>
+<p><code>text-shadow</code>: offset, blur, and color</p>
+</li>
 </ul></div>
 
 
@@ -17686,7 +17839,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 7, 2026 16:09:52 UTC">July 7, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 7, 2026 23:19:40 UTC">July 7, 2026</span>
   </span>
 
     
