@@ -2674,6 +2674,34 @@
 
               
             
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../typography/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Typography
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
           </ul>
         </nav>
       
@@ -17632,7 +17660,7 @@
 
 
 
-<div><h1 id="flexbox">Flexbox<a class="headerlink" href="#flexbox" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="flexbox">Flexbox<a class="headerlink" href="#flexbox" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <h1 id="concepts">Concepts<a class="headerlink" href="#concepts" title="Permanent link">¶</a></h1>
 <ul>
@@ -17651,10 +17679,10 @@
 <p>Every flex container has two axes:</p>
 <ol>
 <li>
-<p>The main axis.</p>
+<p>The main axis.(horizontal), defined by flex-direction</p>
 </li>
 <li>
-<p>The cross axis.</p>
+<p>The cross axis.(vertical)</p>
 </li>
 </ol>
 </li>
@@ -17662,16 +17690,31 @@
 <p>flex properties:</p>
 <ol>
 <li>
-<p>flex-direction</p>
+<p><code>flex-direction: row(default), row-reverse, column, column-reverse</code></p>
 </li>
 <li>
-<p>justify-content</p>
+<p><code>justify-content: flex-start flex-end center space-between space-around space-evenly</code> aligns the child elements along the main axis of the flex container.</p>
 </li>
 <li>
-<p>align-items</p>
+<p><code>align-items: stretch</code> distribute the child elements along the cross axis</p>
 </li>
 <li>
-<p>flex-wrap.</p>
+<p><code>flex-wrap: nowrap, wrap( allow the items to wrap to the next row or column), wrap-reverse</code></p>
+</li>
+<li>
+<p><code>flex-flow: column wrap-reverse;</code> shorthand property for <code>flex-direction</code> and <code>flex-wrap</code></p>
+</li>
+<li>
+<p><code>align-self:</code> individual flex item</p>
+</li>
+<li>
+<p><code>order: 0( they appear in the order they're written in the HTML, Items with lower order values appear first)</code></p>
+</li>
+<li>
+<p><code>flex-grow: 0|1|2...</code> how much a flex item should grow relative to the rest of the flex items if there is extra space available inside the parent flex container.</p>
+</li>
+<li>
+<p><code>flex-shrink</code> It dictates how much a flex item should shrink relative to the other flex items when there isn't enough space inside the parent flex container.</p>
 </li>
 </ol>
 </li>
@@ -17696,7 +17739,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 7, 2026 13:31:46 UTC">July 7, 2026</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date" title="July 7, 2026 16:09:52 UTC">July 7, 2026</span>
   </span>
 
     
