@@ -18,6 +18,11 @@ plugins:
       wpm: 190
   - tags:
       tags_file: tags.md  # 指定存储标签列表的文件
+  - blog:
+      blog_dir: docs 
+      post_date_format: MM/dd/yyyy
+      archive: true 
+      archive_format: yyyy年MM月
 
       
 
