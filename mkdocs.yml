@@ -12,7 +12,7 @@ plugins:
   - search
   - awesome-nav
   - macros
-  - git-revision-date-localized
+  - git-revision-date-localized:
       type: iso_date
   - mkdocs-video
   - timetoread:
