@@ -20,3 +20,5 @@ Progrmming plans and discourse rules.
 1. Memory layout;
 # Principles
 [W3C](https://www.w3.org/)
+
+# [CSS Mental Model](../language/css/best_practice.md)
