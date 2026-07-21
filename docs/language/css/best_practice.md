@@ -16,4 +16,21 @@
 
 - [Happy Hues](https://www.happyhues.co)
 
+# Is it necessary to master css compiler to master CSS
+CSS 预编译器（如Sass、Less、PostCSS）本质上只是字符串处理与语法糖转换工具，把嵌套语法、变量、函数转换成标准的原生 CSS。
 
+使用css并不需要懂CSS是如何编译的，但是需要搞懂**浏览器拿到CSS后做了什么**
+.
+So, what's the metal model for css experts:
+
+- CSS for JavaScript Developers, Josh W. Comeau, online course
+
+- [Inclusive Components](<./books/Inclusive Components.epub>)/[Every Layout](<./books/Every Layout.epub>), Heydon [ Pickering ]()
+
+- The New CSS Layout, Rachel Andrew
+
+- Jen Simmons
+    
+    - [Layout Land](https://www.youtube.com/@LayoutLand/videos)
+
+    - Intrinsic Web Design
