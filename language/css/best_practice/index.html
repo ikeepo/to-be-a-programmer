@@ -18134,7 +18134,7 @@
 
 
 
-<div><h1 id="css-best-practice">CSS Best Practice<a class="headerlink" href="#css-best-practice" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
+<div><h1 id="css-best-practice">CSS Best Practice<a class="headerlink" href="#css-best-practice" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
 
 <h1 id="color">Color<a class="headerlink" href="#color" title="Permanent link">¶</a></h1>
 <h2 id="what-are-the-current-best-practices-for-building-a-css-color-system">What are the current best practices for building a CSS color system?<a class="headerlink" href="#what-are-the-current-best-practices-for-building-a-css-color-system" title="Permanent link">¶</a></h2>
@@ -18172,10 +18172,33 @@ So, what's the metal model for css experts:</p>
 <p>CSS for JavaScript Developers, Josh W. Comeau, online course</p>
 </li>
 <li>
-<p><a href="../books/Inclusive%20Components.epub">Inclusive Components</a>/<a href="../books/Every%20Layout.pdf">Every Layout</a>, Heydon Pickering </p>
+<p>Heydon Pickering </p>
 </li>
 <li>
-<p>The New CSS Layout, Rachel Andrew</p>
+<p><a href="../books/Inclusive%20Components.epub">Inclusive Components</a> </p>
+</li>
+<li>
+<p><a href="../books/Every%20Layout.pdf">Every Layout</a></p>
+<ul>
+<li>
+<p>不要试图去‘控制’元素的绝对位置和大小，而是给元素一套‘生长规则’，让浏览器自己去计算布局。</p>
+</li>
+<li>
+<p>把浏览器页面布局抽象成几种类型，每一个章节描述一种布局类型，这种布局类型在定义的时候，不是从下往上一个一个细节定义好，而是从上往下、从大往小定义组件的边界(Layout Boundaries)及变化规则，当填充内容(Intrinsic Content)的时候，内容会充满组件就像气球被充气从而让布局自然生成o</p>
+</li>
+<li>
+<p>imperative thinking ==&gt; Declarative/Defensive Thinking</p>
+</li>
+</ul>
+</li>
+<li>
+<p>Rachel Andrew</p>
+</li>
+<li>
+<p>The New CSS Layout</p>
+<ul>
+<li>CSS 是一组切换浏览器渲染算法的开关</li>
+</ul>
 </li>
 <li>
 <p>Jen Simmons</p>
@@ -18187,6 +18210,22 @@ So, what's the metal model for css experts:</p>
 <p>Intrinsic Web Design</p>
 </li>
 </ul>
+</li>
+</ul>
+<h1 id="不管是哪个角度想要深度掌握css都需要了解浏览器对css的渲染逻辑链条rendering-pipeline">不管是哪个角度，想要深度掌握CSS，都需要了解浏览器对CSS的渲染逻辑链条Rendering Pipeline<a class="headerlink" href="#%E4%B8%8D%E7%AE%A1%E6%98%AF%E5%93%AA%E4%B8%AA%E8%A7%92%E5%BA%A6%E6%83%B3%E8%A6%81%E6%B7%B1%E5%BA%A6%E6%8E%8C%E6%8F%A1css%E9%83%BD%E9%9C%80%E8%A6%81%E4%BA%86%E8%A7%A3%E6%B5%8F%E8%A7%88%E5%99%A8%E5%AF%B9css%E7%9A%84%E6%B8%B2%E6%9F%93%E9%80%BB%E8%BE%91%E9%93%BE%E6%9D%A1rendering-pipeline" title="Permanent link">¶</a></h1>
+<p>"CSS: The Definitive Guide" 主要讲规则(W3C domain)，Rendering Pipeline跨越W3C、浏览器底层工程、计算机图形学（GPU），尚无专著专门论述这个角度。</p>
+<ul>
+<li>
+<p><a href="https://webplatform.github.io/docs/concepts/Internet_and_Web/how_browsers_work/">How Browsers Work: Behind the scenes of modern web browsers</a> - Tali Garsiel,</p>
+</li>
+<li>
+<p>High Performance JavaScript - Nicholas C. Zakas, Chapter 6</p>
+</li>
+<li>
+<p>High Performance Browser Networking - Ilya Grigorik, Critical Rendering Path</p>
+</li>
+<li>
+<p>Rendering Performance - Google Chrome web.dev, Pixel Pipeline</p>
 </li>
 </ul></div>
 
@@ -18209,7 +18248,7 @@ So, what's the metal model for css experts:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 21, 2026 22:53:08 UTC">2026-07-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 21, 2026 23:58:48 UTC">2026-07-21</span>
   </span>
 
     
