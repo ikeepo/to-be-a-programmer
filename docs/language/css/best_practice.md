@@ -25,7 +25,7 @@ So, what's the metal model for css experts:
 
 - CSS for JavaScript Developers, Josh W. Comeau, online course
 
-- [Inclusive Components](<./books/Inclusive Components.epub>)/[Every Layout](<./books/Every Layout.epub>), Heydon [ Pickering ]()
+- [Inclusive Components](<./books/Inclusive Components.epub>)/[Every Layout](<./books/Every Layout.pdf>), Heydon Pickering 
 
 - The New CSS Layout, Rachel Andrew
 
