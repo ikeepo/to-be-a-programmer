@@ -15350,7 +15350,7 @@
   <span class="md-ellipsis">
     
   
-    Optionstratlib
+    Crafting interpreters
   
 
     
@@ -15363,6 +15363,89 @@
         
         <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_1_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_16_1">
+            <span class="md-nav__icon md-icon"></span>
+            
+  
+    Crafting interpreters
+  
+
+          </label>
+          <ul class="md-nav__list" data-md-scrollfix>
+            
+              
+                
+  
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../project_based_immersive_learning/crafting_interpreters/" class="md-nav__link">
+        
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Crafting Interpreters
+  
+
+    
+  </span>
+  
+  
+
+      </a>
+    </li>
+  
+
+              
+            
+          </ul>
+        </nav>
+      
+    </li>
+  
+
+              
+            
+              
+                
+  
+  
+  
+  
+    
+    
+    
+    
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+        
+        
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_2" >
+        
+          
+          <label class="md-nav__link" for="__nav_16_2" id="__nav_16_2_label" tabindex="0">
+            
+  
+  
+  <span class="md-ellipsis">
+    
+  
+    Optionstratlib
+  
+
+    
+  </span>
+  
+  
+
+            <span class="md-nav__icon md-icon"></span>
+          </label>
+        
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_2_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16_2">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -15451,10 +15534,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_2" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_3" >
         
           
-          <label class="md-nav__link" for="__nav_16_2" id="__nav_16_2_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_16_3" id="__nav_16_3_label" tabindex="0">
             
   
   
@@ -15472,8 +15555,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_2_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16_2">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_3_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16_3">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -15534,10 +15617,10 @@
       
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_3" >
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_16_4" >
         
           
-          <label class="md-nav__link" for="__nav_16_3" id="__nav_16_3_label" tabindex="0">
+          <label class="md-nav__link" for="__nav_16_4" id="__nav_16_4_label" tabindex="0">
             
   
   
@@ -15555,8 +15638,8 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_3_label" aria-expanded="false">
-          <label class="md-nav__title" for="__nav_16_3">
+        <nav class="md-nav" data-md-level="2" aria-labelledby="__nav_16_4_label" aria-expanded="false">
+          <label class="md-nav__title" for="__nav_16_4">
             <span class="md-nav__icon md-icon"></span>
             
   
@@ -18134,7 +18217,7 @@
 
 
 
-<div><h1 id="css-best-practice">CSS Best Practice<a class="headerlink" href="#css-best-practice" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 2 minutes</i></p>
+<div><h1 id="css-best-practice">CSS Best Practice<a class="headerlink" href="#css-best-practice" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 3 minutes</i></p>
 
 <h1 id="color">Color<a class="headerlink" href="#color" title="Permanent link">¶</a></h1>
 <h2 id="what-are-the-current-best-practices-for-building-a-css-color-system">What are the current best practices for building a CSS color system?<a class="headerlink" href="#what-are-the-current-best-practices-for-building-a-css-color-system" title="Permanent link">¶</a></h2>
@@ -18225,7 +18308,59 @@ So, what's the metal model for css experts:</p>
 <p>High Performance Browser Networking - Ilya Grigorik, Critical Rendering Path</p>
 </li>
 <li>
-<p>Rendering Performance - Google Chrome web.dev, Pixel Pipeline</p>
+<p>Rendering Performance - Google Chrome <a href="https://web.dev/articles/howbrowserswork">web.dev</a>, Pixel Pipeline</p>
+</li>
+</ul>
+<h1 id="tree-hierarchy-indentation-vs-the-cascade">"Tree Hierarchy" (Indentation) vs "The Cascade"<a class="headerlink" href="#tree-hierarchy-indentation-vs-the-cascade" title="Permanent link">¶</a></h1>
+<table>
+<thead>
+<tr>
+<th style="text-align: left;">Concept</th>
+<th style="text-align: left;">The Indented HTML Format</th>
+<th style="text-align: left;">The CSS Cascade</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align: left;"><strong>What it describes</strong></td>
+<td style="text-align: left;"><strong>Spatial Nesting</strong> (Who contains whom)</td>
+<td style="text-align: left;"><strong>Conflict Resolution</strong> (Which style wins)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Domain</strong></td>
+<td style="text-align: left;">HTML / DOM</td>
+<td style="text-align: left;">CSS Engine</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Visual Analogy</strong></td>
+<td style="text-align: left;"><strong>Russian Nesting Dolls</strong> (Box inside a box)</td>
+<td style="text-align: left;"><strong>A Waterfall / Filter</strong> (Multiple inputs flowing into one final output)</td>
+</tr>
+<tr>
+<td style="text-align: left;"><strong>Mechanism</strong></td>
+<td style="text-align: left;">Parent $\rightarrow$ Child ownership</td>
+<td style="text-align: left;">Specificity $\rightarrow$ Inheritance $\rightarrow$ Override</td>
+</tr>
+<tr>
+<td style="text-align: left;"></td>
+<td style="text-align: left;">Nesting Hierarchy (Tree Structure)</td>
+<td style="text-align: left;">"Cascade" is reserved specifically for CSS because it describes how styling rules pour down from different sources until they combine into a single set of final computed styles</td>
+</tr>
+</tbody>
+</table>
+<p><code>div &gt; p { color: black; }</code> is <strong>NOT CASCADE</strong>, it's called <em>Selector Matching</em> and <em>Structural Scoping</em>, it belongs to the DOM Spatial Hierarchy. Cascade solves Precedence by :</p>
+<ul>
+<li>
+<p>Importance &amp; Origin: !important &gt; developer &gt; default</p>
+</li>
+<li>
+<p>Cascade Layers: @layer</p>
+</li>
+<li>
+<p>Specificity: inline style &gt; ID &gt; Class &gt; Tag</p>
+</li>
+<li>
+<p>Source Order: Last rule wins</p>
 </li>
 </ul></div>
 
@@ -18248,7 +18383,7 @@ So, what's the metal model for css experts:</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 21, 2026 23:58:48 UTC">2026-07-21</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 22, 2026 13:10:56 UTC">2026-07-22</span>
   </span>
 
     
