@@ -29,7 +29,7 @@ So, what's the metal model for css experts:
 
   - [Inclusive Components](<./books/Inclusive Components.epub>) 
 
-  - [Every Layout](<./books/Every Layout.pdf>)
+  - [Every Layout](<./books/Every Layout-pw.pdf>)
     
       - 不要试图去‘控制’元素的绝对位置和大小，而是给元素一套‘生长规则’，让浏览器自己去计算布局。
 
