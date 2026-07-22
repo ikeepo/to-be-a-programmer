@@ -60,5 +60,24 @@ So, what's the metal model for css experts:
 - High Performance Browser Networking - Ilya Grigorik, Critical Rendering Path
 
 
-- Rendering Performance - Google Chrome web.dev, Pixel Pipeline
+- Rendering Performance - Google Chrome [web.dev](https://web.dev/articles/howbrowserswork), Pixel Pipeline
 
+# "Tree Hierarchy" (Indentation) vs "The Cascade"
+
+| Concept | The Indented HTML Format | The CSS Cascade |
+| :--- | :--- | :--- |
+| **What it describes** | **Spatial Nesting** (Who contains whom) | **Conflict Resolution** (Which style wins) |
+| **Domain** | HTML / DOM | CSS Engine |
+| **Visual Analogy** | **Russian Nesting Dolls** (Box inside a box) | **A Waterfall / Filter** (Multiple inputs flowing into one final output) |
+| **Mechanism** | Parent $\rightarrow$ Child ownership | Specificity $\rightarrow$ Inheritance $\rightarrow$ Override |
+||Nesting Hierarchy (Tree Structure)|"Cascade" is reserved specifically for CSS because it describes how styling rules pour down from different sources until they combine into a single set of final computed styles|
+
+`div > p { color: black; }` is **NOT CASCADE**, it's called *Selector Matching* and *Structural Scoping*, it belongs to the DOM Spatial Hierarchy. Cascade solves Precedence by :
+
+- Importance & Origin: !important > developer > default
+
+- Cascade Layers: @layer
+
+- Specificity: inline style > ID > Class > Tag
+
+- Source Order: Last rule wins
