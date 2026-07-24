@@ -81,3 +81,9 @@ So, what's the metal model for css experts:
 - Specificity: inline style > ID > Class > Tag
 
 - Source Order: Last rule wins
+
+
+# W3C CSS Validation Service
+- [jigsaw](https://jigsaw.w3.org/css-validator/)
+
+
