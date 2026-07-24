@@ -4,6 +4,7 @@ tags:
   - matrix
   - just-in-time
   - cognitive-offloading
+  - engineer-mental-model
 ---
 # Matrix is Important 
 ## Computer Graphics - Matrix Transformation
