@@ -46,3 +46,11 @@ DDD与其他程序设计模式有根本性的区别，DDD在实现对现实重�
 DDD 更像建筑里的蓝图，而其他设计模式更像施工工艺。但DDD并不是设计模式中的C语言，也就是不能取代其他设计模式。
 
 传统设计模式主要组织的是解决方案（Solution），而DDD首先组织的是概念（Concept）。它通过统一语言、领域模型和边界上下文，把现实世界中的概念、关系和语义抽象成一个可计算的模型，然后再选择合适的实现方式。因此，DDD不仅是一种软件设计方法，更是一种以语义为中心的认知建模方法。这种能力并不限于软件开发，而可以迁移到学习任何具有明确领域知识的学科。
+
+# How to learn ddd
+## Step 1: Read [this person's note](./best_practice.md) in 30mins first
+no more than 30mins, gain a general overview of the available resources and understand the code structure
+## Step 2: Read the book, construct a ts toy project based on [how browser works](https://webplatform.github.io/docs/concepts/Internet_and_Web/how_browsers_work/#Render_tree_construction)
+## Step 3: Translate into 3D items 
+
+## Step 4: Build the interactive animation browser pipeline web

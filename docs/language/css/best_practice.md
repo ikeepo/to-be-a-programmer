@@ -1,3 +1,8 @@
+---
+  tags:
+    - best-practice
+    - css
+---
 # CSS Best Practice
 # Color
 ## What are the current best practices for building a CSS color system?
@@ -86,4 +91,11 @@ So, what's the metal model for css experts:
 # W3C CSS Validation Service
 - [jigsaw](https://jigsaw.w3.org/css-validator/)
 
+# Understand the rendering pipeline 
+
+- [How Browsers Work](https://howbrowserswork.com): visual
+
+- [the browser rendering pipeline](https://beyondcodekarma.in/javascript/rendering-pipeline/): visual
+
+- [CSS Triggers List – What Kind of Changes You Can Make](https://csstriggers.com): describe
 
