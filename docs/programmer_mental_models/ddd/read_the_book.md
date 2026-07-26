@@ -78,3 +78,8 @@
     Code is merely one implementation of that model. 
     As our understanding of the domain improves, the model evolves, and refactoring is the process of bringing the software back into alignment with the improved model.
     Big Design Up Front assumes that a sufficiently accurate model of reality can be created before implementation begins. However, for complex domains, modeling is not a one-time activity but an evolutionary process. Our understanding of reality improves through continuous interaction, and the model gradually increases in fidelity through successive iterations.
+
+!!! info "Knowledge Crunching"
+    knowledge crunching turns the knowledge of the team into valuable models.
+    it's a knowledge refinement process.
+    Effective domain modelers are knowledge crunchers
