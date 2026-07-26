@@ -17,7 +17,11 @@
 !!! info "XP as a 'Guided' Greedy Algorithm"
     Focuses on the immediate best step, but uses refactoring(Refactoring toward Deeper Insight) to course-correct out of local optima.
 
-- [UML Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
+!!! info  "UML Diagram --> C4 + PlantUML + Mermaid"
+    [UML](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/) emerged in an era when large-scale software projects emphasized upfront modeling and high-fidelity design documentation. With the rise of Agile and iterative development, UML diagrams often suffered from diagram rot because software models evolved faster than documentation. However, the needs that UML addressed did not disappear; they were decomposed into specialized approaches. [C4 Model](https://c4model.com) and [Structurizr](https://structurizr.com) focus on evolving architecture models, while diagram-as-code tools such as Mermaid focus on lightweight, maintainable visualization and communication of existing models.    
+    [PlantUML](https://github.com/plantuml/plantuml) is not so much a successor to UML as its continuation in the "Diagram as Code" era. It preserves UML's modeling philosophy while replacing GUI-based drawing with text-based descriptions. Mermaid, by contrast, evolved primarily from the Markdown documentation ecosystem, emphasizing lightweight communication rather than formal modeling.
+    PlantUML is model representation, while Mermaid is communication representation.
+
 !!! info "Concept Model"
     ```shell
                             Reality
