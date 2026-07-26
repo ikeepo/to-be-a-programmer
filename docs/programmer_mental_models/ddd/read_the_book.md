@@ -20,13 +20,57 @@
 - [UML Diagram](https://www.visual-paradigm.com/guide/uml-unified-modeling-language/uml-class-diagram-tutorial/)
 !!! info "Concept Model"
     ```shell
-        Reality
-
-            ↓
-
-        Conceptual Model
-
-      ↙        ↘
-
-    PCB Design    Software Design
+                            Reality
+                            │
+                            │  abstraction / compression
+                            ▼
+                Shared Domain Model (Conceptual Model)
+                            │
+                            │
+                Ubiquitous Language
+                            │
+                ┌───────────┴───────────┐
+                │                       │
+                ▼                       ▼
+        Domain Expert            Software Expert
+                │                       │
+                │                       │
+        Physical System          Software System
+                │                       │
+                └───────────┬───────────┘
+                            │
+                    Implement Reality
     ```
+    Domain experts and software experts may not fully understand each other's fields. However, through collaboration, they construct a **Shared domain model**.
+
+    This shared domain model is a **conceptual model** — a **compressed representation** of **reality** that preserves the essential structure and meaning of the domain while omitting unnecessary details.
+
+    The model is expressed and refined through a **ubiquitous language**, allowing both domain experts and software experts to use the same vocabulary to describe the same representation of the underlying reality.
+
+    Although they share the same conceptual model, they **implement** it through different **means**. Domain experts may realize the model through physical systems, business processes, or operational practices, while software experts realize it through software architecture, code, and technical infrastructure.
+
+    In this sense, the shared domain model serves as a bridge between different disciplines: it enables people with different expertise to develop a common understanding of reality and to create different implementations based on the same conceptual foundation.
+
+!!! info "Continous Refactoring & Deep Model"
+    ```shell
+    Reality
+      ↓
+    Understanding
+      ↓
+    Domain Model
+      ↓
+    Code
+      ↓
+    Experience / Feedback
+      ↓
+    Improved Understanding
+      ↓
+    Better Domain Model
+      ↓
+    Refactoring
+    ```
+    
+    In Domain-Driven Design, the primary artifact is not the code but the evolving domain model. 
+    Code is merely one implementation of that model. 
+    As our understanding of the domain improves, the model evolves, and refactoring is the process of bringing the software back into alignment with the improved model.
+    Big Design Up Front assumes that a sufficiently accurate model of reality can be created before implementation begins. However, for complex domains, modeling is not a one-time activity but an evolutionary process. Our understanding of reality improves through continuous interaction, and the model gradually increases in fidelity through successive iterations.
