@@ -83,3 +83,55 @@
     knowledge crunching turns the knowledge of the team into valuable models.
     it's a knowledge refinement process.
     Effective domain modelers are knowledge crunchers
+
+!!! info "emergent capability"
+    powerful new features unfold as corollaries to older features;
+
+!!! info "Abstraction is both Compression and Constraint"
+    $Abstraction = compression + constraint generation$
+    Abstracting is not merely reducing reality into fewer concepts; a powerful abstraction creates a constrained conceptual space in which new knowledge and capabilities can be derived.  A good abstraction is similar to an axiomatic system in mathematics.
+    Traditionally, abstraction is understood as a process of compression: stripping away irrelevant details to represent reality with fewer, higher-level concepts. However, this view captures only half of its power.
+    A well-designed abstraction does more than compress complexity—it defines the boundaries, relationships, and constraints of a conceptual space. Once these constraints are established, many new conclusions, behaviors, and capabilities no longer need to be invented individually; they emerge as natural corollaries of the underlying model.
+    This is precisely the insight behind Eric Evans's observation that **"powerful new features unfold as *corollaries* to older features."** A mature domain model does not merely record existing knowledge; it creates a conceptual structure from which future features can be derived rather than continuously added.
+    In this sense, abstraction is both compression and constraint. Compression reduces cognitive load, while constraints make reasoning possible. The true value of abstraction lies not only in representing reality more simply, but also in enabling a system of concepts that generates new understanding.
+
+!!! info "Inheritance vs. Composition: Tree Structure vs. Network Structure"
+    The fundamental difference between inheritance and composition is not merely a programming technique, but two different ways of modeling reality.
+    Inheritance organizes concepts into a tree structure. The tree originates from taxonomy and expresses an "is-a" relationship. It emphasizes an entity's ontological structure—what something fundamentally is. This makes inheritance well suited for representing stable conceptual hierarchies and essential properties. However, extending behavior usually requires introducing new subclasses, which can easily lead to class explosion.
+    Composition, in contrast, organizes concepts into a network structure. The network arises from collaboration and expresses a "works-with" relationship. It emphasizes an evolvable behavioral structure, making it more suitable for modeling business rules, policies, and interactions. New capabilities are rarely created by introducing new types; instead, they emerge by recombining existing components, strategies, and rules.
+    Therefore, the real value of a domain model is not the depth of its inheritance hierarchy, but whether it establishes a set of high-quality concepts and relationships from which new business capabilities can be derived naturally—much like mathematical theorems are derived from a small set of axioms.
+
+!!! info "Interface as the Foundation of Composition"
+    An interface is the primary mechanism that enables composition. It defines how objects interact by specifying an interaction protocol, rather than prescribing a concrete implementation.
+    From a conceptual perspective, an interface is an abstraction of a contract. Like every good abstraction, it serves two complementary purposes:
+    Compression — reducing implementation details into a simple, reusable conceptual contract.
+    Constraint — defining the boundaries that every implementation must satisfy.
+    This dual nature of abstraction is essential: abstraction is not only about simplifying complexity, but also about creating a constrained conceptual space in which meaningful collaboration and reasoning become possible.
+    In a domain model, concepts abstract the primary entities of the domain, while interfaces abstract the relationships between those entities. They are the code-level representation of conceptual constraints and contracts.
+    In other words:
+    Concepts answer: What exists?
+    Interfaces answer: How do those concepts collaborate?
+    Together, they form the conceptual foundation of a compositional architecture, where behavior emerges from the interaction of well-defined concepts rather than from increasingly deep inheritance hierarchies.
+
+!!! info "DDD OOP Concept Engineering"
+    ```shell
+    Reality
+          │
+          ▼
+    Concept
+          │
+          ▼
+    Interface (Concept Contract)
+          │
+          ▼
+    Multiple Implementations
+          │
+          ▼
+    Composition
+          │
+          ▼
+    Interaction
+          │
+          ▼
+    Emergent Behavior
+    ```
