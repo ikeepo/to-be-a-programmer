@@ -18551,7 +18551,7 @@
 
 
 
-<div><h1 id="step-2-read-the-book-construct-a-ts-toy-project-based-on-how-browser-works">Step 2: Read the book, construct a ts toy project based on <a href="https://webplatform.github.io/docs/concepts/Internet_and_Web/how_browsers_work/#Render_tree_construction">how browser works</a><a class="headerlink" href="#step-2-read-the-book-construct-a-ts-toy-project-based-on-how-browser-works" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 4 minutes</i></p>
+<div><h1 id="step-2-read-the-book-construct-a-ts-toy-project-based-on-how-browser-works">Step 2: Read the book, construct a ts toy project based on <a href="https://webplatform.github.io/docs/concepts/Internet_and_Web/how_browsers_work/#Render_tree_construction">how browser works</a><a class="headerlink" href="#step-2-read-the-book-construct-a-ts-toy-project-based-on-how-browser-works" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 7 minutes</i></p>
 
 <h1 id="key-points">Key Points<a class="headerlink" href="#key-points" title="Permanent link">¶</a></h1>
 <div class="admonition info">
@@ -18637,6 +18637,62 @@ Big Design Up Front assumes that a sufficiently accurate model of reality can be
 <p>knowledge crunching turns the knowledge of the team into valuable models.
 it's a knowledge refinement process.
 Effective domain modelers are knowledge crunchers</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">emergent capability</p>
+<p>powerful new features unfold as corollaries to older features;</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Abstraction is both Compression and Constraint</p>
+<p>$Abstraction = compression + constraint generation$
+Abstracting is not merely reducing reality into fewer concepts; a powerful abstraction creates a constrained conceptual space in which new knowledge and capabilities can be derived.  A good abstraction is similar to an axiomatic system in mathematics.
+Traditionally, abstraction is understood as a process of compression: stripping away irrelevant details to represent reality with fewer, higher-level concepts. However, this view captures only half of its power.
+A well-designed abstraction does more than compress complexity—it defines the boundaries, relationships, and constraints of a conceptual space. Once these constraints are established, many new conclusions, behaviors, and capabilities no longer need to be invented individually; they emerge as natural corollaries of the underlying model.
+This is precisely the insight behind Eric Evans's observation that <strong>"powerful new features unfold as <em>corollaries</em> to older features."</strong> A mature domain model does not merely record existing knowledge; it creates a conceptual structure from which future features can be derived rather than continuously added.
+In this sense, abstraction is both compression and constraint. Compression reduces cognitive load, while constraints make reasoning possible. The true value of abstraction lies not only in representing reality more simply, but also in enabling a system of concepts that generates new understanding.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Inheritance vs. Composition: Tree Structure vs. Network Structure</p>
+<p>The fundamental difference between inheritance and composition is not merely a programming technique, but two different ways of modeling reality.
+Inheritance organizes concepts into a tree structure. The tree originates from taxonomy and expresses an "is-a" relationship. It emphasizes an entity's ontological structure—what something fundamentally is. This makes inheritance well suited for representing stable conceptual hierarchies and essential properties. However, extending behavior usually requires introducing new subclasses, which can easily lead to class explosion.
+Composition, in contrast, organizes concepts into a network structure. The network arises from collaboration and expresses a "works-with" relationship. It emphasizes an evolvable behavioral structure, making it more suitable for modeling business rules, policies, and interactions. New capabilities are rarely created by introducing new types; instead, they emerge by recombining existing components, strategies, and rules.
+Therefore, the real value of a domain model is not the depth of its inheritance hierarchy, but whether it establishes a set of high-quality concepts and relationships from which new business capabilities can be derived naturally—much like mathematical theorems are derived from a small set of axioms.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">Interface as the Foundation of Composition</p>
+<p>An interface is the primary mechanism that enables composition. It defines how objects interact by specifying an interaction protocol, rather than prescribing a concrete implementation.
+From a conceptual perspective, an interface is an abstraction of a contract. Like every good abstraction, it serves two complementary purposes:
+Compression — reducing implementation details into a simple, reusable conceptual contract.
+Constraint — defining the boundaries that every implementation must satisfy.
+This dual nature of abstraction is essential: abstraction is not only about simplifying complexity, but also about creating a constrained conceptual space in which meaningful collaboration and reasoning become possible.
+In a domain model, concepts abstract the primary entities of the domain, while interfaces abstract the relationships between those entities. They are the code-level representation of conceptual constraints and contracts.
+In other words:
+Concepts answer: What exists?
+Interfaces answer: How do those concepts collaborate?
+Together, they form the conceptual foundation of a compositional architecture, where behavior emerges from the interaction of well-defined concepts rather than from increasingly deep inheritance hierarchies.</p>
+</div>
+<div class="admonition info">
+<p class="admonition-title">DDD OOP Concept Engineering</p>
+<div class="highlight"><pre><span></span><code>Reality
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Concept
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Interface<span class="w"> </span><span class="o">(</span>Concept<span class="w"> </span>Contract<span class="o">)</span>
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Multiple<span class="w"> </span>Implementations
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Composition
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Interaction
+<span class="w">      </span>│
+<span class="w">      </span>▼
+Emergent<span class="w"> </span>Behavior
+</code></pre></div>
 </div></div>
 
 
@@ -18658,7 +18714,7 @@ Effective domain modelers are knowledge crunchers</p>
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 26, 2026 20:04:42 UTC">2026-07-26</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="July 27, 2026 12:25:14 UTC">2026-07-27</span>
   </span>
 
     
