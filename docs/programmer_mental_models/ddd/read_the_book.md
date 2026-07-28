@@ -135,3 +135,28 @@
           ▼
     Emergent Behavior
     ```
+
+!!! info "Guard Clause"
+    At the beginning of the method, check for illegal conditions; if the conditions are not met, return immediately.
+    A guard clause is an implementation technique, not a domain concept.
+    ```shell
+    Business Knowledge
+
+            ↓
+
+    Business Rule
+
+            ↓
+
+    Domain Concept
+
+            ↓
+
+    Domain Model
+
+            ↓
+
+    Implementation
+    ```
+!!! info "Schism"
+    Schism is serious semantic drift.
