@@ -18552,19 +18552,19 @@
 <p><em>File</em>: <code>timeline.md</code></p>
 <p><em>KeyError</em>: 'docs_dir'</p>
 <div class="highlight"><pre><span></span><code>Traceback (most recent call last):
-  File "/opt/hostedtoolcache/Python/3.14.6/x64/lib/python3.14/site-packages/mkdocs_macros/plugin.py", line 703, in render
+  File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/mkdocs_macros/plugin.py", line 703, in render
     return md_template.render(**page_variables)
            ~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.14.6/x64/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
+  File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/jinja2/environment.py", line 1295, in render
     self.environment.handle_exception()
     ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^
-  File "/opt/hostedtoolcache/Python/3.14.6/x64/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
+  File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/site-packages/jinja2/environment.py", line 942, in handle_exception
     raise rewrite_traceback_stack(source=source)
   File "&lt;template&gt;", line 9, in top-level template code
   File "/home/runner/work/to-be-a-programmer/to-be-a-programmer/main.py", line 63, in generate_timeline
     docs_dir = env.config["docs_dir"]
                ~~~~~~~~~~^^^^^^^^^^^^
-  File "/opt/hostedtoolcache/Python/3.14.6/x64/lib/python3.14/collections/__init__.py", line 1148, in __getitem__
+  File "/opt/hostedtoolcache/Python/3.14.7/x64/lib/python3.14/collections/__init__.py", line 1151, in __getitem__
     raise KeyError(key)
 KeyError: 'docs_dir'
 </code></pre></div></div>
