@@ -18581,7 +18581,28 @@
 
 <div><h1 id="execution-model">Execution Model<a class="headerlink" href="#execution-model" title="Permanent link">¶</a></h1><p style="color:#bdbdbd"><i>Estimated time to read: 1 minute</i></p>
 
-<p>This is the CSS domain model knowledge crunching.</p></div>
+<p>This is the CSS domain model knowledge crunching.</p>
+<h1 id="csss-two-levels">CSS's Two levels<a class="headerlink" href="#csss-two-levels" title="Permanent link">¶</a></h1>
+<p>There are two levels of CSS:</p>
+<ul>
+<li>CSS Descriptive Language</li>
+</ul>
+<p>CSS vocabulary, they build map "CSS expression → observable result".
+This section is provided by the general courses.</p>
+<ul>
+<li>CSS Execution Model</li>
+</ul>
+<p>State change, Association change, Invalidation propagation.
+This section is the primary focus of this article.</p>
+<h1 id="entrance">Entrance<a class="headerlink" href="#entrance" title="Permanent link">¶</a></h1>
+<p><a href="https://webplatform.github.io/docs/concepts/Internet_and_Web/how_browsers_work/">Tali Garsiel</a>’s 'How Browsers Work' primary focuses on browser execution, even though it was published in 2011. CSS, specifically, is processed within the rendering engine.</p>
+<p>We are using this section as a starting point to break down the CSS execution model.</p>
+<h3 id="find-objects">Find Objects<a class="headerlink" href="#find-objects" title="Permanent link">¶</a></h3>
+<p>Find objects, every object has specific lifecycle, associations, transformation, invariant.</p>
+<p>To simplify things, I will present the knowledge visually rather than using text to describe the model I am building.</p>
+<h3 id="start-from-a-minimal-workflow">Start from a minimal workflow<a class="headerlink" href="#start-from-a-minimal-workflow" title="Permanent link">¶</a></h3>
+<p><a href="https://en.wikipedia.org/wiki/Flowchart"> Flowcharts </a> will be used as the primary format for visual output. Choose <a href="https://reactflow.dev">React Flow</a> as the tool, need to learn this first.</p>
+<p>React + TS + React Flow.</p></div>
 
 
 
@@ -18602,7 +18623,7 @@
     <span class="md-icon" title="Last update">
       <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M21 13.1c-.1 0-.3.1-.4.2l-1 1 2.1 2.1 1-1c.2-.2.2-.6 0-.8l-1.3-1.3c-.1-.1-.2-.2-.4-.2m-1.9 1.8-6.1 6V23h2.1l6.1-6.1zM12.5 7v5.2l4 2.4-1 1L11 13V7zM11 21.9c-5.1-.5-9-4.8-9-9.9C2 6.5 6.5 2 12 2c5.3 0 9.6 4.1 10 9.3-.3-.1-.6-.2-1-.2s-.7.1-1 .2C19.6 7.2 16.2 4 12 4c-4.4 0-8 3.6-8 8 0 4.1 3.1 7.5 7.1 7.9l-.1.2z"/></svg>
     </span>
-    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="August 29, 2026 12:09:18 UTC">2026-08-29</span>
+    <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-iso_date" title="August 29, 2026 13:44:04 UTC">2026-08-29</span>
   </span>
 
     
